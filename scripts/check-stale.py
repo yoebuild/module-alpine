@@ -74,7 +74,7 @@ def main() -> int:
         return 2
 
     units: dict[str, tuple[Path, str]] = {}  # apk_name -> (path, pinned_version)
-    for f in sorted(args.units_dir.glob("*.star")):
+    for f in sorted(args.units_dir.rglob("*.star")):
         parsed = parse_unit(f)
         if parsed is None:
             print(f"warn: could not parse {f}, skipping", file=sys.stderr)

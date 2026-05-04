@@ -7,6 +7,18 @@ description: Use when the user asks to add, update, refresh, or pin an Alpine pa
 
 This module wraps prebuilt Alpine `.apk` files as yoe units.
 
+**Layout** mirrors Alpine's own feed structure:
+
+```
+units/
+  main/         # auto-mirrored from Alpine's main repo
+  community/    # opt-in, hand-curated subset of Alpine's community repo
+```
+
+The `repo = "..."` line inside each unit is also kept so the file is
+self-describing in isolation; the directory just makes the catalog
+browsable.
+
 **Policy on what gets a unit:**
 - **`main`** is mirrored exhaustively — every package gets an auto-generated
   unit via `scripts/sync-main.py`. The default exclusion filter drops
@@ -18,13 +30,38 @@ This module wraps prebuilt Alpine `.apk` files as yoe units.
   doesn't auto-add new ones.
 - **`testing`** is never wrapped. No stability or security guarantees.
 
+`gen-unit.py` and `sync-main.py` automatically place new units in the
+correct subdirectory based on which Alpine repo the package lives in.
+
+## Two integrity formats: sha256 vs apk_checksum
+
+Every unit declares one of:
+
+- `sha256 = {arch: 64-hex}` — yoe's standard integrity format. Computed by
+  downloading and hashing the actual `.apk`. Self-contained, verifiable
+  without consulting Alpine.
+- `apk_checksum = {arch: "Q1<base64-sha1>="}` — Alpine's own integrity
+  hash, lifted verbatim from APKINDEX `C:`. Requires no apk download to
+  populate. Trust chains via the Alpine signing key (APKINDEX is signed).
+
+`classes/alpine_pkg.star` accepts either; yoe's source downloader is
+responsible for verifying whichever format the unit declares. Existing
+units that already use `sha256` keep using it on refresh — the surgical
+update auto-detects each unit's format and refreshes that one only.
+
+**New units default to `apk_checksum`** because it costs no apk downloads
+to generate. Use `--sha256` (gen-unit.py or sync-main.py) when you
+specifically want the stronger hash and are willing to pay the bandwidth.
+
 ## Pick the right tool
 
 | Goal | Command |
 |---|---|
-| Add one community pkg | `python3 scripts/gen-unit.py <pkg>` |
-| Add several pkgs at once (main or community) | `python3 scripts/gen-unit.py <pkg> <pkg> ...` |
+| Add one community pkg (apk_checksum) | `python3 scripts/gen-unit.py <pkg>` |
+| Add a community pkg with sha256 | `python3 scripts/gen-unit.py --sha256 <pkg>` |
+| Add several pkgs at once | `python3 scripts/gen-unit.py <pkg> <pkg> ...` |
 | Mirror main + refresh everything | `python3 scripts/sync-main.py` |
+| Mirror main, force sha256 for new adds | `python3 scripts/sync-main.py --sha256` |
 | Just refresh, don't add anything | `python3 scripts/sync-main.py --no-add` |
 | Just refresh community units | `python3 scripts/sync-main.py --community-only` |
 | Read-only audit | `python3 scripts/check-stale.py` |
@@ -78,9 +115,11 @@ python3 scripts/sync-main.py --refresh        # re-download caches
 python3 scripts/sync-main.py --jobs 32        # more parallelism
 ```
 
-The first run with `--no-add --no-update` removed costs ~1–2 GB of apk
-downloads parallelized 16-wide. Subsequent runs are mostly cache hits and
-finish in seconds unless Alpine published rebuilds.
+**Default path costs zero apk downloads** — adds use `apk_checksum`
+straight from APKINDEX, refreshes auto-detect existing format and only
+download for sha256 units. APKINDEX itself is ~5 MB total across both
+arches and both repos, cached on first fetch. With `--sha256` the cost
+goes back up to ~1-2 GB on first sync, parallelized 16-wide.
 
 **Orphans** (units whose pkg vanished from main+community) are reported
 but **never auto-deleted**. Resolve manually: rename, delete, or pin the

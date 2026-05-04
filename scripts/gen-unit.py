@@ -65,6 +65,12 @@ class PkgEntry:
     provides: list[str] = field(default_factory=list)
     install_if: list[str] = field(default_factory=list)
     replaces: list[str] = field(default_factory=list)
+    # Alpine's per-package integrity hash, verbatim from APKINDEX `C:`.
+    # Format: "Q1<base64-encoded-sha1-of-apk>=" (28 ASCII chars total).
+    # This is what apk-tools itself verifies against, and APKINDEX.tar.gz
+    # is RSA-signed by Alpine, so trusting `C:` chains back to Alpine's
+    # signing key. Cheap: it's already in the index, no download needed.
+    apk_checksum: str = ""
 
 
 @dataclass
@@ -146,6 +152,8 @@ def _parse_apkindex(text: str, repo: str, arch: str) -> APKIndex:
                 pkg.install_if = val.split()
             elif key == "r":
                 pkg.replaces = val.split()
+            elif key == "C":
+                pkg.apk_checksum = val
         if pkg.name:
             idx.add(pkg)
     return idx
@@ -239,8 +247,8 @@ load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
     version = "{version}",
     license = {license},
     description = "{description}",{repo_kw}{deps_kw}{provides_kw}{replaces_kw}
-    sha256 = {{
-{sha_lines}
+    {hash_field} = {{
+{hash_lines}
     }},
 )
 '''
@@ -260,10 +268,13 @@ def _kwarg(name: str, val) -> str:
 
 def emit_unit(*, name: str, version: str, license_: str, description: str,
               repo: str, runtime_deps: list[str], provides: list[str],
-              replaces: list[str], sha256: dict[str, str],
+              replaces: list[str], hashes: dict[str, str], hash_field: str,
               warnings: list[str], release: str) -> str:
-    sha_lines = "\n".join(
-        f'        "{arch}": "{digest}",' for arch, digest in sha256.items()
+    """Emit a unit file. `hash_field` is "sha256" or "apk_checksum"."""
+    if hash_field not in ("sha256", "apk_checksum"):
+        raise ValueError(f"unknown hash_field: {hash_field}")
+    hash_lines = "\n".join(
+        f'        "{arch}": "{digest}",' for arch, digest in hashes.items()
     )
     notes = ""
     if warnings:
@@ -288,7 +299,8 @@ def emit_unit(*, name: str, version: str, license_: str, description: str,
         deps_kw=_kwarg("runtime_deps", runtime_deps),
         provides_kw=_kwarg("provides", provides),
         replaces_kw=_kwarg("replaces", replaces),
-        sha_lines=sha_lines,
+        hash_field=hash_field,
+        hash_lines=hash_lines,
     )
 
 
@@ -313,17 +325,31 @@ def emit_unit(*, name: str, version: str, license_: str, description: str,
 # back to a full regenerate or surface for human review.
 
 _VERSION_LINE_RE = re.compile(r'(^\s*version\s*=\s*")[^"]+(",?\s*$)', re.M)
-_SHA256_BLOCK_RE = re.compile(
-    r'(^\s*sha256\s*=\s*\{\s*\n)'      # opening "sha256 = {"
-    r'(?:[^\n}]*\n)*?'                  # any number of arch lines
-    r'(\s*\},?\s*$)',                   # closing "},"
-    re.M,
-)
+
+
+def _hash_block_re(field: str) -> re.Pattern:
+    return re.compile(
+        rf'(^\s*{field}\s*=\s*\{{\s*\n)'   # opening "<field> = {"
+        r'(?:[^\n}]*\n)*?'                  # any number of arch lines
+        r'(\s*\},?\s*$)',                   # closing "},"
+        re.M,
+    )
+
+
+_SHA256_BLOCK_RE       = _hash_block_re("sha256")
+_APK_CHECKSUM_BLOCK_RE = _hash_block_re("apk_checksum")
 
 
 def update_unit_in_place(path: Path, new_version: str,
-                         new_sha256: dict[str, str]) -> bool:
-    """Rewrite version + sha256 in a unit file. Return True if the file changed."""
+                         new_hashes: dict[str, str], *,
+                         hash_field: str | None = None) -> bool:
+    """Rewrite version + hash dict in a unit file. Return True if changed.
+
+    If `hash_field` is None, auto-detect from the file (whichever of
+    `sha256` or `apk_checksum` is present). The detected field is the one
+    that gets refreshed; the other format isn't introduced — that's a
+    deliberate generator decision, not an in-place migration concern.
+    """
     text = path.read_text()
     orig = text
 
@@ -333,22 +359,40 @@ def update_unit_in_place(path: Path, new_version: str,
     if n_v != 1:
         raise ValueError(f"{path}: could not locate `version = \"...\"` line")
 
-    # Match the leading indent of existing arch entries so we replicate it.
-    sha_lines = "\n".join(
-        f'        "{a}": "{d}",' for a, d in new_sha256.items()
+    if hash_field is None:
+        hash_field = detect_hash_field(text)
+        if hash_field is None:
+            raise ValueError(
+                f"{path}: no `sha256` or `apk_checksum` block found"
+            )
+
+    pat = _SHA256_BLOCK_RE if hash_field == "sha256" else _APK_CHECKSUM_BLOCK_RE
+    hash_lines = "\n".join(
+        f'        "{a}": "{d}",' for a, d in new_hashes.items()
     ) + "\n"
 
-    def _replace_sha(m: re.Match) -> str:
-        return m.group(1) + sha_lines + m.group(2)
+    def _replace(m: re.Match) -> str:
+        return m.group(1) + hash_lines + m.group(2)
 
-    new_text, n_s = _SHA256_BLOCK_RE.subn(_replace_sha, new_text, count=1)
-    if n_s != 1:
-        raise ValueError(f"{path}: could not locate `sha256 = {{ ... }}` block")
+    new_text, n_h = pat.subn(_replace, new_text, count=1)
+    if n_h != 1:
+        raise ValueError(
+            f"{path}: could not locate `{hash_field} = {{ ... }}` block"
+        )
 
     if new_text == orig:
         return False
     path.write_text(new_text)
     return True
+
+
+def detect_hash_field(text: str) -> str | None:
+    """Return 'sha256', 'apk_checksum', or None for the unit text."""
+    if re.search(r'^\s*sha256\s*=\s*\{', text, re.M):
+        return "sha256"
+    if re.search(r'^\s*apk_checksum\s*=\s*\{', text, re.M):
+        return "apk_checksum"
+    return None
 
 
 def parse_unit_file(path: Path) -> dict | None:
@@ -365,6 +409,7 @@ def parse_unit_file(path: Path) -> dict | None:
         "apk_name": pkg_m.group(1) if pkg_m else name_m.group(1),
         "version": version_m.group(1),
         "repo": repo_m.group(1) if repo_m else "main",
+        "hash_field": detect_hash_field(text) or "sha256",
     }
 
 
@@ -380,8 +425,17 @@ def find_pkg_in_repos(name: str, indices_by_repo: dict[str, APKIndex]
 
 
 def generate(name: str, *, release: str, refresh: bool,
-             indices_cache: dict[tuple[str, str], APKIndex]) -> str:
-    """Return a units/<name>.star body for `name`."""
+             indices_cache: dict[tuple[str, str], APKIndex],
+             use_sha256: bool = False) -> tuple[str, str]:
+    """Return (body, repo) for `name`.
+
+    `repo` is "main" or "community", and is also where the unit file
+    should land (units/<repo>/<name>.star). By default emits
+    `apk_checksum = {...}` populated from APKINDEX's `C:` field, so
+    generation needs no apk downloads. With `use_sha256=True`, falls
+    back to downloading each apk and computing sha256 — slower, but
+    matches the integrity convention used elsewhere in yoe.
+    """
 
     def _idx(repo: str, alpine_arch: str) -> APKIndex:
         key = (repo, alpine_arch)
@@ -422,12 +476,24 @@ def generate(name: str, *, release: str, refresh: bool,
                 f"error: {name} lives in different repos by arch "
                 f"({canon_arch}={canon_repo}, {yoe_arch}={repo})")
 
-    # Compute sha256 per arch by downloading the actual .apk.
-    sha = {}
-    for yoe_arch, (repo, entry) in per_arch.items():
-        alpine_arch = ARCH_MAP[yoe_arch]
-        sha[yoe_arch] = apk_sha256(release, repo, alpine_arch,
-                                   entry.name, entry.version, refresh=refresh)
+    # Build the integrity hash dict per arch.
+    hashes: dict[str, str] = {}
+    if use_sha256:
+        for yoe_arch, (repo, entry) in per_arch.items():
+            alpine_arch = ARCH_MAP[yoe_arch]
+            hashes[yoe_arch] = apk_sha256(release, repo, alpine_arch,
+                                          entry.name, entry.version,
+                                          refresh=refresh)
+        hash_field = "sha256"
+    else:
+        # Pull straight from APKINDEX `C:` — no apk download needed.
+        for yoe_arch, (repo, entry) in per_arch.items():
+            if not entry.apk_checksum:
+                raise SystemExit(
+                    f"error: {name}/{yoe_arch}: APKINDEX has no `C:` field; "
+                    f"re-run with --sha256")
+            hashes[yoe_arch] = entry.apk_checksum
+        hash_field = "apk_checksum"
 
     # Translate deps, using the union of main+community for the canonical arch.
     runtime_deps, warnings = translate_deps(
@@ -440,7 +506,7 @@ def generate(name: str, *, release: str, refresh: bool,
                 if not p.startswith("cmd:") and not p.startswith("so:")]
     replaces = [r.split("=", 1)[0] for r in canon.replaces]
 
-    return emit_unit(
+    body = emit_unit(
         name=name,
         version=canon.version,
         license_=canon.license,
@@ -449,10 +515,12 @@ def generate(name: str, *, release: str, refresh: bool,
         runtime_deps=runtime_deps,
         provides=provides,
         replaces=replaces,
-        sha256=sha,
+        hashes=hashes,
+        hash_field=hash_field,
         warnings=warnings,
         release=release,
     )
+    return body, canon_repo
 
 
 def main() -> int:
@@ -467,19 +535,22 @@ def main() -> int:
                    help="print generated unit to stdout instead of writing")
     p.add_argument("--out-dir", default="units",
                    help="output directory for unit files (default: units)")
+    p.add_argument("--sha256", action="store_true",
+                   help=("emit sha256 (downloads each apk to hash it) instead "
+                         "of apk_checksum (free from APKINDEX)"))
     args = p.parse_args()
 
     out_dir = Path(args.out_dir)
-    if not args.print_only:
-        out_dir.mkdir(parents=True, exist_ok=True)
 
     indices_cache: dict[tuple[str, str], APKIndex] = {}
     rc = 0
     for pkg in args.packages:
         print(f"==> {pkg}", file=sys.stderr)
         try:
-            body = generate(pkg, release=args.release, refresh=args.refresh,
-                            indices_cache=indices_cache)
+            body, repo = generate(pkg, release=args.release,
+                                  refresh=args.refresh,
+                                  indices_cache=indices_cache,
+                                  use_sha256=args.sha256)
         except SystemExit as e:
             print(str(e), file=sys.stderr)
             rc = 1
@@ -488,7 +559,9 @@ def main() -> int:
         if args.print_only:
             sys.stdout.write(body)
         else:
-            target = out_dir / f"{pkg}.star"
+            target_dir = out_dir / repo
+            target_dir.mkdir(parents=True, exist_ok=True)
+            target = target_dir / f"{pkg}.star"
             target.write_text(body)
             print(f"  wrote {target}", file=sys.stderr)
 

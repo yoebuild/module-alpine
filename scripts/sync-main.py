@@ -119,15 +119,16 @@ def compute_sha_concurrent(
 
 def plan_update(units_dir: Path, indices: dict,
                 *, scope: str) -> list[dict]:
-    """Walk existing units/*.star and decide which need version/sha bumps.
+    """Walk existing units/*.star and decide which need version/hash bumps.
 
     scope: 'all' | 'main-only' | 'community-only'
 
-    Returns a list of action dicts:
-      {kind: 'update' | 'orphan', path, apk_name, repo, old, new, per_arch}
+    Each action dict includes the unit's existing `hash_field` so the
+    refresh stage knows whether it's bumping `sha256` (per-apk download
+    required) or `apk_checksum` (free from APKINDEX).
     """
     actions: list[dict] = []
-    for f in sorted(units_dir.glob("*.star")):
+    for f in sorted(units_dir.rglob("*.star")):
         info = _g.parse_unit_file(f)
         if not info:
             print(f"warn: skipping unparseable {f}", file=sys.stderr)
@@ -143,7 +144,7 @@ def plan_update(units_dir: Path, indices: dict,
             actions.append({
                 "kind": "orphan", "path": f, "apk_name": info["apk_name"],
                 "repo": info["repo"], "old": info["version"], "new": None,
-                "per_arch": None,
+                "per_arch": None, "hash_field": info["hash_field"],
             })
             continue
 
@@ -162,14 +163,14 @@ def plan_update(units_dir: Path, indices: dict,
         actions.append({
             "kind": "update", "path": f, "apk_name": info["apk_name"],
             "repo": repo, "old": info["version"], "new": new_v,
-            "per_arch": per_arch,
+            "per_arch": per_arch, "hash_field": info["hash_field"],
         })
     return actions
 
 
 def plan_add(units_dir: Path, indices: dict, *, include_filtered: bool) -> list[dict]:
-    """Find packages in main with no corresponding units/<name>.star yet."""
-    existing = {p.stem for p in units_dir.glob("*.star")}
+    """Find packages in main with no corresponding units/**/<name>.star yet."""
+    existing = {p.stem for p in units_dir.rglob("*.star")}
     actions: list[dict] = []
     seen: set[str] = set()
     # Walk main for both arches and union the set.
@@ -209,12 +210,18 @@ def plan_add(units_dir: Path, indices: dict, *, include_filtered: bool) -> list[
 def apply_update(action: dict, sha_by_label: dict[str, str]) -> None:
     name = action["apk_name"]
     new_v = action["new"]
-    sha = {a: sha_by_label[f"u:{name}:{a}"] for a in action["per_arch"]}
-    _g.update_unit_in_place(action["path"], new_v, sha)
+    field = action["hash_field"]
+    if field == "sha256":
+        new_hashes = {a: sha_by_label[f"u:{name}:{a}"] for a in action["per_arch"]}
+    else:  # apk_checksum — free from APKINDEX
+        new_hashes = {a: action["per_arch"][a].apk_checksum
+                      for a in action["per_arch"]}
+    _g.update_unit_in_place(action["path"], new_v, new_hashes,
+                            hash_field=field)
 
 
 def apply_add(action: dict, sha_by_label: dict[str, str], release: str,
-              indices: dict, units_dir: Path) -> Path:
+              indices: dict, units_dir: Path, *, use_sha256: bool) -> Path:
     name = action["name"]
     per_arch = action["per_arch"]
     canon = per_arch.get("x86_64") or next(iter(per_arch.values()))
@@ -231,7 +238,12 @@ def apply_add(action: dict, sha_by_label: dict[str, str], release: str,
                 if not p.startswith("cmd:") and not p.startswith("so:")]
     replaces = [r.split("=", 1)[0] for r in canon.replaces]
 
-    sha = {a: sha_by_label[f"a:{name}:{a}"] for a in per_arch}
+    if use_sha256:
+        hashes = {a: sha_by_label[f"a:{name}:{a}"] for a in per_arch}
+        hash_field = "sha256"
+    else:
+        hashes = {a: per_arch[a].apk_checksum for a in per_arch}
+        hash_field = "apk_checksum"
 
     body = _g.emit_unit(
         name=name,
@@ -242,11 +254,14 @@ def apply_add(action: dict, sha_by_label: dict[str, str], release: str,
         runtime_deps=runtime_deps,
         provides=provides,
         replaces=replaces,
-        sha256=sha,
+        hashes=hashes,
+        hash_field=hash_field,
         warnings=warnings,
         release=release,
     )
-    target = units_dir / f"{name}.star"
+    target_dir = units_dir / "main"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target = target_dir / f"{name}.star"
     target.write_text(body)
     return target
 
@@ -268,6 +283,10 @@ def main() -> int:
     p.add_argument("--include-all", action="store_true",
                    help=("don't apply default exclusion filter when adding "
                          "(default skips -doc/-dev/-dbg/-static/-lang/-lang-*/-*-completion)"))
+    p.add_argument("--sha256", action="store_true",
+                   help=("emit sha256 (downloads each apk) for new units. "
+                         "Default: apk_checksum from APKINDEX, no apk fetch. "
+                         "Existing units keep whichever format they already use."))
     scope = p.add_mutually_exclusive_group()
     scope.add_argument("--main-only", action="store_true",
                        help="touch only main units")
@@ -320,20 +339,24 @@ def main() -> int:
                       f"pinned={a['old']}  [{a['repo']}]   ({a['path']})")
         return 0
 
-    # Build a single sha256 download batch for all updates + adds.
+    # Build a sha256 download batch ONLY for actions that need sha256:
+    #   - updates whose existing unit uses sha256
+    #   - adds, when --sha256 was passed
+    # apk_checksum-format actions cost zero downloads.
     jobs: list[tuple[str, str, str, str, str, str]] = []
     for a in update_actions:
-        if a["kind"] != "update":
+        if a["kind"] != "update" or a["hash_field"] != "sha256":
             continue
         for yoe_arch, entry in a["per_arch"].items():
             label = f"u:{a['apk_name']}:{yoe_arch}"
             jobs.append((label, args.release, a["repo"],
                          _g.ARCH_MAP[yoe_arch], entry.name, entry.version))
-    for a in add_actions:
-        for yoe_arch, entry in a["per_arch"].items():
-            label = f"a:{a['name']}:{yoe_arch}"
-            jobs.append((label, args.release, a["repo"],
-                         _g.ARCH_MAP[yoe_arch], entry.name, entry.version))
+    if args.sha256:
+        for a in add_actions:
+            for yoe_arch, entry in a["per_arch"].items():
+                label = f"a:{a['name']}:{yoe_arch}"
+                jobs.append((label, args.release, a["repo"],
+                             _g.ARCH_MAP[yoe_arch], entry.name, entry.version))
 
     if jobs:
         print(f"==> hashing {len(jobs)} apk(s) with {args.jobs} workers",
@@ -342,6 +365,8 @@ def main() -> int:
             jobs, refresh=args.refresh, jobs_n=args.jobs,
         )
     else:
+        print(f"==> no apk downloads needed (apk_checksum path)",
+              file=sys.stderr)
         sha_by_label = {}
 
     # Apply updates first (cheap), then adds.
@@ -353,7 +378,8 @@ def main() -> int:
               f"{a['old']} -> {a['new']}  [{a['repo']}]", file=sys.stderr)
 
     for a in add_actions:
-        target = apply_add(a, sha_by_label, args.release, indices, args.units_dir)
+        target = apply_add(a, sha_by_label, args.release, indices,
+                           args.units_dir, use_sha256=args.sha256)
         print(f"  ADDED   {a['name']:<30s} -> {target}", file=sys.stderr)
 
     if n_orphan:

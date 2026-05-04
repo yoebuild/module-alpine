@@ -94,7 +94,9 @@ def _install_steps(pkg_filename, pkgname):
             % (scripts_dir, scripts_dir, scripts_dir),
     ]
 
-def alpine_pkg(name, version, sha256,
+def alpine_pkg(name, version,
+               sha256 = None,         # {arch: hex64}; zero-cost-but-needs-download path
+               apk_checksum = None,   # {arch: "Q1<base64-sha1>="}; zero-cost-from-APKINDEX path
                pkgname = None,        # apk package name if it differs from the unit name
                repo = "main",         # main | community
                runtime_deps = [],     # explicit; do not auto-pull Alpine's dep closure
@@ -103,22 +105,34 @@ def alpine_pkg(name, version, sha256,
                license = "", description = "",
                scope = "",
                **kwargs):
+    # Exactly one of `sha256` or `apk_checksum` must be set, per arch.
+    # Both are accepted because:
+    #   - sha256 makes the unit fully self-contained — it's the standard
+    #     yoe integrity primitive and matches every other unit in the tree.
+    #   - apk_checksum is what Alpine itself publishes in APKINDEX (`C:`
+    #     field, a Q1-prefixed base64 sha1). APKINDEX.tar.gz is signed by
+    #     Alpine, so trust transitively chains; using it lets the
+    #     generator emit units without ever downloading the apks.
+    # yoe's source downloader is responsible for verifying whichever
+    # format is provided.
+    if sha256 == None and apk_checksum == None:
+        fail("alpine_pkg %s: must provide sha256 or apk_checksum" % name)
+    if sha256 != None and apk_checksum != None:
+        fail("alpine_pkg %s: provide sha256 OR apk_checksum, not both" % name)
+
     if ARCH not in _ARCH_MAP:
         fail("alpine_pkg %s: unsupported ARCH=%s (supported: %s)" %
              (name, ARCH, ", ".join(sorted(_ARCH_MAP.keys()))))
-    if ARCH not in sha256:
-        fail("alpine_pkg %s: sha256 has no entry for ARCH=%s" % (name, ARCH))
 
     apk_name = pkgname if pkgname else name
     alpine_arch = _ARCH_MAP[ARCH]
     asset = "%s-%s.apk" % (apk_name, version)
     url = "%s/%s/%s/%s/%s" % (_ALPINE_MIRROR, _ALPINE_RELEASE, repo, alpine_arch, asset)
 
-    unit(
+    common = dict(
         name = name,
         version = version,
         source = url,
-        sha256 = sha256[ARCH],
         deps = [],                      # prebuilt — no build deps
         runtime_deps = runtime_deps,
         provides = provides,
@@ -135,5 +149,14 @@ def alpine_pkg(name, version, sha256,
         tasks = [
             task("install", steps = _install_steps(asset, apk_name)),
         ],
-        **kwargs
     )
+
+    if sha256 != None:
+        if ARCH not in sha256:
+            fail("alpine_pkg %s: sha256 has no entry for ARCH=%s" % (name, ARCH))
+        unit(sha256 = sha256[ARCH], **dict(common, **kwargs))
+    else:
+        if ARCH not in apk_checksum:
+            fail("alpine_pkg %s: apk_checksum has no entry for ARCH=%s" %
+                 (name, ARCH))
+        unit(apk_checksum = apk_checksum[ARCH], **dict(common, **kwargs))
