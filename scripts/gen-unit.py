@@ -4,7 +4,7 @@
 Given one or more Alpine package names, fetches APKINDEX for each (arch, repo)
 pair, validates the package is identical across arches, computes sha256 of the
 actual .apk files, translates Alpine's `so:` / `cmd:` deps to unit names, and
-writes a unit file ready to drop into units-alpine.
+writes a unit file ready to drop into module-alpine.
 
 Usage:
   scripts/gen-unit.py <pkgname> [<pkgname> ...]
@@ -15,7 +15,7 @@ Usage:
 The script picks `main` or `community` automatically based on which one
 contains the package, and pins both to the same release.
 
-Run from the units-alpine repo root so `units/` is found.
+Run from the module-alpine repo root so `units/` is found.
 """
 
 from __future__ import annotations
@@ -240,7 +240,7 @@ def apk_sha256(release: str, repo: str, arch: str, name: str, version: str,
 # --- Unit emission ----------------------------------------------------------
 
 UNIT_TEMPLATE = '''\
-load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
+load("@alpine//classes/alpine_pkg.star", "alpine_pkg")
 
 {notes}alpine_pkg(
     name = "{name}",

@@ -1,6 +1,6 @@
 ---
 name: create-alpine-unit
-description: Use when the user asks to add, update, refresh, or pin an Alpine package as a yoe unit in this units-alpine repo (e.g. "add nginx as a unit", "refresh all units", "wrap shadow", "bump everything to v3.22"). Routes between gen-unit.py (single community add), sync-main.py (bulk add main + refresh everything), and check-stale.py (read-only audit). Skip for source-built packages — those don't belong in units-alpine.
+description: Use when the user asks to add, update, refresh, or pin an Alpine package as a yoe unit in this module-alpine repo (e.g. "add nginx as a unit", "refresh all units", "wrap shadow", "bump everything to v3.22"). Routes between gen-unit.py (single community add), sync-main.py (bulk add main + refresh everything), and check-stale.py (read-only audit). Skip for source-built packages — those don't belong in module-alpine.
 ---
 
 # Creating and maintaining Alpine package units
@@ -177,7 +177,7 @@ decision.
 ## Quick verification after generating
 
 - File starts with
-  `load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")`.
+  `load("@alpine//classes/alpine_pkg.star", "alpine_pkg")`.
 - `name = "..."` matches the filename (drop `.star`).
 - `sha256` dict has entries for every supported arch (`x86_64`, `arm64`).
 - No leftover `# Generator notes:` block.

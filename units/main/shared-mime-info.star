@@ -1,4 +1,4 @@
-load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
+load("@alpine//classes/alpine_pkg.star", "alpine_pkg")
 
 # Generator notes: file dep dropped: /bin/sh; package not in main or
 # community: pkgconfig

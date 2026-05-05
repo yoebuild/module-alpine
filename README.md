@@ -1,4 +1,4 @@
-# units-alpine
+# module-alpine
 
 Wraps prebuilt Alpine Linux packages as yoe units. Every package in
 Alpine's `main` repo is auto-mirrored; packages from `community` are

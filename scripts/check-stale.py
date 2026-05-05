@@ -12,7 +12,7 @@ Exit codes:
   1  one or more units are stale or missing
   2  a setup error (network, parse) prevented the check
 
-Run from the units-alpine repo root. APKINDEX is cached the same way
+Run from the module-alpine repo root. APKINDEX is cached the same way
 gen-unit.py caches it; pass --refresh to force re-download.
 
 Examples:

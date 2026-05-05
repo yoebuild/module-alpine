@@ -1,4 +1,4 @@
-load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
+load("@alpine//classes/alpine_pkg.star", "alpine_pkg")
 
 # Generator notes: package not in main or community: lua5.3-stdlib-
 # normalize

@@ -1,4 +1,4 @@
-load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
+load("@alpine//classes/alpine_pkg.star", "alpine_pkg")
 
 # Generator notes: package not in main or community: openssh-
 # client=9.9_p2-r0

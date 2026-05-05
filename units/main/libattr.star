@@ -1,4 +1,4 @@
-load("@units-alpine//classes/alpine_pkg.star", "alpine_pkg")
+load("@alpine//classes/alpine_pkg.star", "alpine_pkg")
 
 alpine_pkg(
     name = "libattr",
