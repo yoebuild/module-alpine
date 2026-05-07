@@ -1,8 +1,13 @@
 # alpine_pkg — wrap a prebuilt Alpine .apk as a yoe unit.
 #
-# Fetches a binary apk from the pinned Alpine release and unpacks its data
-# segment into $DESTDIR. No source build, no patches — Alpine builds it for
-# us. The unit's "build" is just `tar -xzpf` of the apk.
+# Fetches a binary apk from the pinned Alpine release. The published apk is
+# the upstream apk verbatim — yoe strips Alpine's signature and re-signs the
+# control stream with the project's key (see internal/artifact/apk.go's
+# RepackAPK), but PKGINFO and install scripts (.pre-install, .post-install,
+# .trigger, ...) pass through untouched. The unit's "build" task also
+# extracts the apk into $DESTDIR so downstream units that link against
+# headers/libs from this package (e.g. units that build against musl) see
+# them in their per-unit sysroot.
 #
 # ───── Alpine release coupling ────────────────────────────────────────────
 #
@@ -16,20 +21,6 @@
 # When bumping _ALPINE_RELEASE: update the Dockerfile in the same commit,
 # bump every alpine_pkg unit's version + sha256 to the new release, and
 # rebuild the toolchain container so its baked apk-tools keyring matches.
-#
-# ───── Install scripts ───────────────────────────────────────────────────
-#
-# The yoe target ships the same init system Alpine assumes (OpenRC, BusyBox
-# adduser/addgroup, /etc/init.d layout), so we KEEP the apk's install
-# scripts and triggers instead of stripping them. They're staged as
-# /lib/apk/db/scripts/<pkgname>/<script> on the rootfs (mode 755). The
-# image's first-boot service is responsible for executing
-# pre-install / post-install / trigger scripts in dependency order.
-#
-# .PKGINFO and .SIGN.* are still stripped — PKGINFO duplicates metadata
-# that's already encoded in the unit's .star (we ship the .star as the
-# source of truth), and signature files are useless once the unit's
-# sha256 has already authenticated the apk.
 
 _ALPINE_RELEASE = "v3.21"
 _ALPINE_MIRROR  = "https://dl-cdn.alpinelinux.org/alpine"
@@ -41,58 +32,55 @@ _ARCH_MAP = {
     "riscv64": "riscv64",
 }
 
-# Files in the apk control segment that we want to relocate to the
-# rootfs as runnable install scripts. Listed in the order an image's
-# first-boot runner would typically execute them.
-_SCRIPT_FILES = [
+# Control-segment files — apk metadata that lives in the upstream apk's
+# control gzip stream rather than its data segment. We exclude these from
+# the destdir extraction so they don't pollute downstream sysroots; they
+# remain in the upstream apk and ride through to the on-target install
+# unchanged via RepackAPK.
+_CONTROL_FILES = [
+    ".PKGINFO",
     ".pre-install", ".post-install",
     ".pre-upgrade", ".post-upgrade",
     ".pre-deinstall", ".post-deinstall",
     ".trigger",
 ]
 
-# Files in the apk control segment we drop entirely — pure metadata
-# that's redundant with the unit's .star, plus signature blobs.
-_DROP_FILES = [".PKGINFO"]
-
-def _install_steps(pkg_filename, pkgname):
+def _install_steps(pkg_filename):
     # Build steps run with CWD set to the unit's source directory, so the
     # apk file is referenced as a path relative to '.', not via $SRCDIR
     # (which is unset at build time and would expand to empty).
     #
     # An apk is a concatenation of three gzip streams (signature, control,
     # data). GNU tar with -z transparently consumes the multi-stream gzip
-    # and exposes every member at the top level. We do two passes:
-    #
-    #  1) Extract everything EXCEPT control/signature metadata into the
-    #     rootfs. This unpacks the data segment in place.
-    #  2) Pull the install scripts and triggers out of the apk into
-    #     /lib/apk/db/scripts/<pkgname>/ so the image's first-boot runner
-    #     can find and execute them. The leading "." is stripped from each
-    #     member name so the staged files are e.g. `post-install`, not
-    #     `.post-install` — chmod globs and human eyes prefer the former.
-    scripts_dir = "/lib/apk/db/scripts/" + pkgname
-
-    excludes = ["--exclude=" + p for p in _SCRIPT_FILES + _DROP_FILES]
+    # and exposes every member at the top level. We extract the data
+    # segment into destdir for downstream sysroot consumers; control and
+    # signature members are excluded.
+    excludes = ["--exclude=" + p for p in _CONTROL_FILES]
     excludes.append("--exclude=.SIGN.*")
-    script_args = " ".join(_SCRIPT_FILES)
-
     return [
-        "mkdir -p $DESTDIR $DESTDIR%s" % scripts_dir,
-        # Pass 1: rootfs contents.
+        "mkdir -p $DESTDIR",
         "tar -xzpf ./%s -C $DESTDIR %s" % (pkg_filename, " ".join(excludes)),
-        # Pass 2: install scripts + triggers. Tar exits non-zero if a
-        # listed member is absent, which is the common case (most apks
-        # have no install scripts). Swallow the error and let the cleanup
-        # below decide whether anything actually landed.
-        "tar -xzpf ./%s -C $DESTDIR%s --transform='s,^\\.,,' %s 2>/dev/null || true"
-            % (pkg_filename, scripts_dir, script_args),
-        # If nothing was extracted, drop the empty staging dir so we don't
-        # litter the rootfs. Otherwise mark every script executable.
-        ("if [ -z \"$(ls -A $DESTDIR%s 2>/dev/null)\" ]; then " +
-         "rmdir $DESTDIR%s; else chmod 0755 $DESTDIR%s/*; fi")
-            % (scripts_dir, scripts_dir, scripts_dir),
     ]
+
+def _split_pkgver(pkgver):
+    """Split an Alpine pkgver like "1.2.5-r11" into (version, release).
+
+    yoe stores `version` and `release` as separate fields and emits the
+    apk filename as `<name>-<version>-r<release>.apk`. Alpine's pkgver
+    embeds the release as `-r<N>`. If we kept the upstream pkgver verbatim
+    on the unit, yoe would publish `musl-1.2.5-r11-r0.apk` while the
+    upstream PKGINFO (now passing through unchanged) declares
+    `pkgver = 1.2.5-r11` — apk's solver constructs fetch URLs as
+    `<name>-<pkgver>.apk` and 404s on the doubled-release name.
+
+    Returns (version, release) where version excludes the `-r<N>` suffix
+    and release is the integer that followed it. Falls back to
+    (pkgver, 0) when the input has no recognizable release suffix.
+    """
+    head, sep, tail = pkgver.rpartition("-r")
+    if sep == "" or not tail.isdigit():
+        return pkgver, 0
+    return head, int(tail)
 
 def alpine_pkg(name, version,
                sha256 = None,         # {arch: hex64}; zero-cost-but-needs-download path
@@ -126,13 +114,25 @@ def alpine_pkg(name, version,
 
     apk_name = pkgname if pkgname else name
     alpine_arch = _ARCH_MAP[ARCH]
+    # Asset filename uses upstream's combined pkgver (including -rN) so
+    # we fetch the right file from Alpine's mirror.
     asset = "%s-%s.apk" % (apk_name, version)
     url = "%s/%s/%s/%s/%s" % (_ALPINE_MIRROR, _ALPINE_RELEASE, repo, alpine_arch, asset)
 
+    # Split upstream pkgver into yoe's separate version + release fields
+    # so the published apk filename matches what apk's solver expects
+    # from the unmodified upstream PKGINFO.
+    base_version, release = _split_pkgver(version)
+
     common = dict(
         name = name,
-        version = version,
+        version = base_version,
+        release = release,
         source = url,
+        # passthrough_apk tells yoe's executor to publish the upstream apk
+        # verbatim (re-signed with the project key) instead of repackaging
+        # the destdir. Keeps Alpine's PKGINFO and install scripts intact.
+        passthrough_apk = asset,
         deps = [],                      # prebuilt — no build deps
         runtime_deps = runtime_deps,
         provides = provides,
@@ -147,7 +147,7 @@ def alpine_pkg(name, version,
         container_arch = "target",
         sandbox = False,
         tasks = [
-            task("install", steps = _install_steps(asset, apk_name)),
+            task("install", steps = _install_steps(asset)),
         ],
     )
 
