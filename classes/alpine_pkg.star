@@ -108,12 +108,12 @@ def alpine_pkg(name, version,
     if sha256 != None and apk_checksum != None:
         fail("alpine_pkg %s: provide sha256 OR apk_checksum, not both" % name)
 
-    if ARCH not in _ARCH_MAP:
-        fail("alpine_pkg %s: unsupported ARCH=%s (supported: %s)" %
-             (name, ARCH, ", ".join(sorted(_ARCH_MAP.keys()))))
+    if ctx.arch not in _ARCH_MAP:
+        fail("alpine_pkg %s: unsupported arch=%s (supported: %s)" %
+             (name, ctx.arch, ", ".join(sorted(_ARCH_MAP.keys()))))
 
     apk_name = pkgname if pkgname else name
-    alpine_arch = _ARCH_MAP[ARCH]
+    alpine_arch = _ARCH_MAP[ctx.arch]
     # Asset filename uses upstream's combined pkgver (including -rN) so
     # we fetch the right file from Alpine's mirror.
     asset = "%s-%s.apk" % (apk_name, version)
@@ -152,11 +152,11 @@ def alpine_pkg(name, version,
     )
 
     if sha256 != None:
-        if ARCH not in sha256:
-            fail("alpine_pkg %s: sha256 has no entry for ARCH=%s" % (name, ARCH))
-        unit(sha256 = sha256[ARCH], **dict(common, **kwargs))
+        if ctx.arch not in sha256:
+            fail("alpine_pkg %s: sha256 has no entry for arch=%s" % (name, ctx.arch))
+        unit(sha256 = sha256[ctx.arch], **dict(common, **kwargs))
     else:
-        if ARCH not in apk_checksum:
-            fail("alpine_pkg %s: apk_checksum has no entry for ARCH=%s" %
-                 (name, ARCH))
-        unit(apk_checksum = apk_checksum[ARCH], **dict(common, **kwargs))
+        if ctx.arch not in apk_checksum:
+            fail("alpine_pkg %s: apk_checksum has no entry for arch=%s" %
+                 (name, ctx.arch))
+        unit(apk_checksum = apk_checksum[ctx.arch], **dict(common, **kwargs))
