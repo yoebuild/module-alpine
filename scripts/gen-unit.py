@@ -201,7 +201,11 @@ def _translate_one(dep: str, indices: list[APKIndex], self_name: str
     for idx in indices:
         if base in idx.by_name:
             return base, None
-    return base, f"package not in {' or '.join(i.repo for i in indices)}: {dep}"
+    # Unresolved package — surface a note for the human reviewer but
+    # don't emit it in runtime_deps. yoe's resolver hard-errors on
+    # missing units, so a kept-but-broken dep would force a manual
+    # edit on every regeneration.
+    return None, f"package not in {' or '.join(i.repo for i in indices)}: {dep}"
 
 
 def translate_deps(raw: list[str], indices: list[APKIndex], self_name: str
