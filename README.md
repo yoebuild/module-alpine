@@ -140,6 +140,59 @@ Diffs every `units/**/*.star` against current APKINDEX and reports stale,
 arch-split (mid-rebuild), and orphan units. Exits non-zero when anything
 needs attention — wire into CI as a daily rebuild detector.
 
+## Hand-edits
+
+Units are generator output by default. The data in every unit comes from
+Alpine's APKINDEX via `gen-unit.py`, and `sync-main.py` keeps the version
+and hash dict refreshed in place. Where that model is enough, do not
+hand-edit — let the generator own the file.
+
+A hand-edit is legitimate when the generator's view of upstream doesn't
+match what yoe actually needs to land a working closure. The current
+tree carries exactly two:
+
+- **`units/community/docker-openrc.star`** adds `services = ["docker"]`
+  so dockerd is wired into the default runlevel at packaging time.
+  Alpine ships the openrc script and expects the operator to run
+  `rc-update add docker default`; that step doesn't exist for an
+  embedded image, so the unit declares the service inline.
+- **`units/main/util-linux.star`** overrides `runtime_deps` because
+  Alpine's `util-linux` is an empty meta-package. The unit pulls in
+  `util-linux-misc`, `util-linux-login`, `libuuid`, `libmount`, and
+  `libblkid` so a single name resolves to a working util-linux closure.
+
+### Marking a hand-edit
+
+Every hand-edit carries a comment immediately above it, in this shape:
+
+```python
+    # Hand-edit (lost on regeneration): <one or two sentences explaining
+    # why the upstream-derived data is insufficient and what this edit
+    # achieves>.
+    services = ["docker"],
+```
+
+The marker has two jobs: it tells a future reader why the line isn't
+auto-derivable, and it warns that a full `gen-unit.py <pkg>` rewrite
+will discard the edit (sync-main.py will not).
+
+### What survives a refresh
+
+| Operation                              | Hand-edits survive? |
+|----------------------------------------|---------------------|
+| `sync-main.py` (any flag combination)  | Yes — only `version` and the hash dict are rewritten. Comments, `runtime_deps`, `provides`, `replaces`, custom fields are untouched. |
+| `gen-unit.py <pkg>`                    | No — the file is rewritten from the template. Re-apply hand-edits afterwards. |
+| `gen-unit.py --print <pkg>`            | N/A — writes nothing. Useful for diffing the generator's view against the on-disk unit. |
+
+### Per-arch `runtime_deps` is not a hand-edit
+
+A unit whose `runtime_deps` is a `{arch: [...]}` map rather than a flat
+list is still pure generator output. `gen-unit.py` emits the dict form
+automatically when Alpine's per-arch dep lists diverge (e.g. ffmpeg
+subpackages pull `onevpl-libs` on x86_64 but not on arm64). Don't add a
+hand-edit marker to those; a future `sync-main.py` refresh will leave
+the dict alone the same way it leaves a flat list alone.
+
 ## Install scripts and triggers
 
 The yoe target ships the same init system Alpine assumes (OpenRC,

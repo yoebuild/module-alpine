@@ -5,7 +5,10 @@ alpine_pkg(
     version = "3.0.2-r0",
     license = "BSD-3-Clause",
     description = "Implements a XML/HTML/XHTML Markup safe string (Alpine v3.21)",
-    runtime_deps = ["python3"],
+    runtime_deps = {
+        "arm64": ["python3", "musl"],
+        "x86_64": ["python3"],
+    },
     provides = ["py-markupsafe", "py3.12:markupsafe"],
     apk_checksum = {
         "x86_64": "Q1GFc0OoFKnUEee3KD6v5PRKXwFWg=",

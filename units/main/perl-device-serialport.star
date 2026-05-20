@@ -5,7 +5,10 @@ alpine_pkg(
     version = "1.04-r22",
     license = "Artistic-1.0-Perl OR GPL-1.0-or-later",
     description = "Linux/POSIX emulation of Win32::SerialPort functions. (Alpine v3.21)",
-    runtime_deps = ["perl", "musl"],
+    runtime_deps = {
+        "arm64": ["perl"],
+        "x86_64": ["perl", "musl"],
+    },
     apk_checksum = {
         "x86_64": "Q1A02x6YRNr7OKFnO0dcuX4O3QJXo=",
         "arm64": "Q1R9w36htTfuieAb6XCMl4xfSzvk8=",

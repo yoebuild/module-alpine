@@ -5,7 +5,10 @@ alpine_pkg(
     version = "4.19.5-r2",
     license = "GPL-2.0-only",
     description = "Libraries for Xen tools (Alpine v3.21)",
-    runtime_deps = ["libbz2", "musl", "e2fsprogs-libs", "xz-libs", "lzo", "libnl3", "libuuid", "yajl", "zlib", "zstd-libs"],
+    runtime_deps = {
+        "arm64": ["musl", "e2fsprogs-libs", "libfdt", "libnl3", "libuuid", "yajl", "zlib"],
+        "x86_64": ["libbz2", "musl", "e2fsprogs-libs", "xz-libs", "lzo", "libnl3", "libuuid", "yajl", "zlib", "zstd-libs"],
+    },
     apk_checksum = {
         "x86_64": "Q1AntPLw09btbQT/LOunElvi/NAks=",
         "arm64": "Q1KSZ1+Sp0yz5l3QMgNOZRPrMFV8E=",

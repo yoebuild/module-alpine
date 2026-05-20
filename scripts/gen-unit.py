@@ -263,10 +263,18 @@ def _q(s: str) -> str:
 
 
 def _kwarg(name: str, val) -> str:
-    if val is None or val == [] or val == "":
+    if val is None or val == [] or val == "" or val == {}:
         return ""
     if isinstance(val, list):
         return f"\n    {name} = [{', '.join(_q(v) for v in val)}],"
+    if isinstance(val, dict):
+        # Per-arch map: emit one indented entry per arch, sorted for
+        # stable output across regenerations.
+        body = "\n".join(
+            f"        {_q(arch)}: [{', '.join(_q(v) for v in items)}],"
+            for arch, items in sorted(val.items())
+        )
+        return f"\n    {name} = {{\n{body}\n    }},"
     return f"\n    {name} = {_q(val)},"
 
 
@@ -499,10 +507,43 @@ def generate(name: str, *, release: str, refresh: bool,
             hashes[yoe_arch] = entry.apk_checksum
         hash_field = "apk_checksum"
 
-    # Translate deps, using the union of main+community for the canonical arch.
-    runtime_deps, warnings = translate_deps(
-        canon.depends, all_indices_for_arch[canon_arch], canon.name,
-    )
+    # Translate runtime_deps per arch.
+    #
+    # Each arch's APKINDEX carries its own `D:` list — a package built on
+    # x86_64 may pull in deps (Intel-only libs like onevpl-libs, vendor
+    # blobs, optional codecs) that simply don't exist on arm64, where the
+    # build is configured without them. Alpine's PKGINFO (which yoe's
+    # APKINDEX generator reads verbatim) carries the per-arch dep list,
+    # so on-target apk-tools insists on the arch-specific deps too —
+    # dropping them from the unit's runtime_deps would leave yoe's repo
+    # missing apks that apk install demands. We emit a per-arch map so
+    # alpine_pkg picks the right list at eval time.
+    #
+    # When every arch produces the same translated list we collapse to a
+    # flat list for readability. Any per-arch divergence is preserved.
+    per_arch_deps: dict[str, list[str]] = {}
+    union_warnings: list[str] = []
+    for yoe_arch, (_repo, entry) in per_arch.items():
+        translated, warns = translate_deps(
+            entry.depends, all_indices_for_arch[yoe_arch], entry.name,
+        )
+        per_arch_deps[yoe_arch] = translated
+        union_warnings.extend(warns)
+
+    # De-dup translation warnings (same provider unresolved on multiple
+    # arches would otherwise repeat) while preserving first-seen order.
+    seen_w: set[str] = set()
+    warnings: list[str] = []
+    for w in union_warnings:
+        if w not in seen_w:
+            seen_w.add(w)
+            warnings.append(w)
+
+    dep_lists = list(per_arch_deps.values())
+    if dep_lists and all(d == dep_lists[0] for d in dep_lists):
+        runtime_deps: list[str] | dict[str, list[str]] = dep_lists[0]
+    else:
+        runtime_deps = per_arch_deps
 
     # Strip version pins from provides/replaces — we don't track those at unit
     # level, just the names.

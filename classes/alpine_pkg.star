@@ -87,7 +87,11 @@ def alpine_pkg(name, version,
                apk_checksum = None,   # {arch: "Q1<base64-sha1>="}; zero-cost-from-APKINDEX path
                pkgname = None,        # apk package name if it differs from the unit name
                repo = "main",         # main | community
-               runtime_deps = [],     # explicit; do not auto-pull Alpine's dep closure
+               runtime_deps = [],     # list (same for every arch) or {arch: list}
+                                      # when Alpine's deps differ by arch
+                                      # (Intel-only libs, vendor blobs, …);
+                                      # explicit either way — yoe does not
+                                      # auto-pull Alpine's dep closure
                provides = [],
                replaces = [],
                license = "", description = "",
@@ -124,6 +128,17 @@ def alpine_pkg(name, version,
     # from the unmodified upstream PKGINFO.
     base_version, release = _split_pkgver(version)
 
+    # runtime_deps may be a flat list (same deps on every arch) or a
+    # {arch: [...]} map (Alpine's PKGINFO diverges by arch — e.g. ffmpeg
+    # depends on onevpl-libs on x86_64 but not on aarch64, because
+    # oneVPL is x86-only). Pick the right list for the current arch; an
+    # arch missing from the map gets no deps, which mirrors the case
+    # where Alpine doesn't ship the package on that arch.
+    if type(runtime_deps) == "dict":
+        resolved_runtime_deps = runtime_deps.get(ctx.arch, [])
+    else:
+        resolved_runtime_deps = runtime_deps
+
     common = dict(
         name = name,
         version = base_version,
@@ -134,7 +149,7 @@ def alpine_pkg(name, version,
         # the destdir. Keeps Alpine's PKGINFO and install scripts intact.
         passthrough_apk = asset,
         deps = [],                      # prebuilt — no build deps
-        runtime_deps = runtime_deps,
+        runtime_deps = resolved_runtime_deps,
         provides = provides,
         replaces = replaces,
         license = license,
@@ -151,12 +166,22 @@ def alpine_pkg(name, version,
         ],
     )
 
+    # If the integrity map doesn't carry the current arch, Alpine simply
+    # doesn't ship this package on this arch (oneVPL is x86_64-only;
+    # ARM-specific firmware blobs are aarch64-only; etc.). The yoe loader
+    # walks every unit file in the module, so failing here would abort
+    # the whole build any time an arch-specific package appears in the
+    # tree. Instead, emit no unit on this arch — if something actually
+    # depends on it, yoe's resolver surfaces a clear "unit not found"
+    # error at resolution time, naming the consumer. If nothing depends
+    # on it, the package is correctly absent and the build proceeds.
+    hashes = sha256 if sha256 != None else apk_checksum
+    if ctx.arch not in hashes:
+        return
+
+    merged = dict(common, **kwargs)
     if sha256 != None:
-        if ctx.arch not in sha256:
-            fail("alpine_pkg %s: sha256 has no entry for arch=%s" % (name, ctx.arch))
-        unit(sha256 = sha256[ctx.arch], **dict(common, **kwargs))
+        merged["sha256"] = hashes[ctx.arch]
     else:
-        if ctx.arch not in apk_checksum:
-            fail("alpine_pkg %s: apk_checksum has no entry for arch=%s" %
-                 (name, ctx.arch))
-        unit(apk_checksum = apk_checksum[ctx.arch], **dict(common, **kwargs))
+        merged["apk_checksum"] = hashes[ctx.arch]
+    unit(**merged)
