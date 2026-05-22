@@ -20,6 +20,7 @@ scripts/
   gen-unit.py              # add a single package
   sync-main.py             # bulk mirror main + refresh everything
   check-stale.py           # read-only audit
+  refresh-stale.py         # audit + regenerate only the stale units
 .claude/skills/
   create-alpine-unit/      # Claude Code skill, drives the scripts above
 MODULE.star
@@ -140,6 +141,57 @@ Diffs every `units/**/*.star` against current APKINDEX and reports stale,
 arch-split (mid-rebuild), and orphan units. Exits non-zero when anything
 needs attention — wire into CI as a daily rebuild detector.
 
+### `refresh-stale.py` — audit, then regenerate the stale units
+
+```sh
+python3 scripts/refresh-stale.py              # check, then update stale units
+python3 scripts/refresh-stale.py --dry-run    # report only, change nothing
+python3 scripts/refresh-stale.py --release v3.22
+```
+
+A thin wrapper over `check-stale.py` + `gen-unit.py`. It refreshes the
+APKINDEX, prints the same report `check-stale.py` does, then runs
+`gen-unit.py` on exactly the units that drifted — rewriting each one's
+`version` and hash dict.
+
+Only plain stale units are regenerated. Arch-split units (an Alpine
+rebuild still in flight) and orphans (package gone from APKINDEX) are
+reported but left untouched — `gen-unit.py` can fix neither.
+
+This is the routine fix for the `-rN` 404 noted under Caveats: narrower
+than `sync-main.py` (no new-package adds — only drifted units rewritten)
+and actionable, unlike the read-only `check-stale.py`. Exits 0 when
+nothing is stale or every stale unit regenerated cleanly, 1 if a regen
+failed, 2 on a setup error.
+
+## Periodic maintenance
+
+Alpine rebuilds packages continuously — a bumped `-rN` revision drops the
+previous apk from the live mirror within hours (see Caveats). A unit
+pinned to a vanished revision fails the next `yoe build` with an HTTP
+404, so keeping this module current is a routine chore rather than a
+one-off. A workable cadence:
+
+- **Detect** — run `check-stale.py` on a schedule; a daily CI job suits
+  it well, since it exits non-zero whenever a unit drifts. For an
+  interactive look, `refresh-stale.py --dry-run` prints the same report.
+- **Fix** — run `refresh-stale.py` to regenerate every drifted unit in
+  one pass, then review `git diff`, commit, and push. Most weeks this is
+  a handful of revision bumps.
+- **Bump and sweep** — run `sync-main.py` when you also want the new
+  `main` packages Alpine has added, or after an Alpine release bump (see
+  "Bumping the Alpine release"). It refreshes every unit and adds new
+  ones, so expect a larger diff and run it less often.
+
+`refresh-stale.py` is the everyday tool; `sync-main.py` is the heavier,
+occasional one.
+
+> A project that consumes this module keeps its own clone in the project
+> module cache, and a `yoe build` resets that clone to the pushed
+> upstream state on every sync. Always commit and push refreshed units
+> upstream — a local-only edit in a project's cache is discarded on the
+> next build.
+
 ## Hand-edits
 
 Units are generator output by default. The data in every unit comes from
@@ -251,8 +303,9 @@ multi-arch verification).
 
 - **Only the latest `-rN` of a package lives in Alpine's live mirror.**
   When Alpine ships a rebuild, the previous apk URL 404s within hours.
-  Either run `sync-main.py` regularly, or stand up an internal apk mirror
-  that retains old `-rN` builds you've signed off on.
+  Either run `refresh-stale.py` on a schedule (see Periodic maintenance),
+  or stand up an internal apk mirror that retains old `-rN` builds you've
+  signed off on.
 - **Stable releases get ~2 years support.** After EOL the release stops
   receiving updates and eventually moves to `archive.alpinelinux.org`.
   Plan release bumps accordingly.

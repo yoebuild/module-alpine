@@ -11,9 +11,17 @@ Usage:
   scripts/gen-unit.py --refresh <pkgname>          # re-download APKINDEX
   scripts/gen-unit.py --release v3.22 <pkgname>    # override Alpine release
   scripts/gen-unit.py --print <pkgname>            # print to stdout, don't write
+  scripts/gen-unit.py --no-recursive <pkgname>     # don't generate dep units
 
 The script picks `main` or `community` automatically based on which one
 contains the package, and pins both to the same release.
+
+By default it recurses: after generating a unit it walks the unit's
+`runtime_deps` and generates a unit for any dependency that doesn't already
+have one, transitively, so the result is a self-consistent set that yoe's
+resolver won't choke on. Dependencies that already have a unit file are left
+untouched (and not recursed into — their tree is assumed complete). Pass
+`--no-recursive` to generate only the packages named on the command line.
 
 Run from the module-alpine repo root so `units/` is found.
 """
@@ -438,11 +446,13 @@ def find_pkg_in_repos(name: str, indices_by_repo: dict[str, APKIndex]
 
 def generate(name: str, *, release: str, refresh: bool,
              indices_cache: dict[tuple[str, str], APKIndex],
-             use_sha256: bool = False) -> tuple[str, str]:
-    """Return (body, repo) for `name`.
+             use_sha256: bool = False) -> tuple[str, str, list[str]]:
+    """Return (body, repo, dep_names) for `name`.
 
     `repo` is "main" or "community", and is also where the unit file
-    should land (units/<repo>/<name>.star). By default emits
+    should land (units/<repo>/<name>.star). `dep_names` is the sorted
+    union of translated `runtime_deps` across arches — the unit names a
+    recursive caller must also ensure exist. By default emits
     `apk_checksum = {...}` populated from APKINDEX's `C:` field, so
     generation needs no apk downloads. With `use_sha256=True`, falls
     back to downloading each apk and computing sha256 — slower, but
@@ -565,7 +575,9 @@ def generate(name: str, *, release: str, refresh: bool,
         warnings=warnings,
         release=release,
     )
-    return body, canon_repo
+
+    dep_names = sorted({d for lst in per_arch_deps.values() for d in lst})
+    return body, canon_repo, dep_names
 
 
 def main() -> int:
@@ -583,19 +595,55 @@ def main() -> int:
     p.add_argument("--sha256", action="store_true",
                    help=("emit sha256 (downloads each apk to hash it) instead "
                          "of apk_checksum (free from APKINDEX)"))
+    p.add_argument("--recursive", action=argparse.BooleanOptionalAction,
+                   default=True,
+                   help=("also generate a unit for every runtime dep that "
+                         "doesn't already have one, transitively (default)"))
     args = p.parse_args()
 
     out_dir = Path(args.out_dir)
 
+    def existing_unit(name: str) -> Path | None:
+        """Return the path of an already-present unit for `name`, or None."""
+        for repo in REPOS:
+            path = out_dir / repo / f"{name}.star"
+            if path.exists():
+                return path
+        return None
+
+    # Worklist of (pkg, explicit). Packages named on the command line are
+    # `explicit` — always (re)generated. Deps discovered by recursion are
+    # not: a dep that already has a unit is left alone and not recursed
+    # into, which both respects hand edits and bounds the walk.
+    queue: list[tuple[str, bool]] = []
+    seen: set[str] = set()
+
+    def enqueue(name: str, explicit: bool) -> None:
+        if name not in seen:
+            seen.add(name)
+            queue.append((name, explicit))
+
+    for pkg in args.packages:
+        enqueue(pkg, True)
+
     indices_cache: dict[tuple[str, str], APKIndex] = {}
     rc = 0
-    for pkg in args.packages:
+    while queue:
+        pkg, explicit = queue.pop(0)
+
+        if not explicit:
+            found = existing_unit(pkg)
+            if found:
+                print(f"--> {pkg}: unit exists ({found}), skipping",
+                      file=sys.stderr)
+                continue
+
         print(f"==> {pkg}", file=sys.stderr)
         try:
-            body, repo = generate(pkg, release=args.release,
-                                  refresh=args.refresh,
-                                  indices_cache=indices_cache,
-                                  use_sha256=args.sha256)
+            body, repo, deps = generate(pkg, release=args.release,
+                                        refresh=args.refresh,
+                                        indices_cache=indices_cache,
+                                        use_sha256=args.sha256)
         except SystemExit as e:
             print(str(e), file=sys.stderr)
             rc = 1
@@ -609,6 +657,10 @@ def main() -> int:
             target = target_dir / f"{pkg}.star"
             target.write_text(body)
             print(f"  wrote {target}", file=sys.stderr)
+
+        if args.recursive:
+            for dep in deps:
+                enqueue(dep, False)
 
     return rc
 
