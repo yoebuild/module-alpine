@@ -6271,101 +6271,101 @@ t:1729095645
 c:670b2b57a18617f66ff3e7218450088a19474cfa
 i:docs aspcud=1.9.6-r9
 
-C:Q1M0OnrVNlXKXz8wJrgA213/UdEf8=
+C:Q15+ufpiKeyhRH54mg6meTZ2hgwzw=
 P:aspnetcore8-runtime
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:10569972
-I:24070074
+S:10571712
+I:24074170
 T:The ASP.NET 8.0 Core runtime
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-runtime
-p:aspnetcore-runtime-8.0=8.0.26-r0
+p:aspnetcore-runtime-8.0=8.0.27-r0
 
-C:Q144Fn4Q6LvhL4gnIJo7vBHRkcuIQ=
+C:Q1qlaD0lLCYVtM2z7N+HRlBo0zS0A=
 P:aspnetcore8-runtime-dbg
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:8524647
-I:11353004
+S:8528919
+I:11355240
 T:The ASP.NET 8.0 Core runtime - pdb debug files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:aspnetcore8-runtime
-p:aspnetcore-runtime-dbg-8.0=8.0.26-r0
+p:aspnetcore-runtime-dbg-8.0=8.0.27-r0
 
-C:Q1xqAMgasgk6ZLgZJ7P1Ga+XQgljQ=
+C:Q14dEEdpWJ5xy2rbzDNMS4wGDOXDc=
 P:aspnetcore8-targeting-pack
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:2744690
-I:15225121
+S:2744479
+I:15225633
 T:The ASP.NET 8.0 Core targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-hostfxr icu-data-full icu-libs
-p:aspnetcore-targeting-pack-8.0=8.0.26-r0
+p:aspnetcore-targeting-pack-8.0=8.0.27-r0
 
-C:Q1wWxNPI2ymPJxdL4RBqAQOIuuAhw=
+C:Q1StwAQyDdJdXGxvfM1q1cnwSguwU=
 P:aspnetcore9-runtime
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:10235106
-I:23406536
+S:10237294
+I:23409096
 T:The ASP.NET 9.0 Core runtime
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-runtime
-p:aspnetcore-runtime-9.0=9.0.15-r0
+p:aspnetcore-runtime-9.0=9.0.16-r0
 
-C:Q18XlGJtTuTA6EcHe+iiX73a8SBPU=
+C:Q1rZ2Ks/nJ44XPDgdwV0zFgCbWH+I=
 P:aspnetcore9-runtime-dbg
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:2432451
-I:5430644
+S:2432447
+I:5430204
 T:The ASP.NET 9.0 Core runtime - pdb debug files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:aspnetcore9-runtime
-p:aspnetcore-runtime-dbg-9.0=9.0.15-r0
+p:aspnetcore-runtime-dbg-9.0=9.0.16-r0
 
-C:Q1Nml2bQ09MKD/YrhZQ7Es+0Cleo8=
+C:Q1iyuqWdC7zsuxZQ/aL7P5kypSThA=
 P:aspnetcore9-targeting-pack
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:2742122
-I:15312686
+S:2742593
+I:15313198
 T:The ASP.NET 9.0 Core targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-hostfxr icu-data-full icu-libs
-p:aspnetcore-targeting-pack-9.0=9.0.15-r0
+p:aspnetcore-targeting-pack-9.0=9.0.16-r0
 
 C:Q1GRBUrZO+pCoIjTTkyHr9ZlShBZc=
 P:assimp
@@ -37837,260 +37837,260 @@ c:71a773b0618ce60d276a3df74ed69e6bd6d13237
 D:py3-dotenv py3-click
 p:cmd:dotenv=1.0.1-r1
 
-C:Q1ReIS1mTsHKKJXG6tkH7tLslWrMA=
+C:Q1ESZbV9LnSO7pVNlFkaHPWmbgEuk=
 P:dotnet-bash-completion
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:1826
+S:1823
 I:375
 T:bash completion for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:dotnet-host
 i:netstandard21-targeting-pack bash-completion
 
-C:Q14eL+3d2dbatd9Al3MkK6xpMni2s=
+C:Q1VRS7TSbMDPfCJUJmkW0inAZhUN8=
 P:dotnet-bash-completion
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:1821
+S:1823
 I:375
 T:bash completion for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet-host
 i:netstandard21-targeting-pack bash-completion
 
-C:Q1C6DTqksQVJZbxGByI/ys2NHLLZA=
+C:Q1oe9supSY3WdBuNpuntr24XjxSD0=
 P:dotnet-doc
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:135336
+S:135334
 I:209267
 T:Docs for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
-i:docs dotnet8-sdk=8.0.126-r0
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
+i:docs dotnet8-sdk=8.0.127-r0
 
-C:Q1F8LunaxV+Tn0OdzT8kWU91EXp70=
+C:Q1Etm8bDEv++kR0N3MkU6HaVEpSAI=
 P:dotnet-doc
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:149835
+S:149843
 I:208039
 T:Docs for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
-i:docs dotnet9-sdk=9.0.116-r0
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
+i:docs dotnet9-sdk=9.0.117-r0
 
-C:Q1FmYO523sk7rfcRJvOZbI/6OPUqY=
+C:Q1eEXuITxX7rUwgTn2RRuk0aauFe8=
 P:dotnet-host
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:247551
+S:247557
 I:681019
 T:A generic driver for the .NET Core Command Line Interface
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:dotnet=8.0.26-r0
+p:cmd:dotnet=8.0.27-r0
 
-C:Q1MSrl64BFvElNonrsKsQHFFT4gxo=
+C:Q1/BZCjS6wPc8vVu7KPpiak0hB5Ig=
 P:dotnet-host
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:281882
+S:281791
 I:756755
 T:A generic driver for the .NET Core Command Line Interface
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:dotnet=9.0.15-r0
+p:cmd:dotnet=9.0.16-r0
 
-C:Q1dK731DBcKhbQcYhMQr3Y1sE3u9I=
+C:Q1xnknLdSZAsv9fkDnlLOWeHgMNQ8=
 P:dotnet-zsh-completion
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:1696
+S:1701
 I:175
 T:zsh completion for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:dotnet-host
 i:netstandard21-targeting-pack zsh
 
-C:Q1X8mh4vhN+u/KEUrdPn31Odal0mQ=
+C:Q1bE7dItGh3/8YhBBcBPPGzVTMQrk=
 P:dotnet-zsh-completion
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:1695
+S:1693
 I:175
 T:zsh completion for .NET
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet-host
 i:netstandard21-targeting-pack zsh
 
-C:Q1CLQM0UeNBUC169I0KIljhicup0o=
+C:Q1vtR7sojYFV0mV5u+zIh932F5ThQ=
 P:dotnet8-apphost-pack
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:33487666
-I:81556919
+S:33487999
+I:81557191
 T:The .NET 8.0 Core apphost pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-hostfxr icu-data-full icu-libs so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
-p:dotnet-apphost-pack-8.0=8.0.26-r0 so:dotnet8:libnethost.so=0
+p:dotnet-apphost-pack-8.0=8.0.27-r0 so:dotnet8:libnethost.so=0
 
-C:Q1gSajQaoPut5OiZYTJVn6LqP07pc=
+C:Q1+8bp1sLoGuGqdabISLypLwuWpes=
 P:dotnet8-hostfxr
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:1262099
+S:1262125
 I:3772336
 T:The .NET host resolver contains the logic to resolve and select the right version of the .NET SDK or runtime to use.
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet-host so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:dotnet-hostfxr-8.0=8.0.26-r0 so:dotnet8:libhostfxr.so=0
+p:dotnet-hostfxr-8.0=8.0.27-r0 so:dotnet8:libhostfxr.so=0
 
-C:Q1e6wbSSMbiAzEilwq5vsOSVFbGM8=
+C:Q1snnQ7ud2GI4wga3g7GWlOcjIYrU=
 P:dotnet8-runtime
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:68344307
-I:165654363
+S:68345088
+I:165654675
 T:The .NET 8.0 Core runtime
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-hostfxr icu-data-full icu-libs so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblttng-ust.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
-p:dotnet8=8.0.26-r0 so:dotnet8:libSystem.Globalization.Native.so=0 so:dotnet8:libSystem.IO.Compression.Native.so=0 so:dotnet8:libSystem.Native.so=0 so:dotnet8:libSystem.Net.Security.Native.so=0 so:dotnet8:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet8:libclrgc.so=0 so:dotnet8:libclrjit.so=0 so:dotnet8:libcoreclr.so=0 so:dotnet8:libcoreclrtraceptprovider.so=0 so:dotnet8:libhostpolicy.so=0 so:dotnet8:libmscordaccore.so=0 so:dotnet8:libmscordbi.so=0
+p:dotnet8=8.0.27-r0 so:dotnet8:libSystem.Globalization.Native.so=0 so:dotnet8:libSystem.IO.Compression.Native.so=0 so:dotnet8:libSystem.Native.so=0 so:dotnet8:libSystem.Net.Security.Native.so=0 so:dotnet8:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet8:libclrgc.so=0 so:dotnet8:libclrjit.so=0 so:dotnet8:libcoreclr.so=0 so:dotnet8:libcoreclrtraceptprovider.so=0 so:dotnet8:libhostpolicy.so=0 so:dotnet8:libmscordaccore.so=0 so:dotnet8:libmscordbi.so=0
 
-C:Q13r8O3sH/rX//TM/DggGzJ3DzIf4=
+C:Q1fwbiUlz1AJJfGwaxWX3p2zwqm1o=
 P:dotnet8-runtime-artifacts
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:336826579
-I:342393796
+S:336907986
+I:342399429
 T:Internal package for building .NET 8.0 Software Development Kit
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 k:8
 p:dotnet8-bootstrap-artifacts
 
-C:Q1UMPUV2lgDH5I+wC2uH9QgEq6Avg=
+C:Q1MiXwoRlHayeV4m8EtnMJVfWzR8k=
 P:dotnet8-runtime-bootstrap
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:799870120
-I:1252953511
+S:799934510
+I:1252970552
 T:The .NET 8.0 Core bootstrap
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 k:8
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblttng-ust.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
 p:dotnet8-bootstrap so:dotnet8:libSystem.Globalization.Native.so=0 so:dotnet8:libSystem.IO.Compression.Native.so=0 so:dotnet8:libSystem.Native.so=0 so:dotnet8:libSystem.Net.Security.Native.so=0 so:dotnet8:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet8:libclrgc.so=0 so:dotnet8:libclrjit.so=0 so:dotnet8:libcoreclr.so=0 so:dotnet8:libcoreclrtraceptprovider.so=0 so:dotnet8:libhostfxr.so=0 so:dotnet8:libhostpolicy.so=0 so:dotnet8:libmscordaccore.so=0 so:dotnet8:libmscordbi.so=0 so:dotnet8:libnethost.so=0
 
-C:Q1vue8B2vNd+2w7bDf9TgI1khdt9o=
+C:Q1PvlaIqGGSmC6+BCwvomvGNo8lUM=
 P:dotnet8-runtime-dbg
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:16967292
-I:21239020
+S:16967514
+I:21239296
 T:The .NET 8.0 Core runtime - pdb debug files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-runtime
-p:dotnet-runtime-dbg-8.0=8.0.26-r0
+p:dotnet-runtime-dbg-8.0=8.0.27-r0
 
-C:Q1fA2dduBR+t3nyYbu8zzAu2nek20=
+C:Q1Pty4E8e2+NTMRxo7vlKRk1GOb8E=
 P:dotnet8-sdk
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:117496514
-I:308922594
+S:117494817
+I:308922644
 T:The .NET 8.0 SDK
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:aspnetcore8-runtime aspnetcore8-targeting-pack dotnet8-apphost-pack dotnet8-targeting-pack dotnet8-templates netstandard21-targeting-pack libucontext so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:dotnet-sdk-8.0=8.0.126-r0 dotnet8-dev=8.0.126-r0
+p:dotnet-sdk-8.0=8.0.127-r0 dotnet8-dev=8.0.127-r0
 
-C:Q1TQ7zLHY0qXq21Q1y0wfOoqOwkRY=
+C:Q1BSvMrr6kocMkMhqTIu81mWGqlFw=
 P:dotnet8-sdk-dbg
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:98522802
-I:128261464
+S:98524863
+I:128264276
 T:The .NET 8.0 SDK - debug pdb files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:dotnet8-sdk
-p:dotnet-sdk-dbg-8.0=8.0.126-r0
+p:dotnet-sdk-dbg-8.0=8.0.127-r0
 
 C:Q1mE7SQhYvEj3CySP+CaA7lSZlEd0=
 P:dotnet8-stage0
@@ -38139,182 +38139,182 @@ k:1
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:liblttng-ust.so.1 so:libstdc++.so.6 so:libz.so.1
 p:dotnet8-bootstrap so:libSystem.Globalization.Native.so=0 so:libSystem.IO.Compression.Native.so=0 so:libSystem.Native.so=0 so:libSystem.Net.Security.Native.so=0 so:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:libclrgc.so=0 so:libclrjit.so=0 so:libcoreclr.so=0 so:libcoreclrtraceptprovider.so=0 so:libhostpolicy.so=0 so:libmscordaccore.so=0 so:libmscordbi.so=0
 
-C:Q1ysJm8EkpVLyo1vUhIl+v0sTqsLg=
+C:Q1qfv2E0SkjHSjtZjxznXqgd8Jrpo=
 P:dotnet8-targeting-pack
-V:8.0.26-r0
+V:8.0.27-r0
 A:x86_64
-S:4793506
+S:4793975
 I:36467536
 T:The .NET 8.0 Core targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:18ef26c3c320fa7e8542c47134b7bcc50232e694
+t:1779975194
+c:e89c6956468b5526337e79006264176b51e64cd4
 D:dotnet8-hostfxr icu-data-full icu-libs
-p:dotnet-targeting-pack-8.0=8.0.26-r0
+p:dotnet-targeting-pack-8.0=8.0.27-r0
 
-C:Q1MhfU5PCv+t7VDi9JWaSl/iXmnDs=
+C:Q19mAb7T8OXRaG9AmPVW7AXyqIa0A=
 P:dotnet8-templates
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:5580573
-I:5974736
+S:5653621
+I:5974732
 T:The .NET 8.0 templates
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:dotnet-host
-p:dotnet-templates-8.0=8.0.126-r0
+p:dotnet-templates-8.0=8.0.127-r0
 
-C:Q1Y+ZBaI5fUEnV+nmy8lYgCWhdx5g=
+C:Q1o+EVZQixVV07hhXPAjiav9vYOaE=
 P:dotnet9-apphost-pack
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:94439929
-I:192457541
+S:94420439
+I:192458133
 T:The .NET 9.0 Core apphost pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-hostfxr icu-data-full icu-libs so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
-p:dotnet-apphost-pack-9.0=9.0.15-r0 so:dotnet9:libnethost.so=0
+p:dotnet-apphost-pack-9.0=9.0.16-r0 so:dotnet9:libnethost.so=0
 
-C:Q1tMMVqhq9MY2DSQfaEomoVgcvc5Y=
+C:Q1m5XyewIe4TbTWuQJj5Rag3RYmkQ=
 P:dotnet9-hostfxr
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:1524101
+S:1524046
 I:4371088
 T:The .NET host resolver contains the logic to resolve and select the right version of the .NET SDK or runtime to use.
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet-host so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:dotnet-hostfxr-9.0=9.0.15-r0 so:dotnet9:libhostfxr.so=0
+p:dotnet-hostfxr-9.0=9.0.16-r0 so:dotnet9:libhostfxr.so=0
 
-C:Q1gBqG5Ud175+T8hOFMY72E1It+dE=
+C:Q1yW8g6glz8RE73V4PMd/i7DKTAYY=
 P:dotnet9-runtime
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:162717158
-I:346508182
+S:162728009
+I:346509326
 T:The .NET 9.0 Core runtime
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-hostfxr icu-data-full icu-libs so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblttng-ust.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
-p:dotnet9=9.0.15-r0 so:dotnet9:libSystem.Globalization.Native.so=0 so:dotnet9:libSystem.IO.Compression.Native.so=0 so:dotnet9:libSystem.Native.so=0 so:dotnet9:libSystem.Net.Security.Native.so=0 so:dotnet9:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet9:libclrgc.so=0 so:dotnet9:libclrgcexp.so=0 so:dotnet9:libclrjit.so=0 so:dotnet9:libcoreclr.so=0 so:dotnet9:libcoreclrtraceptprovider.so=0 so:dotnet9:libhostpolicy.so=0 so:dotnet9:libmscordaccore.so=0 so:dotnet9:libmscordbi.so=0
+p:dotnet9=9.0.16-r0 so:dotnet9:libSystem.Globalization.Native.so=0 so:dotnet9:libSystem.IO.Compression.Native.so=0 so:dotnet9:libSystem.Native.so=0 so:dotnet9:libSystem.Net.Security.Native.so=0 so:dotnet9:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet9:libclrgc.so=0 so:dotnet9:libclrgcexp.so=0 so:dotnet9:libclrjit.so=0 so:dotnet9:libcoreclr.so=0 so:dotnet9:libcoreclrtraceptprovider.so=0 so:dotnet9:libhostpolicy.so=0 so:dotnet9:libmscordaccore.so=0 so:dotnet9:libmscordbi.so=0
 
-C:Q1JBwM/cwXGDpTzr2UDG4eWNglglI=
+C:Q1r3R7cFcMWNUUpTdVo59yQZ8xlgg=
 P:dotnet9-runtime-artifacts
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:226307306
-I:230210049
+S:226364734
+I:230207037
 T:Internal package for building .NET 9.0 Software Development Kit
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 k:9
 p:dotnet9-bootstrap-artifacts
 
-C:Q1QAlv7jZDoHU13vIIETTTrjt/DGs=
+C:Q1qOLDzuC+MbWGJjpzoZ0gsIJ+BwQ=
 P:dotnet9-runtime-bootstrap
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:1221730358
-I:1988285109
+S:1221771625
+I:1988261536
 T:The .NET 9.0 Core bootstrap
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 k:9
 D:so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblttng-ust.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
 p:dotnet9-bootstrap so:dotnet9:libSystem.Globalization.Native.so=0 so:dotnet9:libSystem.IO.Compression.Native.so=0 so:dotnet9:libSystem.Native.so=0 so:dotnet9:libSystem.Net.Security.Native.so=0 so:dotnet9:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet9:libclrgc.so=0 so:dotnet9:libclrgcexp.so=0 so:dotnet9:libclrjit.so=0 so:dotnet9:libclrjit_universal_arm64_x64.so=0 so:dotnet9:libclrjit_universal_arm_x64.so=0 so:dotnet9:libclrjit_unix_x64_x64.so=0 so:dotnet9:libclrjit_win_x64_x64.so=0 so:dotnet9:libclrjit_win_x86_x64.so=0 so:dotnet9:libcoreclr.so=0 so:dotnet9:libcoreclrtraceptprovider.so=0 so:dotnet9:libhostfxr.so=0 so:dotnet9:libhostpolicy.so=0 so:dotnet9:libjitinterface_x64.so=0 so:dotnet9:libmscordaccore.so=0 so:dotnet9:libmscordbi.so=0 so:dotnet9:libnethost.so=0
 
-C:Q1zeaq/tHz5zJzuAVQ0TDhldGqHCk=
+C:Q15O3pnvBx5N1+7uP1xz2ZAjnuAfg=
 P:dotnet9-runtime-dbg
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:3844312
-I:8518464
+S:3844064
+I:8518460
 T:The .NET 9.0 Core runtime - pdb debug files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-runtime
-p:dotnet-runtime-dbg-9.0=9.0.15-r0
+p:dotnet-runtime-dbg-9.0=9.0.16-r0
 
-C:Q1IOHSAP2EkLqm5bHNICLXEt5GstQ=
+C:Q1owYzlx/6Tn9XoZG0pLMcXFpz498=
 P:dotnet9-sdk
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:109315099
-I:293798172
+S:109316610
+I:293797675
 T:The .NET 9.0 SDK
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:aspnetcore9-runtime aspnetcore9-targeting-pack dotnet9-apphost-pack dotnet9-targeting-pack dotnet9-templates netstandard21-targeting-pack libucontext so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:dotnet-sdk-9.0=9.0.116-r0 dotnet9-dev=9.0.116-r0
+p:dotnet-sdk-9.0=9.0.117-r0 dotnet9-dev=9.0.117-r0
 
-C:Q169WfeqVDlcYdqYl7W9A1u1J7DVA=
+C:Q1WkoFhxun3erYnzrBvNw02ewIGR8=
 P:dotnet9-sdk-aot
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:146871514
-I:334700732
+S:146877073
+I:334700888
 T:Ahead-of-Time (AOT) support for the .NET 9.0 Software Development Kit
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet9-sdk so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libunwind.so.8 so:libz.so.1
-p:dotnet-sdk-aot-9.0=9.0.116-r0
+p:dotnet-sdk-aot-9.0=9.0.117-r0
 
-C:Q1Sxp5uZrY1na/6dacbXpKH2vdV1c=
+C:Q1YGNPFKAlO/YJNMJocIacFLyQ/gE=
 P:dotnet9-sdk-dbg
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:24242387
-I:47794600
+S:24239044
+I:47794496
 T:The .NET 9.0 SDK - debug pdb files
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet9-sdk
-p:dotnet-sdk-dbg-9.0=9.0.116-r0
+p:dotnet-sdk-dbg-9.0=9.0.117-r0
 
 C:Q1yPEeDUnPqRWOVdNCzyO5R1rdUMs=
 P:dotnet9-stage0
@@ -38363,37 +38363,37 @@ k:1
 D:so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libunwind-x86_64.so.8 so:libunwind.so.8 so:libz.so.1
 p:dotnet9-bootstrap so:dotnet9:libSystem.Globalization.Native.so=0 so:dotnet9:libSystem.IO.Compression.Native.so=0 so:dotnet9:libSystem.Native.so=0 so:dotnet9:libSystem.Net.Security.Native.so=0 so:dotnet9:libSystem.Security.Cryptography.Native.OpenSsl.so=0 so:dotnet9:libclrgc.so=0 so:dotnet9:libclrgcexp.so=0 so:dotnet9:libclrjit.so=0 so:dotnet9:libcoreclr.so=0 so:dotnet9:libhostpolicy.so=0 so:dotnet9:libmscordaccore.so=0 so:dotnet9:libmscordbi.so=0
 
-C:Q1SC7n5ekdtrt6iSDhkWKsVbTsXWs=
+C:Q14cY94c2Lar7ISHAx76cCzAJBMhc=
 P:dotnet9-targeting-pack
-V:9.0.15-r0
+V:9.0.16-r0
 A:x86_64
-S:4977737
+S:4978264
 I:38646461
 T:The .NET 9.0 Core targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-runtime
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:fc20fa7f7232cf57c5d0471293094062cb21a65e
+t:1779916715
+c:13ad494e6c63dc1ee882f638638331a642ec23b8
 D:dotnet9-hostfxr icu-data-full icu-libs
-p:dotnet-targeting-pack-9.0=9.0.15-r0
+p:dotnet-targeting-pack-9.0=9.0.16-r0
 
-C:Q1EH26Nea7JD8soDPkVgjGr1BDjY0=
+C:Q1k0tqkIw6wiDQEHTav6l+MgNu/kw=
 P:dotnet9-templates
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:9719868
-I:10182086
+S:9788532
+I:10182085
 T:The .NET 9.0 templates
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet-host
-p:dotnet-templates-9.0=9.0.116-r0
+p:dotnet-templates-9.0=9.0.117-r0
 
 C:Q1Am7jmoYgtp04IR5bBW4I9Ppryrw=
 P:dotool
@@ -87890,37 +87890,37 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-x86_64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q17WvnwWAKQNiZoGtVh+uUbaOsCW0=
+C:Q1hfQUZAidwVhsSn04xJmIYwwoFtg=
 P:jool-modules-lts
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:8075621
-I:8165211
+S:8074952
+I:8165671
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779649146
-c:19e70f66d585de5d0a2f5f94ee36ca1e94aa5b25
-D:linux-lts=6.12.91-r0
-i:linux-lts=6.12.91-r0 jool-tools
+t:1781075186
+c:0330a576201c17d08ed36ae3537786b789d694ed
+D:linux-lts=6.12.93-r0
+i:linux-lts=6.12.93-r0 jool-tools
 
-C:Q1iRnu7LzBaNAkcX3yfPxWutljCDk=
+C:Q1SAZFZouChkEvCr/9fJolIR9k9xM=
 P:jool-modules-virt
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:7910929
-I:7997775
+S:7909742
+I:7997875
 T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779649146
-c:19e70f66d585de5d0a2f5f94ee36ca1e94aa5b25
-D:linux-virt=6.12.91-r0
-i:linux-virt=6.12.91-r0 jool-tools
+t:1781075186
+c:0330a576201c17d08ed36ae3537786b789d694ed
+D:linux-virt=6.12.93-r0
+i:linux-virt=6.12.93-r0 jool-tools
 
 C:Q1D9iheVhrgx/1jgNYE6ufHkAZHiM=
 P:jool-tools
@@ -153664,37 +153664,37 @@ m:Sodface <sod@sodface.com>
 t:1732578141
 c:7f9c2acebeadadc9581d19ad31f2df3919f7fcf0
 
-C:Q18u6vbEn8sOEIAawvi49zVUBUBsU=
+C:Q1ljrvppuMwQpH+sdRgfUsIvv9xXQ=
 P:netstandard21-targeting-pack
-V:8.0.126-r0
+V:8.0.127-r0
 A:x86_64
-S:1966370
+S:1966357
 I:18739238
 T:The .NET 2.1 Standard targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet8-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507001
-c:3edf298d947c1f7da58bcd1be01cc2e592da9b4f
+t:1779975194
+c:d268c03942f46b3462a7114c4f71cf9cf87a2fd8
 D:dotnet-host
-p:netstandard-targeting-pack-2.1=8.0.126-r0
+p:netstandard-targeting-pack-2.1=8.0.127-r0
 
-C:Q1cVKp23xCYXoW/pBMLZnJbsQ54/M=
+C:Q1XehfIzU1H1q+14+if2XkN2W7kD4=
 P:netstandard21-targeting-pack
-V:9.0.116-r0
+V:9.0.117-r0
 A:x86_64
-S:1966345
+S:1966330
 I:18739238
 T:The .NET 2.1 Standard targeting pack
 U:https://dotnet.microsoft.com
 L:MIT
 o:dotnet9-sdk
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1776507393
-c:bff64ba214398a2d35bda0db95efed17cbba5221
+t:1779916715
+c:6c0980d7e82292f0ad1d9276ffebbcc3139c0c8e
 D:dotnet-host
-p:netstandard-targeting-pack-2.1=9.0.116-r0
+p:netstandard-targeting-pack-2.1=9.0.117-r0
 
 C:Q174OBSAqoetoJednrZY7XN2giGsk=
 P:network-manager-applet
@@ -258476,20 +258476,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1gucOOFYlxGx1EPX0o9ynrPWQO+4=
+C:Q1huAxLKrsFlw7zlbhxNL048W+mgA=
 P:rtpengine-lts
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:456137
-I:1631496
+S:456044
+I:1631296
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779649156
-c:7cbb3f3c56b2ad5f6198043e56e6b972bbe79caa
-i:rtpengine linux-lts=6.12.91-r0
+t:1781075196
+c:794c0f78130452c6449ddb3d2f4cf46e5b7b64ee
+i:rtpengine linux-lts=6.12.93-r0
 
 C:Q1l0hr36sWQV9n0L89fqTnOKlRc54=
 P:rtpengine-openrc
@@ -258522,21 +258522,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1h57wA5Si/L/nTbR2+Ne8QIfsW6o=
+C:Q1Bnc4aokL0WXXUV/X29fxMuamQFw=
 P:rtpengine-virt
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:400561
-I:1396992
+S:400550
+I:1396784
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779649156
-c:7cbb3f3c56b2ad5f6198043e56e6b972bbe79caa
-D:linux-virt=6.12.91-r0
-i:rtpengine linux-virt=6.12.91-r0
+t:1781075196
+c:794c0f78130452c6449ddb3d2f4cf46e5b7b64ee
+D:linux-virt=6.12.93-r0
+i:rtpengine linux-virt=6.12.93-r0
 
 C:Q1M0SQoXdzWMuB1//XcASW0x1eWTg=
 P:rtrlib
@@ -283430,51 +283430,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1J07mHwQMa+1eE7Pd6dyZU/T6lJs=
+C:Q1XE4SeyAKQbSdNv10M91Kh2CbMh4=
 P:tor
-V:0.4.9.8-r0
+V:0.4.9.9-r0
 A:x86_64
-S:6439513
-I:30780081
+S:6474301
+I:30940041
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1778193084
-c:224cc42a618a94e3464b91c226636136c23a63bf
+t:1780363349
+c:e61e60ac3c8541206a8de757c0eb30bf709791bd
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.8-r0 cmd:tor-print-ed-signing-cert=0.4.9.8-r0 cmd:tor-resolve=0.4.9.8-r0 cmd:tor=0.4.9.8-r0 cmd:torify=0.4.9.8-r0
+p:cmd:tor-gencert=0.4.9.9-r0 cmd:tor-print-ed-signing-cert=0.4.9.9-r0 cmd:tor-resolve=0.4.9.9-r0 cmd:tor=0.4.9.9-r0 cmd:torify=0.4.9.9-r0
 
-C:Q1CMPSOgYVOA2c8qCb8lITiWV5K/U=
+C:Q1tSjNeSNJX0mv+xPfxXmxHxw5nfo=
 P:tor-doc
-V:0.4.9.8-r0
+V:0.4.9.9-r0
 A:x86_64
-S:64356
-I:62053
+S:64358
+I:62054
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1778193084
-c:224cc42a618a94e3464b91c226636136c23a63bf
-i:docs tor=0.4.9.8-r0
+t:1780363349
+c:e61e60ac3c8541206a8de757c0eb30bf709791bd
+i:docs tor=0.4.9.9-r0
 
-C:Q1UmXb/ilCHnH3S58zkOu2pvNQGbI=
+C:Q1PXmAifqEMSQySR4YVbb6INIeC0E=
 P:tor-openrc
-V:0.4.9.8-r0
+V:0.4.9.9-r0
 A:x86_64
-S:2917
+S:2920
 I:2742
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1778193084
-c:224cc42a618a94e3464b91c226636136c23a63bf
-i:openrc tor=0.4.9.8-r0
+t:1780363349
+c:e61e60ac3c8541206a8de757c0eb30bf709791bd
+i:openrc tor=0.4.9.9-r0
 
 C:Q1jvIQSrWTqVSZ2hWoJQQzCMBjqmE=
 P:torsocks
@@ -291630,35 +291630,35 @@ t:1725370171
 c:b2448f1d5cd12e05ea3d0c66dcb0dfb55771fe9b
 i:docs virt-what=1.27-r0
 
-C:Q1wTs/OvB7+pjRoKyjuVIWQC3/th4=
+C:Q1XblT/stPox+VNMd4/Ey5zANvubk=
 P:virtio_vmmci-lts
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:322126
-I:1010957
+S:321799
+I:1010285
 T:VirtIO driver for OpenBSD VMM Control Interface
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779649170
-c:937d6c5bc077401bb5e66b80d91a1297c208d22a
-D:linux-lts=6.12.91-r0
+t:1781075210
+c:ecddd648296d38b07fe4da227ebe55f5c7d31b1e
+D:linux-lts=6.12.93-r0
 
-C:Q19+/JdSobLLEG5TT8aim/oyF8ZS8=
+C:Q1Lr6DgZXXLSJAbuKbFad9iEq5DKI=
 P:virtio_vmmci-virt
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:315889
-I:989069
+S:315554
+I:988397
 T:VirtIO driver for OpenBSD VMM Control Interface for virt kernel
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779649170
-c:937d6c5bc077401bb5e66b80d91a1297c208d22a
-D:linux-virt=6.12.91-r0
+t:1781075210
+c:ecddd648296d38b07fe4da227ebe55f5c7d31b1e
+D:linux-virt=6.12.93-r0
 
 C:Q1yrF2hdoYDkm5U1DssDewarIDD+A=
 P:virtiofsd
@@ -291941,35 +291941,35 @@ c:c3a8f25ff5d09f9d07818098edebfcd4e8be2d12
 D:vlc=3.0.21-r3 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvlccore.so.9
 p:cmd:qvlc=3.0.21-r3
 
-C:Q1WqXVPP0fGk8BGgNad39Cg+QRzF4=
+C:Q1NoRaH9rho7g3B/tleq588qkPECU=
 P:vmm_clock-lts
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:120845
-I:374538
+S:120640
+I:374362
 T:clocksource under OpenBSD VMM
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779649184
-c:8ebdd88e2297d358c068dcf283ea65287d41d215
-D:linux-lts=6.12.91-r0
+t:1781075224
+c:a049981f20ab222e7cedd6a81ce1982cc1c4edf1
+D:linux-lts=6.12.93-r0
 
-C:Q1rYiVrx+15yiruat+gabgQOq5sBo=
+C:Q1Qj5pZgfyojmePjAI5p7T+bhsryc=
 P:vmm_clock-virt
-V:6.12.91-r0
+V:6.12.93-r0
 A:x86_64
-S:118140
-I:370122
+S:117937
+I:369850
 T:clocksource under OpenBSD VMM for virt kernel
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779649184
-c:8ebdd88e2297d358c068dcf283ea65287d41d215
-D:linux-virt=6.12.91-r0
+t:1781075224
+c:a049981f20ab222e7cedd6a81ce1982cc1c4edf1
+D:linux-virt=6.12.93-r0
 
 C:Q1/8quxpTP0z7yz1KxRjWuRpf3rSI=
 P:vnstat
