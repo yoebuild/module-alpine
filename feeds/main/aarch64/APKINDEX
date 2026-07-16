@@ -3630,145 +3630,145 @@ t:1726089785
 c:a46c4c311972c661eed2231de8dd00fdbe171307
 i:docs apache-mod-fcgid=2.3.9-r6
 
-C:Q1H7lswcVRbWgXvLpbJFanycd9TVA=
+C:Q1PCCPEn9TSbw3/SKBoxu8Y6r01YI=
 P:apache2
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:908108
-I:6732829
+S:907707
+I:6732830
 T:A high performance Unix-based HTTP server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:/bin/sh so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libpcre2-8.so.0 so:libz.so.1
-p:cmd:fcgistarter=2.4.67-r0 cmd:httpd=2.4.67-r0 cmd:suexec=2.4.67-r0
+p:cmd:fcgistarter=2.4.68-r0 cmd:httpd=2.4.68-r0 cmd:suexec=2.4.68-r0
 
-C:Q1VzWlO/aDw8Sa6fQ0fxWB8ZtjxAU=
+C:Q1woW2mr2DtwrUivI5TX+SbzH6lXc=
 P:apache2-brotli
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:7327
+S:7321
 I:67479
 T:Brotli content compression for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1
 
-C:Q1ekRASDR3EFOyew4AjRhvpyMZAo8=
+C:Q1kdfTMlKwoeB06K3WYgSb7y0uSmY=
 P:apache2-ctl
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:3037
+S:3029
 I:3398
 T:Apache control script
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:lynx
-p:cmd:apachectl=2.4.67-r0
+p:cmd:apachectl=2.4.68-r0
 
-C:Q1CQUKo60t5P7iN9EvmlvsgkOMSOM=
+C:Q1hySCbvtWu/ABQj+XEiS1cNe72IM=
 P:apache2-dev
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:221441
-I:916753
+S:221509
+I:917354
 T:A high performance Unix-based HTTP server (development files)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:perl apr-util-dev
-p:cmd:apxs=2.4.67-r0
+p:cmd:apxs=2.4.68-r0
 
-C:Q1oqbqz6O2vV9Ld4okEGaQc2WFLOI=
+C:Q1CLntHFUV/vl0LkeRAGeSW9pwfys=
 P:apache2-doc
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:5622404
-I:21942495
+S:5986723
+I:23998410
 T:A high performance Unix-based HTTP server (documentation)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
-i:docs apache2=2.4.67-r0
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
+i:docs apache2=2.4.68-r0
 
-C:Q1L1XdvOd1v0eJDsr/C1lzhoniRdg=
+C:Q19SRh6FfyVlYVjUkcQQm+s51XS+s=
 P:apache2-error
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:42944
-I:200216
+S:42857
+I:197515
 T:Apache Multi Language Custom Error Documents
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 
-C:Q1g3gVWtQH1nfITgIfuK/7WMNwLO8=
+C:Q1acu0IdvouNtPwj102tVGApIPPUw=
 P:apache2-http2
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:93131
+S:93124
 I:265821
 T:HTTP/2 transport layer for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libnghttp2.so.14
 
-C:Q1cZr5ZLswpuHLs7ZrVeHLriKScVM=
+C:Q1s7mozcHk1d12+XHIJtB4hClt0/E=
 P:apache2-icons
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:153502
-I:437350
+S:153515
+I:437373
 T:Apache Public Domain Icons
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 
-C:Q1rZLJ6B70Yl4cmx4fKdAonK7wr1o=
+C:Q1eoYJvkKX3trK8X88l8SSfwg9C7Q=
 P:apache2-ldap
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:44060
+S:44086
 I:200828
 T:LDAP authentication/authorization module for the Apache HTTP Server
 U:https://httpd.apache.org/docs/2.4/mod/mod_authnz_ldap.html
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 apr-util-ldap so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 
-C:Q1wEsA5/rfx27e6wQBrQjhTdpJ6Vg=
+C:Q1DYNS8V8r6Z2QIxWHXOfOaSF0MQA=
 P:apache2-lua
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
 S:45116
 I:133009
@@ -3777,8 +3777,8 @@ U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libc.musl-aarch64.so.1 so:liblua.so.5
 
 C:Q1svnrb84KxSuiF2AkstzViMaeOlk=
@@ -3811,95 +3811,95 @@ t:1727810909
 c:806040beab6435948b59912e31369f18b55dc751
 i:docs apache2-mod-wsgi=5.0.1-r0
 
-C:Q1/iW+5LKTB+y8Se71hcyqn6eTHng=
+C:Q1K+7w+eicsJBWBlAsuA7RCbVj6xI=
 P:apache2-openrc
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:3595
+S:3592
 I:5095
 T:A high performance Unix-based HTTP server (OpenRC init scripts)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
-i:openrc apache2=2.4.67-r0
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
+i:openrc apache2=2.4.68-r0
 
-C:Q1q7U2MEEW4Df5aQSyu/vbci7EAWE=
+C:Q1j8IxlXhJF73Czkydtf5jUyeMkNM=
 P:apache2-proxy
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:196357
+S:196536
 I:1279143
 T:Proxy modules for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libc.musl-aarch64.so.1
 
-C:Q1osw76vgn2uExWkkVHMCtmVmzFXE=
+C:Q1tAzjc6ILsLnowdkRtzXv7woeKDI=
 P:apache2-proxy-html
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:23921
+S:23519
 I:138341
 T:HTML and XML content filters for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q10TiE4yM5AhD5HP/Rggz8GJa5yPA=
+C:Q1WtuYRo6hqud7H1xauY0hXd+p72w=
 P:apache2-ssl
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:91647
+S:91569
 I:277561
 T:SSL/TLS module for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 openssl>3 /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 
-C:Q1ztWX3Or5aAhQdoFTsAZqtlvQ+Q0=
+C:Q1HPDQaD+ceUWbqrB3KsVtLO5Ismw=
 P:apache2-utils
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:73944
+S:73951
 I:617156
 T:Apache utility programs for webservers
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:ab=2.4.67-r0 cmd:checkgid=2.4.67-r0 cmd:dbmmanage=2.4.67-r0 cmd:htcacheclean=2.4.67-r0 cmd:htdbm=2.4.67-r0 cmd:htdigest=2.4.67-r0 cmd:htpasswd=2.4.67-r0 cmd:httxt2dbm=2.4.67-r0 cmd:logresolve=2.4.67-r0 cmd:rotatelogs=2.4.67-r0
+p:cmd:ab=2.4.68-r0 cmd:checkgid=2.4.68-r0 cmd:dbmmanage=2.4.68-r0 cmd:htcacheclean=2.4.68-r0 cmd:htdbm=2.4.68-r0 cmd:htdigest=2.4.68-r0 cmd:htpasswd=2.4.68-r0 cmd:httxt2dbm=2.4.68-r0 cmd:logresolve=2.4.68-r0 cmd:rotatelogs=2.4.68-r0
 
-C:Q1h8q3kR8k3bjY5P0QLwNUUIfTIuo=
+C:Q1AhNALPW/XZ+U2fZ0H5+giEWKYGM=
 P:apache2-webdav
-V:2.4.67-r0
+V:2.4.68-r0
 A:aarch64
-S:72293
+S:72507
 I:269858
 T:WebDAV support for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1777927289
-c:5ba9e7723f2dba45f4014533000683fe02d19f24
+t:1783357048
+c:3a9e1c4016bd6515a0073ed70336be47c09bee48
 D:apache2 so:libc.musl-aarch64.so.1
 
 C:Q1Cpv/xI0/2wePKlUsfWBviSn6s40=
@@ -8716,68 +8716,68 @@ c:99484da32e0260b8010b042ac8a83bacfb54d26c
 D:zsh
 i:zsh=5.9-r4 bzr
 
-C:Q12D0V1A4/4kLSYvBt4cs58mfT6mE=
+C:Q1QV+fd8iTW3w4bbNcxeHqhrqEsrQ=
 P:c-ares
-V:1.34.6-r0
+V:1.34.8-r0
 A:aarch64
-S:107929
+S:109220
 I:263952
 T:Asynchronous DNS/names resolver library
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1765627744
-c:bedec835159696f6fd79890e413d43b1fa8f6123
+t:1783542248
+c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
 D:so:libc.musl-aarch64.so.1
-p:so:libcares.so.2=2.19.5
+p:so:libcares.so.2=2.19.7
 
-C:Q1I7/ma59Z6+c5EwH2/G/NBOV4xrs=
+C:Q1/jy6zrEwXzQ4VBYX4rp+lsDH0ZI=
 P:c-ares-dev
-V:1.34.6-r0
+V:1.34.8-r0
 A:aarch64
-S:908178
-I:3044907
+S:914676
+I:3058647
 T:Asynchronous DNS/names resolver library (development files)
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1765627744
-c:bedec835159696f6fd79890e413d43b1fa8f6123
-D:c-ares=1.34.6-r0 pkgconfig
-p:pc:libcares=1.34.6
+t:1783542248
+c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
+D:c-ares=1.34.8-r0 pkgconfig
+p:pc:libcares=1.34.8
 
-C:Q17OZK588yqQ1fjTWygIwkDVq4ymM=
+C:Q17spYAxRvlGuf1KONoGlViert5zQ=
 P:c-ares-doc
-V:1.34.6-r0
+V:1.34.8-r0
 A:aarch64
-S:93427
-I:91276
+S:94523
+I:92361
 T:Asynchronous DNS/names resolver library (documentation)
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1765627744
-c:bedec835159696f6fd79890e413d43b1fa8f6123
-i:docs c-ares=1.34.6-r0
+t:1783542248
+c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
+i:docs c-ares=1.34.8-r0
 
-C:Q1xaadZSqLXcSXErr/TSmYCg5v0JM=
+C:Q1gLfRAilrZNqG2qSwg4pM5Nsb9T4=
 P:c-ares-utils
-V:1.34.6-r0
+V:1.34.8-r0
 A:aarch64
-S:18592
+S:18608
 I:134704
 T:Asynchronous DNS/names resolver library
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1765627744
-c:bedec835159696f6fd79890e413d43b1fa8f6123
+t:1783542248
+c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
 D:so:libc.musl-aarch64.so.1 so:libcares.so.2
-p:cmd:adig=1.34.6-r0 cmd:ahost=1.34.6-r0
+p:cmd:adig=1.34.8-r0 cmd:ahost=1.34.8-r0
 
 C:Q1fSsv5uTvguvi6G8DnK1ddHo1jfw=
 P:c-client
@@ -35563,95 +35563,95 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1698036252
 c:f87ef4d699c4aab6b2d2b8b67d86e6006a18be07
 
-C:Q1KdzLIMFv/FuZiWzNl+ywcy/F8Bg=
+C:Q1Rn7hr1iyWbaqIij4coWTI9udxHo=
 P:lighttpd
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:387211
+S:391906
 I:1893253
 T:Secure, fast, compliant and very flexible web-server
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
 D:/bin/sh so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libdbi.so.1 so:liblber.so.2 so:libldap.so.2 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:lighttpd-angel=1.4.82-r0 cmd:lighttpd=1.4.82-r0
+p:cmd:lighttpd-angel=1.4.85-r0 cmd:lighttpd=1.4.85-r0
 
-C:Q1k2aP/Obv7Cxmcao0cLWZkYlr4KU=
+C:Q1VFF6HEDxVSaUtL8V9ASFdthmRQY=
 P:lighttpd-dbg
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:1300524
-I:3006048
+S:1320094
+I:3056888
 T:Secure, fast, compliant and very flexible web-server (debug symbols)
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
 
-C:Q12nme6ExAsLF/bML2vECAub0Ij9U=
+C:Q1sKopzSSJTbmEGlQRsKGeD/LAr98=
 P:lighttpd-doc
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:3304
+S:3298
 I:1518
 T:Secure, fast, compliant and very flexible web-server (documentation)
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
-i:docs lighttpd=1.4.82-r0
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
+i:docs lighttpd=1.4.85-r0
 
-C:Q1/lPLOEcLpd+rlx9yySupDV9A2yo=
+C:Q1w8lUnV84C4ILjB7EcJbJVqKL0lw=
 P:lighttpd-mod_auth
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:14645
+S:14865
 I:67528
 T:Authentication module for lighttpd
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
 D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3
 
-C:Q1XIypW1UbJaHbfAIHbxAu9Doaol0=
+C:Q1RV4GhxVoIPoQ//CBloDsmGigSgE=
 P:lighttpd-mod_webdav
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:26668
+S:26696
 I:67480
 T:WebDAV module for lighttpd
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
 D:so:libc.musl-aarch64.so.1 so:libsqlite3.so.0 so:libxml2.so.2
 
-C:Q1D5AYWJ5ffFSJL9bE+Pt5wgWJudk=
+C:Q1uMcparify2qWoOZ5IDfSjI9eaXQ=
 P:lighttpd-openrc
-V:1.4.82-r0
+V:1.4.85-r0
 A:aarch64
-S:2466
+S:2462
 I:2022
 T:Secure, fast, compliant and very flexible web-server (OpenRC init scripts)
 U:https://www.lighttpd.net
 L:BSD-3-Clause
 o:lighttpd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1757984239
-c:656c434b81e09cf8cd716fa311b214c3bfdca1a6
-i:openrc lighttpd=1.4.82-r0
+t:1784207049
+c:64cfcf50c2f0411b9e8c0514453b22ab91aae157
+i:openrc lighttpd=1.4.85-r0
 
 C:Q1QbQk2DJP9Yy0CLo2NULH+BKWrg8=
 P:linenoise
@@ -50094,733 +50094,733 @@ m:Francesco Colista <fcolista@alpinelinux.org>
 t:1777914922
 c:f5865f848b702c52c657060adbe80706265984ec
 
-C:Q1hqXicZ6tR/sSuslzys2fTtsqoVY=
+C:Q1nY96qPWBNjmA8ebc+jj/8Pf2LMQ=
 P:nginx
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:449083
-I:1089003
+S:449094
+I:1089059
 T:HTTP and reverse proxy server (stable version)
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpcre.so.1 so:libssl.so.3 so:libz.so.1
-p:cmd:nginx=1.26.3-r0
+p:cmd:nginx=1.26.3-r1
 
-C:Q1tEzsrdnFcbvvK2qtSPn4Ut1Eo3A=
+C:Q1pRxeyUVJDonZvfLvp09A3RPMrkE=
 P:nginx-debug
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:513851
-I:1299272
+S:514013
+I:1299336
 T:nginx built with support for debugging log
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
-D:nginx=1.26.3-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpcre.so.1 so:libssl.so.3 so:libz.so.1
-p:cmd:nginx-debug=1.26.3-r0
+D:nginx=1.26.3-r1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpcre.so.1 so:libssl.so.3 so:libz.so.1
+p:cmd:nginx-debug=1.26.3-r1
 
-C:Q1LYNEm67br/5usOYO2pXEV+e2yNQ=
+C:Q1cw8o7FdvTojGd25dnY0BDsGSPHE=
 P:nginx-doc
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:200839
+S:200823
 I:545229
 T:HTTP and reverse proxy server (stable version) (documentation)
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
-i:docs nginx=1.26.3-r0
+i:docs nginx=1.26.3-r1
 
-C:Q1Ht0DEUBGw5UGRZCX2zu5kGT4eaQ=
+C:Q1oSNZhcrF5UjNmJnNtJpHX9xhz9c=
 P:nginx-mod-devel-kit
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:7258
+S:7263
 I:67618
 T:Nginx third-party module devel-kit (version v0.3.3)
 U:https://github.com/vision5/ngx_devel_kit
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1ocwRSq1dh8lp6hgLi75HMquyKm8=
+C:Q1P2EL/u5G0dbyOKuAHSFhVht8iFE=
 P:nginx-mod-dynamic-healthcheck
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:37706
+S:37715
 I:136062
 T:Nginx third-party module dynamic-healthcheck (version 1.3.7)
 U:https://github.com/ZigzagAK/ngx_dynamic_healthcheck
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-stream so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q15ZaPSyc0kMd4cOAHT9QIBY2MrGE=
+C:Q15C8snm/TvbPPa8QvM8tcLZ63ogI=
 P:nginx-mod-dynamic-upstream
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:19993
+S:20000
 I:68771
 T:Nginx third-party module dynamic-upstream (version 2.3.3)
 U:https://github.com/ZigzagAK/ngx_dynamic_upstream
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-stream so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1hxfjtRWqH9mN4fwYZeGkYiIUNq0=
+C:Q1LQvSzdDQmTTsiCaFQwJSe1fjOyQ=
 P:nginx-mod-http-accounting
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:8279
+S:8283
 I:68237
 T:Nginx third-party module http-accounting (version v2.0)
 U:https://github.com/Lax/traffic-accounting-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q129TyeEIhZChfqZVqD+rbwIA7qKE=
+C:Q1eoYCre6ARVGclbMHDx+VsFAZQGU=
 P:nginx-mod-http-array-var
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:6985
+S:6988
 I:67748
 T:Nginx third-party module http-array-var (version v0.06)
 U:https://github.com/openresty/array-var-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-devel-kit so:libc.musl-aarch64.so.1
 
-C:Q1ZNVjm3qMxTrRmTO0XwFsxq71IUA=
+C:Q1Qd7EBmM4WfsZm/hfU9EYPTlOdbk=
 P:nginx-mod-http-auth-jwt
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:30966
+S:30974
 I:134531
 T:Nginx third-party module kjdev/nginx-auth-jwt (version 0.9.0)
 U:https://github.com/kjdev/nginx-auth-jwt
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libjansson.so.4
 
-C:Q15NFOy63ngK3FxFw9wJ5d0Zb5RyM=
+C:Q1Qc2zey78hGBRa8FjBKfN354lJDY=
 P:nginx-mod-http-brotli
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10931
+S:10939
 I:135840
 T:Nginx third-party module http-brotli (version v1.0.0rc)
 U:https://github.com/google/ngx_brotli
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1
 
-C:Q1qmFoYtQvSBAsw6IKOOKCcElO/M0=
+C:Q1XNV1mh620n+dE/FodDRBCOBInNs=
 P:nginx-mod-http-cache-purge
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10477
+S:10482
 I:67854
 T:Nginx third-party module http-cache-purge (version 2.5.3)
 U:https://github.com/nginx-modules/ngx_cache_purge
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1DVo5mKuYFVzagZFhR9ntbmdJzCk=
+C:Q1REBXk/X+yYRksFQMGCULLMB3V+U=
 P:nginx-mod-http-cookie-flag
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:5655
+S:5665
 I:67661
 T:Nginx third-party module http-cookie-flag (version v1.1.0)
 U:https://github.com/AirisX/nginx_cookie_flag_module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1sjijjshyJuRMcSxzCpT4WDFWxhU=
+C:Q1xtU2lQIKEo6pfjOD5dTL1hxSaQM=
 P:nginx-mod-http-dav-ext
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:13604
+S:13607
 I:68562
 T:Nginx third-party module http-dav-ext (version v3.0.0)
 U:https://github.com/arut/nginx-dav-ext-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q10Prf6cM8ZzGQbPzXgOzpc+HrP2k=
+C:Q1KMdZz9M/+NIWaiSEuEtxx6GT9SY=
 P:nginx-mod-http-echo
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:17932
+S:17938
 I:69519
 T:Nginx third-party module http-echo (version v0.63)
 U:https://github.com/openresty/echo-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1+vOTcCnByWSplIfH5iEtahc+5qQ=
+C:Q111aSdosMhLomloBAVfxRaiNUJ7Q=
 P:nginx-mod-http-encrypted-session
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:6455
+S:6462
 I:67924
 T:Nginx third-party module http-encrypted-session (version v0.09)
 U:https://github.com/openresty/encrypted-session-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-devel-kit so:libc.musl-aarch64.so.1
 
-C:Q17k+R1NSk6vWmo1AkcMCDE5GDbyY=
+C:Q1tcKfM//a0qhxdXobCv3SangRpm0=
 P:nginx-mod-http-fancyindex
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:12133
+S:12139
 I:68685
 T:Nginx third-party module http-fancyindex (version v0.5.2)
 U:https://github.com/aperezdc/ngx-fancyindex
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q19I0anwLwPxQuiHMSzw8uVIQ/REE=
+C:Q1KUMzFKB4Npi3Ct2zY4E7HPyH5/0=
 P:nginx-mod-http-geoip
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:7576
+S:7581
 I:69088
 T:Nginx module http-geoip
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libGeoIP.so.1 so:libc.musl-aarch64.so.1
 
-C:Q1o91L3kq8DmLt6z0TP+4y+F6qW0I=
+C:Q1xY4FjqvrE8zR2LBpKs1SR8C9C5k=
 P:nginx-mod-http-geoip2
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:7721
+S:7727
 I:67737
 T:Nginx third-party module http-geoip2 (version 3.4)
 U:https://github.com/leev/ngx_http_geoip2_module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libmaxminddb.so.0
 
-C:Q1a994R+hu8ZhNDW5zRBxtckOnrZw=
+C:Q192Y8yT1U3WKQzH5DFixPJlpkvfU=
 P:nginx-mod-http-headers-more
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:11623
+S:11632
 I:69174
 T:Nginx third-party module http-headers-more (version v0.38)
 U:https://github.com/openresty/headers-more-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1TXXaOOBgkTaeznHbZDMvLmuMnkQ=
+C:Q18BxHx/UnTO0EX19Ia++reomB9nk=
 P:nginx-mod-http-image-filter
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10244
+S:10250
 I:68287
 T:Nginx module http-image-filter
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libgd.so.3
 
-C:Q1m7DCffhQlO8JvX8wBQnE7H7j7Ik=
+C:Q12JsU6cMaVwnb0xShazJdVTYMdF4=
 P:nginx-mod-http-js
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:337097
+S:337113
 I:918437
 T:Nginx module http-js
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q1Tm07kZ2E6u7tLvk8IBF2t5oqB2c=
+C:Q1QlXlKGRYcNLo2EjAONGuEnAujxo=
 P:nginx-mod-http-keyval
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10749
+S:10750
 I:67737
 T:Nginx third-party module http-keyval (version 0.3.0)
 U:https://github.com/kjdev/nginx-keyval
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libhiredis.so.1.1.0
 
-C:Q1ef0DsaZ0RzuHva6pPBW34HKMY2E=
+C:Q1YTuxBuKczAIEl5ptmjsD00TSMog=
 P:nginx-mod-http-log-zmq
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:9157
+S:9162
 I:67794
 T:Nginx third-party module http-log-zmq (version v1.0.0)
 U:https://github.com/danifbento/nginx-log-zmq
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q197W62DHZFtXoI2syHIrkJv6mwq0=
+C:Q16zyOL+NLzdsYelwf5ys33V42li8=
 P:nginx-mod-http-lua
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:159027
+S:159023
 I:401886
 T:Nginx third-party module http-lua (version v0.10.28)
 U:https://github.com/openresty/lua-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-devel-kit lua-resty-core so:libc.musl-aarch64.so.1 so:libluajit-5.1.so.2
 p:nginx-lua
 
-C:Q1IW6vgWRA3uB2H9ki8P9ePxgeuPM=
+C:Q1kvQxMiHuaeNEFpmgFKnL+Tkw73o=
 P:nginx-mod-http-lua-upstream
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:6560
+S:6562
 I:67519
 T:Nginx third-party module http-lua-upstream (version v0.07)
 U:https://github.com/openresty/lua-upstream-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-http-lua so:libc.musl-aarch64.so.1
 
-C:Q1i26tmyPdy29M5xuaTg0o+LvGqRE=
+C:Q1qPvDyFaI5bxc9xHKr+WwnV6VUgU=
 P:nginx-mod-http-naxsi
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:123861
+S:123868
 I:600797
 T:Nginx third-party module http-naxsi (version 1.3)
 U:https://github.com/nbs-system/naxsi
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1BbNjfPXdLsd0YfIigBFN7+3i0kw=
+C:Q1GE+XkKVx8q8IRlomq6UTXS9oTwU=
 P:nginx-mod-http-nchan
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:250760
+S:250776
 I:669363
 T:Nginx third-party module http-nchan (version v1.3.7)
 U:https://github.com/slact/nchan
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1lLOxLWBbKQSf9rePilqn8GEM6IQ=
+C:Q1oCcYJ/b2CCxChNeF9TG3v22q/Jg=
 P:nginx-mod-http-perl
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:23154
+S:23152
 I:141276
 T:Nginx module http-perl
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libperl.so
 
-C:Q1iwIN2Ki/tXiCUVRbJ2qVf6R3QXM=
+C:Q10lFaQX+iLOEh+pFdhLVAv9x279Q=
 P:nginx-mod-http-redis2
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:9996
+S:9993
 I:68329
 T:Nginx third-party module http-redis2 (version v0.15)
 U:https://github.com/openresty/redis2-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1IK2nfjZSDZBj7SBdYFJlnQHit/c=
+C:Q1HEnr4VKIXTA2ljzi7a/W9tBvYT8=
 P:nginx-mod-http-set-misc
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:12300
+S:12306
 I:69987
 T:Nginx third-party module http-set-misc (version v0.33)
 U:https://github.com/openresty/set-misc-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-devel-kit so:libc.musl-aarch64.so.1
 
-C:Q1PDoLFf67ZFfZlQZUFkc4dDHojqY=
+C:Q1yR+bN0TCVPgxAr6g4Py9nUZvHgg=
 P:nginx-mod-http-shibboleth
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:6738
+S:6742
 I:68221
 T:Nginx third-party module http-shibboleth (version v2.0.2)
 U:https://github.com/nginx-shib/nginx-http-shibboleth
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1FQeI5oJ0BTqx8LMnnKSmRIbQLpE=
+C:Q1+4tcz5VDsAAcQf2h5u+lYu+SHOc=
 P:nginx-mod-http-slowfs-cache
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:9612
+S:9618
 I:68353
 T:Nginx third-party module http-slowfs-cache (version 1.11)
 U:https://github.com/dvershinin/ngx_slowfs_cache
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1ptgv8E30llPEF6s4c6GgQrO7FVo=
+C:Q1/CPZSZoN6/okp4YDU7KGAfuanCg=
 P:nginx-mod-http-untar
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:6622
+S:6623
 I:67736
 T:Nginx third-party module http-untar (version v1.1)
 U:https://github.com/ajax16384/ngx_http_untar_module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1fWGmsAR1drNrjrQeNw+twirVgsA=
+C:Q1EIhpYWktfY7m8l0iNlLTWAVa4d0=
 P:nginx-mod-http-upload
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:19446
+S:19448
 I:69809
 T:Nginx third-party module http-upload (version 2.3.0)
 U:https://github.com/fdintino/nginx-upload-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1ds8r2807Wwz5LEs9xMnN1vOHjJc=
+C:Q14xztVMBdlLLMGMr2mSjdVa+c6D4=
 P:nginx-mod-http-upload-progress
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10534
+S:10539
 I:68809
 T:Nginx third-party module http-upload-progress (version v0.9.3)
 U:https://github.com/masterzen/nginx-upload-progress-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1NewBJOWVE4vco3WKWaDKu9xMJcg=
+C:Q1zJCMZP+8j3nEWipaB4o074ASKPA=
 P:nginx-mod-http-upstream-fair
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:8315
+S:8319
 I:67624
 T:Nginx third-party module http-upstream-fair (version 0.1.3)
 U:https://github.com/itoffshore/nginx-upstream-fair
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1g7hE5QcDo2vu1TNFu7sY1rMCv7s=
+C:Q1yh7N5luF2xEcQpZF0R/uatb0K4c=
 P:nginx-mod-http-upstream-jdomain
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:7306
+S:7302
 I:67635
 T:Nginx third-party module http-upstream-jdomain (version 1.5.2)
 U:https://github.com/nicholaschiasson/ngx_upstream_jdomain
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q15ZUd6xVv4AGosenWQnq8gViSWKQ=
+C:Q1/P3+B4Cr7YMMKYwziAzwkGA01ro=
 P:nginx-mod-http-vod
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:224372
+S:224375
 I:541374
 T:Nginx third-party module http-vod (version 1.33)
 U:https://github.com/kaltura/nginx-vod-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libxml2.so.2 so:libz.so.1
 
-C:Q1sId+OIlz5wVKW0gfVcMu7oyrxoQ=
+C:Q1z1o/2axFC2JzXvkF5QgdapqkUAI=
 P:nginx-mod-http-vts
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:66341
+S:66345
 I:201095
 T:Nginx third-party module http-vts (version v0.2.3)
 U:https://github.com/vozlt/nginx-module-vts
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1x2yQBJDYuh0IB6RFO91kI4Aq1Fg=
+C:Q1SJHGWIufy4Z2F3i3mxVeQ83tGGU=
 P:nginx-mod-http-xslt-filter
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:9021
+S:9019
 I:68334
 T:Nginx module http-xslt-filter
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
 
-C:Q1tM5yX3NX5I+O4PkI8/qco4Jdm9k=
+C:Q1HcD/ZcqmYKUZxLRORAtIvrVPCUY=
 P:nginx-mod-http-zip
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:13772
+S:13768
 I:67574
 T:Nginx third-party module http-zip (version 1.3.0)
 U:https://github.com/evanmiller/mod_zip
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1kWWAPq4Dt5pYxG5xzJln057hpdo=
+C:Q1oPBe1J8JHnnyIMQQO3V0lpI4wTE=
 P:nginx-mod-http-zstd
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:11855
+S:11857
 I:135660
 T:Nginx third-party module http-zstd (version 0.1.1)
 U:https://github.com/tokers/zstd-nginx-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1 so:libzstd.so.1
 
-C:Q1m3T8OXy48rI2w0Z5HgEFGZPialk=
+C:Q1Qwb/FHT2U0iGGzLetD5a0Y1keyA=
 P:nginx-mod-mail
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:40309
+S:40308
 I:140250
 T:Nginx module mail
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1ef4h82MssKBMKv4IU6r9Dplk5cE=
+C:Q1kVHkqH4VlC+wMWDOyWsw1aAA1vE=
 P:nginx-mod-rtmp
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:106011
+S:106018
 I:287490
 T:Nginx third-party module rtmp (version v1.2.2)
 U:https://github.com/arut/nginx-rtmp-module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 p:nginx-rtmp
 
-C:Q1Bmt3gYmY/H4uyogY/SCBjlkqj/Y=
+C:Q1j2j6YtJLL6mDCZVWtRfp1a9PCB0=
 P:nginx-mod-stream
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:68243
+S:68238
 I:214512
 T:Nginx module stream
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libc.musl-aarch64.so.1
 
-C:Q1keaQAwyaFaoMSm1t42XCdqHxheU=
+C:Q1QjT/6O67IMswCsXWbqqo8sZywfk=
 P:nginx-mod-stream-geoip
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
 S:6614
 I:68722
@@ -50829,90 +50829,90 @@ U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx so:libGeoIP.so.1 so:libc.musl-aarch64.so.1
 
-C:Q1la7FG1NmyG+zr1bEHrq2DFM1hUs=
+C:Q1d3voLHcMSnfQd6bYs0n+H6K8ZH4=
 P:nginx-mod-stream-geoip2
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:7275
+S:7277
 I:67611
 T:Nginx third-party module stream-geoip2 (version 3.4)
 U:https://github.com/leev/ngx_http_geoip2_module
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-stream so:libc.musl-aarch64.so.1 so:libmaxminddb.so.0
 
-C:Q1kLZ5Vp1FWXbKl3fR8UJHEGRurFk=
+C:Q1No9hzBkxQNgnBnME01tKPYeJVdA=
 P:nginx-mod-stream-js
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:331580
+S:331579
 I:916903
 T:Nginx module stream-js
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-stream so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q1qv0NHGF2uGzn8FCHljasbkBKuqo=
+C:Q1WIEz2UPaGg8Gu/soKLyWsrI8T68=
 P:nginx-mod-stream-keyval
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:10725
+S:10731
 I:67723
 T:Nginx third-party module stream-keyval (version 0.3.0)
 U:https://github.com/kjdev/nginx-keyval
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
 D:nginx nginx-mod-stream so:libc.musl-aarch64.so.1 so:libhiredis.so.1.1.0
 
-C:Q1OX6fJG3Owu4zeXjQQ0zA51F7kSQ=
+C:Q1qvPkE68Zx5x3ytdf5ZMUxR9yLYw=
 P:nginx-openrc
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:2412
+S:2413
 I:1756
 T:HTTP and reverse proxy server (stable version) (OpenRC init scripts)
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
-i:openrc nginx=1.26.3-r0
+i:openrc nginx=1.26.3-r1
 
-C:Q1ZG6XOM64U0D7Q1zihmP1H93D7D0=
+C:Q1S4cY7r4CCL1sodAEMssSWFOyPt0=
 P:nginx-vim
-V:1.26.3-r0
+V:1.26.3-r1
 A:aarch64
-S:15071
+S:15077
 I:114020
 T:HTTP and reverse proxy server (stable version) (vim syntax)
 U:https://www.nginx.org/
 L:BSD-2-Clause
 o:nginx
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1742150907
-c:696292c07a67b0977edb570917a1ba8ac4e14900
+t:1784006166
+c:85e1b807463338ee65332a119fc1b152a0a5aa36
 k:100
-i:vim nginx=1.26.3-r0
+i:vim nginx=1.26.3-r1
 
 C:Q1zfccAlEdqjFSfrGTNhkFmsWIVdE=
 P:ngircd
@@ -51005,52 +51005,52 @@ t:1723127044
 c:63894c1b0c62f00ec46a702e8d611c19e58975bf
 i:docs ngrep=1.47-r4
 
-C:Q1G24Fr/JykH/uXs++zaOn4REw4+k=
+C:Q1ILgIT/TiLuEscRTpuaLkqcvlG64=
 P:ngtcp2
-V:1.9.1-r0
+V:1.9.1-r1
 A:aarch64
-S:106040
+S:106041
 I:264088
 T:Implementation of IETF QUIC protocol
 U:https://nghttp2.org/ngtcp2/
 L:MIT
 o:ngtcp2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1733070580
-c:60f790e49673d7b7230d7416e9da31e148e95796
+t:1784089320
+c:e3fcc0052746409f04742b314af00c16c9ad3274
 D:so:libc.musl-aarch64.so.1
 p:so:libngtcp2.so.16=16.2.7
 
-C:Q1t4/iTUZE5usMhcSX5um4I08iohw=
+C:Q1bvxjs7Al14mhjW7w5J3A0sOMmMg=
 P:ngtcp2-dev
-V:1.9.1-r0
+V:1.9.1-r1
 A:aarch64
-S:222611
+S:222605
 I:830214
 T:Implementation of IETF QUIC protocol (development files)
 U:https://nghttp2.org/ngtcp2/
 L:MIT
 o:ngtcp2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1733070580
-c:60f790e49673d7b7230d7416e9da31e148e95796
-D:ngtcp2-gnutls=1.9.1-r0 ngtcp2=1.9.1-r0 pkgconfig
+t:1784089320
+c:e3fcc0052746409f04742b314af00c16c9ad3274
+D:ngtcp2-gnutls=1.9.1-r1 ngtcp2=1.9.1-r1 pkgconfig
 p:pc:libngtcp2=1.9.1 pc:libngtcp2_crypto_gnutls=1.9.1
 
-C:Q17kYX+MQESVFrlSbzzDd2u+SepgQ=
+C:Q1Qi4CnOMDKA3II38gyOn24FZsFbY=
 P:ngtcp2-gnutls
-V:1.9.1-r0
+V:1.9.1-r1
 A:aarch64
-S:15349
+S:15353
 I:67400
 T:Implementation of IETF QUIC protocol - GnuTLS backend
 U:https://nghttp2.org/ngtcp2/
 L:MIT
 o:ngtcp2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1733070580
-c:60f790e49673d7b7230d7416e9da31e148e95796
-D:ngtcp2=1.9.1-r0 so:libc.musl-aarch64.so.1 so:libgnutls.so.30 so:libngtcp2.so.16
+t:1784089320
+c:e3fcc0052746409f04742b314af00c16c9ad3274
+D:ngtcp2=1.9.1-r1 so:libc.musl-aarch64.so.1 so:libgnutls.so.30 so:libngtcp2.so.16
 p:so:libngtcp2_crypto_gnutls.so.8=8.2.0
 
 C:Q1A+Ahfh0pURMVHqDgBZCiUIYPp64=
@@ -66260,113 +66260,113 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:libportaudiocxx=19.7.0-r2 pc:alsa pkgconfig portaudio=19.7.0-r2
 p:pc:portaudio-2.0=19 pc:portaudiocpp=12
 
-C:Q19xg9LxEkwOlM/VbeHdQ93We2BhE=
+C:Q1wiLDvK2N1BjpvBQBR0KMedhPGk8=
 P:postfix
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:917765
-I:4329453
+S:917864
+I:4329461
 T:Secure and fast drop-in replacement for Sendmail (MTA)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libicuuc.so.74 so:liblmdb.so.0 so:libsasl2.so.3 so:libssl.so.3
-p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.9.12-r0 cmd:newaliases=3.9.12-r0 cmd:postalias=3.9.12-r0 cmd:postcat=3.9.12-r0 cmd:postconf=3.9.12-r0 cmd:postdrop=3.9.12-r0 cmd:postfix=3.9.12-r0 cmd:postkick=3.9.12-r0 cmd:postlock=3.9.12-r0 cmd:postlog=3.9.12-r0 cmd:postmap=3.9.12-r0 cmd:postmulti=3.9.12-r0 cmd:postqueue=3.9.12-r0 cmd:postsuper=3.9.12-r0 cmd:qshape.pl=3.9.12-r0 cmd:sendmail=3.9.12-r0
+p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.9.13-r0 cmd:newaliases=3.9.13-r0 cmd:postalias=3.9.13-r0 cmd:postcat=3.9.13-r0 cmd:postconf=3.9.13-r0 cmd:postdrop=3.9.13-r0 cmd:postfix=3.9.13-r0 cmd:postkick=3.9.13-r0 cmd:postlock=3.9.13-r0 cmd:postlog=3.9.13-r0 cmd:postmap=3.9.13-r0 cmd:postmulti=3.9.13-r0 cmd:postqueue=3.9.13-r0 cmd:postsuper=3.9.13-r0 cmd:qshape.pl=3.9.13-r0 cmd:sendmail=3.9.13-r0
 
-C:Q1dYG9tjiw96pTfPBwc9G2eZwF9eo=
+C:Q19hhxv6RF1IXxoJt5JkwW3DnEaP8=
 P:postfix-doc
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:779877
+S:779866
 I:1740041
 T:Secure and fast drop-in replacement for Sendmail (MTA) (documentation)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
-i:docs postfix=3.9.12-r0
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
+i:docs postfix=3.9.13-r0
 
-C:Q14S1Q32+PEKuJw2iOv+ZQSJT5J1s=
+C:Q15xTRCtz4LdwL4nsDGK6fXa/hRtU=
 P:postfix-ldap
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:13617
+S:13619
 I:67436
 T:ldap map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 p:so:postfix-ldap.so=0
 
-C:Q17f1m2Yg2tKy5FECeqBKnAoBYtwI=
+C:Q1tzIIpQXb1Os7wvPJemTzxFtKmVc=
 P:postfix-mysql
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:8377
+S:8372
 I:67359
 T:mysql map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:libmariadb.so.3
 p:so:postfix-mysql.so=0
 
-C:Q1NhZ7L4k0/RTQwwCDZEmK3vTHBO0=
+C:Q1O2jaIHZ5OGqLrV+ClKjUfgy2BLQ=
 P:postfix-openrc
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:2428
+S:2427
 I:2013
 T:Secure and fast drop-in replacement for Sendmail (MTA) (OpenRC init scripts)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
-i:openrc postfix=3.9.12-r0
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
+i:openrc postfix=3.9.13-r0
 
-C:Q1ZWw/ElQESEOaB4caYO5/sAmIllw=
+C:Q1yX3ycXLmaGnErAmymLVybYUxcvk=
 P:postfix-pcre
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:7746
+S:7738
 I:67204
 T:pcre map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:libpcre2-8.so.0
 p:so:postfix-pcre.so=0
 
-C:Q1E+3afeUH285+WW6wGrjwB0cn2pw=
+C:Q1vy3z11ONChYa2N2zzrZBeFQCwL4=
 P:postfix-pgsql
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:7844
+S:7840
 I:67207
 T:pgsql map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:so:postfix-pgsql.so=0
 
@@ -66386,37 +66386,37 @@ c:49eaddc4f7264d97ca4565c5075752b10b3a9dcb
 D:perl perl-mail-spf perl-netaddr-ip perl-sys-hostname-long
 p:cmd:postfix-policyd-spf-perl=2.011-r2
 
-C:Q1nsuhuteyiR+qTCvEb1tBwgkbWDk=
+C:Q1fNrm6KCKnUZT0t8WOLLngE1PhZc=
 P:postfix-sqlite
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:5695
+S:5692
 I:67210
 T:sqlite map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:so:postfix-sqlite.so=0
 
-C:Q1eES/M9DDurZ95MD+k3tvptjSE6g=
+C:Q1zFu6JAwvPf75l+ydl/kslGdlTK4=
 P:postfix-stone
-V:3.9.12-r0
+V:3.9.13-r0
 A:aarch64
-S:35715
+S:35718
 I:337496
 T:Postfix simulation and testing tools
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781766995
-c:a095655606e9605cb7bd7d93f4758530477e8e76
+t:1783494376
+c:49862cbe7fdcf256f26249092172526de0f38e17
 D:so:libc.musl-aarch64.so.1 so:libpostfix-global.so so:libpostfix-util.so
-p:cmd:fsstone=3.9.12-r0 cmd:qmqp-sink=3.9.12-r0 cmd:qmqp-source=3.9.12-r0 cmd:smtp-sink=3.9.12-r0 cmd:smtp-source=3.9.12-r0
+p:cmd:fsstone=3.9.13-r0 cmd:qmqp-sink=3.9.13-r0 cmd:qmqp-source=3.9.13-r0 cmd:smtp-sink=3.9.13-r0 cmd:smtp-source=3.9.13-r0
 
 C:Q1sPs+FarvygOas47kGmxIjd/eES0=
 P:postgresql-common
@@ -69993,37 +69993,37 @@ c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
 D:python3~3.12
 i:py3-pyzfs=2.2.10-r0 pyc
 
-C:Q1HJcphdX0bd2FrqpLuK6D+kHWouM=
+C:Q1ZE+DUgRd0s9XI90Pcjeu8T8MAAk=
 P:py3-requests
-V:2.32.4-r0
+V:2.33.1-r0
 A:aarch64
-S:60949
-I:205151
+S:60846
+I:203895
 T:HTTP request library for Python3
 U:https://requests.readthedocs.io/
 L:Apache-2.0
 o:py3-requests
 m:Steven Guikal <void@fluix.one>
-t:1749584119
-c:3121f59ffbe6461164430988212a499ffd3e4408
+t:1784092953
+c:b725c96e38876e69ca966b50145c6c17780adacc
 D:py3-certifi py3-charset-normalizer py3-idna py3-urllib3 python3 python3~3.12
-p:py-requests=2.32.4-r0 py3.12:requests=2.32.4-r0
+p:py-requests=2.33.1-r0 py3.12:requests=2.33.1-r0
 
-C:Q1LYq3IzgmEmyfwhoQlN0hidIm2lo=
+C:Q1Q7782m9/qfxnRUSmNV1PqbwnkEI=
 P:py3-requests-pyc
-V:2.32.4-r0
+V:2.33.1-r0
 A:aarch64
-S:92168
-I:210143
+S:91812
+I:209191
 T:Precompiled Python bytecode for py3-requests
 U:https://requests.readthedocs.io/
 L:Apache-2.0
 o:py3-requests
 m:Steven Guikal <void@fluix.one>
-t:1749584119
-c:3121f59ffbe6461164430988212a499ffd3e4408
+t:1784092953
+c:b725c96e38876e69ca966b50145c6c17780adacc
 D:py3-certifi py3-charset-normalizer py3-idna py3-urllib3 python3 python3~3.12
-i:py3-requests=2.32.4-r0 pyc
+i:py3-requests=2.33.1-r0 pyc
 
 C:Q1FPelffTxK+eUy45YlsST7LkHkUk=
 P:py3-samba
@@ -80541,64 +80541,64 @@ t:1707761314
 c:e9aaf16455ea3c361e79aac23a789f0e9b6798c1
 D:/bin/sh
 
-C:Q1JlkwFD2QVxlCqEGE1lGUaiTygcs=
+C:Q19OpWlPoNIrM956sbLUBXgCeCYuY=
 P:tzdata
-V:2026b-r0
+V:2026c-r0
 A:aarch64
-S:186766
-I:446628
+S:185991
+I:443854
 T:Timezone data
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442212
-c:5e4fd6282586d9319b50f8ba8860c6f704cbbe3c
+t:1783984827
+c:79289ecf86434f4b05c53fea4f7ae2677b50d3fb
 
-C:Q1UR+l7tLMsZreQe2zwYhHrDK/q6Y=
+C:Q13VbGqDHPcNOXZ336Vq5XaPAgio4=
 P:tzdata-doc
-V:2026b-r0
+V:2026c-r0
 A:aarch64
-S:14463
-I:12665
+S:14469
+I:12667
 T:Timezone data (documentation)
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442212
-c:5e4fd6282586d9319b50f8ba8860c6f704cbbe3c
-i:docs tzdata-utils=2026b-r0
+t:1783984827
+c:79289ecf86434f4b05c53fea4f7ae2677b50d3fb
+i:docs tzdata-utils=2026c-r0
 
-C:Q1dGcdLFYkDdNzdulmP+jVhhxOaq0=
+C:Q1HYfp092Zr08g+92i//U0xMUgVWg=
 P:tzdata-right
-V:2026b-r0
+V:2026c-r0
 A:aarch64
-S:181687
-I:584439
+S:181037
+I:581679
 T:Timezone data for TAI-10 system clock
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442212
-c:5e4fd6282586d9319b50f8ba8860c6f704cbbe3c
+t:1783984827
+c:79289ecf86434f4b05c53fea4f7ae2677b50d3fb
 
-C:Q1dMfm6uuqs6+/EVmVpwLMK5v+TOY=
+C:Q1aRZ5g+1LRC1OGY4KTGTr3vx0DuQ=
 P:tzdata-utils
-V:2026b-r0
+V:2026c-r0
 A:aarch64
-S:46403
+S:46583
 I:202144
 T:Timezone data
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442212
-c:5e4fd6282586d9319b50f8ba8860c6f704cbbe3c
+t:1783984827
+c:79289ecf86434f4b05c53fea4f7ae2677b50d3fb
 D:so:libc.musl-aarch64.so.1
-p:cmd:posixtz=2026b-r0 cmd:zdump=2026b-r0 cmd:zic=2026b-r0
+p:cmd:posixtz=2026c-r0 cmd:zdump=2026c-r0 cmd:zic=2026c-r0
 
 C:Q1eOHZw3FRjhaPDUSvJ46wd0rrTUg=
 P:u-boot
