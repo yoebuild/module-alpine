@@ -87890,37 +87890,37 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-x86_64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1vZlmbFWwPGQuEgNGtDvuNMOai/A=
+C:Q19zzN+/th74P2d8R47hoXJQBvrQA=
 P:jool-modules-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:8078594
-I:8169154
+S:8079221
+I:8169201
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785173324
-c:653d81f1479912fbe5454a939207bdcc89c3f86a
-D:linux-lts=6.12.98-r0
-i:linux-lts=6.12.98-r0 jool-tools
+t:1786371931
+c:b022fb97c801c22fcee7f8fc2a12addd4780d76b
+D:linux-lts=6.12.103-r0
+i:linux-lts=6.12.103-r0 jool-tools
 
-C:Q1uxB71hiwPHpdTyejY+QnMrGSTlQ=
+C:Q1mG2MWfISH+gTe7btd5GApsLq1Bw=
 P:jool-modules-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:7913878
-I:8000353
+S:7914401
+I:8001014
 T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785173324
-c:653d81f1479912fbe5454a939207bdcc89c3f86a
-D:linux-virt=6.12.98-r0
-i:linux-virt=6.12.98-r0 jool-tools
+t:1786371931
+c:b022fb97c801c22fcee7f8fc2a12addd4780d76b
+D:linux-virt=6.12.103-r0
+i:linux-virt=6.12.103-r0 jool-tools
 
 C:Q1D9iheVhrgx/1jgNYE6ufHkAZHiM=
 P:jool-tools
@@ -196125,228 +196125,228 @@ t:1730463392
 c:8bb275a95ec91f83b0131f4bf374d08fe08789e0
 D:postgresql17 so:libc.musl-x86_64.so.1
 
-C:Q1FgMwCSxpC2MRtbRxV4F3d/5NxvI=
+C:Q1v0TLIY75aTFXNATr1razooPB3QI=
 P:postgresql15
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:5697308
-I:14429438
+S:5702652
+I:14442018
 T:A sophisticated object-relational DBMS, version 15
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
 D:postgresql15-client postgresql-common tzdata /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:pg_rewind cmd:postmaster cmd:pg_test_timing cmd:pg_archivecleanup cmd:initdb cmd:pg_upgrade cmd:pg_controldata cmd:pg_waldump cmd:pg_resetwal cmd:pg_test_fsync cmd:postgres cmd:pg_ctl cmd:pg_checksums cmd:postgres15=15.18-r0
+p:postgresql cmd:pg_ctl cmd:pg_test_fsync cmd:postmaster cmd:pg_rewind cmd:pg_upgrade cmd:pg_checksums cmd:postgres cmd:pg_test_timing cmd:pg_waldump cmd:pg_archivecleanup cmd:pg_controldata cmd:pg_resetwal cmd:initdb cmd:postgres15=15.19-r0
 
-C:Q12j6OmgCyfOuPMZ7Sy9dg0AIFf0M=
+C:Q1ZhQHDDeLGrwMZSefHD+BYHsJSJ4=
 P:postgresql15-client
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:1268571
-I:3013587
+S:1271360
+I:3009491
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
 D:postgresql-common so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1lEU1SUoCUlR9MnH2zkqlt2dK9RE=
+C:Q1JU+HIevWlu+m8hsRJfXvDfX6E94=
 P:postgresql15-contrib
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:648546
-I:2209179
+S:649818
+I:2213275
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15=15.18-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql15=15.19-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1rl/nXex7pYc4Nn/In6bTVstxYLk=
+C:Q1q6G3/2OkZB6NpjP9qw6tN5xCB5I=
 P:postgresql15-contrib-jit
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:1648461
-I:2906840
+S:1649886
+I:2906816
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15-contrib=15.18-r0
+D:postgresql15-contrib=15.19-r0
 p:postgresql-contrib-jit
-i:postgresql15-jit postgresql15-contrib=15.18-r0
+i:postgresql15-jit postgresql15-contrib=15.19-r0
 
-C:Q1LYjUrqJTEw5/2C0jSygoViWeRgo=
+C:Q1wt0sYemv6GXoCyoS/Isai1IDu+0=
 P:postgresql15-dev
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:1877836
-I:6940246
+S:1879721
+I:6945704
 T:A sophisticated object-relational DBMS, version 15 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
 D:libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1yNLoyjffNJuXNxWdmRFA5nJ0+r4=
+C:Q1NV82AMy9BzBVtIxhaTMqrm45tA0=
 P:postgresql15-doc
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:500188
-I:2125558
+S:500378
+I:2126149
 T:A sophisticated object-relational DBMS, version 15 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
 p:postgresql-doc
-i:docs postgresql15=15.18-r0
+i:docs postgresql15=15.19-r0
 
-C:Q1iN6iaxZMwra42UXTxggRUODbtnk=
+C:Q1w2D6f19t3V+y3UQ7dSSn7tMUfxc=
 P:postgresql15-jit
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:12478166
-I:20934632
+S:12483811
+I:20958444
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15=15.18-r0 so:libLLVM-16.so so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql15=15.19-r0 so:libLLVM-16.so so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1YTI76KdQ7GEx7vkLVaJD/O3fxCU=
+C:Q1YC9uwXVY88sRq98hJVtbfb4Av2E=
 P:postgresql15-openrc
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:1308
+S:1303
 I:0
 T:A sophisticated object-relational DBMS, version 15 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
 D:postgresql-common-openrc
-i:openrc postgresql15=15.18-r0
+i:openrc postgresql15=15.19-r0
 
-C:Q1cmmpPuU8PoQ7UYNxukeYwcfK2e0=
+C:Q1K4bWa8F8CIXLpP/zKhoq0QcY47A=
 P:postgresql15-plperl
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:38900
-I:93373
+S:38934
+I:97469
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15=15.18-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql15=15.19-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1k+leRxqPLh7GXNKMd5bMsK1xNEs=
+C:Q1235j5MPmdOe+VfWWdZnWzNuSl4k=
 P:postgresql15-plperl-contrib
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:6041
+S:6157
 I:15518
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15-plperl=15.18-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql15-plperl=15.19-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql15-plperl=15.18-r0 postgresql15-contrib=15.18-r0
+i:postgresql15-plperl=15.19-r0 postgresql15-contrib=15.19-r0
 
-C:Q1zoRo38uDdzbF3tYZFwrwcGSKMcM=
+C:Q1oYx1ixGFYFTR/nvkc4HzU6lgRwQ=
 P:postgresql15-plpython3
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:46376
+S:46440
 I:120552
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15=15.18-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql15=15.19-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1qo45+r63uXF0wGdmA+w4AV8LTeE=
+C:Q1+wieL+6t4HFR/6ImUu17rUxKOZ0=
 P:postgresql15-plpython3-contrib
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:6763
+S:6985
 I:29469
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15-plpython3=15.18-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql15-plpython3=15.19-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql15-plpython3=15.18-r0 postgresql15-contrib=15.18-r0
+i:postgresql15-plpython3=15.19-r0 postgresql15-contrib=15.19-r0
 
-C:Q1XiGfphVfFjFQetLjBrMm3ANrxHc=
+C:Q13FYb8PnT3T0md/hY5+6ApsMgDTY=
 P:postgresql15-pltcl
-V:15.18-r0
+V:15.19-r0
 A:x86_64
-S:24435
+S:24411
 I:60750
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:817c7780e5f8f175bf02af18f48dbf43bb45e903
+t:1786798466
+c:75de1c7c2d94a45f2154040bcdbab2ee8af325c2
 k:15
-D:postgresql15=15.18-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
+D:postgresql15=15.19-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q1pxWMRHfQkvM0apEN2kNYR3/BeP0=
@@ -245935,61 +245935,61 @@ c:10f3a9dca425271c75c58adb2223d232e10151fb
 D:pkgconfig pystring=1.1.4-r0
 p:pc:pystring=1.1.4
 
-C:Q1gSGGOLOSSdYDeW4tiZWn38hnI18=
+C:Q1QB48PUdLLs4a4ueHAhFETV+ctBA=
 P:python3-idle
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:1166415
+S:1166372
 I:4033189
 T:IDE for Python3 using Tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1775830580
-c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
-D:python3-tkinter=3.12.13-r0 python3 python3-tests
-p:cmd:idle3.12=3.12.13-r0
+t:1786649893
+c:2c1fa4f93ce26e4a24060649f757f0645d17af9a
+D:python3-tkinter=3.12.14-r0 python3 python3-tests
+p:cmd:idle3.12=3.12.14-r0
 
-C:Q1nlv41PdOun1HCacr/ZuIIoIC6XU=
+C:Q1+/0YSD5FjuhLW57xRRNNp/GOcPM=
 P:python3-tkinter
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:110190
+S:110185
 I:429672
 T:A graphical user interface for the Python programming language
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1775830580
-c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
+t:1786649893
+c:2c1fa4f93ce26e4a24060649f757f0645d17af9a
 D:so:libc.musl-x86_64.so.1 so:libtcl8.6.so so:libtk8.6.so
 
-C:Q1fsUVKM7fKL0wjecTVZCWb+Bzb8s=
+C:Q169spplpdvY5FofOoaugjsGw1DOc=
 P:python3-tkinter-pyc
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:408917
+S:408914
 I:1416850
 T:Precompiled Python bytecode for python3-tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1775830580
-c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
-i:python3-tkinter=3.12.13-r0 pyc
+t:1786649893
+c:2c1fa4f93ce26e4a24060649f757f0645d17af9a
+i:python3-tkinter=3.12.14-r0 pyc
 
-C:Q1/hoS/1mQr0WEvQ//zbzYculRI0Q=
+C:Q1gUEVX5+6fdm6pjnT0GMSHoa9p0Y=
 P:python3-tkinter-tests
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:971992
-I:4836330
+S:973042
+I:4838180
 T:The test modules from the main python package for tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1775830580
-c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
+t:1786649893
+c:2c1fa4f93ce26e4a24060649f757f0645d17af9a
 
 C:Q1z+kXlRQ4Ab0bl9qlbes1xv5hxxI=
 P:pythran
@@ -258476,20 +258476,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q13fp+O3UU4ddEV6Uph0cmzEi1TDQ=
+C:Q1xNCHG11JMgyuWUfbzA8RUBuIjNo=
 P:rtpengine-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:456119
-I:1631480
+S:456236
+I:1631632
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1785173334
-c:585b20efe8bf4914dd1452254dc6ad14c70b798f
-i:rtpengine linux-lts=6.12.98-r0
+t:1786371941
+c:005907df4d065c2bc58f9e945af94cfa295bdaf5
+i:rtpengine linux-lts=6.12.103-r0
 
 C:Q1l0hr36sWQV9n0L89fqTnOKlRc54=
 P:rtpengine-openrc
@@ -258522,21 +258522,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q140HASn1s7rv4KnJAXkksYAJl6I0=
+C:Q1UYbXHTa5TExsjXNB2kRoyPu2pIs=
 P:rtpengine-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:400568
-I:1397008
+S:400667
+I:1397184
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1785173334
-c:585b20efe8bf4914dd1452254dc6ad14c70b798f
-D:linux-virt=6.12.98-r0
-i:rtpengine linux-virt=6.12.98-r0
+t:1786371941
+c:005907df4d065c2bc58f9e945af94cfa295bdaf5
+D:linux-virt=6.12.103-r0
+i:rtpengine linux-virt=6.12.103-r0
 
 C:Q1M0SQoXdzWMuB1//XcASW0x1eWTg=
 P:rtrlib
@@ -291630,35 +291630,35 @@ t:1725370171
 c:b2448f1d5cd12e05ea3d0c66dcb0dfb55771fe9b
 i:docs virt-what=1.27-r0
 
-C:Q1BdmvQKIF2Vk0ov6xIjLeBFWLlR8=
+C:Q1q76dvIV9XLN/RHLRgTDV/YJ9Eac=
 P:virtio_vmmci-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:321859
-I:1010325
+S:321948
+I:1010629
 T:VirtIO driver for OpenBSD VMM Control Interface
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1785173347
-c:3984a676a46f1bfe5f7bb5c125e315f423e19d33
-D:linux-lts=6.12.98-r0
+t:1786371953
+c:ada2a51d2c7a43c3bdc267f3475b7a01045b6649
+D:linux-lts=6.12.103-r0
 
-C:Q1NHJxeBThK+MJQGkfD3DHjcmL36w=
+C:Q1JiycNTexfxkVLS9rGkm4m4Bm3r0=
 P:virtio_vmmci-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:315630
-I:988437
+S:315718
+I:988749
 T:VirtIO driver for OpenBSD VMM Control Interface for virt kernel
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1785173347
-c:3984a676a46f1bfe5f7bb5c125e315f423e19d33
-D:linux-virt=6.12.98-r0
+t:1786371953
+c:ada2a51d2c7a43c3bdc267f3475b7a01045b6649
+D:linux-virt=6.12.103-r0
 
 C:Q1yrF2hdoYDkm5U1DssDewarIDD+A=
 P:virtiofsd
@@ -291941,35 +291941,35 @@ c:c3a8f25ff5d09f9d07818098edebfcd4e8be2d12
 D:vlc=3.0.21-r3 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvlccore.so.9
 p:cmd:qvlc=3.0.21-r3
 
-C:Q1sMXr5wWTGRI/+XIG1+YxasMqx30=
+C:Q1BWzMBTpAilT2h9z2HiURhJHcLZ0=
 P:vmm_clock-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:120639
-I:374274
+S:120521
+I:374474
 T:clocksource under OpenBSD VMM
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1785173360
-c:450589e135713ae038df1c6760672b4e8ceed190
-D:linux-lts=6.12.98-r0
+t:1786371966
+c:be971e5181938653cdfab92ef69ea81efda05572
+D:linux-lts=6.12.103-r0
 
-C:Q1zZR0n9fg/ZGEaHudK1JVQfKdEGk=
+C:Q1pUPGrohpVLErCEiHqsXgA+lHylA=
 P:vmm_clock-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:117963
-I:369986
+S:117934
+I:369962
 T:clocksource under OpenBSD VMM for virt kernel
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1785173360
-c:450589e135713ae038df1c6760672b4e8ceed190
-D:linux-virt=6.12.98-r0
+t:1786371966
+c:be971e5181938653cdfab92ef69ea81efda05572
+D:linux-virt=6.12.103-r0
 
 C:Q1/8quxpTP0z7yz1KxRjWuRpf3rSI=
 P:vnstat

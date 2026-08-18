@@ -4335,96 +4335,96 @@ c:d392a45c63d456d12f50e1c7d4f4ae7a3a4cbe34
 D:apr=1.7.5-r0 util-linux-dev pkgconfig
 p:pc:apr-1=1.7.5 cmd:apr-1-config=1.7.5-r0
 
-C:Q1F8CWVBAwIhFYP1y7KQFaAd67ozM=
+C:Q1aBia2uRXOQOLaM54nbxp8iwJ1nk=
 P:apr-util
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:78524
+S:79175
 I:180376
 T:The Apache Portable Runtime Utility Library
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
 D:so:libapr-1.so.0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libexpat.so.1
-p:so:libaprutil-1.so.0=0.6.3
+p:so:libaprutil-1.so.0=0.6.4
 
-C:Q124PHVFyUlTUIC44kljNM0Pm2u9E=
+C:Q1qTtMPz8sjn5NsCFbsaf6BsySUEY=
 P:apr-util-dbd_mysql
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:8800
+S:8802
 I:22560
 T:The Apache Portable Runtime Utility Library - MySQL driver
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
 D:so:libc.musl-x86_64.so.1 so:libmariadb.so.3
 
-C:Q1QhkCbn/UiePiDZXKatyDumnDjS8=
+C:Q12neRgBXn2KtFcxZqo60nOA6oIUM=
 P:apr-util-dbd_pgsql
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:8723
+S:8727
 I:18112
 T:The Apache Portable Runtime Utility Library - PostgreSQL driver
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
 D:so:libc.musl-x86_64.so.1 so:libpq.so.5
 
-C:Q1qeY+P+SaT+EItyoqK62HrmI431s=
+C:Q1bSLJMY30yNow1gNV3e9DdScVV/c=
 P:apr-util-dbd_sqlite3
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:6897
+S:6898
 I:18112
 T:The Apache Portable Runtime Utility Library - SQLite3 driver
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
 D:so:libc.musl-x86_64.so.1 so:libsqlite3.so.0
 
-C:Q10vvofKUMiJt1WSRtOR81yK2jYwo=
+C:Q1S99WodH8HMrhoFz6NYNLKKk26fc=
 P:apr-util-dev
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:183902
-I:699823
+S:184612
+I:701458
 T:The Apache Portable Runtime Utility Library (development files)
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
-D:expat-dev gdbm-dev libpq-dev mariadb-dev openldap-dev openssl-dev>3 sqlite-dev apr-util=1.6.3-r1 pc:apr-1 pkgconfig
-p:pc:apr-util-1=1.6.3 cmd:apu-1-config=1.6.3-r1
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
+D:expat-dev gdbm-dev libpq-dev mariadb-dev openldap-dev openssl-dev>3 sqlite-dev apr-util=1.6.4-r0 pc:apr-1 pkgconfig
+p:pc:apr-util-1=1.6.4 cmd:apu-1-config=1.6.4-r0
 
-C:Q1ynWYbNY9jxO+qT0bo4kHDRoOArg=
+C:Q1T8V/NNh+2tYBS3FFN0cxzF/oZrY=
 P:apr-util-ldap
-V:1.6.3-r1
+V:1.6.4-r0
 A:x86_64
-S:5357
+S:5358
 I:14192
 T:The Apache Portable Runtime Utility Library - LDAP driver
 U:https://apr.apache.org/
 L:Apache-2.0
 o:apr-util
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1786050689
+c:bda649d06063e99bfb46f01c5fb6372f57b3605f
 D:so:libc.musl-x86_64.so.1 so:libldap.so.2
 
 C:Q1ygbjLkrCK2jKHmyrw2GZ3JEWznA=
@@ -28829,39 +28829,39 @@ t:1715080109
 c:1e0aa723fba50417893fe5f6cf72f76d044b8192
 i:docs libeconf=0.6.3-r0
 
-C:Q1uOF/Cga0Qsr+L2tnLPwNnf4WWTw=
+C:Q1sFPMAwvyoMN6DmCQFswMXFVVTPA=
 P:libecpg
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:84516
+S:84541
 I:188368
 T:ECPG - Embedded SQL in C
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-libs so:libecpg.so.6=6.17 so:libpgtypes.so.3=3.17
 
-C:Q17vmMleRSQZG1BffHUpZH5AVvVCo=
+C:Q1hh9PAvkrzsrql+Zezi5OvKgggZY=
 P:libecpg-dev
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:314447
-I:1337715
+S:314474
+I:1342123
 T:ECPG - Embedded SQL in C (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:libpq-dev=17.10-r0 libecpg=17.10-r0 pc:libpq pkgconfig so:libc.musl-x86_64.so.1
-p:pc:libecpg=17.10 pc:libpgtypes=17.10 cmd:ecpg=17.10-r0
+D:libpq-dev=17.11-r0 libecpg=17.11-r0 pc:libpq pkgconfig so:libc.musl-x86_64.so.1
+p:pc:libecpg=17.11 pc:libpgtypes=17.11 cmd:ecpg=17.11-r0
 
 C:Q1CUY3jujIZe5zgTosljLIf1DcYE8=
 P:libedit
@@ -31918,39 +31918,39 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libportaudio.so.2 so:libstdc++.so.6
 p:so:libportaudiocpp.so.0=0.0.12
 
-C:Q17kuITsmYvXK0u7jHO8hSSRtdGbY=
+C:Q1OFSDNkOmUDruUCCPrgV5jrwxpGc=
 P:libpq
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:144637
+S:144860
 I:329984
 T:PostgreSQL client library
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:so:libpq.so.5=5.17
 
-C:Q1ffurEKk8k7IzE0DGzXdBuU+lHdQ=
+C:Q1JWVjsFez3y8xcyQ2pajddizmSL8=
 P:libpq-dev
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:621371
-I:1877021
+S:622184
+I:1879071
 T:PostgreSQL client library (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:libpq=17.10-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-x86_64.so.1
-p:pc:libpq=17.10 cmd:pg_config=17.10-r0
+D:libpq=17.11-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-x86_64.so.1
+p:pc:libpq=17.11 cmd:pg_config=17.11-r0
 
 C:Q1CAT2kOohhspamoX+uP0BuiOdidE=
 P:libproc2
@@ -37509,50 +37509,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1728932951
 c:ff05649790da27954fc672698b30aa984b772c01
 
-C:Q1/sFe7LwIwN6pMdA1BR16750lux0=
+C:Q1ZDMqhR3gQKbPleMkAFoYPzDfIxw=
 P:linux-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:126984346
-I:139482202
+S:126985674
+I:139492925
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173300
-c:ef2a6fdaac9298519a0cdaa4f60487db8561c416
+t:1786371903
+c:8334dcceafbff346a960fd70cf2ffea3c8c69490
 D:initramfs-generator linux-firmware-any
 
-C:Q1P/ukDRRcf24/aTrtHHc3/Uv6Fbo=
+C:Q1VePBM/S+iT4fmv1RjMdeJGQQDKk=
 P:linux-lts-dev
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:19443971
-I:73953370
+S:19445502
+I:73965667
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173300
-c:ef2a6fdaac9298519a0cdaa4f60487db8561c416
+t:1786371903
+c:8334dcceafbff346a960fd70cf2ffea3c8c69490
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q19mcm5Ekk6AjRDL02ZWN4aYN/L+s=
+C:Q1iU50Bi5x5GAB/eXdiILzJPEaqJo=
 P:linux-lts-doc
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:13572481
-I:49501328
+S:13573458
+I:49504143
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173300
-c:ef2a6fdaac9298519a0cdaa4f60487db8561c416
-i:docs linux-lts=6.12.98-r0
+t:1786371903
+c:8334dcceafbff346a960fd70cf2ffea3c8c69490
+i:docs linux-lts=6.12.103-r0
 
 C:Q1yAV3rbo1m3CAgRFazYbDF9FdpvU=
 P:linux-pam
@@ -37615,34 +37615,34 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1725877397
 c:390b824324986cc9f4a8cca5e13d9c09b8e88855
 
-C:Q1UDpUrezVo4POizek51QLJ8rO8Oo=
+C:Q1kmYFZj1WuYuRv/eW5LeLybsJS8k=
 P:linux-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:40343265
-I:47016771
+S:40345693
+I:47016132
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173300
-c:ef2a6fdaac9298519a0cdaa4f60487db8561c416
+t:1786371903
+c:8334dcceafbff346a960fd70cf2ffea3c8c69490
 D:initramfs-generator
 
-C:Q16ZHulAtSKxkIU30S5BrnNFv9LV8=
+C:Q1PzRot3uSRYUAGItwsjT1sKB3CaM=
 P:linux-virt-dev
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:19089627
-I:72595994
+S:19094917
+I:72607772
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173300
-c:ef2a6fdaac9298519a0cdaa4f60487db8561c416
+t:1786371903
+c:8334dcceafbff346a960fd70cf2ffea3c8c69490
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1xt/TuKKae/l2KP2khBIK91K9TvA=
@@ -66257,40 +66257,40 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:libportaudiocxx=19.7.0-r2 pc:alsa pkgconfig portaudio=19.7.0-r2
 p:pc:portaudio-2.0=19 pc:portaudiocpp=12
 
-C:Q1WhwDoGNA/0ORs44EhTGDKvu+5jc=
+C:Q12bMZREmzAWjwnoV9ExUD74lhyI4=
 P:postfix
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:860098
+S:860392
 I:2498469
 T:Secure and fast drop-in replacement for Sendmail (MTA)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libicuuc.so.74 so:liblmdb.so.0 so:libsasl2.so.3 so:libssl.so.3
-p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.9.13-r0 cmd:newaliases=3.9.13-r0 cmd:postalias=3.9.13-r0 cmd:postcat=3.9.13-r0 cmd:postconf=3.9.13-r0 cmd:postdrop=3.9.13-r0 cmd:postfix=3.9.13-r0 cmd:postkick=3.9.13-r0 cmd:postlock=3.9.13-r0 cmd:postlog=3.9.13-r0 cmd:postmap=3.9.13-r0 cmd:postmulti=3.9.13-r0 cmd:postqueue=3.9.13-r0 cmd:postsuper=3.9.13-r0 cmd:qshape.pl=3.9.13-r0 cmd:sendmail=3.9.13-r0
+p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.9.14-r0 cmd:newaliases=3.9.14-r0 cmd:postalias=3.9.14-r0 cmd:postcat=3.9.14-r0 cmd:postconf=3.9.14-r0 cmd:postdrop=3.9.14-r0 cmd:postfix=3.9.14-r0 cmd:postkick=3.9.14-r0 cmd:postlock=3.9.14-r0 cmd:postlog=3.9.14-r0 cmd:postmap=3.9.14-r0 cmd:postmulti=3.9.14-r0 cmd:postqueue=3.9.14-r0 cmd:postsuper=3.9.14-r0 cmd:qshape.pl=3.9.14-r0 cmd:sendmail=3.9.14-r0
 
-C:Q16wvHwn0kuhed3HVVnPwZvKw1Ems=
+C:Q1FplIJ/6RL5ydqSlR0eycRhLSIt0=
 P:postfix-doc
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:779883
+S:779870
 I:1740041
 T:Secure and fast drop-in replacement for Sendmail (MTA) (documentation)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
-i:docs postfix=3.9.13-r0
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
+i:docs postfix=3.9.14-r0
 
-C:Q1N0qR7V+oz/ySpj+yoQ/yWPYAj+w=
+C:Q1vX+kKcS34+gfbjGgsKQ+SiAJ8Tg=
 P:postfix-ldap
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
 S:13089
 I:30516
@@ -66299,45 +66299,45 @@ U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:liblber.so.2 so:libldap.so.2
 p:so:postfix-ldap.so=0
 
-C:Q1yNImwztz9bnZIKOwIyBkXP7y5yg=
+C:Q1hCeYHisEKfEqUgWmYlXhzQEInK4=
 P:postfix-mysql
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:7959
+S:7962
 I:22255
 T:mysql map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:libmariadb.so.3
 p:so:postfix-mysql.so=0
 
-C:Q19z3yCZ5TaNjXarS8hZUCro1w2o8=
+C:Q1nHsk+vQ2bkRiH6FlCG8g5p6jIfM=
 P:postfix-openrc
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:2440
+S:2441
 I:2013
 T:Secure and fast drop-in replacement for Sendmail (MTA) (OpenRC init scripts)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
-i:openrc postfix=3.9.13-r0
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
+i:openrc postfix=3.9.14-r0
 
-C:Q1s1s8eqWTD4Gx9G5YpW9eBEidT4Q=
+C:Q1YzYnnuQG8wzqwxuyhZeBR+peTVg=
 P:postfix-pcre
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
 S:7409
 I:22092
@@ -66346,24 +66346,24 @@ U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:libpcre2-8.so.0
 p:so:postfix-pcre.so=0
 
-C:Q181UnpemqSMHejgbVGaZLI9RtrzQ=
+C:Q1A8swFQp02D0aOBQg7N+Niqm5cSA=
 P:postfix-pgsql
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:7320
+S:7318
 I:22095
 T:pgsql map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:so:postfix-pgsql.so=0
 
@@ -66383,9 +66383,9 @@ c:49eaddc4f7264d97ca4565c5075752b10b3a9dcb
 D:perl perl-mail-spf perl-netaddr-ip perl-sys-hostname-long
 p:cmd:postfix-policyd-spf-perl=2.011-r2
 
-C:Q14Yq9V2/asBNGqznVexS6O343Qkk=
+C:Q1+EjFe7DSIpqvwHxgAW9u02kiOeM=
 P:postfix-sqlite
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
 S:5207
 I:13906
@@ -66394,26 +66394,26 @@ U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:libsqlite3.so.0
 p:so:postfix-sqlite.so=0
 
-C:Q1hbllMzt3f8TJIWyDPgmGVEm3jvA=
+C:Q1Q0TDw2/29381lB09TEIT7MNs2wc=
 P:postfix-stone
-V:3.9.13-r0
+V:3.9.14-r0
 A:x86_64
-S:28720
+S:28723
 I:104536
 T:Postfix simulation and testing tools
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1783494376
-c:49862cbe7fdcf256f26249092172526de0f38e17
+t:1786523592
+c:06638323d6d5291ce8108c0918cc9934cfc8dfe9
 D:so:libc.musl-x86_64.so.1 so:libpostfix-global.so so:libpostfix-util.so
-p:cmd:fsstone=3.9.13-r0 cmd:qmqp-sink=3.9.13-r0 cmd:qmqp-source=3.9.13-r0 cmd:smtp-sink=3.9.13-r0 cmd:smtp-source=3.9.13-r0
+p:cmd:fsstone=3.9.14-r0 cmd:qmqp-sink=3.9.14-r0 cmd:qmqp-source=3.9.14-r0 cmd:smtp-sink=3.9.14-r0 cmd:smtp-source=3.9.14-r0
 
 C:Q1KGmIhFGRTNdLJFBOe2yBwxqerKU=
 P:postgresql-common
@@ -66461,452 +66461,452 @@ c:99484da32e0260b8010b042ac8a83bacfb54d26c
 D:zsh
 i:zsh=5.9-r4 postgresql-client
 
-C:Q1knqW85vDW0CItHkGiAmdi1oZ/sc=
+C:Q1qC49qkF3wEkTK4ozn78mGbo/V6Q=
 P:postgresql16
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:5876694
-I:15080058
+S:5881591
+I:15092638
 T:A sophisticated object-relational DBMS, version 16
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
 D:postgresql16-client postgresql-common tzdata /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:postgres cmd:pg_resetwal cmd:pg_controldata cmd:pg_checksums cmd:pg_ctl cmd:pg_upgrade cmd:pg_test_timing cmd:pg_waldump cmd:pg_archivecleanup cmd:pg_rewind cmd:initdb cmd:pg_test_fsync cmd:postgres16=16.14-r0
+p:postgresql cmd:pg_archivecleanup cmd:pg_rewind cmd:pg_test_timing cmd:pg_checksums cmd:pg_controldata cmd:postgres cmd:pg_ctl cmd:pg_upgrade cmd:pg_resetwal cmd:pg_waldump cmd:initdb cmd:pg_test_fsync cmd:postgres16=16.15-r0
 
-C:Q1zqG1rQSdvI10VRuvNSv8fkS5CMc=
+C:Q10NEOOp7ZmbN6N9Iw+fF0520+OzE=
 P:postgresql16-client
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:1300676
+S:1303150
 I:3145203
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
 D:postgresql-common so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1j1mh37lM8zf4sSBpLANykmhA0jY=
+C:Q1lbXukray3aDncFJPkyh58MJehzs=
 P:postgresql16-contrib
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:655350
-I:2219483
+S:656259
+I:2223579
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16=16.14-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql16=16.15-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1aYYiKfTCKba2uJ1bbwJ8iyHiGMU=
+C:Q13WTgD9jCoZYowiKPuZgl1NFZIZ4=
 P:postgresql16-contrib-jit
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:1684020
-I:2971312
+S:1685052
+I:2971140
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16-contrib=16.14-r0
+D:postgresql16-contrib=16.15-r0
 p:postgresql-contrib-jit
-i:postgresql16-jit postgresql16-contrib=16.14-r0
+i:postgresql16-jit postgresql16-contrib=16.15-r0
 
-C:Q1raVMYGtExrVHH63sEMovhbEVkSs=
+C:Q1m9F4MspBL+bvlue+3ELo5nDoN4M=
 P:postgresql16-dev
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:1919726
-I:7139675
+S:1921260
+I:7145155
 T:A sophisticated object-relational DBMS, version 16 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
 D:libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1y6y3YHRRNV4N4Zh29OWUN3shNVo=
+C:Q1jLBfbG0/PXrvNfIWcNaRWj299Tk=
 P:postgresql16-doc
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:508475
-I:2152035
+S:508666
+I:2152626
 T:A sophisticated object-relational DBMS, version 16 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
 p:postgresql-doc
-i:docs postgresql16=16.14-r0
+i:docs postgresql16=16.15-r0
 
-C:Q1wf7MEY9ROahdZ3bgh5baiVcdnxM=
+C:Q1dbyhVHSIjpQLwbet4vp78euBNYQ=
 P:postgresql16-jit
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:13038899
-I:22099408
+S:13052553
+I:22125692
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16=16.14-r0 so:libLLVM-16.so so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql16=16.15-r0 so:libLLVM-16.so so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1iZmNmX22o+Tlnx3v7QiuVFfvcX8=
+C:Q1sdyE/k23wNfQ6FKIFTxfNooKzqE=
 P:postgresql16-openrc
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:1307
+S:1304
 I:0
 T:A sophisticated object-relational DBMS, version 16 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
 D:postgresql-common-openrc
-i:openrc postgresql16=16.14-r0
+i:openrc postgresql16=16.15-r0
 
-C:Q13dPpqR07ajN8UcdH2BnJo83DhSY=
+C:Q1UCUr/8Ak4Fj8FvU+dKXfxDbF39o=
 P:postgresql16-plperl
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:38491
+S:38494
 I:89277
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16=16.14-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql16=16.15-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1fQhXCXM0PWJUNK7+0P4nwDD/QpA=
+C:Q1wqh4PVOA2e/trK3A5vn6JeLYAYQ=
 P:postgresql16-plperl-contrib
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:6032
+S:6149
 I:15518
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16-plperl=16.14-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql16-plperl=16.15-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql16-plperl=16.14-r0 postgresql16-contrib=16.14-r0
+i:postgresql16-plperl=16.15-r0 postgresql16-contrib=16.15-r0
 
-C:Q1jHxdQrUwW4aiU/eqB2QiUtATvRs=
+C:Q11yhZq70pD9yX/yntf15b4EW2apU=
 P:postgresql16-plpython3
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:45733
+S:45831
 I:120552
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16=16.14-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql16=16.15-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1X90Yleuc5Kv20az+8mcvmr1t0mo=
+C:Q1s34ypqPPtui3uxkjP9ppMVt/kKo=
 P:postgresql16-plpython3-contrib
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:6759
+S:6981
 I:29469
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16-plpython3=16.14-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql16-plpython3=16.15-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql16-plpython3=16.14-r0 postgresql16-contrib=16.14-r0
+i:postgresql16-plpython3=16.15-r0 postgresql16-contrib=16.15-r0
 
-C:Q10KUmSAzPsBSJUHNi3QkDieXCf6k=
+C:Q1rdi7ZNj7xlR/sySJsL8clL5vE/k=
 P:postgresql16-pltcl
-V:16.14-r0
+V:16.15-r0
 A:x86_64
-S:24515
+S:24492
 I:60750
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:1f13480e2f02c7ef58c0375279c0195f52470bf9
+t:1786798466
+c:937759ee13787592407125fbb4f89394ae41a2d1
 k:16
-D:postgresql16=16.14-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
+D:postgresql16=16.15-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
-C:Q1EqRDyrqMvBAbJzVC/Ll7V6uUTpU=
+C:Q1gtg9RQF/Ds8SxfhqoWXO1gIM79I=
 P:postgresql17
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:6243000
-I:15952675
+S:6254721
+I:15973479
 T:A sophisticated object-relational DBMS, version 17
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:postgresql17-client postgresql-common tzdata /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:postgres cmd:pg_test_fsync cmd:pg_controldata cmd:pg_rewind cmd:pg_test_timing cmd:pg_checksums cmd:pg_waldump cmd:pg_resetwal cmd:pg_upgrade cmd:initdb cmd:pg_ctl cmd:pg_combinebackup cmd:pg_walsummary cmd:pg_archivecleanup cmd:pg_createsubscriber cmd:postgres17=17.10-r0
+p:postgresql cmd:pg_ctl cmd:pg_test_timing cmd:pg_resetwal cmd:postgres cmd:pg_rewind cmd:pg_controldata cmd:pg_walsummary cmd:pg_test_fsync cmd:pg_combinebackup cmd:pg_waldump cmd:pg_upgrade cmd:pg_checksums cmd:pg_createsubscriber cmd:pg_archivecleanup cmd:initdb cmd:postgres17=17.11-r0
 
-C:Q1qSAOkq8rhxANlhPMI9THM3jRVn8=
+C:Q1CE6IAll1+qLCANyeCn7u4IUjYPc=
 P:postgresql17-client
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:1319249
-I:3182547
+S:1325437
+I:3194835
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:postgresql-common so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1WbF7PgETJJRPQJzPKScl3n1g260=
+C:Q1mt/TUPkKl1W5FEUG9DQ7orxhrSk=
 P:postgresql17-contrib
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:654899
-I:2199496
+S:655715
+I:2203592
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17=17.10-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql17=17.11-r0 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1hxN7EHw+NOAHUidaX/XtBPtqG6A=
+C:Q1niTF42WqfCNZOBeWRcdwMsOV+7k=
 P:postgresql17-contrib-jit
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:1436274
-I:2635600
+S:1436207
+I:2635812
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17-contrib=17.10-r0
+D:postgresql17-contrib=17.11-r0
 p:postgresql-contrib-jit
-i:postgresql17-jit postgresql17-contrib=17.10-r0
+i:postgresql17-jit postgresql17-contrib=17.11-r0
 
-C:Q1hwEnODUC2gWI5PujouNOa72Sdg8=
+C:Q1HhvyAJjSz68rG3hOHjsIfXHNawg=
 P:postgresql17-dev
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:2169349
-I:8237035
+S:2172574
+I:8246265
 T:A sophisticated object-relational DBMS, version 17 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:libpq-dev libecpg-dev clang18 icu-dev llvm18 lz4-dev openssl-dev zstd-dev so:libc.musl-x86_64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q15XhAozO83lqWGy+zDIgAVEA8nOE=
+C:Q1FBcUw1P5CGjM8wtuLCT8c06m8+o=
 P:postgresql17-doc
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:525956
-I:2222173
+S:526109
+I:2222906
 T:A sophisticated object-relational DBMS, version 17 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 p:postgresql-doc
-i:docs postgresql17=17.10-r0
+i:docs postgresql17=17.11-r0
 
-C:Q1h4vZVY6sqGD4PdtIGhgDIV5tsCo=
+C:Q14qafX8HvAE1T1MiTy4cMtEVXlG8=
 P:postgresql17-jit
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:11838548
-I:20925428
+S:11857531
+I:20958616
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17=17.10-r0 so:libLLVM.so.18.1 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql17=17.11-r0 so:libLLVM.so.18.1 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1axaAfbL2JYY1RDF386MPsQHz3Xw=
+C:Q1AyHE3vdUFYa+fbSt7Xb8cxJU2aY=
 P:postgresql17-openrc
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:1305
+S:1301
 I:0
 T:A sophisticated object-relational DBMS, version 17 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
 D:postgresql-common-openrc
-i:openrc postgresql17=17.10-r0
+i:openrc postgresql17=17.11-r0
 
-C:Q1krdkD5+SU82zmKBbGdTQijB9yv8=
+C:Q1+CkmZ8nMOJIrdScmGgq/hSi1i1k=
 P:postgresql17-plperl
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:38522
-I:89277
+S:38598
+I:93373
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17=17.10-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql17=17.11-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1hd5yQv0vA9RtoRV/1zPTtKC7a7g=
+C:Q1CntJGhtAVpNMZWujbrC2xQwgb5Y=
 P:postgresql17-plperl-contrib
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:6036
+S:6146
 I:15518
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17-plperl=17.10-r0 so:libc.musl-x86_64.so.1 so:libperl.so
+D:postgresql17-plperl=17.11-r0 so:libc.musl-x86_64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql17-plperl=17.10-r0 postgresql17-contrib=17.10-r0
+i:postgresql17-plperl=17.11-r0 postgresql17-contrib=17.11-r0
 
-C:Q1gRq2a6P1//xv31VWhwjFG2ZxyCA=
+C:Q1mF6HcSh8/bp/XQKyCDtDCcYlaBA=
 P:postgresql17-plpython3
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:45745
+S:45829
 I:120552
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17=17.10-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql17=17.11-r0 python3 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1A765nLya3Acmh2yoGjdAccADc4w=
+C:Q15zIqIUGs2doC0tdzpogIPgD7zmI=
 P:postgresql17-plpython3-contrib
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:6761
+S:6980
 I:29469
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17-plpython3=17.10-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
+D:postgresql17-plpython3=17.11-r0 so:libc.musl-x86_64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql17-plpython3=17.10-r0 postgresql17-contrib=17.10-r0
+i:postgresql17-plpython3=17.11-r0 postgresql17-contrib=17.11-r0
 
-C:Q177QEDKE0IeUFvxZzz6IVEPNdsuk=
+C:Q1CUXHo5Fjj10EWy1mZ6tPGLIhR+8=
 P:postgresql17-pltcl
-V:17.10-r0
+V:17.11-r0
 A:x86_64
-S:24494
+S:24466
 I:60750
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779223642
-c:ac76e9b0e6b32c92be1e896f951847a6cc9a1203
+t:1786798466
+c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
 k:17
-D:postgresql17=17.10-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
+D:postgresql17=17.11-r0 pgtcl so:libc.musl-x86_64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q1/GmM4Nd4wW4ML+IiL2P+w+/coXc=
@@ -70862,172 +70862,172 @@ c:fcb4eda039e8545dacb1d1c443be31bd1b1b0d12
 D:python3~3.12
 i:py3-yaml=6.0.2-r0 pyc
 
-C:Q1/VFbNDbD5bShmKa3ZIsb1NcRkqk=
+C:Q1Fp3IOQHmZeDiMHt4wW/9Svo6A0A=
 P:pyc
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:1212
+S:1214
 I:0
 T:Meta package for pulling in all -pyc packages
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
 
-C:Q18DeDlv0EyPHJ0yWKC6yF5hpxF+8=
+C:Q1sk88rATKvlHmDVgO5m1waoheOyc=
 P:python3
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:8120622
-I:23603471
+S:8125602
+I:23616008
 T:High-level scripting language
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libffi.so.8 so:libgdbm_compat.so.4 so:liblzma.so.5 so:libmpdec.so.4 so:libncursesw.so.6 so:libpanelw.so.6 so:libreadline.so.8 so:libsqlite3.so.0 so:libssl.so.3 so:libz.so.1
-p:pythonispython3=3.12.13-r0 so:libpython3.12.so.1.0=1.0 so:libpython3.so=0 cmd:2to3-3.12=3.12.13-r0 cmd:2to3=3.12.13-r0 cmd:pydoc3.12=3.12.13-r0 cmd:pydoc3=3.12.13-r0 cmd:python3.12=3.12.13-r0 cmd:python3=3.12.13-r0 cmd:python=3.12.13-r0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libffi.so.8 so:libgdbm_compat.so.4 so:liblzma.so.5 so:libmpdec.so.4 so:libncursesw.so.6 so:libpanelw.so.6 so:libreadline.so.8 so:libsqlite3.so.0 so:libssl.so.3 so:libz.so.1
+p:pythonispython3=3.12.14-r0 so:libpython3.12.so.1.0=1.0 so:libpython3.so=0 cmd:2to3-3.12=3.12.14-r0 cmd:2to3=3.12.14-r0 cmd:pydoc3.12=3.12.14-r0 cmd:pydoc3=3.12.14-r0 cmd:python3.12=3.12.14-r0 cmd:python3=3.12.14-r0 cmd:python=3.12.14-r0
 
-C:Q1X1hHw5Ur40ZdXGKVG4p3jKOLWLs=
+C:Q1amUMw2LU/dCVbyt24L5FYQV8pmM=
 P:python3-dbg
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:13611972
-I:33012008
+S:13615714
+I:33023456
 T:High-level scripting language (debug symbols)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0
 
-C:Q1Ghjc+Svpj+EnNoRMYo/YSprEGbU=
+C:Q1AiZ7DX0/8+xa/FJaDXzjD1CoKVw=
 P:python3-dev
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:52283158
-I:96381987
+S:52281429
+I:96380114
 T:High-level scripting language (development files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:pkgconfig python3=3.12.13-r0
-p:pc:python-3.12-embed=3.12 pc:python-3.12=3.12 pc:python3-embed=3.12 pc:python3=3.12 cmd:python-config=3.12.13-r0 cmd:python3-config=3.12.13-r0 cmd:python3.12-config=3.12.13-r0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:pkgconfig python3=3.12.14-r0
+p:pc:python-3.12-embed=3.12 pc:python-3.12=3.12 pc:python3-embed=3.12 pc:python3=3.12 cmd:python-config=3.12.14-r0 cmd:python3-config=3.12.14-r0 cmd:python3.12-config=3.12.14-r0
 
-C:Q1A5VgUnEm7P6Ku92Stj0XVhGAvOM=
+C:Q16Rrfxw6C8dp0WDtZAxBhjxQ+QLM=
 P:python3-doc
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:14461
+S:14459
 I:21362
 T:High-level scripting language (documentation)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-i:docs python3=3.12.13-r0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+i:docs python3=3.12.14-r0
 
-C:Q1Bq0Gj20BjjVd4aIQF9WE3Fuy61w=
+C:Q11C867tsQ1av/Q46Qu9hXvnliNxo=
 P:python3-gdbm
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:9216
+S:9221
 I:27256
 T:Python backend for GNU gdbm
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0 so:libc.musl-x86_64.so.1 so:libgdbm.so.6
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0 so:libc.musl-x86_64.so.1 so:libgdbm.so.6
 
-C:Q1WvimUQOGZkXKdlAmTR3Ys4RR3vU=
+C:Q1f0ifTIVV79Uk3w+C8AZQeNaszUw=
 P:python3-pyc
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:1256
+S:1258
 I:0
 T:High-level scripting language (install .pyc cache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:python3-pycache-pyc0=3.12.13-r0 pyc
-i:python3=3.12.13-r0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:python3-pycache-pyc0=3.12.14-r0 pyc
+i:python3=3.12.14-r0
 
-C:Q1w5WiGAfN7k01hbONabMC2TWzPm4=
+C:Q15vRJRxiFmGDNdYSoktrwWL7vAx0=
 P:python3-pycache-pyc0
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:4168150
-I:10760204
+S:4171078
+I:10766624
 T:High-level scripting language (.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0
 
-C:Q17ojaOPyiZaIa6o6wMnOdMiJu4EA=
+C:Q14oSIiHHoSAlr8GFmUB7CQljjR2E=
 P:python3-pycache-pyc1
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:4151446
-I:10719004
+S:4154092
+I:10725424
 T:High-level scripting language (.opt-1.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0
 
-C:Q1GjwesNN25PT0BUjQPUwCrCKxfBc=
+C:Q1iDPvRY2+6vKBh0B6gTHrzCB34/4=
 P:python3-pycache-pyc2
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:3566119
-I:9104798
+S:3568875
+I:9110617
 T:High-level scripting language (.opt-2.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0
 
-C:Q1/sNJRuDEBP8z4yQYKgeU3sQRCnw=
+C:Q1J57kkSWKAGbGQwo2BtrJZHISGbo=
 P:python3-tests
-V:3.12.13-r0
+V:3.12.14-r0
 A:x86_64
-S:33568643
-I:136214403
+S:33635667
+I:136440234
 T:The test modules from the main python package
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775830580
-c:1adb128726e6e189dc6f60131ced8611a68e3051
-D:libssl3>=3.3.0
+t:1786649893
+c:1d63fc4da0e6ddeed22906b0e483e3a519810551
+D:libssl3>=3.3.0 libexpat>=2.8.0
 
 C:Q1Wz0s0GaLR8Unq++5T4cFKSzaotI=
 P:quagga
@@ -83940,173 +83940,173 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:libxcb-dev util-macros pkgconfig xcb-util=0.4.1-r3
 p:pc:xcb-atom=0.4.1 pc:xcb-aux=0.4.1 pc:xcb-event=0.4.1 pc:xcb-util=0.4.1
 
-C:Q19wIPvSnjm2j6DEC+Ezwhw1TfcQQ=
+C:Q1kNHrfuumHe3Bbh0OdafpLIqwhBk=
 P:xen
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:4752268
-I:23149251
+S:4638787
+I:22890485
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 D:bash iproute2 logrotate python3~3.12 so:libc.musl-x86_64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libglib-2.0.so.0 so:libncursesw.so.6 so:libxencall.so.1 so:libxenctrl.so.4.19 so:libxendevicemodel.so.1 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxenfsimage.so.4.19 so:libxengnttab.so.1 so:libxenguest.so.4.19 so:libxenhypfs.so.1 so:libxenlight.so.4.19 so:libxenstat.so.4.19 so:libxenstore.so.4 so:libxentoollog.so.1 so:libxenvchan.so.4.19 so:libxlutil.so.4.19 so:libyajl.so.2
-p:cmd:flask-get-bool=4.19.5-r4 cmd:flask-getenforce=4.19.5-r4 cmd:flask-label-pci=4.19.5-r4 cmd:flask-loadpolicy=4.19.5-r4 cmd:flask-set-bool=4.19.5-r4 cmd:flask-setenforce=4.19.5-r4 cmd:gdbsx=4.19.5-r4 cmd:vchan-socket-proxy=4.19.5-r4 cmd:xen-access=4.19.5-r4 cmd:xen-cpuid=4.19.5-r4 cmd:xen-detect=4.19.5-r4 cmd:xen-diag=4.19.5-r4 cmd:xen-hptool=4.19.5-r4 cmd:xen-hvmcrash=4.19.5-r4 cmd:xen-hvmctx=4.19.5-r4 cmd:xen-kdd=4.19.5-r4 cmd:xen-livepatch=4.19.5-r4 cmd:xen-lowmemd=4.19.5-r4 cmd:xen-mceinj=4.19.5-r4 cmd:xen-memshare=4.19.5-r4 cmd:xen-mfndump=4.19.5-r4 cmd:xen-ucode=4.19.5-r4 cmd:xen-vmtrace=4.19.5-r4 cmd:xenalyze=4.19.5-r4 cmd:xenbaked=4.19.5-r4 cmd:xenconsoled=4.19.5-r4 cmd:xencov=4.19.5-r4 cmd:xencov_split=4.19.5-r4 cmd:xenhypfs=4.19.5-r4 cmd:xenlockprof=4.19.5-r4 cmd:xenmon=4.19.5-r4 cmd:xenperf=4.19.5-r4 cmd:xenpm=4.19.5-r4 cmd:xenpmd=4.19.5-r4 cmd:xenstore-chmod=4.19.5-r4 cmd:xenstore-control=4.19.5-r4 cmd:xenstore-exists=4.19.5-r4 cmd:xenstore-list=4.19.5-r4 cmd:xenstore-ls=4.19.5-r4 cmd:xenstore-read=4.19.5-r4 cmd:xenstore-rm=4.19.5-r4 cmd:xenstore-watch=4.19.5-r4 cmd:xenstore-write=4.19.5-r4 cmd:xenstore=4.19.5-r4 cmd:xenstored=4.19.5-r4 cmd:xentop=4.19.5-r4 cmd:xentrace=4.19.5-r4 cmd:xentrace_setmask=4.19.5-r4 cmd:xentrace_setsize=4.19.5-r4 cmd:xenwatchdogd=4.19.5-r4 cmd:xl=4.19.5-r4 py3.12:grub=4.19.5-r4 py3.12:xen=4.19.5-r4
+p:cmd:flask-get-bool=4.19.6-r0 cmd:flask-getenforce=4.19.6-r0 cmd:flask-label-pci=4.19.6-r0 cmd:flask-loadpolicy=4.19.6-r0 cmd:flask-set-bool=4.19.6-r0 cmd:flask-setenforce=4.19.6-r0 cmd:gdbsx=4.19.6-r0 cmd:vchan-socket-proxy=4.19.6-r0 cmd:xen-access=4.19.6-r0 cmd:xen-cpuid=4.19.6-r0 cmd:xen-detect=4.19.6-r0 cmd:xen-diag=4.19.6-r0 cmd:xen-hptool=4.19.6-r0 cmd:xen-hvmcrash=4.19.6-r0 cmd:xen-hvmctx=4.19.6-r0 cmd:xen-kdd=4.19.6-r0 cmd:xen-livepatch=4.19.6-r0 cmd:xen-lowmemd=4.19.6-r0 cmd:xen-mceinj=4.19.6-r0 cmd:xen-memshare=4.19.6-r0 cmd:xen-mfndump=4.19.6-r0 cmd:xen-ucode=4.19.6-r0 cmd:xen-vmtrace=4.19.6-r0 cmd:xenalyze=4.19.6-r0 cmd:xenbaked=4.19.6-r0 cmd:xenconsoled=4.19.6-r0 cmd:xencov=4.19.6-r0 cmd:xencov_split=4.19.6-r0 cmd:xenhypfs=4.19.6-r0 cmd:xenlockprof=4.19.6-r0 cmd:xenmon=4.19.6-r0 cmd:xenperf=4.19.6-r0 cmd:xenpm=4.19.6-r0 cmd:xenpmd=4.19.6-r0 cmd:xenstore-chmod=4.19.6-r0 cmd:xenstore-control=4.19.6-r0 cmd:xenstore-exists=4.19.6-r0 cmd:xenstore-list=4.19.6-r0 cmd:xenstore-ls=4.19.6-r0 cmd:xenstore-read=4.19.6-r0 cmd:xenstore-rm=4.19.6-r0 cmd:xenstore-watch=4.19.6-r0 cmd:xenstore-write=4.19.6-r0 cmd:xenstore=4.19.6-r0 cmd:xenstored=4.19.6-r0 cmd:xentop=4.19.6-r0 cmd:xentrace=4.19.6-r0 cmd:xentrace_setmask=4.19.6-r0 cmd:xentrace_setsize=4.19.6-r0 cmd:xenwatchdogd=4.19.6-r0 cmd:xl=4.19.6-r0 py3.12:grub=4.19.6-r0 py3.12:xen=4.19.6-r0
 
-C:Q1Eb5aG52utciCd0YLR6rL72RInRA=
+C:Q13YJrGf3UuP+ucZAH6qITcisVh1w=
 P:xen-bash-completion
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:1840
+S:1851
 I:393
 T:Bash completions for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
-i:xen=4.19.5-r4 bash-completion
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
+i:xen=4.19.6-r0 bash-completion
 
-C:Q1R8bW//OTBh6uiHrzccgtcFWbAoM=
+C:Q14zlkdv4idBwhCNa52MgKqT3KAsg=
 P:xen-bridge
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:1540
+S:1536
 I:63
 T:Bridge interface for XEN with dhcp
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 D:dnsmasq
 
-C:Q1nzlf/JEpJdbB4TgA/MjPOm9fQ54=
+C:Q1BBRFtIyz/0AsHvAgD0n1TK1C7c8=
 P:xen-bridge-openrc
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:1752
+S:1753
 I:231
 T:Bridge interface for XEN with dhcp (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
-i:openrc xen-bridge=4.19.5-r4
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
+i:openrc xen-bridge=4.19.6-r0
 
-C:Q1iHDBDXmpkXawEVO2OA/kntnOtCo=
+C:Q1751U1Mj3VJ9S9zdcTAWZeuLsvyQ=
 P:xen-dev
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:1185786
+S:1185824
 I:4440716
 T:Xen hypervisor (development files)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
-D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.19.5-r4
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
+D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.19.6-r0
 p:pc:xencall=1.3 pc:xencontrol=4.19.0 pc:xendevicemodel=1.4 pc:xenevtchn=1.2 pc:xenforeignmemory=1.4 pc:xengnttab=1.2 pc:xenguest=4.19.0 pc:xenhypfs=1.0 pc:xenlight=4.19.0 pc:xenstat=4.19.0 pc:xenstore=4.0 pc:xentoolcore=1.0 pc:xentoollog=1.0 pc:xenvchan=4.19.0 pc:xlutil=4.19.0
 
-C:Q1xPNhErDkdUZkCbMBbH8JqHQ601A=
+C:Q1lVB/gkpLqilAzlH6QICoO4d3oOI=
 P:xen-doc
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:983448
-I:3942007
+S:983513
+I:3942028
 T:Xen hypervisor (documentation)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
-i:docs xen=4.19.5-r4
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
+i:docs xen=4.19.6-r0
 
-C:Q1+njwGdBNLUWdJDjsseUl6vhY4e0=
+C:Q1xV3aF1N84F2AiA3vhP5s8DVodFw=
 P:xen-hypervisor
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:14248820
-I:31589251
+S:13528464
+I:29990279
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 
-C:Q1xzucKaD0SfefZ7O+rrm91x2/a0M=
+C:Q1KhJc0MBa7Pv1bEjlpIZ2xwTN964=
 P:xen-libs
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:692234
+S:692304
 I:1826216
 T:Libraries for Xen tools
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 D:so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libext2fs.so.2 so:liblzma.so.5 so:liblzo2.so.2 so:libnl-3.so.200 so:libnl-route-3.so.200 so:libuuid.so.1 so:libyajl.so.2 so:libz.so.1 so:libzstd.so.1
 p:so:libxencall.so.1=1.3 so:libxenctrl.so.4.19=4.19.0 so:libxendevicemodel.so.1=1.4 so:libxenevtchn.so.1=1.2 so:libxenforeignmemory.so.1=1.4 so:libxenfsimage.so.4.19=4.19.0 so:libxengnttab.so.1=1.2 so:libxenguest.so.4.19=4.19.0 so:libxenhypfs.so.1=1.0 so:libxenlight.so.4.19=4.19.0 so:libxenstat.so.4.19=4.19.0 so:libxenstore.so.4=4.0 so:libxentoolcore.so.1=1.0 so:libxentoollog.so.1=1.0 so:libxenvchan.so.4.19=4.19.0 so:libxlutil.so.4.19=4.19.0
 
-C:Q1bxuMiZJQIqSw749GQNRE49ZKPEU=
+C:Q1E+Sx9tsYDUBi7lMpgL+1+x8Yvpk=
 P:xen-pyc
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:29652
+S:29647
 I:73326
 T:Precompiled Python bytecode for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 D:bash iproute2 logrotate python3~3.12
-i:xen=4.19.5-r4 pyc
+i:xen=4.19.6-r0 pyc
 
-C:Q1XJqHTkHpIK7bGtiEe+Jr9zIC3xU=
+C:Q1dPrs+FPNw0PcRu4YSEshlrmhE2U=
 P:xen-qemu
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:23787414
+S:23787473
 I:258450368
 T:QEMU for XEN
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
 D:bash iproute2 logrotate seabios-bin so:libaio.so.1 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libjpeg.so.8 so:liblzo2.so.2 so:libncursesw.so.6 so:libpixman-1.so.0 so:libsasl2.so.3 so:libspice-server.so.1 so:libxenctrl.so.4.19 so:libxendevicemodel.so.1 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxengnttab.so.1 so:libxenstore.so.4 so:libxentoolcore.so.1 so:libz.so.1 so:libzstd.so.1
 
-C:Q1cO5MkFZuY8OMyzEENOlHUG5N6Tw=
+C:Q1WyIcPaIYRH7w9SCvwl9yXOH7xbQ=
 P:xen-qemu-openrc
-V:4.19.5-r4
+V:4.19.6-r0
 A:x86_64
-S:2002
+S:2006
 I:759
 T:QEMU for XEN (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781018306
-c:fcfb305345575dfcf6c1381604e7274fd94805b1
-i:openrc xen-qemu=4.19.5-r4
+t:1786439035
+c:0da22e3b8ce8e1a9c51fbd0f7e634cf04bb085d2
+i:openrc xen-qemu=4.19.6-r0
 
 C:Q1+Qjl81gqMQmkIdFXS1c9Hsu5QWU=
 P:xfsprogs
@@ -84637,21 +84637,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1DLvT70mbh6R4GXJUfr5XePoMPsA=
+C:Q1ILt6OYXt8/5wYPeTveiVlg1UV6I=
 P:xtables-addons-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:4719667
-I:4756680
+S:4721150
+I:4757523
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173374
-c:38ff22221c58d47b4813958097e651ad70438d10
-D:linux-lts=6.12.98-r0
-i:linux-lts=6.12.98-r0 xtables-addons
+t:1786371978
+c:9bf0b272c04d0585144bea5f888491affb277b27
+D:linux-lts=6.12.103-r0
+i:linux-lts=6.12.103-r0 xtables-addons
 
 C:Q1+yx0b1KbxByPusiBmqZnkKofL2Y=
 P:xtrans
@@ -85149,37 +85149,37 @@ c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1ORFnbxqyaLc3c6/Cb/BUVQDaA80=
+C:Q1qtVGI2ZDnSt+dj2EuFCY2rFlaZY=
 P:zfs-lts
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:31083098
-I:31484060
+S:31079895
+I:31480481
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173503
-c:13d64f0643a28d72e5b3871486ba1689f503c7b2
-D:linux-lts=6.12.98-r0
-p:spl-vanilla=6.12.98-r0
-i:zfs linux-lts=6.12.98-r0
+t:1786372104
+c:b45040b302b79179286569c95e89e066151b4bf3
+D:linux-lts=6.12.103-r0
+p:spl-vanilla=6.12.103-r0
+i:zfs linux-lts=6.12.103-r0
 
-C:Q1vRRLHtWmNUGfZPBQWo1EOTwHCEQ=
+C:Q1Gy+UfSAkj/xJTFkqUmWuZER4UiU=
 P:zfs-lts-dev
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:487962
-I:3223284
+S:488086
+I:3225650
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173503
-c:13d64f0643a28d72e5b3871486ba1689f503c7b2
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.98-r0
+t:1786372104
+c:b45040b302b79179286569c95e89e066151b4bf3
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.103-r0
 
 C:Q1M7TQVf70x/Lw9HhjOoZhmIbABAI=
 P:zfs-openrc
@@ -85242,21 +85242,21 @@ c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
 D:python3
 p:cmd:arc_summary=2.2.10-r0 cmd:arcstat=2.2.10-r0 cmd:dbufstat=2.2.10-r0 cmd:zilstat=2.2.10-r0
 
-C:Q1ArMnIPeiMM0CFiyoFUvTwPH7xzE=
+C:Q13SR0SllSOvxnfUsmw/DdOpSB0XY=
 P:zfs-virt
-V:6.12.98-r0
+V:6.12.103-r0
 A:x86_64
-S:30650390
-I:31038034
+S:30642690
+I:31032634
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1785173503
-c:13d64f0643a28d72e5b3871486ba1689f503c7b2
-D:linux-virt=6.12.98-r0
-i:zfs linux-virt=6.12.98-r0
+t:1786372104
+c:b45040b302b79179286569c95e89e066151b4bf3
+D:linux-virt=6.12.103-r0
+i:zfs linux-virt=6.12.103-r0
 
 C:Q18LDiAk9TJ1zEvmhwLxZIgOsrITs=
 P:zfs-zsh-completion
