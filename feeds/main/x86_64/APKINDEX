@@ -14984,9 +14984,9 @@ m:Laurent Bercot <ska-devel@skarnet.org>
 t:1728551983
 c:3cbf1cf6a95750becc4ff503a3732ab484915191
 
-C:Q1r7Fyky2VPRKMPYPN4+sHf2dUQks=
+C:Q1Wi0JFmGzC8c9DpqPyk+qmfay/As=
 P:expat
-V:2.8.2-r0
+V:2.8.3-r0
 A:x86_64
 S:12802
 I:34712
@@ -14995,55 +14995,55 @@ U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1782745285
-c:4cf4c29d74a7f49b605b2ea434ec2b125c9a1243
+t:1787129737
+c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
 D:so:libc.musl-x86_64.so.1 so:libexpat.so.1
-p:cmd:xmlwf=2.8.2-r0
+p:cmd:xmlwf=2.8.3-r0
 
-C:Q1uxbvrMXI7lf1OPrOA0B+zBqTwGM=
+C:Q1nGFvRwW1Pv0q7yRdfzX+xXrSZ+4=
 P:expat-dev
-V:2.8.2-r0
+V:2.8.3-r0
 A:x86_64
-S:21511
-I:67264
+S:21542
+I:67330
 T:XML Parser library written in C (development files)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1782745285
-c:4cf4c29d74a7f49b605b2ea434ec2b125c9a1243
-D:expat=2.8.2-r0 libexpat=2.8.2-r0 pkgconfig
-p:pc:expat=2.8.2
+t:1787129737
+c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+D:expat=2.8.3-r0 libexpat=2.8.3-r0 pkgconfig
+p:pc:expat=2.8.3
 
-C:Q1mbtj3/z3RrmWpDYUDuP6FEBhMEY=
+C:Q1eJp63CgFpixq21QbsWUCKccp9tk=
 P:expat-doc
-V:2.8.2-r0
+V:2.8.3-r0
 A:x86_64
-S:39799
-I:111202
+S:40455
+I:113592
 T:XML Parser library written in C (documentation)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1782745285
-c:4cf4c29d74a7f49b605b2ea434ec2b125c9a1243
-i:docs expat=2.8.2-r0
+t:1787129737
+c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+i:docs expat=2.8.3-r0
 
-C:Q1CG70PlaJ0RNW8hakMXwoaRC41RE=
+C:Q1AqvF570PiU1wAXMR+13/3SFqDms=
 P:expat-static
-V:2.8.2-r0
+V:2.8.3-r0
 A:x86_64
-S:77860
-I:238760
+S:77968
+I:239008
 T:XML Parser library written in C (static library)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1782745285
-c:4cf4c29d74a7f49b605b2ea434ec2b125c9a1243
+t:1787129737
+c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
 
 C:Q1KO7Vazbru20t3+LWDUONuapjWIc=
 P:expect
@@ -29097,21 +29097,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1782941655
 c:3b77c5d07fa02a524a16b63c4215150eb6163546
 
-C:Q12V4CgEcNHM1z8fWQ9NcDwZVSA7I=
+C:Q1U2PKHQk7gztOGI+BYmAoBFVF6NE=
 P:libexpat
-V:2.8.2-r0
+V:2.8.3-r0
 A:x86_64
-S:60848
+S:60908
 I:136896
 T:XML Parser library written in C (libraries)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1782745285
-c:4cf4c29d74a7f49b605b2ea434ec2b125c9a1243
+t:1787129737
+c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
 D:so:libc.musl-x86_64.so.1
-p:so:libexpat.so.1=1.12.2
+p:so:libexpat.so.1=1.12.3
 
 C:Q1k9oTKkbAd//sfEBVlSFPkkqKnlE=
 P:libfastjson
@@ -30204,24 +30204,24 @@ c:30b4b4d47dba66db916d78a58ea7a4639447a04f
 D:so:libc.musl-x86_64.so.1 so:libjpeg.so.8 so:libturbojpeg.so.0
 p:cmd:cjpeg=3.0.4-r0 cmd:djpeg=3.0.4-r0 cmd:jpegtran=3.0.4-r0 cmd:rdjpgcom=3.0.4-r0 cmd:tjbench=3.0.4-r0 cmd:wrjpgcom=3.0.4-r0
 
-C:Q1rHex0+990qlHUGDCWrt4b4UDteQ=
+C:Q1oEIhCVlikKd6rQs57o9aaZrBCQE=
 P:libkcapi
-V:1.5.0-r1
+V:1.5.1-r0
 A:x86_64
-S:20878
-I:50960
+S:21115
+I:55056
 T:Linux Kernel Crypto API User Space Interface Library
 U:https://www.chronox.de/libkcapi/index.html
 L:BSD-3-Clause OR GPL-2.0-only
 o:libkcapi
-t:1728377791
-c:4c1b99e0b3817230b3b5075f1c9087d6c067fa20
+t:1787619493
+c:7f09965eaeab18996ec7d6521984dfc9fe6c9773
 D:so:libc.musl-x86_64.so.1
-p:so:libkcapi.so.1=1.5.0
+p:so:libkcapi.so.1=1.5.1
 
-C:Q1cXA1+bVxQdC71b5LYWDSXA9LapI=
+C:Q1lnaRLB7+JOYh2rpraxoOP2g7ago=
 P:libkcapi-dev
-V:1.5.0-r1
+V:1.5.1-r0
 A:x86_64
 S:17315
 I:115788
@@ -30229,39 +30229,39 @@ T:Linux Kernel Crypto API User Space Interface Library (development files)
 U:https://www.chronox.de/libkcapi/index.html
 L:BSD-3-Clause OR GPL-2.0-only
 o:libkcapi
-t:1728377791
-c:4c1b99e0b3817230b3b5075f1c9087d6c067fa20
-D:libkcapi=1.5.0-r1 pkgconfig
-p:pc:libkcapi=1.5.0
+t:1787619493
+c:7f09965eaeab18996ec7d6521984dfc9fe6c9773
+D:libkcapi=1.5.1-r0 pkgconfig
+p:pc:libkcapi=1.5.1
 
-C:Q1877q9nDwURRI2p1j3WC3RQ2zoU8=
+C:Q1WjbLqqVExNKu41X1giCff6qEYEQ=
 P:libkcapi-doc
-V:1.5.0-r1
+V:1.5.1-r0
 A:x86_64
-S:10313
-I:8275
+S:10319
+I:8274
 T:Linux Kernel Crypto API User Space Interface Library (documentation)
 U:https://www.chronox.de/libkcapi/index.html
 L:BSD-3-Clause OR GPL-2.0-only
 o:libkcapi
-t:1728377791
-c:4c1b99e0b3817230b3b5075f1c9087d6c067fa20
-i:docs libkcapi=1.5.0-r1
+t:1787619493
+c:7f09965eaeab18996ec7d6521984dfc9fe6c9773
+i:docs libkcapi=1.5.1-r0
 
-C:Q1yNwSpAxCLUQM5swlcElFZK24nco=
+C:Q1NdmptuwnnilLArk8SigR4B8kuug=
 P:libkcapi-tools
-V:1.5.0-r1
+V:1.5.1-r0
 A:x86_64
-S:328118
-I:773055
+S:329086
+I:778701
 T:Linux Kernel Crypto API User Space Interface Library (commandline utilities)
 U:https://www.chronox.de/libkcapi/index.html
 L:BSD-3-Clause OR GPL-2.0-only
 o:libkcapi
-t:1728377791
-c:4c1b99e0b3817230b3b5075f1c9087d6c067fa20
+t:1787619493
+c:7f09965eaeab18996ec7d6521984dfc9fe6c9773
 D:so:libc.musl-x86_64.so.1 so:libkcapi.so.1
-p:cmd:kcapi-convenience=1.5.0-r1 cmd:kcapi-dgst=1.5.0-r1 cmd:kcapi-enc-test-large=1.5.0-r1 cmd:kcapi-enc=1.5.0-r1 cmd:kcapi-hasher=1.5.0-r1 cmd:kcapi-rng=1.5.0-r1 cmd:kcapi-speed=1.5.0-r1 cmd:kcapi=1.5.0-r1
+p:cmd:kcapi-convenience=1.5.1-r0 cmd:kcapi-dgst=1.5.1-r0 cmd:kcapi-enc-test-large=1.5.1-r0 cmd:kcapi-enc=1.5.1-r0 cmd:kcapi-hasher=1.5.1-r0 cmd:kcapi-rng=1.5.1-r0 cmd:kcapi-speed=1.5.1-r0 cmd:kcapi=1.5.1-r0
 
 C:Q1wiRF6eATlaBFYOWBT3dvZQ3aNmE=
 P:libks
@@ -69958,37 +69958,37 @@ c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
 D:py3-pytest python3~3.12
 i:py3-pytest-timeout=2.3.1-r1 pyc
 
-C:Q1o2OhR/CNL50iIgM4UZAfnUfaP6g=
+C:Q1chDWQLGqsrkNfl2duA9SwVco3GU=
 P:py3-pyzfs
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:55298
+S:55319
 I:354163
 T:Advanced filesystem and volume manager (Python lib to interact with ZFS)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3 zfs python3~3.12
-p:py3.12:libzfs_core=2.2.10-r0
+p:py3.12:libzfs_core=2.2.11-r0
 
-C:Q1eOZMpj8ERnjCAtV7VSXyCcAlO8w=
+C:Q1lbamABa86K1clQ+cVtYP1bb1p50=
 P:py3-pyzfs-pyc
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:128501
+S:128517
 I:548556
 T:Precompiled Python bytecode for py3-pyzfs
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3~3.12
-i:py3-pyzfs=2.2.10-r0 pyc
+i:py3-pyzfs=2.2.11-r0 pyc
 
 C:Q17q1Bhb42DaY5rnduUEH6U5++0v0=
 P:py3-requests
@@ -85056,205 +85056,205 @@ c:f87ef4d699c4aab6b2d2b8b67d86e6006a18be07
 D:libzmq=4.3.5-r2 pc:libsodium pkgconfig
 p:pc:libzmq=4.3.5
 
-C:Q18ZCPOdISFAxGAIWo+bLvN7Blrg8=
+C:Q1Zvc2Gn4QK680gc03n7ZciirAqrU=
 P:zfs
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:398616
+S:398638
 I:1212441
 T:Advanced filesystem and volume manager
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libnvpair.so.3 so:libuuid.so.1 so:libuutil.so.3 so:libzfs.so.4 so:libzfs_core.so.3 so:libzpool.so.5
-p:spl=2.2.10-r0 cmd:fsck.zfs=2.2.10-r0 cmd:mount.zfs=2.2.10-r0 cmd:raidz_test=2.2.10-r0 cmd:zdb=2.2.10-r0 cmd:zed=2.2.10-r0 cmd:zfs=2.2.10-r0 cmd:zfs_ids_to_path=2.2.10-r0 cmd:zgenhostid=2.2.10-r0 cmd:zhack=2.2.10-r0 cmd:zinject=2.2.10-r0 cmd:zpool=2.2.10-r0 cmd:zstream=2.2.10-r0 cmd:zstreamdump=2.2.10-r0 cmd:ztest=2.2.10-r0 cmd:zvol_wait=2.2.10-r0
+p:spl=2.2.11-r0 cmd:fsck.zfs=2.2.11-r0 cmd:mount.zfs=2.2.11-r0 cmd:raidz_test=2.2.11-r0 cmd:zdb=2.2.11-r0 cmd:zed=2.2.11-r0 cmd:zfs=2.2.11-r0 cmd:zfs_ids_to_path=2.2.11-r0 cmd:zgenhostid=2.2.11-r0 cmd:zhack=2.2.11-r0 cmd:zinject=2.2.11-r0 cmd:zpool=2.2.11-r0 cmd:zstream=2.2.11-r0 cmd:zstreamdump=2.2.11-r0 cmd:ztest=2.2.11-r0 cmd:zvol_wait=2.2.11-r0
 
-C:Q1bgOHWQHZaa9cHnGpwQUrIr8or6c=
+C:Q1odNmEgzvil3wNuhDLQeZLmceNaw=
 P:zfs-bash-completion
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:5155
+S:5165
 I:30300
 T:Bash completions for zfs
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
-i:zfs=2.2.10-r0 bash-completion
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
+i:zfs=2.2.11-r0 bash-completion
 
-C:Q1teyIYL9Jfn0aUrtXYMGHILpu7+8=
+C:Q15I2/+q7lpsMEiojfvS9oJ9rTjbY=
 P:zfs-dev
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:461957
-I:2919375
+S:462026
+I:2919479
 T:Advanced filesystem and volume manager (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
-D:attr-dev e2fsprogs-dev glib-dev libtirpc-dev openssl-dev>3 pc:blkid pc:libcrypto pc:libtirpc pc:uuid pc:zlib pkgconfig zfs-libs=2.2.10-r0
-p:pc:libzfs=2.2.10 pc:libzfs_core=2.2.10 pc:libzfsbootenv=2.2.10
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
+D:attr-dev e2fsprogs-dev glib-dev libtirpc-dev openssl-dev>3 pc:blkid pc:libcrypto pc:libtirpc pc:uuid pc:zlib pkgconfig zfs-libs=2.2.11-r0
+p:pc:libzfs=2.2.11 pc:libzfs_core=2.2.11 pc:libzfsbootenv=2.2.11
 
-C:Q1TgF+SKWiZV4usWd/TiM4BZjfHGs=
+C:Q1olZpMVl+6oSh2gvG6LrVyyaIcjY=
 P:zfs-doc
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:278135
+S:278156
 I:287932
 T:Advanced filesystem and volume manager (documentation)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
-i:docs zfs=2.2.10-r0
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
+i:docs zfs=2.2.11-r0
 
-C:Q1oBhKBNZTQVgyd5CsXOzA8wrvyHA=
+C:Q1ESbmZq6NTcbkcyWLsvpSiWNs5HY=
 P:zfs-dracut
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:9672
+S:9671
 I:23280
 T:Advanced filesystem and volume manager (dracut)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
-i:zfs=2.2.10-r0 dracut-modules
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
+i:zfs=2.2.11-r0 dracut-modules
 
-C:Q164pX5XV+cW8eQVA1QVmIXgrS+lM=
+C:Q1gdM6iZckpHJZiALzsTJaY04IxAk=
 P:zfs-libs
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:1552243
+S:1552358
 I:4195688
 T:Advanced filesystem and volume manager (libraries)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1qtVGI2ZDnSt+dj2EuFCY2rFlaZY=
+C:Q1UvHOBsLwd7glB3MIQ9Ogy5XNFHg=
 P:zfs-lts
-V:6.12.103-r0
+V:6.12.103-r1
 A:x86_64
-S:31079895
-I:31480481
+S:31086577
+I:31487647
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786372104
-c:b45040b302b79179286569c95e89e066151b4bf3
+t:1787653538
+c:e2d6002bb749d2320801f553f00073b24cdee5ae
 D:linux-lts=6.12.103-r0
-p:spl-vanilla=6.12.103-r0
+p:spl-vanilla=6.12.103-r1
 i:zfs linux-lts=6.12.103-r0
 
-C:Q1Gy+UfSAkj/xJTFkqUmWuZER4UiU=
+C:Q1TJOKqwIgqfd5yF5B08/wiY4WQNU=
 P:zfs-lts-dev
-V:6.12.103-r0
+V:6.12.103-r1
 A:x86_64
-S:488086
-I:3225650
+S:488017
+I:3225909
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786372104
-c:b45040b302b79179286569c95e89e066151b4bf3
+t:1787653538
+c:e2d6002bb749d2320801f553f00073b24cdee5ae
 D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.103-r0
 
-C:Q1M7TQVf70x/Lw9HhjOoZhmIbABAI=
+C:Q1SOt5vAuYb4g/rBAQuhEVbhQx/eg=
 P:zfs-openrc
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:8713
+S:8719
 I:23678
 T:Advanced filesystem and volume manager (OpenRC init scripts)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
-i:openrc zfs=2.2.10-r0
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
+i:openrc zfs=2.2.11-r0
 
-C:Q1lq74gzoP2+dvzoUFOMcMoInxKIg=
+C:Q1YXkI/9VnfxE8QelZzAWAul889vs=
 P:zfs-scripts
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:28792769
-I:33768730
+S:28795978
+I:33786331
 T:Advanced filesystem and volume manager (scripts)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libc.musl-x86_64.so.1 so:libintl.so.8 so:libnvpair.so.3 so:libz.so.1 so:libzfs.so.4 so:libzfs_core.so.3 so:libzpool.so.5
 
-C:Q1zFt93yhniX+tkiodBDbpJVqxhSM=
+C:Q1vA5acSoWvlBo9Hb9hvqr3hiiNqQ=
 P:zfs-udev
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:11483
+S:11485
 I:36836
 T:Advanced filesystem and volume manager (udev)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libc.musl-x86_64.so.1
 
-C:Q1onZVFqbwVj08OanKYS34Z1AgPpA=
+C:Q10MVopcNUBlDg5VWy331uZu8y0mM=
 P:zfs-utils-py
-V:2.2.10-r0
+V:2.2.11-r0
 A:x86_64
-S:25281
+S:25294
 I:100118
 T:Advanced filesystem and volume manager (python utils)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781304604
-c:4088ed39ba0cbbb23a9fbc392977f81be765d7b5
+t:1787653538
+c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3
-p:cmd:arc_summary=2.2.10-r0 cmd:arcstat=2.2.10-r0 cmd:dbufstat=2.2.10-r0 cmd:zilstat=2.2.10-r0
+p:cmd:arc_summary=2.2.11-r0 cmd:arcstat=2.2.11-r0 cmd:dbufstat=2.2.11-r0 cmd:zilstat=2.2.11-r0
 
-C:Q13SR0SllSOvxnfUsmw/DdOpSB0XY=
+C:Q1gcvoO/2lLUVEMWoZx3e5uf3zqps=
 P:zfs-virt
-V:6.12.103-r0
+V:6.12.103-r1
 A:x86_64
-S:30642690
-I:31032634
+S:30649486
+I:31038140
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786372104
-c:b45040b302b79179286569c95e89e066151b4bf3
+t:1787653538
+c:e2d6002bb749d2320801f553f00073b24cdee5ae
 D:linux-virt=6.12.103-r0
 i:zfs linux-virt=6.12.103-r0
 
