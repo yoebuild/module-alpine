@@ -8282,66 +8282,81 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1732229823
 c:e8b63361359a2b585a1f3b31f51b77be173bc412
 
-C:Q1kZp5H3cAu0oei4sBNJtHGg6r3Sg=
+C:Q1GgtQ6rVPcideBhM8Afis4uE37Ew=
 P:bubblewrap
-V:0.11.0-r0
+V:0.12.0-r0
 A:x86_64
-S:28721
-I:67696
+S:29749
+I:67704
 T:Unprivileged sandboxing tool
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
 D:so:libc.musl-x86_64.so.1 so:libcap.so.2
-p:cmd:bwrap=0.11.0-r0
+p:cmd:bwrap=0.12.0-r0
 
-C:Q13vrlK0u+s8aBRM4NsJli7V/Ol58=
+C:Q1l4FfOWkCoRl+sbEuuSPypNJfyM8=
 P:bubblewrap-bash-completion
-V:0.11.0-r0
+V:0.12.0-r0
 A:x86_64
-S:2140
+S:2128
 I:1218
 T:Bash completions for bubblewrap
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:bubblewrap=0.11.0-r0 bash-completion
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:bubblewrap=0.12.0-r0 bash-completion
 
-C:Q1K9zI8l/6F7xRaahKKZUp/NJDLLI=
+C:Q19hTRhJ6iVLYnh/tiHVPon7ydJuc=
 P:bubblewrap-doc
-V:0.11.0-r0
+V:0.12.0-r0
 A:x86_64
-S:8052
-I:6308
+S:8338
+I:6611
 T:Unprivileged sandboxing tool (documentation)
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:docs bubblewrap=0.11.0-r0
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:docs bubblewrap=0.12.0-r0
 
-C:Q1enuW7iMwCu2kDbaDU5678Abe6wo=
-P:bubblewrap-zsh-completion
-V:0.11.0-r0
+C:Q1KnN9+icpqCHZBdnTzpUUp0wXMIs=
+P:bubblewrap-static
+V:0.12.0-r0
 A:x86_64
-S:3827
+S:70815
+I:137192
+T:Unprivileged sandboxing tool (static binary)
+U:https://github.com/containers/bubblewrap
+L:LGPL-2.1-or-later
+o:bubblewrap
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+p:cmd:bwrap.static=0.12.0-r0
+
+C:Q1UG2wt6xEZS8eBOUBqOcRqhof6rY=
+P:bubblewrap-zsh-completion
+V:0.12.0-r0
+A:x86_64
+S:3816
 I:7396
 T:Zsh completions for bubblewrap
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:bubblewrap=0.11.0-r0 zsh
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:bubblewrap=0.12.0-r0 zsh
 
 C:Q1Lx4uIARVjL2Ygc+V4SCZZsS1Ejs=
 P:build-base
@@ -14984,66 +14999,66 @@ m:Laurent Bercot <ska-devel@skarnet.org>
 t:1728551983
 c:3cbf1cf6a95750becc4ff503a3732ab484915191
 
-C:Q1Wi0JFmGzC8c9DpqPyk+qmfay/As=
+C:Q1D9+LxgGucC+89MChWR4DQjFfFDo=
 P:expat
-V:2.8.3-r0
+V:2.8.4-r0
 A:x86_64
-S:12802
+S:12804
 I:34712
 T:XML Parser library written in C
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 D:so:libc.musl-x86_64.so.1 so:libexpat.so.1
-p:cmd:xmlwf=2.8.3-r0
+p:cmd:xmlwf=2.8.4-r0
 
-C:Q1nGFvRwW1Pv0q7yRdfzX+xXrSZ+4=
+C:Q1KRDjakFFTaMF0cWUHedPgjlzWLg=
 P:expat-dev
-V:2.8.3-r0
+V:2.8.4-r0
 A:x86_64
-S:21542
+S:21544
 I:67330
 T:XML Parser library written in C (development files)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
-D:expat=2.8.3-r0 libexpat=2.8.3-r0 pkgconfig
-p:pc:expat=2.8.3
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
+D:expat=2.8.4-r0 libexpat=2.8.4-r0 pkgconfig
+p:pc:expat=2.8.4
 
-C:Q1eJp63CgFpixq21QbsWUCKccp9tk=
+C:Q1tMGJo8C8kg+3EoDhZ5skBL8eSek=
 P:expat-doc
-V:2.8.3-r0
+V:2.8.4-r0
 A:x86_64
-S:40455
-I:113592
+S:41117
+I:116758
 T:XML Parser library written in C (documentation)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
-i:docs expat=2.8.3-r0
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
+i:docs expat=2.8.4-r0
 
-C:Q1AqvF570PiU1wAXMR+13/3SFqDms=
+C:Q1yy0gZJ6YI7ysFFngiRCqI3OTJeY=
 P:expat-static
-V:2.8.3-r0
+V:2.8.4-r0
 A:x86_64
-S:77968
-I:239008
+S:78327
+I:240016
 T:XML Parser library written in C (static library)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 
 C:Q1KO7Vazbru20t3+LWDUONuapjWIc=
 P:expect
@@ -19312,40 +19327,40 @@ c:aa59717f6c9cb5e4cb72cc78d1785f26a12209a7
 D:so:libc.musl-x86_64.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgs.so.10 so:libgtk-3.so.0
 p:cmd:gsx=10.05.1-r0
 
-C:Q1/yibYvoWnJoX69ATAr1zdOuuPNU=
+C:Q13VpIL4DjvWLkkBzQQLpnWzdFkPI=
 P:giflib
-V:5.2.2-r1
+V:5.2.2-r2
 A:x86_64
-S:15580
+S:15603
 I:34416
 T:A library for reading and writing GIF images
 U:https://sourceforge.net/projects/giflib/
 L:MIT
 o:giflib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744187264
-c:eb214ee1ee4f8fae7028d44ddbbf0a94093221e1
+t:1788000980
+c:774a03e258c265375b0f8bd537d317fd9d2eb33c
 D:so:libc.musl-x86_64.so.1
 p:so:libgif.so.7=7.2.0
 
-C:Q1Rh2l9UziJI+L2BNTs/NbzYrTUmk=
+C:Q1PQJunaRUEBhVBWAl3kO5P+fwWJI=
 P:giflib-dev
-V:5.2.2-r1
+V:5.2.2-r2
 A:x86_64
-S:4951
+S:4957
 I:12651
 T:A library for reading and writing GIF images (development files)
 U:https://sourceforge.net/projects/giflib/
 L:MIT
 o:giflib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744187264
-c:eb214ee1ee4f8fae7028d44ddbbf0a94093221e1
-D:giflib=5.2.2-r1
+t:1788000980
+c:774a03e258c265375b0f8bd537d317fd9d2eb33c
+D:giflib=5.2.2-r2
 
-C:Q1z1g969AgrWlX12KFS9SVq+winqc=
+C:Q1FeHIsdGf69FBu6aEKu6UQhU/+s8=
 P:giflib-doc
-V:5.2.2-r1
+V:5.2.2-r2
 A:x86_64
 S:12374
 I:10115
@@ -19354,39 +19369,39 @@ U:https://sourceforge.net/projects/giflib/
 L:MIT
 o:giflib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744187264
-c:eb214ee1ee4f8fae7028d44ddbbf0a94093221e1
-i:docs giflib=5.2.2-r1
+t:1788000980
+c:774a03e258c265375b0f8bd537d317fd9d2eb33c
+i:docs giflib=5.2.2-r2
 
-C:Q1W8bMGYtoLKr8Yu7Rhjp556nHe/g=
+C:Q1VGDlqefojOB6x8pKdXRT+12ze50=
 P:giflib-static
-V:5.2.2-r1
+V:5.2.2-r2
 A:x86_64
-S:15836
-I:41824
+S:15855
+I:41840
 T:A library for reading and writing GIF images (static library)
 U:https://sourceforge.net/projects/giflib/
 L:MIT
 o:giflib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744187264
-c:eb214ee1ee4f8fae7028d44ddbbf0a94093221e1
+t:1788000980
+c:774a03e258c265375b0f8bd537d317fd9d2eb33c
 
-C:Q1Izn2RFsyrvjaswlw9m7dt6fu2DM=
+C:Q1izo36UpiY36Vf1+CPdZvEuGdpPY=
 P:giflib-utils
-V:5.2.2-r1
+V:5.2.2-r2
 A:x86_64
-S:89753
+S:89785
 I:212248
 T:Programs for manipulating GIF format image files
 U:https://sourceforge.net/projects/giflib/
 L:MIT
 o:giflib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744187264
-c:eb214ee1ee4f8fae7028d44ddbbf0a94093221e1
+t:1788000980
+c:774a03e258c265375b0f8bd537d317fd9d2eb33c
 D:so:libc.musl-x86_64.so.1
-p:cmd:gif2rgb=5.2.2-r1 cmd:gifbuild=5.2.2-r1 cmd:gifclrmp=5.2.2-r1 cmd:giffix=5.2.2-r1 cmd:giftext=5.2.2-r1 cmd:giftool=5.2.2-r1
+p:cmd:gif2rgb=5.2.2-r2 cmd:gifbuild=5.2.2-r2 cmd:gifclrmp=5.2.2-r2 cmd:giffix=5.2.2-r2 cmd:giftext=5.2.2-r2 cmd:giftool=5.2.2-r2
 
 C:Q1aGo2wwmVUXK5U5L1uKuCtY92Ges=
 P:git
@@ -21757,82 +21772,82 @@ c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
 D:python3 ninja py3-six python3~3.12
 i:gyp=20230301-r3 pyc
 
-C:Q1S+p40JzJxXmplB2sJFc7K0o9FGg=
+C:Q1Jh8ydUXjQNGxSr70zvyudaiRF1s=
 P:gzip
-V:1.13-r0
+V:1.13-r1
 A:x86_64
-S:55217
+S:55250
 I:122940
 T:Popular data compression program
 U:https://www.gnu.org/software/gzip/
 L:GPL-3.0-or-later
 o:gzip
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1692687061
-c:5e5c4cf1bd2e4569885eb17048540db2a5c30296
+t:1788121044
+c:bbf676b4e14ca8d8cb5614d16b2f7302d0016732
 D:less so:libc.musl-x86_64.so.1
-p:cmd:gunzip=1.13-r0 cmd:gzexe=1.13-r0 cmd:gzip=1.13-r0 cmd:uncompress=1.13-r0 cmd:zcat=1.13-r0 cmd:zcmp=1.13-r0 cmd:zdiff=1.13-r0 cmd:zegrep=1.13-r0 cmd:zfgrep=1.13-r0 cmd:zforce=1.13-r0 cmd:zgrep=1.13-r0 cmd:zless=1.13-r0 cmd:zmore=1.13-r0 cmd:znew=1.13-r0
+p:cmd:gunzip=1.13-r1 cmd:gzexe=1.13-r1 cmd:gzip=1.13-r1 cmd:uncompress=1.13-r1 cmd:zcat=1.13-r1 cmd:zcmp=1.13-r1 cmd:zdiff=1.13-r1 cmd:zegrep=1.13-r1 cmd:zfgrep=1.13-r1 cmd:zforce=1.13-r1 cmd:zgrep=1.13-r1 cmd:zless=1.13-r1 cmd:zmore=1.13-r1 cmd:znew=1.13-r1
 
-C:Q10S+M62puVi8pnTUExoEN2JTx7Aw=
+C:Q18Eu9utMScyKIkq1Tk8ngAd20VFg=
 P:gzip-doc
-V:1.13-r0
+V:1.13-r1
 A:x86_64
-S:31661
+S:31659
 I:60386
 T:Popular data compression program (documentation)
 U:https://www.gnu.org/software/gzip/
 L:GPL-3.0-or-later
 o:gzip
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1692687061
-c:5e5c4cf1bd2e4569885eb17048540db2a5c30296
-i:docs gzip=1.13-r0
+t:1788121044
+c:bbf676b4e14ca8d8cb5614d16b2f7302d0016732
+i:docs gzip=1.13-r1
 
-C:Q1EWoc4f9TPpbWbhPPCFy4emGb0gg=
+C:Q1CHtpzzyhb7MxLIF+ZGXW886NXZM=
 P:haproxy
-V:3.0.26-r0
+V:3.0.27-r0
 A:x86_64
-S:1671018
-I:3913662
+S:1672914
+I:3917758
 T:A TCP/HTTP reverse proxy for high availability environments
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1785410687
-c:60f8d914baf20ca7c43333d76eeff4a391a51ab4
+t:1787903869
+c:75c8d560dbf75fd0c48219ec0a9c48e149f7f6ad
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
-p:cmd:haproxy=3.0.26-r0
+p:cmd:haproxy=3.0.27-r0
 
-C:Q1SwnwbwX+x8Cw7CKb5Ui1ZWmWhfQ=
+C:Q1WttH9Olnjpq8PEiBF9Dpglf1wbo=
 P:haproxy-doc
-V:3.0.26-r0
+V:3.0.27-r0
 A:x86_64
-S:554641
-I:2060438
+S:555562
+I:2064657
 T:A TCP/HTTP reverse proxy for high availability environments (documentation)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1785410687
-c:60f8d914baf20ca7c43333d76eeff4a391a51ab4
-i:docs haproxy=3.0.26-r0
+t:1787903869
+c:75c8d560dbf75fd0c48219ec0a9c48e149f7f6ad
+i:docs haproxy=3.0.27-r0
 
-C:Q1YP5KNRFtEtdEEEiDmrjbQV3686M=
+C:Q1mJ/zeIgq0DghvxOhGYIbMrpnC9s=
 P:haproxy-openrc
-V:3.0.26-r0
+V:3.0.27-r0
 A:x86_64
-S:2181
+S:2178
 I:1192
 T:A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1785410687
-c:60f8d914baf20ca7c43333d76eeff4a391a51ab4
-i:openrc haproxy=3.0.26-r0
+t:1787903869
+c:75c8d560dbf75fd0c48219ec0a9c48e149f7f6ad
+i:openrc haproxy=3.0.27-r0
 
 C:Q1B5r56cYta+eHXAWsB2vAobw5R8o=
 P:harfbuzz
@@ -24037,19 +24052,19 @@ c:2d1f9f414de2521837a7a9c7068217b76e3452ca
 D:/bin/sh
 p:cmd:installkernel=4.1-r0
 
-C:Q1H5rbV3rHCXcWU3x/ZUBmW3GEy4M=
+C:Q14kZa6VRiaAkcK1hELvtsKjuFEP4=
 P:intel-ucode
-V:20260512-r0
+V:20260812-r0
 A:x86_64
-S:14930712
-I:15124381
+S:15073454
+I:15266717
 T:Microcode update files for Intel CPUs
 U:https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
 L:custom
 o:intel-ucode
 m:omni <omni+alpine@hack.org>
-t:1778926898
-c:ee98757654f8e67f5eca967c2d7081229d82ab45
+t:1788017872
+c:478c82c4a169bb0b575ca3e440f81d241073929a
 
 C:Q1xCVANvYSgdzpUf4J/oYFr10vh2M=
 P:iperf3
@@ -29097,21 +29112,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1782941655
 c:3b77c5d07fa02a524a16b63c4215150eb6163546
 
-C:Q1U2PKHQk7gztOGI+BYmAoBFVF6NE=
+C:Q1ehFjl6MLN4tyIWmqStb2gbil6g8=
 P:libexpat
-V:2.8.3-r0
+V:2.8.4-r0
 A:x86_64
-S:60908
+S:61247
 I:136896
 T:XML Parser library written in C (libraries)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 D:so:libc.musl-x86_64.so.1
-p:so:libexpat.so.1=1.12.3
+p:so:libexpat.so.1=1.12.4
 
 C:Q1k9oTKkbAd//sfEBVlSFPkkqKnlE=
 P:libfastjson
@@ -31651,52 +31666,52 @@ t:1711394663
 c:ff8d0915c743cad10fd64a764878fe71363a694e
 i:docs libpaper=2.2.5-r0
 
-C:Q1oNJygtkjaoY8u1enKSqhUZBSYpI=
+C:Q1bNT9Sf2QtdyBCqjxpmnhVXpWkiY=
 P:libpcap
-V:1.10.5-r0
+V:1.10.7-r0
 A:x86_64
-S:108325
+S:110561
 I:243824
-T:A system-independent interface for user-level packet capture
+T:Portable library for network traffic capture
 U:https://www.tcpdump.org/
 L:BSD-3-Clause
 o:libpcap
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1725066692
-c:aaedd046ef6666aa08aa1e3af5028b4e2fefabed
+m:omni <omni+alpine@hack.org>
+t:1788707779
+c:57f73cd1fef277b13bd0ba4b77dba2ce6b1925ee
 D:so:libc.musl-x86_64.so.1
-p:so:libpcap.so.1=1.10.5
+p:so:libpcap.so.1=1.10.7
 
-C:Q1QXOmxGUwDbJxUF15KbxkSO5sLkY=
+C:Q13Dr9wKoQrUwBaY2HbJjD1tUdIG0=
 P:libpcap-dev
-V:1.10.5-r0
+V:1.10.7-r0
 A:x86_64
-S:189977
-I:595410
-T:A system-independent interface for user-level packet capture (development files)
+S:194004
+I:607244
+T:Portable library for network traffic capture (development files)
 U:https://www.tcpdump.org/
 L:BSD-3-Clause
 o:libpcap
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1725066692
-c:aaedd046ef6666aa08aa1e3af5028b4e2fefabed
-D:libpcap=1.10.5-r0 pkgconfig
-p:pc:libpcap=1.10.5 cmd:pcap-config=1.10.5-r0
+m:omni <omni+alpine@hack.org>
+t:1788707779
+c:57f73cd1fef277b13bd0ba4b77dba2ce6b1925ee
+D:libpcap=1.10.7-r0 pkgconfig
+p:pc:libpcap=1.10.7 cmd:pcap-config=1.10.7-r0
 
-C:Q1o5h0Q8eY5yFsioiK3E068wZ/1vM=
+C:Q1wrixYj9ogcSRjDxgEEUbqB4Nquc=
 P:libpcap-doc
-V:1.10.5-r0
+V:1.10.7-r0
 A:x86_64
-S:111349
-I:102738
-T:A system-independent interface for user-level packet capture (documentation)
+S:111955
+I:103326
+T:Portable library for network traffic capture (documentation)
 U:https://www.tcpdump.org/
 L:BSD-3-Clause
 o:libpcap
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1725066692
-c:aaedd046ef6666aa08aa1e3af5028b4e2fefabed
-i:docs libpcap=1.10.5-r0
+m:omni <omni+alpine@hack.org>
+t:1788707779
+c:57f73cd1fef277b13bd0ba4b77dba2ce6b1925ee
+i:docs libpcap=1.10.7-r0
 
 C:Q1XmmVpeiPWq2SRnRhTfiS2nxkBio=
 P:libpciaccess
@@ -37509,50 +37524,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1728932951
 c:ff05649790da27954fc672698b30aa984b772c01
 
-C:Q1ZDMqhR3gQKbPleMkAFoYPzDfIxw=
+C:Q1Dsmd7ZmCYtPMf/JChfCNcVnHIDs=
 P:linux-lts
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:126985674
-I:139492925
+S:127021348
+I:139527671
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371903
-c:8334dcceafbff346a960fd70cf2ffea3c8c69490
+t:1788944155
+c:27ab7d9afedda2c0383cb846499d23cb2124ba40
 D:initramfs-generator linux-firmware-any
 
-C:Q1VePBM/S+iT4fmv1RjMdeJGQQDKk=
+C:Q1/mfuiB4xHubODamBtMIBTlbVx+U=
 P:linux-lts-dev
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:19445502
-I:73965667
+S:19447997
+I:73976641
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371903
-c:8334dcceafbff346a960fd70cf2ffea3c8c69490
+t:1788944155
+c:27ab7d9afedda2c0383cb846499d23cb2124ba40
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1iU50Bi5x5GAB/eXdiILzJPEaqJo=
+C:Q1WbHxaqzMuRTeafTQ1EgW/5hVSaU=
 P:linux-lts-doc
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:13573458
-I:49504143
+S:13573738
+I:49504658
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371903
-c:8334dcceafbff346a960fd70cf2ffea3c8c69490
-i:docs linux-lts=6.12.103-r0
+t:1788944155
+c:27ab7d9afedda2c0383cb846499d23cb2124ba40
+i:docs linux-lts=6.12.109-r0
 
 C:Q1yAV3rbo1m3CAgRFazYbDF9FdpvU=
 P:linux-pam
@@ -37615,34 +37630,34 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1725877397
 c:390b824324986cc9f4a8cca5e13d9c09b8e88855
 
-C:Q1kmYFZj1WuYuRv/eW5LeLybsJS8k=
+C:Q1HmlDiVOPpkgy//iAYyKAwngkJ+4=
 P:linux-virt
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:40345693
-I:47016132
+S:40357787
+I:47028083
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371903
-c:8334dcceafbff346a960fd70cf2ffea3c8c69490
+t:1788944155
+c:27ab7d9afedda2c0383cb846499d23cb2124ba40
 D:initramfs-generator
 
-C:Q1PzRot3uSRYUAGItwsjT1sKB3CaM=
+C:Q1BK9Ei80VBu9F7xwiCZZMqVz7R0k=
 P:linux-virt-dev
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:19094917
-I:72607772
+S:19097005
+I:72618660
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371903
-c:8334dcceafbff346a960fd70cf2ffea3c8c69490
+t:1788944155
+c:27ab7d9afedda2c0383cb846499d23cb2124ba40
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1xt/TuKKae/l2KP2khBIK91K9TvA=
@@ -52151,53 +52166,53 @@ c:59f0478ebc7d0c61b837d26562432f14452954ff
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libosp.so.5 so:libstdc++.so.6
 p:so:libogrove.so.0=0.0.1 so:libospgrove.so.0=0.0.1 so:libostyle.so.0=0.0.1
 
-C:Q1jSEAV6SOh1fp1PtxdPVsFdp14Wg=
+C:Q19fl3QRfunF7G6cbqsWtHJVbnrtY=
 P:openjpeg
-V:2.5.2-r0
+V:2.5.4-r0
 A:x86_64
-S:135202
-I:308928
+S:136982
+I:313024
 T:Open-source implementation of JPEG2000 image codec
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1709161140
-c:d8956777294649de8bf3edf3f41dd61f0ce4b02c
+t:1788308335
+c:4d29d0832725042bf2b9f9c1ff16bb491f479594
 D:so:libc.musl-x86_64.so.1
-p:so:libopenjp2.so.7=2.5.2
+p:so:libopenjp2.so.7=2.5.4
 
-C:Q1XkWQ+jsEmeWTSrAZuxjuzt43vlQ=
+C:Q1auxCe4f3xTkE8CiqFRbPRm2jqjw=
 P:openjpeg-dev
-V:2.5.2-r0
+V:2.5.4-r0
 A:x86_64
-S:175034
-I:521160
+S:176966
+I:526067
 T:Open-source implementation of JPEG2000 image codec (development files)
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1709161140
-c:d8956777294649de8bf3edf3f41dd61f0ce4b02c
-D:openjpeg-tools openjpeg=2.5.2-r0 pkgconfig
-p:pc:libopenjp2=2.5.2
+t:1788308335
+c:4d29d0832725042bf2b9f9c1ff16bb491f479594
+D:openjpeg-tools openjpeg=2.5.4-r0 pkgconfig
+p:pc:libopenjp2=2.5.4
 
-C:Q16bVNm/1+O3SwIeZOu+fMwgaraRk=
+C:Q1aW0U30H5giv1D6HMvUycx3bkN+Q=
 P:openjpeg-tools
-V:2.5.2-r0
+V:2.5.4-r0
 A:x86_64
-S:138636
+S:139239
 I:298008
 T:Open-source implementation of JPEG2000 image codec - tools
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1709161140
-c:d8956777294649de8bf3edf3f41dd61f0ce4b02c
+t:1788308335
+c:4d29d0832725042bf2b9f9c1ff16bb491f479594
 D:so:libc.musl-x86_64.so.1 so:liblcms2.so.2 so:libopenjp2.so.7 so:libpng16.so.16 so:libtiff.so.6
-p:cmd:opj_compress=2.5.2-r0 cmd:opj_decompress=2.5.2-r0 cmd:opj_dump=2.5.2-r0
+p:cmd:opj_compress=2.5.4-r0 cmd:opj_decompress=2.5.4-r0 cmd:opj_dump=2.5.4-r0
 
 C:Q1W+ztpwWIFwpYnZGr12E8E99I7mQ=
 P:openldap
@@ -72047,21 +72062,21 @@ c:d820b110f20b73698231c2c9c1220476d4510e02
 D:so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0
 p:cmd:rrdcreate=1.9.0-r0 cmd:rrdinfo=1.9.0-r0 cmd:rrdupdate=1.9.0-r0
 
-C:Q1iwe3xlzQrUj3vFT0WlHTxjnCr/A=
+C:Q1wK5+jdoptR77/UFOnA6Efmti34Q=
 P:rrsync
-V:3.4.3-r0
+V:3.5.0-r0
 A:x86_64
-S:6209
-I:13073
+S:15408
+I:44737
 T:Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
 U:https://rsync.samba.org/
 L:GPL-3.0-or-later
 o:rsync
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779273038
-c:11c734540c864e48ccc68f88f5158b0a31f35ba4
+t:1788304131
+c:c031f07a9b512273cb4ead5ae0a7538d52a05db5
 D:rsync python3
-p:cmd:rrsync=3.4.3-r0
+p:cmd:rrsync=3.5.0-r0
 
 C:Q1r+luuspIPX8KetKu+FUz6couoWo=
 P:rsnapshot
@@ -72125,51 +72140,51 @@ t:1701958496
 c:9024026ee6838388f8b87e52a17495786ed85d4e
 i:docs rssh=2.3.4-r4
 
-C:Q1Ii9qCVLV6Hzy2a+9SC01ErTqWE4=
+C:Q13j5yfR6g2SSKx4kjy3wEci41o+s=
 P:rsync
-V:3.4.3-r0
+V:3.5.0-r0
 A:x86_64
-S:208437
-I:399008
+S:231064
+I:441873
 T:A file transfer program to keep remote files in sync
 U:https://rsync.samba.org/
 L:GPL-3.0-or-later
 o:rsync
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779273038
-c:11c734540c864e48ccc68f88f5158b0a31f35ba4
+t:1788304131
+c:c031f07a9b512273cb4ead5ae0a7538d52a05db5
 D:so:libacl.so.1 so:libc.musl-x86_64.so.1 so:liblz4.so.1 so:libpopt.so.0 so:libxxhash.so.0 so:libz.so.1 so:libzstd.so.1
-p:cmd:rsync-ssl=3.4.3-r0 cmd:rsync=3.4.3-r0
+p:cmd:rsync-ssl=3.5.0-r0 cmd:rsync=3.5.0-r0
 
-C:Q1F0a2d/UU1pJV0qrBWnL6jQd/i6s=
+C:Q1mcB2CgDprhQlPU/HG77bolf7YUk=
 P:rsync-doc
-V:3.4.3-r0
+V:3.5.0-r0
 A:x86_64
-S:101107
-I:98755
+S:110193
+I:107813
 T:A file transfer program to keep remote files in sync (documentation)
 U:https://rsync.samba.org/
 L:GPL-3.0-or-later
 o:rsync
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779273038
-c:11c734540c864e48ccc68f88f5158b0a31f35ba4
-i:docs rsync=3.4.3-r0
+t:1788304131
+c:c031f07a9b512273cb4ead5ae0a7538d52a05db5
+i:docs rsync=3.5.0-r0
 
-C:Q15BBLqOaYDgZZtjgORIEj9ouj954=
+C:Q1P9M8TU5UBho2SYssqgfwYomUKIY=
 P:rsync-openrc
-V:3.4.3-r0
+V:3.5.0-r0
 A:x86_64
-S:1975
+S:1976
 I:607
 T:A file transfer program to keep remote files in sync (OpenRC init scripts)
 U:https://rsync.samba.org/
 L:GPL-3.0-or-later
 o:rsync
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779273038
-c:11c734540c864e48ccc68f88f5158b0a31f35ba4
-i:openrc rsync=3.4.3-r0
+t:1788304131
+c:c031f07a9b512273cb4ead5ae0a7538d52a05db5
+i:openrc rsync=3.5.0-r0
 
 C:Q13oflnB29MkGaofCfGkKGUwFlMMA=
 P:rsync-zsh-completion
@@ -84637,21 +84652,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1ILt6OYXt8/5wYPeTveiVlg1UV6I=
+C:Q15gp1Qa3637b0uD/f9u4rVrksPvI=
 P:xtables-addons-lts
-V:6.12.103-r0
+V:6.12.109-r0
 A:x86_64
-S:4721150
-I:4757523
+S:4721068
+I:4757752
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1786371978
-c:9bf0b272c04d0585144bea5f888491affb277b27
-D:linux-lts=6.12.103-r0
-i:linux-lts=6.12.103-r0 xtables-addons
+t:1788944229
+c:d1e39a77b23cff6935168727ecfd996dd6e3379f
+D:linux-lts=6.12.109-r0
+i:linux-lts=6.12.109-r0 xtables-addons
 
 C:Q1+yx0b1KbxByPusiBmqZnkKofL2Y=
 P:xtrans
@@ -84732,82 +84747,82 @@ t:1690804334
 c:7c4c974879799dc7b151855390e42e18e0be2e08
 i:docs xxhash=0.8.2-r2
 
-C:Q1EDIWwc3K7K3xrO/ZaHL5We4vsY8=
+C:Q1j/LlBob6VwAzoMHmfaUjXhCcQCA=
 P:xz
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86_64
-S:64344
-I:166355
+S:64535
+I:166417
 T:Library and CLI tools for XZ and LZMA compressed files
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442978
-c:52b5cb3704042b5099c50981c34017a4981e440c
+t:1788989312
+c:703710896c49375655df7c22d0a523aa02544f2c
 D:so:libc.musl-x86_64.so.1 so:liblzma.so.5
-p:cmd:lzcat=5.8.3-r0 cmd:lzcmp=5.8.3-r0 cmd:lzdiff=5.8.3-r0 cmd:lzegrep=5.8.3-r0 cmd:lzfgrep=5.8.3-r0 cmd:lzgrep=5.8.3-r0 cmd:lzless=5.8.3-r0 cmd:lzma=5.8.3-r0 cmd:lzmadec=5.8.3-r0 cmd:lzmainfo=5.8.3-r0 cmd:lzmore=5.8.3-r0 cmd:unlzma=5.8.3-r0 cmd:unxz=5.8.3-r0 cmd:xz=5.8.3-r0 cmd:xzcat=5.8.3-r0 cmd:xzcmp=5.8.3-r0 cmd:xzdec=5.8.3-r0 cmd:xzdiff=5.8.3-r0 cmd:xzegrep=5.8.3-r0 cmd:xzfgrep=5.8.3-r0 cmd:xzgrep=5.8.3-r0 cmd:xzless=5.8.3-r0 cmd:xzmore=5.8.3-r0
+p:cmd:lzcat=5.8.4-r0 cmd:lzcmp=5.8.4-r0 cmd:lzdiff=5.8.4-r0 cmd:lzegrep=5.8.4-r0 cmd:lzfgrep=5.8.4-r0 cmd:lzgrep=5.8.4-r0 cmd:lzless=5.8.4-r0 cmd:lzma=5.8.4-r0 cmd:lzmadec=5.8.4-r0 cmd:lzmainfo=5.8.4-r0 cmd:lzmore=5.8.4-r0 cmd:unlzma=5.8.4-r0 cmd:unxz=5.8.4-r0 cmd:xz=5.8.4-r0 cmd:xzcat=5.8.4-r0 cmd:xzcmp=5.8.4-r0 cmd:xzdec=5.8.4-r0 cmd:xzdiff=5.8.4-r0 cmd:xzegrep=5.8.4-r0 cmd:xzfgrep=5.8.4-r0 cmd:xzgrep=5.8.4-r0 cmd:xzless=5.8.4-r0 cmd:xzmore=5.8.4-r0
 
-C:Q1kdtlPqkUbtlHh7cuz2AaDuxbmpk=
+C:Q1gCloceI/okOUE8gfVTCQmURT40o=
 P:xz-dev
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86_64
-S:56140
-I:229926
+S:56136
+I:229955
 T:Library and CLI tools for XZ and LZMA compressed files (development files)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442978
-c:52b5cb3704042b5099c50981c34017a4981e440c
-D:xz=5.8.3-r0 pkgconfig xz-libs=5.8.3-r0
-p:pc:liblzma=5.8.3
+t:1788989312
+c:703710896c49375655df7c22d0a523aa02544f2c
+D:xz=5.8.4-r0 pkgconfig xz-libs=5.8.4-r0
+p:pc:liblzma=5.8.4
 
-C:Q1DXYFK1qVa612NqXD/XLOcfPDvdA=
+C:Q1t8JpOBU+Acbgtko77Ywl1NOXW20=
 P:xz-doc
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86_64
-S:32505
-I:29212
+S:32484
+I:29195
 T:Library and CLI tools for XZ and LZMA compressed files (documentation)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442978
-c:52b5cb3704042b5099c50981c34017a4981e440c
-i:docs xz=5.8.3-r0
+t:1788989312
+c:703710896c49375655df7c22d0a523aa02544f2c
+i:docs xz=5.8.4-r0
 
-C:Q1Ws+z6y+eqPx2DgTHP0VZvcU3SlY=
+C:Q1njRMHlmJy1dN2V+LZbj8/p4+9Wg=
 P:xz-libs
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86_64
-S:117580
+S:118236
 I:231288
 T:Library and CLI tools for XZ and LZMA compressed files (libraries)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442978
-c:52b5cb3704042b5099c50981c34017a4981e440c
+t:1788989312
+c:703710896c49375655df7c22d0a523aa02544f2c
 D:so:libc.musl-x86_64.so.1
-p:so:liblzma.so.5=5.8.3
+p:so:liblzma.so.5=5.8.4
 
-C:Q1TpNmAbWYu4SB9tfQXyxJ0eQrwUw=
+C:Q1SncidIGRyy8rv05lPXF2uOXVV8M=
 P:xz-static
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86_64
-S:145949
-I:432156
+S:146327
+I:434020
 T:Library and CLI tools for XZ and LZMA compressed files (static library)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777442978
-c:52b5cb3704042b5099c50981c34017a4981e440c
+t:1788989312
+c:703710896c49375655df7c22d0a523aa02544f2c
 
 C:Q13u67nybe6UomjHeUscmZm6jPfSw=
 P:yajl
@@ -85149,37 +85164,37 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1UvHOBsLwd7glB3MIQ9Ogy5XNFHg=
+C:Q1HZgfWjg/IUVrNbjTxVRgUsbndN4=
 P:zfs-lts
-V:6.12.103-r1
+V:6.12.109-r0
 A:x86_64
-S:31086577
-I:31487647
+S:31087942
+I:31488764
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1787653538
-c:e2d6002bb749d2320801f553f00073b24cdee5ae
-D:linux-lts=6.12.103-r0
-p:spl-vanilla=6.12.103-r1
-i:zfs linux-lts=6.12.103-r0
+t:1788944360
+c:46a92bd5566a0b423c08368985ab0fc70f1eb40c
+D:linux-lts=6.12.109-r0
+p:spl-vanilla=6.12.109-r0
+i:zfs linux-lts=6.12.109-r0
 
-C:Q1TJOKqwIgqfd5yF5B08/wiY4WQNU=
+C:Q1sxUIBCSh8oY/lGy9kN8gqOW+lnw=
 P:zfs-lts-dev
-V:6.12.103-r1
+V:6.12.109-r0
 A:x86_64
-S:488017
+S:488011
 I:3225909
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1787653538
-c:e2d6002bb749d2320801f553f00073b24cdee5ae
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.103-r0
+t:1788944360
+c:46a92bd5566a0b423c08368985ab0fc70f1eb40c
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.109-r0
 
 C:Q1SOt5vAuYb4g/rBAQuhEVbhQx/eg=
 P:zfs-openrc
@@ -85242,21 +85257,21 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3
 p:cmd:arc_summary=2.2.11-r0 cmd:arcstat=2.2.11-r0 cmd:dbufstat=2.2.11-r0 cmd:zilstat=2.2.11-r0
 
-C:Q1gcvoO/2lLUVEMWoZx3e5uf3zqps=
+C:Q1fnBOwZk6jdnylz3knJtHsbVi3Zk=
 P:zfs-virt
-V:6.12.103-r1
+V:6.12.109-r0
 A:x86_64
-S:30649486
-I:31038140
+S:30652867
+I:31039708
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1787653538
-c:e2d6002bb749d2320801f553f00073b24cdee5ae
-D:linux-virt=6.12.103-r0
-i:zfs linux-virt=6.12.103-r0
+t:1788944360
+c:46a92bd5566a0b423c08368985ab0fc70f1eb40c
+D:linux-virt=6.12.109-r0
+i:zfs linux-virt=6.12.109-r0
 
 C:Q18LDiAk9TJ1zEvmhwLxZIgOsrITs=
 P:zfs-zsh-completion

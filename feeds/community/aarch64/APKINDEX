@@ -87034,21 +87034,21 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-aarch64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1435chOPaYmNNNQ9IxA5eALprXUA=
+C:Q14PA8Xrgx6TxUHSDNhRdxswJqSzk=
 P:jool-modules-lts
-V:6.12.103-r0
+V:6.12.109-r0
 A:aarch64
-S:8056298
-I:8141858
+S:8056590
+I:8141416
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786371931
-c:b022fb97c801c22fcee7f8fc2a12addd4780d76b
-D:linux-lts=6.12.103-r0
-i:linux-lts=6.12.103-r0 jool-tools
+t:1788944180
+c:9ba54ada4d2c31b487f3584d4b01898c931641ce
+D:linux-lts=6.12.109-r0
+i:linux-lts=6.12.109-r0 jool-tools
 
 C:Q1r7ZHN+/5oIk2qxPyRun9E/nyabk=
 P:jool-modules-rpi
@@ -256874,20 +256874,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1jOOLpGddDnLeIlITLciIm4ARRi8=
+C:Q1JRVRsjt079tXmXXDPGNlCXJN0bs=
 P:rtpengine-lts
-V:6.12.103-r0
+V:6.12.109-r0
 A:aarch64
-S:460143
-I:1673200
+S:460298
+I:1673256
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1786371941
-c:005907df4d065c2bc58f9e945af94cfa295bdaf5
-i:rtpengine linux-lts=6.12.103-r0
+t:1788944190
+c:7da3260cd4521763306dc8a5166ee8b1b11cce85
+i:rtpengine linux-lts=6.12.109-r0
 
 C:Q1h+TMWZcxH+AhtzxWWbV4LWR1vi4=
 P:rtpengine-openrc
@@ -256920,21 +256920,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1PBlEUZtqptbK68uP5WaO627zz0w=
+C:Q1Y66n25iPO4hFsALgIO4iPGy66iA=
 P:rtpengine-virt
-V:6.12.103-r0
+V:6.12.109-r0
 A:aarch64
-S:388476
-I:1360200
+S:388393
+I:1360264
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1786371941
-c:005907df4d065c2bc58f9e945af94cfa295bdaf5
-D:linux-virt=6.12.103-r0
-i:rtpengine linux-virt=6.12.103-r0
+t:1788944190
+c:7da3260cd4521763306dc8a5166ee8b1b11cce85
+D:linux-virt=6.12.109-r0
+i:rtpengine linux-virt=6.12.109-r0
 
 C:Q1qdQZ3LXAqrhEPNlx5bZwyUUmUE0=
 P:rtrlib
@@ -281595,51 +281595,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1bgOk0u5sNc5OWmGhTwkz4fYdN1Y=
+C:Q1BRGHC1wwjX3ivayQa4jzFY4tFic=
 P:tor
-V:0.4.9.11-r0
+V:0.4.9.12-r0
 A:aarch64
-S:6429582
-I:30061390
+S:6525713
+I:30524754
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1782739366
-c:5328edd0a65ba8850f2965a7229b802d53e324ae
+t:1788899056
+c:bf25ac79123d61b052323be94a5653c02fed9487
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.11-r0 cmd:tor-print-ed-signing-cert=0.4.9.11-r0 cmd:tor-resolve=0.4.9.11-r0 cmd:tor=0.4.9.11-r0 cmd:torify=0.4.9.11-r0
+p:cmd:tor-gencert=0.4.9.12-r0 cmd:tor-print-ed-signing-cert=0.4.9.12-r0 cmd:tor-resolve=0.4.9.12-r0 cmd:tor=0.4.9.12-r0 cmd:torify=0.4.9.12-r0
 
-C:Q1Uzz9NWHdBGqdPEM9hvKFnlLPYHk=
+C:Q1KZ4R6nOkxuhG8X3tlaBR5q+XQuw=
 P:tor-doc
-V:0.4.9.11-r0
+V:0.4.9.12-r0
 A:aarch64
-S:64330
-I:62055
+S:64452
+I:62174
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1782739366
-c:5328edd0a65ba8850f2965a7229b802d53e324ae
-i:docs tor=0.4.9.11-r0
+t:1788899056
+c:bf25ac79123d61b052323be94a5653c02fed9487
+i:docs tor=0.4.9.12-r0
 
-C:Q13epAnrGJAiuRt4qRBJf9VMiEnJo=
+C:Q106mMFRSA3nSpYbiD0UPzhkNgTGw=
 P:tor-openrc
-V:0.4.9.11-r0
+V:0.4.9.12-r0
 A:aarch64
-S:2898
+S:2892
 I:2742
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1782739366
-c:5328edd0a65ba8850f2965a7229b802d53e324ae
-i:openrc tor=0.4.9.11-r0
+t:1788899056
+c:bf25ac79123d61b052323be94a5653c02fed9487
+i:openrc tor=0.4.9.12-r0
 
 C:Q1VjM5IvmIUECQ0I9Mf+7hzYW13T0=
 P:torsocks
