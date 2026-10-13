@@ -33202,21 +33202,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 
-C:Q18rFJctEuMGxN2hiobQLRGuEEFAE=
+C:Q1U8epqtnk3ZIT2DEgXVI2cB1SzJY=
 P:libtiffxx
-V:4.7.1-r0
+V:4.7.2-r0
 A:x86_64
-S:4638
+S:4643
 I:14176
 T:C++ binding to libtiff
 U:https://gitlab.com/libtiff/libtiff
 L:libtiff
 o:tiff
 m:Michael Mason <ms13sp@gmail.com>
-t:1758495623
-c:821e10fbfa6516f4761f4c3145edb53ee9c1bec4
+t:1791457562
+c:63d533635ddd195ae834ea4e89d3722a922d23be
 D:so:libc.musl-x86_64.so.1 so:libstdc++.so.6 so:libtiff.so.6
-p:so:libtiffxx.so.6=6.2.0
+p:so:libtiffxx.so.6=6.3.0
 
 C:Q18RD8mbI094CGIquz/0pl2dLPS+M=
 P:libtirpc
@@ -37524,50 +37524,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1728932951
 c:ff05649790da27954fc672698b30aa984b772c01
 
-C:Q1bWg7fQYwfbEMKBIjas5lwBZY6lg=
+C:Q1XrRWVIJJnC8ZKLza8eNAmkBviZA=
 P:linux-lts
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:127073457
-I:139586090
+S:127154846
+I:139665871
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150637
-c:5dc8c29e215dbe8900df75a7832f96f32418e00a
+t:1791195990
+c:62d50affefb6f5aa5a810f573855b767a0a07486
 D:initramfs-generator linux-firmware-any
 
-C:Q1Joa96bztBwbg7NLcoX1ygXEjCZo=
+C:Q1odY3DQy1YAO32dQRODkPmCYB2HU=
 P:linux-lts-dev
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:19463303
-I:74013439
+S:19465542
+I:74023668
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150637
-c:5dc8c29e215dbe8900df75a7832f96f32418e00a
+t:1791195990
+c:62d50affefb6f5aa5a810f573855b767a0a07486
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1slErgQbxr/kuws6TRS0ODnmolVk=
+C:Q1SP6a+rOtn4hnPHl33PEKwbUHd/k=
 P:linux-lts-doc
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:13573402
-I:49504927
+S:13578301
+I:49519838
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150637
-c:5dc8c29e215dbe8900df75a7832f96f32418e00a
-i:docs linux-lts=6.12.111-r0
+t:1791195990
+c:62d50affefb6f5aa5a810f573855b767a0a07486
+i:docs linux-lts=6.12.112-r0
 
 C:Q1yAV3rbo1m3CAgRFazYbDF9FdpvU=
 P:linux-pam
@@ -37630,34 +37630,34 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1725877397
 c:390b824324986cc9f4a8cca5e13d9c09b8e88855
 
-C:Q1GWWDfzN+UH7jtOBNBqvEhRSqs6A=
+C:Q16NVBNniBRsV6Z2wglbtCyFR2WLE=
 P:linux-virt
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:40398495
-I:47070972
+S:40408346
+I:47081775
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150637
-c:5dc8c29e215dbe8900df75a7832f96f32418e00a
+t:1791195990
+c:62d50affefb6f5aa5a810f573855b767a0a07486
 D:initramfs-generator
 
-C:Q1Cp+oD0my8uG/tQltDGvtfJEDCSI=
+C:Q1ALghNvTUrKcLV6aZ/xykwpHruPM=
 P:linux-virt-dev
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:19107944
-I:72655381
+S:19110737
+I:72665442
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150637
-c:5dc8c29e215dbe8900df75a7832f96f32418e00a
+t:1791195990
+c:62d50affefb6f5aa5a810f573855b767a0a07486
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1xt/TuKKae/l2KP2khBIK91K9TvA=
@@ -52166,53 +52166,53 @@ c:59f0478ebc7d0c61b837d26562432f14452954ff
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libosp.so.5 so:libstdc++.so.6
 p:so:libogrove.so.0=0.0.1 so:libospgrove.so.0=0.0.1 so:libostyle.so.0=0.0.1
 
-C:Q19fl3QRfunF7G6cbqsWtHJVbnrtY=
+C:Q1W4Iks7dbwDHN3ujwSUAA8Ww2WlE=
 P:openjpeg
-V:2.5.4-r0
+V:2.5.4-r1
 A:x86_64
-S:136982
+S:137030
 I:313024
 T:Open-source implementation of JPEG2000 image codec
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1788308335
-c:4d29d0832725042bf2b9f9c1ff16bb491f479594
+t:1791473802
+c:cd6654787807de07f60d0355d092b9b0ffb80b74
 D:so:libc.musl-x86_64.so.1
 p:so:libopenjp2.so.7=2.5.4
 
-C:Q1auxCe4f3xTkE8CiqFRbPRm2jqjw=
+C:Q1obvof5RYhl/8L/O9ZwAh51c7430=
 P:openjpeg-dev
-V:2.5.4-r0
+V:2.5.4-r1
 A:x86_64
-S:176966
-I:526067
+S:177007
+I:526107
 T:Open-source implementation of JPEG2000 image codec (development files)
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1788308335
-c:4d29d0832725042bf2b9f9c1ff16bb491f479594
-D:openjpeg-tools openjpeg=2.5.4-r0 pkgconfig
+t:1791473802
+c:cd6654787807de07f60d0355d092b9b0ffb80b74
+D:openjpeg-tools openjpeg=2.5.4-r1 pkgconfig
 p:pc:libopenjp2=2.5.4
 
-C:Q1aW0U30H5giv1D6HMvUycx3bkN+Q=
+C:Q1kVNWlMvZTr+EgttDkkZTRZYjbIk=
 P:openjpeg-tools
-V:2.5.4-r0
+V:2.5.4-r1
 A:x86_64
-S:139239
+S:139233
 I:298008
 T:Open-source implementation of JPEG2000 image codec - tools
 U:https://www.openjpeg.org/
 L:BSD-2-Clause
 o:openjpeg
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1788308335
-c:4d29d0832725042bf2b9f9c1ff16bb491f479594
+t:1791473802
+c:cd6654787807de07f60d0355d092b9b0ffb80b74
 D:so:libc.musl-x86_64.so.1 so:liblcms2.so.2 so:libopenjp2.so.7 so:libpng16.so.16 so:libtiff.so.6
-p:cmd:opj_compress=2.5.4-r0 cmd:opj_decompress=2.5.4-r0 cmd:opj_dump=2.5.4-r0
+p:cmd:opj_compress=2.5.4-r1 cmd:opj_decompress=2.5.4-r1 cmd:opj_dump=2.5.4-r1
 
 C:Q1W+ztpwWIFwpYnZGr12E8E99I7mQ=
 P:openldap
@@ -79757,68 +79757,68 @@ t:1701958496
 c:9024026ee6838388f8b87e52a17495786ed85d4e
 i:openrc tftp-hpa=5.2-r7
 
-C:Q1qr1bB9N9t5uxxL5T8b9rTH9ZIHc=
+C:Q1nvFypRU8JJnTn59qxX8uT87sKDk=
 P:tiff
-V:4.7.1-r0
+V:4.7.2-r0
 A:x86_64
-S:166486
-I:464824
+S:169336
+I:473016
 T:Provides support for the Tag Image File Format or TIFF
 U:https://gitlab.com/libtiff/libtiff
 L:libtiff
 o:tiff
 m:Michael Mason <ms13sp@gmail.com>
-t:1758495623
-c:821e10fbfa6516f4761f4c3145edb53ee9c1bec4
+t:1791457562
+c:63d533635ddd195ae834ea4e89d3722a922d23be
 D:so:libc.musl-x86_64.so.1 so:libjpeg.so.8 so:libwebp.so.7 so:libz.so.1 so:libzstd.so.1
-p:so:libtiff.so.6=6.2.0
+p:so:libtiff.so.6=6.3.0
 
-C:Q1JDNl/5aW+5xn1L6/fPvArC7SwUU=
+C:Q1rQjq2TJ1ZTPJE1X5pKTyPf1R3CI=
 P:tiff-dev
-V:4.7.1-r0
+V:4.7.2-r0
 A:x86_64
-S:32297
-I:106126
+S:32320
+I:106264
 T:Provides support for the Tag Image File Format or TIFF (development files)
 U:https://gitlab.com/libtiff/libtiff
 L:libtiff
 o:tiff
 m:Michael Mason <ms13sp@gmail.com>
-t:1758495623
-c:821e10fbfa6516f4761f4c3145edb53ee9c1bec4
-D:libtiffxx=4.7.1-r0 pc:libjpeg pc:libwebp pc:libzstd pc:zlib pkgconfig tiff=4.7.1-r0
-p:pc:libtiff-4=4.7.1
+t:1791457562
+c:63d533635ddd195ae834ea4e89d3722a922d23be
+D:libtiffxx=4.7.2-r0 pc:libjpeg pc:libwebp pc:libzstd pc:zlib pkgconfig tiff=4.7.2-r0
+p:pc:libtiff-4=4.7.2
 
-C:Q1tlBxl/u2hWZChfJ0FJyEFR+qsco=
+C:Q15ebqMtlStv0JcNsdgZbEpyrwCdY=
 P:tiff-doc
-V:4.7.1-r0
+V:4.7.2-r0
 A:x86_64
-S:871568
-I:4423570
+S:881967
+I:4436306
 T:Provides support for the Tag Image File Format or TIFF (documentation)
 U:https://gitlab.com/libtiff/libtiff
 L:libtiff
 o:tiff
 m:Michael Mason <ms13sp@gmail.com>
-t:1758495623
-c:821e10fbfa6516f4761f4c3145edb53ee9c1bec4
-i:docs tiff=4.7.1-r0
+t:1791457562
+c:63d533635ddd195ae834ea4e89d3722a922d23be
+i:docs tiff=4.7.2-r0
 
-C:Q1EvV5IRuBJL4KqC9PcUYxtM9Foyk=
+C:Q1MKd631cUfW0LPzmo7lntfcvjI4I=
 P:tiff-tools
-V:4.7.1-r0
+V:4.7.2-r0
 A:x86_64
-S:167200
-I:492024
+S:182454
+I:541168
 T:Command-line utility programs for manipulating TIFF files
 U:https://gitlab.com/libtiff/libtiff
 L:libtiff
 o:tiff
 m:Michael Mason <ms13sp@gmail.com>
-t:1758495623
-c:821e10fbfa6516f4761f4c3145edb53ee9c1bec4
+t:1791457562
+c:63d533635ddd195ae834ea4e89d3722a922d23be
 D:so:libc.musl-x86_64.so.1 so:libtiff.so.6
-p:cmd:fax2ps=4.7.1-r0 cmd:fax2tiff=4.7.1-r0 cmd:pal2rgb=4.7.1-r0 cmd:ppm2tiff=4.7.1-r0 cmd:raw2tiff=4.7.1-r0 cmd:tiff2bw=4.7.1-r0 cmd:tiff2pdf=4.7.1-r0 cmd:tiff2ps=4.7.1-r0 cmd:tiff2rgba=4.7.1-r0 cmd:tiffcmp=4.7.1-r0 cmd:tiffcp=4.7.1-r0 cmd:tiffcrop=4.7.1-r0 cmd:tiffdither=4.7.1-r0 cmd:tiffdump=4.7.1-r0 cmd:tiffinfo=4.7.1-r0 cmd:tiffmedian=4.7.1-r0 cmd:tiffset=4.7.1-r0 cmd:tiffsplit=4.7.1-r0
+p:cmd:fax2ps=4.7.2-r0 cmd:fax2tiff=4.7.2-r0 cmd:pal2rgb=4.7.2-r0 cmd:ppm2tiff=4.7.2-r0 cmd:raw2tiff=4.7.2-r0 cmd:tiff2bw=4.7.2-r0 cmd:tiff2pdf=4.7.2-r0 cmd:tiff2ps=4.7.2-r0 cmd:tiff2rgba=4.7.2-r0 cmd:tiffcmp=4.7.2-r0 cmd:tiffcp=4.7.2-r0 cmd:tiffcrop=4.7.2-r0 cmd:tiffdither=4.7.2-r0 cmd:tiffdump=4.7.2-r0 cmd:tiffinfo=4.7.2-r0 cmd:tiffmedian=4.7.2-r0 cmd:tiffset=4.7.2-r0 cmd:tiffsplit=4.7.2-r0
 
 C:Q1RuPEb3oBfYhzGG2yuR8Hly7FMN8=
 P:tig
@@ -80440,64 +80440,64 @@ t:1707761314
 c:e9aaf16455ea3c361e79aac23a789f0e9b6798c1
 D:/bin/sh
 
-C:Q1FXdT4W8E+WzzTy7nOTu2glsVEn8=
+C:Q1FDsMnYMKvTeuDt/u3aQ7+U8Hi34=
 P:tzdata
-V:2026d-r0
+V:2026e-r0
 A:x86_64
-S:190823
-I:452530
+S:190847
+I:452230
 T:Timezone data
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789452855
-c:56dd60806f00a122bc8b86f2564514064174d1f0
+t:1791290589
+c:a2b2d5069cb293a6ad413c7cf40550b69d5f45fa
 
-C:Q1gs8CBmSml6/YoJ8Zvm/BHv9ZU+0=
+C:Q1E5z/KoiiyJwg07Q7NV1sz6tJbyo=
 P:tzdata-doc
-V:2026d-r0
+V:2026e-r0
 A:x86_64
-S:14586
+S:14584
 I:12772
 T:Timezone data (documentation)
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789452855
-c:56dd60806f00a122bc8b86f2564514064174d1f0
-i:docs tzdata-utils=2026d-r0
+t:1791290589
+c:a2b2d5069cb293a6ad413c7cf40550b69d5f45fa
+i:docs tzdata-utils=2026e-r0
 
-C:Q1Ce2vJZ7nd0j8R/aeDPXUyn8maDs=
+C:Q1mMbZmfcDnU8/ccSSwT3l1r3JLK0=
 P:tzdata-right
-V:2026d-r0
+V:2026e-r0
 A:x86_64
-S:186278
-I:592525
+S:186420
+I:592223
 T:Timezone data for TAI-10 system clock
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789452855
-c:56dd60806f00a122bc8b86f2564514064174d1f0
+t:1791290589
+c:a2b2d5069cb293a6ad413c7cf40550b69d5f45fa
 
-C:Q1Kx7thL8Y0guy2wXCUVM5KtEviuY=
+C:Q1OEwl6FUIuh4Or/AnptJhaIPsTSw=
 P:tzdata-utils
-V:2026d-r0
+V:2026e-r0
 A:x86_64
-S:43386
+S:43387
 I:104096
 T:Timezone data
 U:https://www.iana.org/time-zones
 L:Public-Domain
 o:tzdata
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789452855
-c:56dd60806f00a122bc8b86f2564514064174d1f0
+t:1791290589
+c:a2b2d5069cb293a6ad413c7cf40550b69d5f45fa
 D:so:libc.musl-x86_64.so.1
-p:cmd:posixtz=2026d-r0 cmd:zdump=2026d-r0 cmd:zic=2026d-r0
+p:cmd:posixtz=2026e-r0 cmd:zdump=2026e-r0 cmd:zic=2026e-r0
 
 C:Q1SAZ/2feaBhHD2Ccm8hTUAFFQZIg=
 P:u-boot
@@ -84652,21 +84652,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1Ov+bStXBEgCygfT2M70WWZ6IT0w=
+C:Q1ZTrUkZ+pYNG14qgeSIQOi5ReNcY=
 P:xtables-addons-lts
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:4722406
-I:4759714
+S:4722799
+I:4760312
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150710
-c:09a71382e98895438d7d6221a8a1c5a46fce47d3
-D:linux-lts=6.12.111-r0
-i:linux-lts=6.12.111-r0 xtables-addons
+t:1791196067
+c:34ef0c5d05e89878717c63b60409d113b943b572
+D:linux-lts=6.12.112-r0
+i:linux-lts=6.12.112-r0 xtables-addons
 
 C:Q1+yx0b1KbxByPusiBmqZnkKofL2Y=
 P:xtrans
@@ -85164,37 +85164,37 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1Vpv5OtpGgWvS2nggW7VaDLHyJQY=
+C:Q18z5S5egyFfNbvCgbpX/vl3wHt/g=
 P:zfs-lts
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:31111879
-I:31512091
+S:31110243
+I:31511021
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150845
-c:2b27eaeeb805ccd8f3f1a1844390394d794f5cc0
-D:linux-lts=6.12.111-r0
-p:spl-vanilla=6.12.111-r0
-i:zfs linux-lts=6.12.111-r0
+t:1791196204
+c:8be44d382a4e9451109c43c1ec9f5d9285029106
+D:linux-lts=6.12.112-r0
+p:spl-vanilla=6.12.112-r0
+i:zfs linux-lts=6.12.112-r0
 
-C:Q111/JpRDJnXHiee69+L+q31p7Klw=
+C:Q1uqkF2DZLxLQdHym2rUtcI/ST8rM=
 P:zfs-lts-dev
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:487970
+S:487949
 I:3225909
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150845
-c:2b27eaeeb805ccd8f3f1a1844390394d794f5cc0
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.111-r0
+t:1791196204
+c:8be44d382a4e9451109c43c1ec9f5d9285029106
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.112-r0
 
 C:Q1SOt5vAuYb4g/rBAQuhEVbhQx/eg=
 P:zfs-openrc
@@ -85257,21 +85257,21 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3
 p:cmd:arc_summary=2.2.11-r0 cmd:arcstat=2.2.11-r0 cmd:dbufstat=2.2.11-r0 cmd:zilstat=2.2.11-r0
 
-C:Q1T3KnstrfwKGNcSjVVLc1PoR8pzk=
+C:Q1Kz4WfUGVjKPpWWjCHWLyF/PdmMI=
 P:zfs-virt
-V:6.12.111-r0
+V:6.12.112-r0
 A:x86_64
-S:30672525
-I:31058229
+S:30672626
+I:31059331
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790150845
-c:2b27eaeeb805ccd8f3f1a1844390394d794f5cc0
-D:linux-virt=6.12.111-r0
-i:zfs linux-virt=6.12.111-r0
+t:1791196204
+c:8be44d382a4e9451109c43c1ec9f5d9285029106
+D:linux-virt=6.12.112-r0
+i:zfs linux-virt=6.12.112-r0
 
 C:Q18LDiAk9TJ1zEvmhwLxZIgOsrITs=
 P:zfs-zsh-completion
@@ -85320,66 +85320,66 @@ t:1722853029
 c:14226268fa7d58f8faa74d8971ce1503959b8345
 i:docs zip=3.0-r13
 
-C:Q15POhMWEXF6pu93I94TNaex+/BSM=
+C:Q1UBcaybFIMUpU3mTAKmQBQmv6wjs=
 P:zlib
-V:1.3.2-r0
+V:1.3.2-r1
 A:x86_64
-S:55393
+S:55400
 I:104280
 T:A compression/decompression Library
 U:https://zlib.net/
 L:Zlib
 o:zlib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776179882
-c:2b38f55109add14f4f99a974c2fdf421b6b9e9e9
+t:1791319067
+c:c973d294927355eac1d2a6e97d86e41fbab8ffda
 D:so:libc.musl-x86_64.so.1
 p:so:libz.so.1=1.3.2
 
-C:Q1ctbTKg6sZ0YPT/xVpX9I1ABISAY=
+C:Q1vDDGGfDMg5ozv2MQGdiwj0QeW5Q=
 P:zlib-dev
-V:1.3.2-r0
+V:1.3.2-r1
 A:x86_64
-S:34380
+S:34385
 I:121035
 T:A compression/decompression Library (development files)
 U:https://zlib.net/
 L:Zlib
 o:zlib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776179882
-c:2b38f55109add14f4f99a974c2fdf421b6b9e9e9
-D:pkgconfig zlib=1.3.2-r0
+t:1791319067
+c:c973d294927355eac1d2a6e97d86e41fbab8ffda
+D:pkgconfig zlib=1.3.2-r1
 p:pc:zlib=1.3.2
 
-C:Q1W5ZhGUY/GEuaTfY8gxIyOtUGllE=
+C:Q1xYh4mlQvKGuK9crePu3OeNuBBws=
 P:zlib-doc
-V:1.3.2-r0
+V:1.3.2-r1
 A:x86_64
-S:3787
+S:3792
 I:2079
 T:A compression/decompression Library (documentation)
 U:https://zlib.net/
 L:Zlib
 o:zlib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776179882
-c:2b38f55109add14f4f99a974c2fdf421b6b9e9e9
-i:docs zlib=1.3.2-r0
+t:1791319067
+c:c973d294927355eac1d2a6e97d86e41fbab8ffda
+i:docs zlib=1.3.2-r1
 
-C:Q1yBU32V5wlfDrLgECda4RCU55GRU=
+C:Q1COcMZV1G7JSj4GUWELkXK2oUGWQ=
 P:zlib-static
-V:1.3.2-r0
+V:1.3.2-r1
 A:x86_64
-S:60906
-I:139262
+S:60915
+I:139294
 T:A compression/decompression Library (static library)
 U:https://zlib.net/
 L:Zlib
 o:zlib
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776179882
-c:2b38f55109add14f4f99a974c2fdf421b6b9e9e9
+t:1791319067
+c:c973d294927355eac1d2a6e97d86e41fbab8ffda
 
 C:Q1qUXk5ref2vgOqys82xAC4OZvWgM=
 P:zmap
