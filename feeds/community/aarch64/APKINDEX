@@ -87034,21 +87034,21 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-aarch64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1gB2y3Z57KDzYzhqzgtOR9cmIhuA=
+C:Q1ZPqOFED7rmUfT2ITL05mkAyxP2w=
 P:jool-modules-lts
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:8064493
-I:8149235
+S:8079990
+I:8165391
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1791196015
-c:ff19cb7b841365b801a7ccd336ffec136e94f939
-D:linux-lts=6.12.112-r0
-i:linux-lts=6.12.112-r0 jool-tools
+t:1792585321
+c:a3dbe6db542138186ff8e56973a1ae5b2369ab65
+D:linux-lts=6.12.114-r0
+i:linux-lts=6.12.114-r0 jool-tools
 
 C:Q1r7ZHN+/5oIk2qxPyRun9E/nyabk=
 P:jool-modules-rpi
@@ -183851,733 +183851,733 @@ t:1701560758
 c:550187bef077989a38611f8fd39c9499aaecb5ad
 p:php-yaml=1-r1
 
-C:Q1yAD+q8k9zOMTHlc8BOM79jQ/J5I=
+C:Q15MFwc6xz5n2RsNZ2kKOB0+LnExI=
 P:php82
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1833184
+S:1843506
 I:4724512
 T:The PHP82 language runtime engine
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php82-cli php-cli php cmd:php82=8.2.28-r0
+p:php82-cli php-cli php cmd:php82=8.2.35-r0
 
-C:Q1RwxLOvmHyvTlLkAOsUIN7s1dPcA=
+C:Q1zA2gDw4bXSIN3XhfyGdoeAeRpQo=
 P:php82-apache2
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1805530
+S:1817353
 I:4724634
 T:PHP82 Module for Apache2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common apache2 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-apache2
 
-C:Q1Nvwlu6D4HdVMyp4kbManKabGo8Y=
+C:Q1dfycgiwOLzryM/1kXUpJF32/P08=
 P:php82-bcmath
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:16312
+S:16319
 I:67505
 T:PHP82 extension: BC Math
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-bcmath
 
-C:Q1m6z2V1iOssY8hqL6i5N+SjK0gsY=
+C:Q11jtatO/fZI0tlL3+E/jfP5C0c8o=
 P:php82-bz2
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:10391
+S:10464
 I:67502
 T:PHP82 extension: Bzip2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libbz2.so.1 so:libc.musl-aarch64.so.1
 p:php-bz2
 
-C:Q1Rh8hGjSx64/b111Wk6k4i34AN8s=
+C:Q1eD3dH/S7R+VBUDvXTT+rfrb2BZg=
 P:php82-calendar
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:13468
+S:13483
 I:67507
 T:PHP82 extension: Calendar
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-calendar
 
-C:Q1C4JEUjGXHrplTPykdJc9NDBbDVY=
+C:Q1c63UHa7jJOrUQ4gMHgUgAFxOrxs=
 P:php82-cgi
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1810196
+S:1821750
 I:4658680
 T:PHP82 Common Gateway Interface
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-cgi cmd:php-cgi82=8.2.28-r0
+p:php-cgi cmd:php-cgi82=8.2.35-r0
 
-C:Q1OiIWVmM4DN+swDqQzytxqPaaqeE=
+C:Q1ETs9ehz0aPkEtc/BStdJKfhdP/E=
 P:php82-common
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:25785
+S:25796
 I:73872
 T:The PHP82 language runtime engine (common config)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 p:php-common php82-zlib php-zlib php82-json php-json
 
-C:Q1CgYQeS7E2j+4k9KXy5KJdG1BrBY=
+C:Q1KC+STUIQLj4n+yTkI0sXqfRk/sQ=
 P:php82-ctype
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:5249
+S:5254
 I:67504
 T:PHP82 extension: ctype
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-ctype
 
-C:Q1+LJLKx/87/pw2KrAtFQvRaXfi34=
+C:Q1wBbF/Irjzsg3eWQ9o9K0iTr7zyU=
 P:php82-curl
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:38842
+S:38881
 I:133039
 T:PHP82 extension: cURL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libcurl.so.4
 p:php-curl
 
-C:Q1tJEYV+PDux0jKbIM86wtgDkJ9u0=
+C:Q1Uq5rQPGLT2EStxbZTWuOqKxbYb0=
 P:php82-dba
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:22610
+S:22643
 I:68230
 T:PHP82 extension: DBA
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libgdbm.so.6 so:liblmdb.so.0
 p:php-dba
 
-C:Q1pIFSIjrpTcy89FMIUXEfzgYkQmI=
+C:Q1j4xGFJSDzlpoUF6JlkgvoVL4n/g=
 P:php82-dbg
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:44644868
-I:104207400
+S:45387470
+I:106710424
 T:The PHP82 language runtime engine (debug symbols)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common
 
-C:Q1oNbn7Jwt0il/kw66j8KdxQRAKhM=
+C:Q13nOQlHxHsPvSyX8csOrBDwYL25Q=
 P:php82-dev
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:991456
-I:5990922
+S:995237
+I:6010363
 T:The PHP82 language runtime engine (development files)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
-D:php82=8.2.28-r0 autoconf pcre2-dev re2c
-p:cmd:php-config82=8.2.28-r0 cmd:phpize82=8.2.28-r0
+D:php82=8.2.35-r0 autoconf pcre2-dev re2c
+p:cmd:php-config82=8.2.35-r0 cmd:phpize82=8.2.35-r0
 
-C:Q1gDpUCxMkVrPoXc6VMXpS6yJ13Gk=
+C:Q1l6rTnE0cuGbOsgDgrGvGBt4c9KI=
 P:php82-doc
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:74465
-I:204770
+S:76198
+I:209976
 T:The PHP82 language runtime engine (documentation)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
-i:docs php82=8.2.28-r0
+i:docs php82=8.2.35-r0
 
-C:Q1cg28hM/1lmLRN/e0nPhRYUAwFC4=
+C:Q1VKxG9anC5gnVC+K2W4y9k7oG0vA=
 P:php82-dom
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:61202
+S:61359
 I:198726
 T:PHP82 extension: DOM
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-dom
 
-C:Q1vV5DDEJze2r/tHhPpP5ANAhA2Pw=
+C:Q1E0VJXxMdO/ZsOk2E0tgLTdZs+rk=
 P:php82-embed
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1797565
-I:4783761
+S:1810229
+I:4850321
 T:PHP82 Embedded Library
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-embed so:libphp82.so=0
 
-C:Q1oe4dC6Nqarm0BORVfFbDXkERuIo=
+C:Q1fuD1jDbOTZ6slUg1mphhVrEZwYw=
 P:php82-enchant
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:8857
+S:8872
 I:67506
 T:PHP82 extension: enchant
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libenchant-2.so.2
 p:php-enchant
 
-C:Q1Rlzvaa4zsxgy7K/1a81MjFV4Idg=
+C:Q1cIZekqazXAbob9GQAsBsExyUjEg=
 P:php82-exif
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:29365
+S:29879
 I:67503
 T:PHP82 extension: EXIF
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-mbstring so:libc.musl-aarch64.so.1
 p:php-exif
 
-C:Q1yI21vIwc9fTaFtz7DAxihMSMPwo=
+C:Q1zRxRHzmjIJQv8rVd2G2sd++IbwI=
 P:php82-ffi
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:75898
+S:75918
 I:198726
 T:PHP82 extension: FFI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libffi.so.8
 p:php-ffi
 
-C:Q1O8k5BO5G1tDYCEIyewNagzVLllA=
+C:Q1mbYlzNY1MQM6TA3+/gS65oGA6Vg=
 P:php82-fileinfo
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:385807
+S:386045
 I:7145435
 T:PHP82 extension: fileinfo
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-fileinfo
 
-C:Q18Km+18ThHaSqX8oaVDsb8mDi0Qo=
+C:Q1QuPsEqUbmWku+Z21NTe510QhdNs=
 P:php82-fpm
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1879961
-I:4774874
+S:1892694
+I:4840410
 T:PHP82 FastCGI Process Manager
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libacl.so.1 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-fpm cmd:php-fpm82=8.2.28-r0
+p:php-fpm cmd:php-fpm82=8.2.35-r0
 
-C:Q1ZVPUDf0r6629pdlXtw8t35wjM7o=
+C:Q1BvfYn5ckZHf5gkdXBN7j6uaCxgs=
 P:php82-ftp
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:22400
+S:22413
 I:67654
 T:PHP82 extension: FTP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-ftp
 
-C:Q1VCuTPgA8RgcS25lqw8JLFFxWfoo=
+C:Q1i7H64KYfy7DGT9p9jQRo9uAEDwE=
 P:php82-gd
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:125353
+S:125462
 I:395501
 T:PHP82 extension: GD imaging
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libXpm.so.4 so:libavif.so.16 so:libc.musl-aarch64.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libwebp.so.7 so:libz.so.1
 p:php-gd
 
-C:Q1CNv6gPvKdKcDHOB2Kij/hm1EAR8=
+C:Q1kINfi/tg+bvowrVL1tayAPRAe0k=
 P:php82-gettext
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:6120
+S:6131
 I:67506
 T:PHP82 extension: GetText
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libintl.so.8
 p:php-gettext
 
-C:Q1SgHdsG2sTq5XPnVOAtojWHhH/Oo=
+C:Q1GI8s+JQFdoKyJ0neR2q2lVDEJCE=
 P:php82-gmp
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:21082
+S:21098
 I:67502
 T:PHP82 extension: GNU GMP support
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libgmp.so.10
 p:php-gmp
 
-C:Q1OGcDAEJGitZ9nqYItihKH/aimlA=
+C:Q1bF5CoUjkvj8MO8s8ZVLi6/sqVhg=
 P:php82-iconv
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:17563
+S:17762
 I:67504
 T:PHP82 extension: Iconv
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-iconv
 
-C:Q1QgpTe7DEK/HplY0BRKQxnUFHjsU=
+C:Q17IHPOjFq6c8od6CJlkKR729VY7U=
 P:php82-imap
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:32675
+S:32729
 I:133039
 T:PHP82 extension: IMAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc-client.so.1 so:libc.musl-aarch64.so.1
 p:php-imap
 
-C:Q1+Fj/THS8YvGbYZRzu5QTzULMCWw=
+C:Q1RYmg1bjOWVqUsIoE5EMyLmRWyOQ=
 P:php82-intl
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:153493
+S:153582
 I:526495
 T:PHP82 extension: Internationalization
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libicui18n.so.74 so:libicuio.so.74 so:libicuuc.so.74 so:libstdc++.so.6
 p:php-intl
 
-C:Q1AqaMI6PtAFJJQ+H+KNMUzP4RYU4=
+C:Q1kh0/bBcIXryHTkZt2Gtlvrkjtbc=
 P:php82-ldap
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:31080
+S:31091
 I:133191
 T:PHP82 extension: LDAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 p:php-ldap
 
-C:Q1+/zBOlWlI3zrP43DZffJvh3oSrw=
+C:Q1LAKxwg6eiB3tLPJEfafF9H7xCaI=
 P:php82-litespeed
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1820234
+S:1832362
 I:4661112
 T:PHP82 LiteSpeed SAPI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-lightspeed cmd:lsphp82=8.2.28-r0
+p:php-lightspeed cmd:lsphp82=8.2.35-r0
 
-C:Q1IKZR3nHRjmJjbQor+l65AGTOJU4=
+C:Q1H2QQ4d4dfkPw3GKbH6hHKkX6h+o=
 P:php82-mbstring
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:636072
+S:637643
 I:1183947
 T:PHP82 extension: Multibyte String Functions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libonig.so.5
 p:php-mbstring
 
-C:Q1jVxJ+jr0docGIbDFozX3vDjLryg=
+C:Q1eraFOWvJd/UfMU1JrzrcpUMqbUo=
 P:php82-mysqli
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:40485
+S:40486
 I:133041
 T:PHP82 extension: MySQLi
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-mysqlnd php82-openssl so:libc.musl-aarch64.so.1
 p:php-mysqli
 
-C:Q1b2wdUwIjhANsDJx3SSA+fL3oHv8=
+C:Q1wEW5m2OGYFMdVW1/5YvEWEUuWyA=
 P:php82-mysqlnd
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:76453
+S:76582
 I:201970
 T:PHP82 extension: MySQLnd
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-openssl so:libc.musl-aarch64.so.1
 p:php-mysqlnd
 
-C:Q1UGhGG8SQm1XOK2TTsXIMNej9y44=
+C:Q1dW7oWiRPJqB73WX7/P5TC9BwaEE=
 P:php82-odbc
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:23632
+S:23640
 I:67503
 T:PHP82 extension: ODBC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-odbc
 
-C:Q1DYKekcAVhGbiptqvj/4oSxIqvCQ=
+C:Q12x4SXlNOrhbCbocyYi2d83Qk6II=
 P:php82-opcache
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:521350
+S:522164
 I:1706759
 T:PHP82 extension: Opcache
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-opcache
 
-C:Q1PfptHDUVJcOEf2cYEhG77wVK/cg=
+C:Q1BhO/sE3GEWNxXxfzXYktZcWA184=
 P:php82-openssl
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:70213
+S:70535
 I:198738
 T:PHP82 extension: OpenSSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-openssl
 
-C:Q1znNyuAfk+mSesrpwnzQ+ttOYNsI=
+C:Q156IelDhqo5r7wyZtfyrItgVawio=
 P:php82-pcntl
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:15130
+S:15139
 I:67504
 T:PHP82 extension: pcntl
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-pcntl
 
-C:Q1Y27mVxeXzYiGw4HK5WrkUu4g2OU=
+C:Q1k6nVPIljXHz2/9YRmYZqxzFEUDE=
 P:php82-pdo
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:42752
+S:42758
 I:133038
 T:PHP82 extension: PHP Data Objects
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-pdo
 
-C:Q1QdUp/w0kqPaC0SmI9IBMaQp2bDc=
+C:Q1BD8qaD0T4mM8qHZrvdwRxUHOQqU=
 P:php82-pdo_dblib
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:12885
+S:12900
 I:67508
 T:PHP82 extension: DB-LIB (MS SQL, Sybase)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-pdo so:libc.musl-aarch64.so.1 so:libsybdb.so.5
 p:php-pdo_dblib
 
-C:Q1yZp5C+8vHgoVK4Z+suGM0cNrEZI=
+C:Q15VwkHyczyY+ERKj+uOlb8VygOu0=
 P:php82-pdo_mysql
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:13381
+S:13388
 I:67508
 T:PHP82 extension: MySQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-pdo php82-mysqlnd so:libc.musl-aarch64.so.1
 p:php-pdo_mysql
 
-C:Q1XkMk7Ooxnbs+5My/yBGdoNkMtM0=
+C:Q11jC9TAY9mAt/ONd9Etqe7i6XkgQ=
 P:php82-pdo_odbc
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:13524
+S:13534
 I:67515
 T:PHP82 extension: ODBC driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-pdo so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-pdo_odbc
 
-C:Q1MRsds3uPRJLDcWyX44CIK4S+bQI=
+C:Q14fIB2VUK9WRzNkllP/rcd/4G+Vk=
 P:php82-pdo_pgsql
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:19114
+S:19142
 I:67508
 T:PHP82 extension: PostgreSQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-pdo so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pdo_pgsql
 
-C:Q19KO0GGdVRVOR7r+6+wEQVzCIBOw=
+C:Q1JG/YNZGPjRG/Vw1/vNUqtGt1lrg=
 P:php82-pdo_sqlite
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:13163
+S:13182
 I:67509
 T:PHP82 extension: SQLite 3.x driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-pdo so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-pdo_sqlite
 
-C:Q17HXNO8dpGl7vd0uh2Q/uuHRcLN4=
+C:Q1/i3b4MV5dmT4jYNW4WPHGm8cuI8=
 P:php82-pear
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:345914
-I:1919884
+S:346165
+I:1921104
 T:PHP82 Extension and Application Repository
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82 php82-xml
-p:php-pear cmd:pear82=8.2.28-r0 cmd:peardev82=8.2.28-r0 cmd:pecl82=8.2.28-r0
+p:php-pear cmd:pear82=8.2.35-r0 cmd:peardev82=8.2.35-r0 cmd:pecl82=8.2.35-r0
 
 C:Q1l6RWfJoI5M5iIbrX4xfoPlSqEL4=
 P:php82-pecl-amqp
@@ -185232,206 +185232,206 @@ t:1730903666
 c:52ee532c464dbaba0c7cabe9c50fae9d241696af
 D:php82-common so:libc.musl-aarch64.so.1 so:libzstd.so.1
 
-C:Q16MKiFmU5wFyZYiX9Seo8ttSgIxk=
+C:Q1PHUv/pwxyMN/kZoImYWHlRrg6QA=
 P:php82-pgsql
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:43907
+S:44487
 I:133040
 T:PHP82 extension: PostgreSQL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pgsql
 
-C:Q1hrNIYAvwqGe5HXCwme4qfQmHNUM=
+C:Q1OysrtXl2PpSLuiPgM6n9GbeHQl4=
 P:php82-phar
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:119541
+S:119871
 I:279352
 T:PHP82 extension: PHP Archive
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82 so:libc.musl-aarch64.so.1
-p:php-phar cmd:phar.phar82=8.2.28-r0 cmd:phar82=8.2.28-r0
+p:php-phar cmd:phar.phar82=8.2.35-r0 cmd:phar82=8.2.35-r0
 
-C:Q1t6ck8ovbW5oW1rsby8sT88uqusQ=
+C:Q1OO+Trv+1aHm0cScuhzpqXBp/2iI=
 P:php82-phpdbg
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:1878341
-I:4790264
+S:1889951
+I:4855800
 T:Interactive PHP82 debugger
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-phpdbg cmd:phpdbg82=8.2.28-r0
+p:php-phpdbg cmd:phpdbg82=8.2.35-r0
 
-C:Q1IY6RjdWGwWsNs8hZc20HWH3izJQ=
+C:Q1jGacgZFCv7J0w821Ajn/wRPaBPs=
 P:php82-posix
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:11433
+S:11443
 I:67504
 T:PHP82 extension: Posix
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-posix
 
-C:Q1gTfMRf2YZocIl2kgEXJJadDq2AM=
+C:Q1+kA6D8ivAC+NL8O0tY8Ar/m25bc=
 P:php82-pspell
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:8312
+S:8326
 I:67505
 T:PHP82 extension: Pspell
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libaspell.so.15 so:libc.musl-aarch64.so.1
 p:php-pspell
 
-C:Q1YV9u7wA2v5OyUes+O1LncEZoTd8=
+C:Q1Njas3O8tmB59vPUm6JUar1oqLeI=
 P:php82-session
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:36195
+S:36497
 I:134098
 T:PHP82 extension: Sessions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-session
 
-C:Q1YbK5UQI/tznUn12WnA3nDwNCFKU=
+C:Q1Cp+CyXLVX5SnvPSo//p5gkF6I+k=
 P:php82-shmop
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:6445
+S:6474
 I:67504
 T:PHP82 extension: Shared Memory Operations
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-shmop
 
-C:Q1IhNd/XtyB25tn6Xvg8oOK0qNC70=
+C:Q1qbeOUNK9kBY6L+BtAVugcKQQpfY=
 P:php82-simplexml
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:22529
+S:22901
 I:67668
 T:PHP82 extension: SimpleXML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-simplexml
 
-C:Q1iD9tSTfS3zDLi2dvrRZn+Hh/IWM=
+C:Q1Ma+NSa5dkMcwaTfBIycr/2W/VkM=
 P:php82-snmp
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:21362
+S:21377
 I:67503
 T:PHP82 extension: SNMP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libnetsnmp.so.40
 p:php-snmp
 
-C:Q1wPLlANpRuG1e6c/oetB4xmHdeas=
+C:Q1xNbZTe/fmGzcq+DLReDMlH6vtwI=
 P:php82-soap
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:131096
+S:132216
 I:329807
 T:PHP82 extension: SOAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-soap
 
-C:Q1v83lub0tCWI7WBbSml1z9SumClA=
+C:Q1vszuzJIIbFzVMBdtIZDLy5kP5HI=
 P:php82-sockets
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:37108
+S:37125
 I:133042
 T:PHP82 extension: Sockets
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-sockets
 
-C:Q1yyQBTVCQEojM5IsMOhz/ijR+pxo=
+C:Q1HMVBUgnr0LKSZOPrYLDXPHO3+xQ=
 P:php82-sodium
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:26244
+S:26266
 I:133041
 T:PHP82 extension: Sodium
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libsodium.so.26
 p:php-sodium
@@ -185451,920 +185451,920 @@ t:1727694120
 c:3bb7c38b9a123b7d55866fdb35915c541adde4d8
 D:php82-common so:libc.musl-aarch64.so.1
 
-C:Q16b048Ws6cyVRKPGPsVOWGoh4bM4=
+C:Q1LdxDs+Ioej9D1u5E4WsasfjOedo=
 P:php82-sqlite3
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:22483
+S:22501
 I:67506
 T:PHP82 extension: SQLite3
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-sqlite3
 
-C:Q1zGEc1yfzuR1sn9F2EIjbneecwPk=
+C:Q1kUYPun1KWGlFPEoUYPtkXeQQ6F0=
 P:php82-sysvmsg
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:8166
+S:8175
 I:67506
 T:PHP82 extension: System V Message based IPC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-sysvmsg
 
-C:Q1GgBK/KOq8FXCjHJyXCvfzKsQ3Nw=
+C:Q106U9398d+oc+61L3IS15p3EW14Y=
 P:php82-sysvsem
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:6067
+S:6076
 I:67506
 T:PHP82 extension: System V Semaphores
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-sysvsem
 
-C:Q1ClyShvVLiJlmoG4BYYHdaTULUfU=
+C:Q1Y0C/uXVAga2R22Ovdg5IkRqK670=
 P:php82-sysvshm
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:7066
+S:7077
 I:67506
 T:PHP82 extension: System V Shared Memory
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-sysvshm
 
-C:Q1Z2Gfs833CDwxuhts2hoXtZ/uD7E=
+C:Q1GT+9cppT4pNondXKCppEpgBikjo=
 P:php82-tidy
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:19468
+S:19481
 I:67503
 T:PHP82 extension: tidy
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libtidy.so.58
 p:php-tidy
 
-C:Q1XXNPcD6D6TshrAZdITEB85CLbV0=
+C:Q1h4LkT3j24eI9tWhO8A0U6oNj1z0=
 P:php82-tokenizer
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:12058
+S:12146
 I:67508
 T:PHP82 extension: tokenizer
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1
 p:php-tokenizer
 
-C:Q1lCi/XMwVxg66Nbz7DDPoFIw/rJU=
+C:Q1qjjsXSNNQW9aWpBtpx3xDh/ZY7g=
 P:php82-xml
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:19495
+S:19582
 I:67654
 T:PHP82 extension: XML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xml
 
-C:Q1yFdzrlBgieMrlb1nnUvxBDZI3i0=
+C:Q1GO1QcmNtY0DolIdWHVAqmPsZUII=
 P:php82-xmlreader
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:14056
+S:14166
 I:67668
 T:PHP82 extension: XMLReader
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-dom so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlreader
 
-C:Q1l7o2pI8JMg9SZUgIVZa/9leA2fk=
+C:Q187fkfvE8qlC4lSs6McrelAobVhk=
 P:php82-xmlwriter
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:11441
+S:11469
 I:67668
 T:PHP82 extension: XMLWriter
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlwriter
 
-C:Q1bWakH4ZYDCXJ2rywdZBrt/HKynM=
+C:Q1Sqdq1fzhC8onG/+N5D9Af7KB2nM=
 P:php82-xsl
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:13456
+S:13465
 I:67654
 T:PHP82 extension: XSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common php82-dom so:libc.musl-aarch64.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
 p:php-xsl
 
-C:Q1yBS4XanxpPPXwRu/KqoveaUhxWc=
+C:Q1sy5mrLpgipCMvK0Wy2n/AXcwlhk=
 P:php82-zip
-V:8.2.28-r0
+V:8.2.35-r0
 A:aarch64
-S:27502
+S:27517
 I:133038
 T:PHP82 extension: Zip
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php82
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1742004962
-c:729382ef10d14887ac95357a43cc7bc3be917055
+t:1792665121
+c:1405b9857b749ea9379e04d646db4763b77a7cd5
 k:70
 D:php82-common so:libc.musl-aarch64.so.1 so:libzip.so.5
 p:php-zip
 
-C:Q1uJdzE5FVIFDUoce2qexs7PPqV3g=
+C:Q1hbbe/Wie4t4uLeh6vRo5q3BmLaI=
 P:php83
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1868871
-I:4790072
+S:1884875
+I:4855608
 T:The PHP83 language runtime engine
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php83-cli php-cli php cmd:php83=8.3.19-r0 cmd:php=8.3.19-r0
+p:php83-cli php-cli php cmd:php83=8.3.36-r0 cmd:php=8.3.36-r0
 
-C:Q1xjkWaBWVuIadz9a6kzxfMMskMfo=
+C:Q1D9JD9QN8k9aRPxp4P25oqlVSaGc=
 P:php83-apache2
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1841025
-I:4790194
+S:1857590
+I:4855730
 T:PHP83 Module for Apache2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common apache2 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-apache2
 
-C:Q1HgF3yMaGE3j6Iop5Y/fkrObgUks=
+C:Q1wcAXBhgqy9gQLcIg3ipZCGRDIO8=
 P:php83-bcmath
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:16505
+S:16506
 I:67505
 T:PHP83 extension: BC Math
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-bcmath
 
-C:Q14G816xMr2Ykr4zDxPfx+CEATDhg=
+C:Q1YkUJDV/PfOVyeJ157oHwMADRmoE=
 P:php83-bz2
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:10395
+S:10524
 I:67502
 T:PHP83 extension: Bzip2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libbz2.so.1 so:libc.musl-aarch64.so.1
 p:php-bz2
 
-C:Q1O6CbJejfXtfd8Xp0jcTKiRy8lHo=
+C:Q1q33d86nE4Zrhb9KB1CkfZ3jU8lg=
 P:php83-calendar
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13516
+S:13681
 I:67507
 T:PHP83 extension: Calendar
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-calendar
 
-C:Q1kMfbyDOIJo+V8xbJYQZUmI/+7lg=
+C:Q1IWFPGxa7EzCD1D8QpTf5yujbR5Y=
 P:php83-cgi
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1845364
-I:4724240
+S:1862909
+I:4789776
 T:PHP83 Common Gateway Interface
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-cgi cmd:php-cgi83=8.3.19-r0 cmd:php-cgi=8.3.19-r0
+p:php-cgi cmd:php-cgi83=8.3.36-r0 cmd:php-cgi=8.3.36-r0
 
-C:Q1PkJKnKbBBHgwtcEaBBJYL1KTaZo=
+C:Q1934IqDnTFO3W8teaop/+3lDtf84=
 P:php83-common
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:25654
+S:25656
 I:73399
 T:The PHP83 language runtime engine (common config)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 p:php-common php83-zlib php-zlib php83-json php-json
 
-C:Q10ot3/7qb8WdKRFLS0vfHAHGe7Uc=
+C:Q1rJHyx4IxJi8aC6VDXPhfA/nzKEM=
 P:php83-ctype
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:5248
+S:5252
 I:67504
 T:PHP83 extension: ctype
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-ctype
 
-C:Q1HkKagdtbwZHiBh48QF+lkjO2W84=
+C:Q13WnzPMG9DogFSe5yi91nzGKq+/A=
 P:php83-curl
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:40049
+S:40147
 I:133039
 T:PHP83 extension: cURL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libcurl.so.4
 p:php-curl
 
-C:Q14MFSW5QES6WtE0FIzvKefdgj8J8=
+C:Q12Vq45n2lXcPO0ZAk3Ls8N9oRxQA=
 P:php83-dba
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:23221
+S:23315
 I:67502
 T:PHP83 extension: DBA
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libgdbm.so.6 so:liblmdb.so.0
 p:php-dba
 
-C:Q1FiM/lE939ZQCSLc7i243GYuBKDg=
+C:Q1GWrWg0SgVpOb/6rTZmnuN6rsP/M=
 P:php83-dbg
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:45363041
-I:105878080
+S:46180315
+I:108552808
 T:The PHP83 language runtime engine (debug symbols)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common
 
-C:Q1UiU/k0qJMN3EWGKsOOWOUCAwPQA=
+C:Q1n9up9DeEFIe8i39yyRsOO8BK3Ik=
 P:php83-dev
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1011797
-I:6113630
+S:1015516
+I:6133431
 T:The PHP83 language runtime engine (development files)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
-D:php83=8.3.19-r0 autoconf pcre2-dev re2c
-p:cmd:php-config83=8.3.19-r0 cmd:php-config=8.3.19-r0 cmd:phpize83=8.3.19-r0 cmd:phpize=8.3.19-r0
+D:php83=8.3.36-r0 autoconf pcre2-dev re2c
+p:cmd:php-config83=8.3.36-r0 cmd:php-config=8.3.36-r0 cmd:phpize83=8.3.36-r0 cmd:phpize=8.3.36-r0
 
-C:Q1ympiQRv0FMF/2ItpB4wcFW1P8tk=
+C:Q1BOWlZrrB1KHjUlh5cZI7pez3qWg=
 P:php83-doc
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:70598
-I:191269
+S:80302
+I:224021
 T:The PHP83 language runtime engine (documentation)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
-i:docs php83=8.3.19-r0
+i:docs php83=8.3.36-r0
 
-C:Q1TSJPdN99wwOr399EbU4X8lcKwi4=
+C:Q1kVdHasAeNCfKVUrDLkY4invghn4=
 P:php83-dom
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:67289
+S:67573
 I:198726
 T:PHP83 extension: DOM
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-dom
 
-C:Q12pdvvuf3zQ5hkXQ4+azve1cUGnY=
+C:Q13hriEO7JnyzDEukjnsvXAT8dlkk=
 P:php83-embed
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1832549
-I:4916217
+S:1848771
+I:4917281
 T:PHP83 Embedded Library
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-embed so:libphp83.so=0
 
-C:Q15nuyu7C1/qRQYdomMEQ5PpC5ZvI=
+C:Q1Y9xWsbjLp0yj5qklzClI2fbTUj4=
 P:php83-enchant
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:8893
+S:8890
 I:67506
 T:PHP83 extension: enchant
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libenchant-2.so.2
 p:php-enchant
 
-C:Q1+AJJXtX+haTStHPE8KnAMwFtGHs=
+C:Q1WOAGkpX880E3iBSJPBMT3VT6d8o=
 P:php83-exif
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:29165
+S:29844
 I:67503
 T:PHP83 extension: EXIF
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-mbstring so:libc.musl-aarch64.so.1
 p:php-exif
 
-C:Q1y1WFQeWKgShN0bUPmI5yiC4XePA=
+C:Q1At68a9msw9s2cb1ZgQqc2qvCQkg=
 P:php83-ffi
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:76330
+S:76319
 I:198726
 T:PHP83 extension: FFI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libffi.so.8
 p:php-ffi
 
-C:Q1lNULLIKmpobaYJ0diBYGt1lmejY=
+C:Q1pMIaVjoSkaFzNpwZgZaGZDAqqA0=
 P:php83-fileinfo
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:430239
+S:430382
 I:8128475
 T:PHP83 extension: fileinfo
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-fileinfo
 
-C:Q1BcFuumHzY2H6dxTwce0264L4qyA=
+C:Q1UXVAGdITgx5b4yIzDe/rQJDaCio=
 P:php83-fpm
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1915241
+S:1932907
 I:4905976
 T:PHP83 FastCGI Process Manager
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libacl.so.1 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-fpm cmd:php-fpm83=8.3.19-r0
+p:php-fpm cmd:php-fpm83=8.3.36-r0
 
-C:Q1sz5ZR2KH1gJe0V8VDYItb+JUOjU=
+C:Q1Hohe50m+eSgn+TDCScN36n55s7U=
 P:php83-ftp
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:22546
+S:22615
 I:67654
 T:PHP83 extension: FTP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-ftp
 
-C:Q1MJBWOkaA9YDlkYcTccdVlVMSMYo=
+C:Q1hiTm47jegmbMzccdV/9P3SHdG3U=
 P:php83-gd
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:125480
+S:125951
 I:395501
 T:PHP83 extension: GD imaging
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libXpm.so.4 so:libavif.so.16 so:libc.musl-aarch64.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libwebp.so.7 so:libz.so.1
 p:php-gd
 
-C:Q1F38GxXOUxmyXn+L24P5+CTCu484=
+C:Q1f/xIAsZbZtgrUeETCjLqcgyGx7I=
 P:php83-gettext
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:6134
+S:6137
 I:67506
 T:PHP83 extension: GetText
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libintl.so.8
 p:php-gettext
 
-C:Q1WefKx/pn5hP6IPZUS1EeDGo5sD4=
+C:Q1Vj7jo5HBhogpmvtS+RrM3PYWWww=
 P:php83-gmp
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:20976
+S:20981
 I:67502
 T:PHP83 extension: GNU GMP support
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libgmp.so.10
 p:php-gmp
 
-C:Q1nGEBp8Zx2H+moFEJDwHFrWy6TZE=
+C:Q1hJSe5JPdHDRJ+jNayym+rixFDFc=
 P:php83-iconv
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:17593
+S:17776
 I:67504
 T:PHP83 extension: Iconv
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-iconv
 
-C:Q1ZJo7CZyyUYs44yRUGcmcUq+Rhlg=
+C:Q1/G6rUNq0/UztV2ryhp9ZgzMgpc0=
 P:php83-imap
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:32357
+S:32384
 I:133039
 T:PHP83 extension: IMAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc-client.so.1 so:libc.musl-aarch64.so.1
 p:php-imap
 
-C:Q1P0jpwJjsw/+DLa74aRvhIe1x1NU=
+C:Q1RaWbnt0XF555V2QwfCMxz+X66zE=
 P:php83-intl
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:156158
+S:156825
 I:526495
 T:PHP83 extension: Internationalization
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libicui18n.so.74 so:libicuio.so.74 so:libicuuc.so.74 so:libstdc++.so.6
 p:php-intl
 
-C:Q1AEjEJOq29aaMr1R9Is7DuLFIio0=
+C:Q1+jYkNnrI/KsIiRx9dtt5Me15+bI=
 P:php83-ldap
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:31532
+S:31973
 I:133191
 T:PHP83 extension: LDAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 p:php-ldap
 
-C:Q1JHLIZM6GTiMk5Kzk3vmDGMt0gbU=
+C:Q1W74gcXnQ/9ePN5nxlw+bQ2ZaEF0=
 P:php83-litespeed
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1856045
-I:4726672
+S:1873728
+I:4792208
 T:PHP83 LiteSpeed SAPI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-lightspeed cmd:lsphp83=8.3.19-r0 cmd:lsphp=8.3.19-r0
+p:php-lightspeed cmd:lsphp83=8.3.36-r0 cmd:lsphp=8.3.36-r0
 
-C:Q1avUal/7XrNjtyOzYYUY/Gnjnk6w=
+C:Q1LAMeqY0CzF7yaOSizPa8fhxJzPY=
 P:php83-mbstring
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:633813
+S:635318
 I:1183947
 T:PHP83 extension: Multibyte String Functions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libonig.so.5
 p:php-mbstring
 
-C:Q1MA8VIijrRC/qVt9nZsr7Wig5+A4=
+C:Q1bb+L9jGFodpqXNPWzJb0TrfT4Yo=
 P:php83-mysqli
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:40250
+S:40245
 I:133041
 T:PHP83 extension: MySQLi
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-mysqlnd php83-openssl so:libc.musl-aarch64.so.1
 p:php-mysqli
 
-C:Q1h65WamfS5vPWVfvqhqzvX9laQs0=
+C:Q1JIITbbn18xXicU+kkWtH2qzakuc=
 P:php83-mysqlnd
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:75996
+S:76286
 I:201954
 T:PHP83 extension: MySQLnd
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-openssl so:libc.musl-aarch64.so.1
 p:php-mysqlnd
 
-C:Q1Xu5vlyH4Kd3vTWKCrkXmNTEytwo=
+C:Q1nzBKlp73qLV0U+ojPs6niI57j60=
 P:php83-odbc
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:23636
+S:23631
 I:67503
 T:PHP83 extension: ODBC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-odbc
 
-C:Q1XbN2rjgjsBYJ4jrugtYbQG2v7oM=
+C:Q1kBiCngMFizj0vQZp2yLx/U9Klgc=
 P:php83-opcache
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:520678
+S:521869
 I:1706687
 T:PHP83 extension: Opcache
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-opcache
 
-C:Q1GwnfRuhnm9j4uG1VO/pnj/W53H4=
+C:Q1/JPvTGgGo282MmNyWQayNrcXFdA=
 P:php83-openssl
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:71812
+S:72549
 I:198738
 T:PHP83 extension: OpenSSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-openssl
 
-C:Q1yP5vJ5VhTzxST5iU/xXl+Asfal0=
+C:Q1y9t27AXBpYjp12ALs3PtHiC4/9I=
 P:php83-pcntl
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:15184
+S:15187
 I:67504
 T:PHP83 extension: pcntl
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-pcntl
 
-C:Q1KARPUWVjQK5Xkjm9+NeB5QCkWEg=
+C:Q1E9/ITJylmtZR/t7HlQrj6+0AHYU=
 P:php83-pdo
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:43087
+S:43127
 I:133038
 T:PHP83 extension: PHP Data Objects
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-pdo
 
-C:Q1WnhhKsTgFvzTw33erc2DLB7FeNk=
+C:Q1wn8LadV9C4uP2X63alsAjae+vOg=
 P:php83-pdo_dblib
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:12886
+S:12891
 I:67508
 T:PHP83 extension: DB-LIB (MS SQL, Sybase)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-pdo so:libc.musl-aarch64.so.1 so:libsybdb.so.5
 p:php-pdo_dblib
 
-C:Q1r3tHh5oj3kefmg8dcxod0Xwzr4c=
+C:Q13l9Cmw+xlNHrWXZDH/3p5eWEe/w=
 P:php83-pdo_mysql
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13362
+S:13379
 I:67508
 T:PHP83 extension: MySQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-pdo php83-mysqlnd so:libc.musl-aarch64.so.1
 p:php-pdo_mysql
 
-C:Q1UHWs2B1mRQRXdGzqHoHTvPlIiLA=
+C:Q1HFfULtXHOHCFU5mJW96s7tMqiQo=
 P:php83-pdo_odbc
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13650
+S:13684
 I:67515
 T:PHP83 extension: ODBC driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-pdo so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-pdo_odbc
 
-C:Q1DSNL8POrUBxUlZ35upFjmcyEAdg=
+C:Q1T7Z2Xd5ljhH4rQ16YDtmPCw6lW8=
 P:php83-pdo_pgsql
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:19117
+S:19206
 I:67508
 T:PHP83 extension: PostgreSQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-pdo so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pdo_pgsql
 
-C:Q1e65akGzUe5O1DoNldjJTnZ2YoPs=
+C:Q1rK16pkrkwHmC1XdbwqN4vNCpH8U=
 P:php83-pdo_sqlite
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13133
+S:13135
 I:67509
 T:PHP83 extension: SQLite 3.x driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-pdo so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-pdo_sqlite
 
-C:Q1Yj+E5EGsFvoF7kih17LGXwjmw0c=
+C:Q1TZ6pGFcoTXUyrnceN3A6cGu2ul4=
 P:php83-pear
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:346125
-I:1919884
+S:346357
+I:1921104
 T:PHP83 Extension and Application Repository
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83 php83-xml
-p:php-pear cmd:pear83=8.3.19-r0 cmd:pear=8.3.19-r0 cmd:peardev83=8.3.19-r0 cmd:peardev=8.3.19-r0 cmd:pecl83=8.3.19-r0 cmd:pecl=8.3.19-r0
+p:php-pear cmd:pear83=8.3.36-r0 cmd:pear=8.3.36-r0 cmd:peardev83=8.3.36-r0 cmd:peardev=8.3.36-r0 cmd:pecl83=8.3.36-r0 cmd:pecl=8.3.36-r0
 
 C:Q1H1/vzWtp+nT5aeeIbw69DzYlzvw=
 P:php83-pecl-amqp
@@ -187019,206 +187019,206 @@ t:1730903785
 c:3db92574bc757bc688b3a167b2a93cc6ea9d81fb
 D:php83-common so:libc.musl-aarch64.so.1 so:libzstd.so.1
 
-C:Q1vXGbmGM1IBRPsuGa3HDajgf4u6U=
+C:Q1Lj201M4M5S5nZrKnMBwDXE9YuzE=
 P:php83-pgsql
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:44715
+S:45447
 I:133040
 T:PHP83 extension: PostgreSQL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pgsql
 
-C:Q18jFaa4uyOrNIUpzIIWnJ/6cBcBg=
+C:Q16Sx7GBn9SIxkhrH2j+4cA5ATkwM=
 P:php83-phar
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:119714
+S:120707
 I:279349
 T:PHP83 extension: PHP Archive
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83 so:libc.musl-aarch64.so.1
-p:php-phar cmd:phar.phar=8.3.19-r0 cmd:phar83.phar=8.3.19-r0 cmd:phar83=8.3.19-r0 cmd:phar=8.3.19-r0
+p:php-phar cmd:phar.phar=8.3.36-r0 cmd:phar83.phar=8.3.36-r0 cmd:phar83=8.3.36-r0 cmd:phar=8.3.36-r0
 
-C:Q1STT3B+ekdCXCMpwFb8Lra0cMyZg=
+C:Q1RgrU3FutKtMKC6HIJog7jnX3BMY=
 P:php83-phpdbg
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:1911712
-I:4855312
+S:1930963
+I:4920848
 T:Interactive PHP83 debugger
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-phpdbg cmd:phpdbg83=8.3.19-r0 cmd:phpdbg=8.3.19-r0
+p:php-phpdbg cmd:phpdbg83=8.3.36-r0 cmd:phpdbg=8.3.36-r0
 
-C:Q1Z6qOmMgBHUH4atour7xtcWXwn+A=
+C:Q18XsVi1mb2smZwDnpU53OLaQwi5o=
 P:php83-posix
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:12320
+S:12326
 I:67504
 T:PHP83 extension: Posix
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-posix
 
-C:Q1IlSK4IXUiwdqIX68EyLmIlNv8zE=
+C:Q1/lxeMPEC6oYxXCvMakMJz6KxcZc=
 P:php83-pspell
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:8303
+S:8305
 I:67505
 T:PHP83 extension: Pspell
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libaspell.so.15 so:libc.musl-aarch64.so.1
 p:php-pspell
 
-C:Q1wEtTbnlk9ZmNK/t6ZYKNtkWMTiU=
+C:Q1nqoJS4LwZ7LgJkTT6p3J77pYHsk=
 P:php83-session
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:36922
+S:37188
 I:134098
 T:PHP83 extension: Sessions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-session
 
-C:Q1tWYmVJkifzZFCTUVg2ZlsGhWJp8=
+C:Q1cBSAXZxDYihyomS/vDm+BiLGxpk=
 P:php83-shmop
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:6444
+S:6478
 I:67504
 T:PHP83 extension: Shared Memory Operations
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-shmop
 
-C:Q1I/xuTsP0hNGVJsjYnuolpVbGXzw=
+C:Q1BVien12O245Y2yfy59KpOGXNmHY=
 P:php83-simplexml
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:22581
+S:23059
 I:67668
 T:PHP83 extension: SimpleXML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-simplexml
 
-C:Q14UPLhTGFfRviJCfcqPhqpLVuvRQ=
+C:Q1wy1pD1ct7oK5aBPSh1Tw7K9NIy4=
 P:php83-snmp
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:21431
+S:21434
 I:67503
 T:PHP83 extension: SNMP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libnetsnmp.so.40
 p:php-snmp
 
-C:Q1Ivl407R7j3aSFWZAuLxW64x+FtQ=
+C:Q1ZUSh0/ZYV9XKrCXtj0L5JALz0sM=
 P:php83-soap
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:131661
+S:132570
 I:329807
 T:PHP83 extension: SOAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-soap
 
-C:Q1QqRGCscP3mETm7ztm9vUP6iuGdA=
+C:Q1NRJgl/zHSMzv6dmYezSjurF+ODo=
 P:php83-sockets
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:37853
+S:37910
 I:133042
 T:PHP83 extension: Sockets
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-sockets
 
-C:Q1T0ZsdgtxIN3e1RFt5946D+xJuLg=
+C:Q1f7wY9BnEwP60eSalqFIofkmQMvI=
 P:php83-sodium
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:26298
+S:26301
 I:133041
 T:PHP83 extension: Sodium
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libsodium.so.26
 p:php-sodium
@@ -187238,903 +187238,903 @@ t:1727694120
 c:8c9a231c0b9b53c0d04bc75bd5b5e53d7857df99
 D:php83-common so:libc.musl-aarch64.so.1
 
-C:Q15XFUBlNzJyRHasCQuc1zfsRL34w=
+C:Q1LmNKQNy+r/wRDQ9FgijssfQNkT8=
 P:php83-sqlite3
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:23736
+S:23753
 I:67506
 T:PHP83 extension: SQLite3
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-sqlite3
 
-C:Q17SzDEJxvUSp6tDt5/nsVBktbbvM=
+C:Q1RaDAG1E2zJMKj1V88RMCM43yIRE=
 P:php83-sysvmsg
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:8209
+S:8217
 I:67506
 T:PHP83 extension: System V Message based IPC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-sysvmsg
 
-C:Q1zwG4LXWzqQCHqVAvq6Sd2LBjYE8=
+C:Q1e0jqvYmj9hxP1UjFOrWL/D+Ag1I=
 P:php83-sysvsem
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:6070
+S:6074
 I:67506
 T:PHP83 extension: System V Semaphores
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-sysvsem
 
-C:Q15OfHjaqZfpsEDGT9Ef+2OWhePgk=
+C:Q1IUTCjv5/ev+WTpMt1oauaOrrgrU=
 P:php83-sysvshm
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:7071
+S:7073
 I:67506
 T:PHP83 extension: System V Shared Memory
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-sysvshm
 
-C:Q1+/BtfP9WjKjV5DMyYKobkKNzv5o=
+C:Q1uFMFSeETe+Kq8t6Gly5FheEvaBs=
 P:php83-tidy
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:19459
+S:19730
 I:67503
 T:PHP83 extension: tidy
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libtidy.so.58
 p:php-tidy
 
-C:Q1bAfgxzhAjN5fYToewu8+WQc0nVw=
+C:Q14ldT5rvowg2f9XEA7sM/vuCwy8s=
 P:php83-tokenizer
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:12110
+S:12200
 I:67508
 T:PHP83 extension: tokenizer
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1
 p:php-tokenizer
 
-C:Q1H6SnrzrKcSyJMzn+B+KG0c0VWhQ=
+C:Q1Ar2sgrETkqMlYxmoDELb6nyzzgk=
 P:php83-xml
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:20130
+S:19973
 I:67654
 T:PHP83 extension: XML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xml
 
-C:Q19LdZIvZXN064Li6kbT1g95isR9A=
+C:Q18QVtKRhzXH6SHnypDG5EPiMBGWU=
 P:php83-xmlreader
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13979
+S:14098
 I:67668
 T:PHP83 extension: XMLReader
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-dom so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlreader
 
-C:Q1plNMB4C5YCda3EAnlI6PxEDhH4I=
+C:Q1wr7KIgNdIoduY++m5h3m5BCg2FE=
 P:php83-xmlwriter
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:11434
+S:11447
 I:67668
 T:PHP83 extension: XMLWriter
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlwriter
 
-C:Q1fCdgn+CD4MGXt30lUxhWRtXR48Q=
+C:Q1FBlRehYvyY441ODxuXzEJIFkqwo=
 P:php83-xsl
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:13500
+S:13503
 I:67654
 T:PHP83 extension: XSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common php83-dom so:libc.musl-aarch64.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
 p:php-xsl
 
-C:Q1KcsGsm90sxGpxriPqCOREF4a3Do=
+C:Q1HWBanIEjabRgATfyzYGEzy4O5Dc=
 P:php83-zip
-V:8.3.19-r0
+V:8.3.36-r0
 A:aarch64
-S:28267
+S:28406
 I:133038
 T:PHP83 extension: Zip
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php83
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1743073695
-c:1c6254cda4f5656223e0237071664bf5a6a72db1
+t:1792656149
+c:7e525d33a7d313c5f1cdc7b1036f39de2aabd736
 k:100
 D:php83-common so:libc.musl-aarch64.so.1 so:libzip.so.5
 p:php-zip
 
-C:Q1g6/77EmeXmNjFiYTWQRqv+LObAg=
+C:Q1nz5OLM5fhZr1SFyRTR0A6h9DRq4=
 P:php84
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1934174
-I:4921320
+S:1953686
+I:4986824
 T:The PHP84 language runtime engine
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php84-cli php-cli php cmd:php84=8.4.14-r0
+p:php84-cli php-cli php cmd:php84=8.4.27-r0
 
-C:Q1xvEdUZNt3J3UfnF91gx0/KTw2hs=
+C:Q1Xvklk7lOFtNjSxum28FFLF4A09A=
 P:php84-apache2
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1907413
-I:4921442
+S:1925793
+I:4986946
 T:PHP84 Module for Apache2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common apache2 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-apache2
 
-C:Q1j+cQ6Mch07LbkM+ADQcKP/6UHzc=
+C:Q1j79yhmbVB6/1DGMx/DGZyWjg0aI=
 P:php84-bcmath
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:26485
+S:26578
 I:67505
 T:PHP84 extension: BC Math
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-bcmath
 
-C:Q13hfJb5EMINkwrN0scCdYZRBcFVc=
+C:Q16PF/rINr7Vv9oe47/iXZkH6Xy0g=
 P:php84-bz2
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:10449
+S:10725
 I:67502
 T:PHP84 extension: Bzip2
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libbz2.so.1 so:libc.musl-aarch64.so.1
 p:php-bz2
 
-C:Q1zsUylm/Quqd749mQSRlAvaNNK9E=
+C:Q14fcxHByqd5zzrhfuPEReJVbb+Oo=
 P:php84-calendar
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:13695
+S:13689
 I:67507
 T:PHP84 extension: Calendar
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-calendar
 
-C:Q1+RsEk0J+Qi41/OAmOwOP31VDnRw=
+C:Q1uzM9NHPihyzr5qPEwIR3YdPSX8E=
 P:php84-cgi
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1911364
-I:4855488
+S:1931030
+I:4920992
 T:PHP84 Common Gateway Interface
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-cgi cmd:php-cgi84=8.4.14-r0
+p:php-cgi cmd:php-cgi84=8.4.27-r0
 
-C:Q1w7YX2QuVL+HIlxV/oAHDaHP7loM=
+C:Q1Xxryl0l8EdcBYyk+15emiQNVIgY=
 P:php84-common
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:24285
+S:24291
 I:69050
 T:The PHP84 language runtime engine (common config)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 p:php-common php84-zlib php-zlib php84-json php-json
 
-C:Q16jt1Z4ZEdhQfeMVm2No4/mtr5bg=
+C:Q1HtN4FoXElwyS3ZDUnW7XDEsVNSs=
 P:php84-ctype
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:5262
+S:5265
 I:67504
 T:PHP84 extension: ctype
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-ctype
 
-C:Q1I7DRXAlXIV63H8kWsct5+8G0IdI=
+C:Q1twhCC9Wv9F096ljRvTTYSVZiMEo=
 P:php84-curl
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:42498
+S:42525
 I:133039
 T:PHP84 extension: cURL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libcurl.so.4
 p:php-curl
 
-C:Q1rVo4i+7vn6yx6qTb2dsrq2ZM+Vc=
+C:Q1NuHgnBDMudE35HJn35J/K+hmoTo=
 P:php84-dba
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:24694
+S:24770
 I:67502
 T:PHP84 extension: DBA
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libgdbm.so.6 so:liblmdb.so.0
 p:php-dba
 
-C:Q1RYI4H/HTYRBvNDDdbRKgVaWfcDk=
+C:Q18yYxXBtrNvCzvTzbxJautzqkcMA=
 P:php84-dbg
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:49141435
-I:115288600
+S:50296740
+I:118887208
 T:The PHP84 language runtime engine (debug symbols)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common
 
-C:Q1xmPpZ57afj3jVvVN6Re9sPwDDBk=
+C:Q1OI2Et7sODeo5ieLynF1ydCM3sfU=
 P:php84-dev
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1099305
-I:6570360
+S:1102961
+I:6592649
 T:The PHP84 language runtime engine (development files)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
-D:php84=8.4.14-r0 autoconf pcre2-dev re2c
-p:cmd:php-config84=8.4.14-r0 cmd:phpize84=8.4.14-r0
+D:php84=8.4.27-r0 autoconf pcre2-dev re2c
+p:cmd:php-config84=8.4.27-r0 cmd:phpize84=8.4.27-r0
 
-C:Q1g7pht2HNjl3idEFY52ryBEVuIBU=
+C:Q1H0xtmxFFbn+SDiDF2cFgiXZB6dQ=
 P:php84-doc
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:81583
-I:230526
+S:99695
+I:286021
 T:The PHP84 language runtime engine (documentation)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
-i:docs php84=8.4.14-r0
+i:docs php84=8.4.27-r0
 
-C:Q1zLmeyElxBLenfSzMKMGrAEu/dHE=
+C:Q1VlJUGgGQC1ybqoIjRHchTxmbuiw=
 P:php84-dom
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:622065
-I:1949918
+S:668312
+I:2097830
 T:PHP84 extension: DOM
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-dom
 
-C:Q1l/0T1U9EVLHfcRqxA7ikGZAlb7o=
+C:Q1xpIJR1gZWcJFLuA/80IJ6FqPicA=
 P:php84-embed
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1898260
-I:4920776
+S:1917035
+I:4986280
 T:PHP84 Embedded Library
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
 p:php-embed
 
-C:Q1LKpuw3TiyHNYxQdee3eBblIHzz8=
+C:Q1Ci/Lckj4/1gmMsSybRl2elxOxr8=
 P:php84-enchant
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:9642
+S:9654
 I:67506
 T:PHP84 extension: enchant
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libenchant-2.so.2
 p:php-enchant
 
-C:Q1v6mmEV+uar3iRMSwbOyLhZ6yLls=
+C:Q1cQoErJx0qXbKCJ6/EFFPIAtp0pI=
 P:php84-exif
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:29254
+S:29940
 I:67503
 T:PHP84 extension: EXIF
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-mbstring so:libc.musl-aarch64.so.1
 p:php-exif
 
-C:Q1+yyfZXzW8VL8Kt642vfBxkfVpVY=
+C:Q1ccL3COZE77zYwVPxiZTSGfRelBU=
 P:php84-ffi
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:76339
+S:76629
 I:198726
 T:PHP84 extension: FFI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libffi.so.8
 p:php-ffi
 
-C:Q1yc3pLVhq5yJQ4Tw5/f+mI674OlM=
+C:Q1Y6eSnGEHHEDjr7xgyDj4BUYjhBc=
 P:php84-fileinfo
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:459367
+S:459499
 I:8652763
 T:PHP84 extension: fileinfo
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-fileinfo
 
-C:Q1yP83MmAqf1ChYEWnkTmKu2TbXN8=
+C:Q1rTlr1R7+hJs80YOxfaIpOp0015s=
 P:php84-fpm
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1980915
-I:5039727
+S:2003498
+I:5105231
 T:PHP84 FastCGI Process Manager
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libacl.so.1 so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-fpm cmd:php-fpm84=8.4.14-r0
+p:php-fpm cmd:php-fpm84=8.4.27-r0
 
-C:Q13hkDqu0ymH46pOqjfs7zY0Cw33I=
+C:Q1soyAiAWONxl4u36gpRqFkBU+/nE=
 P:php84-ftp
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:22764
+S:23267
 I:67654
 T:PHP84 extension: FTP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-ftp
 
-C:Q1Uxh0y0qnhwpodm0OqSiT/Cpbukw=
+C:Q1IC9ArRxzRq7Gjdsg7zbuYY2heNQ=
 P:php84-gd
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:132808
+S:133665
 I:461037
 T:PHP84 extension: GD imaging
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libXpm.so.4 so:libavif.so.16 so:libc.musl-aarch64.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libwebp.so.7 so:libz.so.1
 p:php-gd
 
-C:Q1eDnWZSMlTyjMR2CA+FmmGiupwqE=
+C:Q1SfvzGxUCBgWmGu4Ez4q8ej6vDO4=
 P:php84-gettext
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:7008
+S:7013
 I:67506
 T:PHP84 extension: GetText
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libintl.so.8
 p:php-gettext
 
-C:Q1z37vW7KLEtO9GqvA6LnGjonCcI0=
+C:Q1Y5oWE7rd39ZuAZVTxZRIPG/E3Gc=
 P:php84-gmp
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:21005
+S:21018
 I:67502
 T:PHP84 extension: GNU GMP support
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libgmp.so.10
 p:php-gmp
 
-C:Q1hKapp8Ul8/0hAfqtsSJiliVG6sQ=
+C:Q1U9da/Afle2Sz/D1yjZu831iXM74=
 P:php84-iconv
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:17587
+S:19307
 I:67504
 T:PHP84 extension: Iconv
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-iconv
 
-C:Q1Wp5sQpF7TKpRmdMizp8IDlAR+tA=
+C:Q1+CB2w2aOo8OxX5Los5NVqL3F4Sk=
 P:php84-intl
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:165070
-I:526495
+S:166550
+I:592031
 T:PHP84 extension: Internationalization
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libicui18n.so.74 so:libicuio.so.74 so:libicuuc.so.74 so:libstdc++.so.6
 p:php-intl
 
-C:Q14OTM+uQ4JIwsIHy2VQZeYDIYWzI=
+C:Q1y4M+q4zrNVmARqEOwEnJipB81hM=
 P:php84-ldap
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:32108
+S:32150
 I:133191
 T:PHP84 extension: LDAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 p:php-ldap
 
-C:Q1OEJv08+bnm8oAlEWmtlZbjHMuZU=
+C:Q17x/WvYODH+JxWsyTjCbyWUNdoXQ=
 P:php84-litespeed
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1920989
-I:4923456
+S:1942027
+I:4923424
 T:PHP84 LiteSpeed SAPI
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-lightspeed cmd:lsphp84=8.4.14-r0
+p:php-lightspeed cmd:lsphp84=8.4.27-r0
 
-C:Q1QfVmuWLw7b/f0DaOQpqkOAqA07Q=
+C:Q1WAtYBrZFjl58u+8sjg1Ls2qhLr8=
 P:php84-mbstring
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:641009
+S:643895
 I:1183955
 T:PHP84 extension: Multibyte String Functions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libonig.so.5
 p:php-mbstring
 
-C:Q1i2AVN5NLR1+vwv4VkFsxtTnh1zQ=
+C:Q1kERTyyRKC/zD1BitmCkd0rDbUsA=
 P:php84-mysqli
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:41197
+S:41217
 I:133041
 T:PHP84 extension: MySQLi
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-mysqlnd php84-openssl so:libc.musl-aarch64.so.1
 p:php-mysqli
 
-C:Q1hPgUTSM3GNroNQ9DsdvfiFL8jhg=
+C:Q1Ns/97C2Y4eYVe7oZrPde42avJw0=
 P:php84-mysqlnd
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:75803
+S:76102
 I:202114
 T:PHP84 extension: MySQLnd
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-openssl so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libz.so.1
 p:php-mysqlnd
 
-C:Q1jS8PiZ249Sz0zhBk3NkaBSntegQ=
+C:Q1OMzumjqjwWURl2Hchy5khZTHYMY=
 P:php84-odbc
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:26181
+S:26512
 I:67503
 T:PHP84 extension: ODBC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-odbc
 
-C:Q1U+ZKzVIWugI3HQl8CT772Kl/wLQ=
+C:Q1DsUgNkif1Rj9sSSMaNOW1OMCGAU=
 P:php84-opcache
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:442946
-I:987271
+S:456007
+I:1052983
 T:PHP84 extension: Opcache
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-opcache
 
-C:Q1ox8jai5ZKg33NcajnScDJVo+7lU=
+C:Q1ZIJch5Z0MpYZyWdfAckAVpwZ3ec=
 P:php84-openssl
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:77594
+S:78195
 I:264274
 T:PHP84 extension: OpenSSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:php-openssl
 
-C:Q1ecq8DAi2UjrUkePyDZtQAL0rnsw=
+C:Q17+u1cuHRoMKk3pb2pz+CSnm7j6M=
 P:php84-pcntl
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:17587
+S:17831
 I:67504
 T:PHP84 extension: pcntl
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-pcntl
 
-C:Q1p6MY+Jj3rILCkTTv4nCRNC0RPHc=
+C:Q1vGT34p4im5b14J/Dj99rmRjogdk=
 P:php84-pdo
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:44030
+S:44741
 I:133038
 T:PHP84 extension: PHP Data Objects
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-pdo
 
-C:Q17wcPg3ZCuvcKjK+4BpHZHhwn5/A=
+C:Q1BiLGc12eymJjvtvLR1oV1pHvoF0=
 P:php84-pdo_dblib
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:13454
+S:13493
 I:67508
 T:PHP84 extension: DB-LIB (MS SQL, Sybase)
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-pdo so:libc.musl-aarch64.so.1 so:libsybdb.so.5
 p:php-pdo_dblib
 
-C:Q1cFtCsJ+ThlKVWYeERqWojPVzXQE=
+C:Q13uNsTOjYIo+9zWYsOf5mzrR6/OA=
 P:php84-pdo_mysql
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:15361
+S:15395
 I:67508
 T:PHP84 extension: MySQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-pdo php84-mysqlnd so:libc.musl-aarch64.so.1
 p:php-pdo_mysql
 
-C:Q1rCENl0qXyq/GxE9+8siuhjbHJkE=
+C:Q143T3pwI8lytwmaP8gLql9OXNtbk=
 P:php84-pdo_odbc
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:14697
+S:15083
 I:67515
 T:PHP84 extension: ODBC driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-pdo so:libc.musl-aarch64.so.1 so:libodbc.so.2
 p:php-pdo_odbc
 
-C:Q12nGFtpydkeQXE4hcqUZpnJxYszU=
+C:Q14ts1kLbFwFef9YQmqI4jC04RGMk=
 P:php84-pdo_pgsql
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:22642
+S:22666
 I:67508
 T:PHP84 extension: PostgreSQL driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-pdo so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pdo_pgsql
 
-C:Q1I5fNLk4fs8ssrFbli/xe7M4oKqY=
+C:Q1fX7nQ2GPPRJewYk8ztdZi1k7Gpo=
 P:php84-pdo_sqlite
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:17337
+S:17344
 I:67509
 T:PHP84 extension: SQLite 3.x driver for PDO
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-pdo so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-pdo_sqlite
 
-C:Q1qT3ERMe4rlOjVVaCwaMZqECmjfA=
+C:Q14W3cPjgQ/zWSK94T1aU0tnGoZJE=
 P:php84-pear
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:345827
-I:1919884
+S:346156
+I:1921104
 T:PHP84 Extension and Application Repository
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84 php84-xml
-p:php-pear cmd:pear84=8.4.14-r0 cmd:peardev84=8.4.14-r0 cmd:pecl84=8.4.14-r0
+p:php-pear cmd:pear84=8.4.27-r0 cmd:peardev84=8.4.27-r0 cmd:pecl84=8.4.27-r0
 
 C:Q1dvGtxAvwj9bfGKt3Yi6xk9HQXeA=
 P:php84-pecl-amqp
@@ -188760,189 +188760,189 @@ t:1733274517
 c:a685a3a2b4f3d7ba32ab03620724f2a1b9ff0459
 D:php84-common so:libc.musl-aarch64.so.1 so:libzstd.so.1
 
-C:Q1x0A3jgI2QLso+cZAwnMlCMDSMC4=
+C:Q13DjMTXmnkMiCxi7wIp/tg94oLcE=
 P:php84-pgsql
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:54682
+S:54751
 I:198576
 T:PHP84 extension: PostgreSQL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:php-pgsql
 
-C:Q1cm5SGaKhrs81RTxT30D4Kbe4piE=
+C:Q1vEgR2FPP5uB004ihxMI/tCQ5UbU=
 P:php84-phar
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:119096
+S:120434
 I:279352
 T:PHP84 extension: PHP Archive
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84 so:libc.musl-aarch64.so.1
-p:php-phar cmd:phar84.phar=8.4.14-r0 cmd:phar84=8.4.14-r0
+p:php-phar cmd:phar84.phar=8.4.27-r0 cmd:phar84=8.4.27-r0
 
-C:Q1lqTlqGCjg3LlS4E59NApvMVi3UM=
+C:Q1WEOB5ACYPCLTt3eqx2yzzRcpN94=
 P:php84-phpdbg
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:1977438
-I:5052088
+S:1999881
+I:5117592
 T:Interactive PHP84 debugger
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libargon2.so.1 so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
-p:php-phpdbg cmd:phpdbg84=8.4.14-r0
+p:php-phpdbg cmd:phpdbg84=8.4.27-r0
 
-C:Q16wssh9mwkgKLU60RwMaZe/W7lxA=
+C:Q1oYS18MMK+jJTUPmPmkFAM6w6crc=
 P:php84-posix
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:12416
+S:12460
 I:67504
 T:PHP84 extension: Posix
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-posix
 
-C:Q1kkP6bi4G1h90LdqU9PWl7AIDFNA=
+C:Q1ReBvWHcq3zuNxVTAcUlNFyE6hUU=
 P:php84-session
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:37830
+S:38355
 I:134098
 T:PHP84 extension: Sessions
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-session
 
-C:Q1Wh563bjNSu7XtcjlA6jZNvkPwA4=
+C:Q1hMxxUWTt1A1mOq/DRUED4gjoUEc=
 P:php84-shmop
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:6861
+S:6886
 I:67504
 T:PHP84 extension: Shared Memory Operations
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-shmop
 
-C:Q1Y5bC954s4gD1kzYB1lzjbQD7oWY=
+C:Q1QZ5vBGRq6xppYjauLnnGZDDXeHw=
 P:php84-simplexml
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:22266
+S:22551
 I:67668
 T:PHP84 extension: SimpleXML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-simplexml
 
-C:Q1E7Gp5a99vZl0m9sZgKZzoInncUA=
+C:Q1aBLxFNLN59eKkmkNln1XoblR6DI=
 P:php84-snmp
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:21419
+S:21552
 I:67503
 T:PHP84 extension: SNMP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libnetsnmp.so.40
 p:php-snmp
 
-C:Q1DkywvqHf9WXzVA9m0KijjvaaJgc=
+C:Q1+0vHU2cYFRh9dBpPjqPe71rNRuI=
 P:php84-soap
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:133820
+S:135213
 I:334543
 T:PHP84 extension: SOAP
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-session so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-soap
 
-C:Q1xZTUxVOAXT3c1uzS7jTi3wIIwVA=
+C:Q1RWI+UFUlF4PFBt8wXX+i2DUQhWI=
 P:php84-sockets
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:40919
+S:40934
 I:133042
 T:PHP84 extension: Sockets
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-sockets
 
-C:Q1iFQQo0SwaIOJQ2Fe07+aXUkrUxY=
+C:Q1GUuVaoGq6015FUCJm5PY5vMkxjQ=
 P:php84-sodium
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:27713
+S:27736
 I:133041
 T:PHP84 extension: Sodium
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libsodium.so.26
 p:php-sodium
@@ -188962,189 +188962,189 @@ t:1733274517
 c:c1b327ec779bede810b7c6fb7e86c7c6fc41b103
 D:php84-common so:libc.musl-aarch64.so.1
 
-C:Q1DhwSPp6xvpEnX8V/y8+JDyBKi90=
+C:Q1idYOBqEwMwYqoBONvXoyedZZTwQ=
 P:php84-sqlite3
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:23927
+S:24600
 I:67506
 T:PHP84 extension: SQLite3
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:php-sqlite3
 
-C:Q1Zt7nlZJK8BzGbo9qO3QqScACcuo=
+C:Q1YO1SztKF/j9yicu4XZ4B/c8uNjk=
 P:php84-sysvmsg
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:8179
+S:8191
 I:67506
 T:PHP84 extension: System V Message based IPC
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-sysvmsg
 
-C:Q1cvzwoRslsNQYcXzmi3dqRlVafoE=
+C:Q1BS7YI3z3Dgk8RxMbM+Rq8Fz4QEk=
 P:php84-sysvsem
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:6050
+S:6056
 I:67506
 T:PHP84 extension: System V Semaphores
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-sysvsem
 
-C:Q1X6ViOpABAjH5qkwL9Vv1v7L/+/M=
+C:Q1wCx/3i/lTJWjDgiQrqFhAXD4W9A=
 P:php84-sysvshm
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:7058
+S:7296
 I:67506
 T:PHP84 extension: System V Shared Memory
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-sysvshm
 
-C:Q1eiZbj+a5Eac3VHlxilsVQO2/pfg=
+C:Q1cYIsVssmIMhU/efDWeVHepwEtJ8=
 P:php84-tidy
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:19602
+S:20245
 I:67503
 T:PHP84 extension: tidy
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libtidy.so.58
 p:php-tidy
 
-C:Q1dRFXoYRJw1AK047wYQWQriaDaMA=
+C:Q1KdsrMvrU3/rT3cEkKjkXVLGpVJE=
 P:php84-tokenizer
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:12154
+S:12261
 I:67508
 T:PHP84 extension: tokenizer
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1
 p:php-tokenizer
 
-C:Q1pjoetz1GJyNrlUg56HxqccEuKaY=
+C:Q1z7BaYRDfT0Wvi1hQcYjJ808roOk=
 P:php84-xml
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:24466
+S:24465
 I:67654
 T:PHP84 extension: XML
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xml
 
-C:Q15yV3TyPEwy8A3LgWYzyCMZcGSfc=
+C:Q1LMSYzWau8giGH+Nqe28f2O7/w4Y=
 P:php84-xmlreader
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:15971
+S:16073
 I:67668
 T:PHP84 extension: XMLReader
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-dom so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlreader
 
-C:Q18SH4Sfzmm9kv7+G0O9YwbSHYmfE=
+C:Q1qHwExELcXCUpDWLRHFcACJrV+cY=
 P:php84-xmlwriter
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:12545
+S:12582
 I:67668
 T:PHP84 extension: XMLWriter
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libxml2.so.2
 p:php-xmlwriter
 
-C:Q1uPlX/1OnJV4QmrfZoOld8p2X9pM=
+C:Q1qaqSzpKEvSKqPcrSqSr+2UCLcW0=
 P:php84-xsl
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:14531
+S:14763
 I:67654
 T:PHP84 extension: XSL
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common php84-dom so:libc.musl-aarch64.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
 p:php-xsl
 
-C:Q18lXqwFQ1CTk7MeMS+lFA1tArdGM=
+C:Q1qaT350xuCpZtlWiiSOXUTrMeO5Y=
 P:php84-zip
-V:8.4.14-r0
+V:8.4.27-r0
 A:aarch64
-S:29422
+S:30144
 I:133038
 T:PHP84 extension: Zip
 U:https://www.php.net/
 L:PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
 o:php84
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1761336356
-c:f1c93b69d5805176662036e5276dd1e08a74af0c
+t:1792706225
+c:2247c49c2704c8f9b9520f17f2b2e2780da34e2b
 k:80
 D:php84-common so:libc.musl-aarch64.so.1 so:libzip.so.5
 p:php-zip
@@ -256874,20 +256874,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1KcwhhqaEduet4Ow2m5XHnXrkl2o=
+C:Q1q1gbZsb0sPmp6ZWnAbMSnIYyn/Q=
 P:rtpengine-lts
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:460355
-I:1673728
+S:460612
+I:1674688
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1791196025
-c:c92e1757884d5380befcfd6ce5e379ba0bafa643
-i:rtpengine linux-lts=6.12.112-r0
+t:1792585332
+c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
+i:rtpengine linux-lts=6.12.114-r0
 
 C:Q1h+TMWZcxH+AhtzxWWbV4LWR1vi4=
 P:rtpengine-openrc
@@ -256920,21 +256920,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1HjCR7jMVOl1EQawYu9hS+hctk2g=
+C:Q1TehIobJAs0cx++vvQbHocvEuaFk=
 P:rtpengine-virt
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:388647
-I:1360904
+S:388920
+I:1361688
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1791196025
-c:c92e1757884d5380befcfd6ce5e379ba0bafa643
-D:linux-virt=6.12.112-r0
-i:rtpengine linux-virt=6.12.112-r0
+t:1792585332
+c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
+D:linux-virt=6.12.114-r0
+i:rtpengine linux-virt=6.12.114-r0
 
 C:Q1qdQZ3LXAqrhEPNlx5bZwyUUmUE0=
 P:rtrlib

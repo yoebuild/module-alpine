@@ -3036,19 +3036,19 @@ t:1736086979
 c:8f76abadc6e5232b260ec862ece2aff9095d1471
 i:docs akms=0.3.0-r0
 
-C:Q1xBL6+OR3cGsvYWXtpO74IR6W6MA=
+C:Q1HdLhMnhNL6apyJZKtCbdho8pedA=
 P:alpine-base
-V:3.21.8-r0
+V:3.21.9-r0
 A:aarch64
-S:1253
+S:1255
 I:0
 T:Meta package for minimal alpine base
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789666444
-c:c9e7411a5b43b71e267421008585d98f939b5bd9
+t:1792612511
+c:1aef8de1bd86c1af5b0ae7877ee6a65167e32a34
 D:alpine-baselayout alpine-conf alpine-release apk-tools busybox busybox-mdev-openrc busybox-openrc busybox-suid musl-utils openrc
 
 C:Q1fMzOBGrN5A2tRfD+hq90EexboUQ=
@@ -3186,19 +3186,19 @@ c:6f8f5025aa077e2c8acff030987a33a52b7ff4a0
 D:tar
 p:cmd:alpine-make-rootfs=0.7.2-r0
 
-C:Q1Fkfd062ERyHA4921Hopny89fGiY=
+C:Q1JsMvv5gaQldzUx7QU5XlEhrnkTc=
 P:alpine-release
-V:3.21.8-r0
+V:3.21.9-r0
 A:aarch64
-S:2029
+S:2024
 I:346
 T:Alpine release data
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789666444
-c:c9e7411a5b43b71e267421008585d98f939b5bd9
+t:1792612511
+c:1aef8de1bd86c1af5b0ae7877ee6a65167e32a34
 D:alpine-keys
 
 C:Q1UK0bGVhWKgg33Hg3MHa3oXfxQk0=
@@ -8098,82 +8098,82 @@ t:1701958496
 c:9024026ee6838388f8b87e52a17495786ed85d4e
 i:docs bridge-utils=1.7.1-r2
 
-C:Q1htgrwHLlQZkC+cwfhBmchLMv6H0=
+C:Q1BE4wYhnSkPcPj3sv/WA/xjG6ZrU=
 P:brotli
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:11259
+S:11266
 I:67312
 T:Generic lossless compressor
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
 D:so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1
-p:cmd:brotli=1.1.0-r2
+p:cmd:brotli=1.1.1-r0
 
-C:Q124oTp2Yq/ZfmXAJcOXy/KIxxffM=
+C:Q1BD2jfeJfmjfeoHDXjgnKs74laRI=
 P:brotli-dev
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
 S:14336
-I:55144
+I:54990
 T:Generic lossless compressor (development files)
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
-D:brotli=1.1.0-r2 brotli-libs=1.1.0-r2 pkgconfig
-p:pc:libbrotlicommon=1.1.0 pc:libbrotlidec=1.1.0 pc:libbrotlienc=1.1.0
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
+D:brotli=1.1.1-r0 brotli-libs=1.1.1-r0 pkgconfig
+p:pc:libbrotlicommon=1.1.1 pc:libbrotlidec=1.1.1 pc:libbrotlienc=1.1.1
 
-C:Q19wPAiYVXK4m+XROlRCfxx+hkmJA=
+C:Q1s8L9Ek2cfq1ywiaJ/kIh1bJUR+s=
 P:brotli-doc
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:15909
+S:15905
 I:13806
 T:Generic lossless compressor (documentation)
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
-i:docs brotli=1.1.0-r2
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
+i:docs brotli=1.1.1-r0
 
-C:Q1AdoLUd4OMubHSES8Y0fvUWWQRuw=
+C:Q13O8zFzNcz87UMK/38YVcAgJ3iEU=
 P:brotli-libs
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:404173
+S:404380
 I:923216
 T:Generic lossless compressor (libraries)
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
 D:so:libc.musl-aarch64.so.1
-p:so:libbrotlicommon.so.1=1.1.0 so:libbrotlidec.so.1=1.1.0 so:libbrotlienc.so.1=1.1.0
+p:so:libbrotlicommon.so.1=1.1.1 so:libbrotlidec.so.1=1.1.1 so:libbrotlienc.so.1=1.1.1
 
-C:Q1A2ym9rJw4mbvM/SZofGcoXREFSM=
+C:Q1sl4rMVq3Py1vwjPss6goaK+63KE=
 P:brotli-static
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:2593230
-I:2825550
+S:2590043
+I:2825606
 T:Generic lossless compressor (static library)
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
 
 C:Q1BYQjpGccJKjRb6KYCRH8lq/yTRE=
 P:bsd-compat-headers
@@ -8731,68 +8731,68 @@ c:99484da32e0260b8010b042ac8a83bacfb54d26c
 D:zsh
 i:zsh=5.9-r4 bzr
 
-C:Q1QV+fd8iTW3w4bbNcxeHqhrqEsrQ=
+C:Q1Tc3NaXVu43q+/UisZ1PajXPhqYo=
 P:c-ares
-V:1.34.8-r0
+V:1.34.9-r0
 A:aarch64
-S:109220
+S:111543
 I:263952
 T:Asynchronous DNS/names resolver library
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1783542248
-c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
+t:1792587309
+c:dbc05e4ef8f0c86d93ce3d4933d28ab5d39241f4
 D:so:libc.musl-aarch64.so.1
-p:so:libcares.so.2=2.19.7
+p:so:libcares.so.2=2.19.8
 
-C:Q1/jy6zrEwXzQ4VBYX4rp+lsDH0ZI=
+C:Q1ZuK/a0aVjIP8JkgNIWHze4QQyDU=
 P:c-ares-dev
-V:1.34.8-r0
+V:1.34.9-r0
 A:aarch64
-S:914676
-I:3058647
+S:958378
+I:3175975
 T:Asynchronous DNS/names resolver library (development files)
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1783542248
-c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
-D:c-ares=1.34.8-r0 pkgconfig
-p:pc:libcares=1.34.8
+t:1792587309
+c:dbc05e4ef8f0c86d93ce3d4933d28ab5d39241f4
+D:c-ares=1.34.9-r0 pkgconfig
+p:pc:libcares=1.34.9
 
-C:Q17spYAxRvlGuf1KONoGlViert5zQ=
+C:Q1lEc+0ElSiC57uTLucvA22ZraTTk=
 P:c-ares-doc
-V:1.34.8-r0
+V:1.34.9-r0
 A:aarch64
-S:94523
-I:92361
+S:97582
+I:95398
 T:Asynchronous DNS/names resolver library (documentation)
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1783542248
-c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
-i:docs c-ares=1.34.8-r0
+t:1792587309
+c:dbc05e4ef8f0c86d93ce3d4933d28ab5d39241f4
+i:docs c-ares=1.34.9-r0
 
-C:Q1gLfRAilrZNqG2qSwg4pM5Nsb9T4=
+C:Q1iiKVJJrSaLvT5QuVNtQxY5Q7ebg=
 P:c-ares-utils
-V:1.34.8-r0
+V:1.34.9-r0
 A:aarch64
-S:18608
+S:18611
 I:134704
 T:Asynchronous DNS/names resolver library
 U:https://c-ares.org/
 L:MIT
 o:c-ares
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1783542248
-c:40d4af1c03fd0a11bcd6dd687181b78c5cf6c4c9
+t:1792587309
+c:dbc05e4ef8f0c86d93ce3d4933d28ab5d39241f4
 D:so:libc.musl-aarch64.so.1 so:libcares.so.2
-p:cmd:adig=1.34.8-r0 cmd:ahost=1.34.8-r0
+p:cmd:adig=1.34.9-r0 cmd:ahost=1.34.9-r0
 
 C:Q1fSsv5uTvguvi6G8DnK1ddHo1jfw=
 P:c-client
@@ -8810,51 +8810,51 @@ c:bf16fae17e4eebaa96a74295c608a985748592f2
 D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:so:libc-client.so.1=1.0.0
 
-C:Q1LVzC1pfKXuJJh92LN5/KIKgKQ8w=
+C:Q1Uqju8pWXBt207105m85LDqTvGps=
 P:ca-certificates
-V:20260909-r0
+V:20261020-r0
 A:aarch64
-S:132507
-I:321635
+S:130872
+I:318601
 T:Common CA certificates PEM files from Mozilla
 U:https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 L:MPL-2.0 AND MIT
 o:ca-certificates
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789650986
-c:3f566dda324c7524d639b8f4270be4ad6bd4e50b
+t:1792510453
+c:660f223b42ca35e7d2a76ce568e15c847b92d33d
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3
-p:cmd:c_rehash=20260909-r0 cmd:update-ca-certificates=20260909-r0
+p:cmd:c_rehash=20261020-r0 cmd:update-ca-certificates=20261020-r0
 
-C:Q1OEoIguchyA92nrIQrp6ozXmocSQ=
+C:Q1cJgBWfQLbf+Ecph4omQ1YM7/KzE=
 P:ca-certificates-bundle
-V:20260909-r0
+V:20261020-r0
 A:aarch64
-S:108469
-I:181724
+S:107047
+I:178791
 T:Pre generated bundle of Mozilla certificates
 U:https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 L:MPL-2.0 AND MIT
 o:ca-certificates
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789650986
-c:3f566dda324c7524d639b8f4270be4ad6bd4e50b
-p:ca-certificates-cacert=20260909-r0
+t:1792510453
+c:660f223b42ca35e7d2a76ce568e15c847b92d33d
+p:ca-certificates-cacert=20261020-r0
 
-C:Q19ebX5C/H8t2KotX7b5gQjA+WUv0=
+C:Q1OL3EIU2ponmPPktqhuLcJYumoSQ=
 P:ca-certificates-doc
-V:20260909-r0
+V:20261020-r0
 A:aarch64
-S:2755
+S:2757
 I:1029
 T:Common CA certificates PEM files from Mozilla (documentation)
 U:https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 L:MPL-2.0 AND MIT
 o:ca-certificates
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1789650986
-c:3f566dda324c7524d639b8f4270be4ad6bd4e50b
-i:docs ca-certificates=20260909-r0
+t:1792510453
+c:660f223b42ca35e7d2a76ce568e15c847b92d33d
+i:docs ca-certificates=20261020-r0
 
 C:Q1PyI3KyJQRoMtDugkQ1WVpzXCNYg=
 P:cairo
@@ -9428,50 +9428,50 @@ t:1681228881
 c:84a227baf001b6e0208e3352b294e4d7a40e93de
 i:docs chrpath=0.16-r4
 
-C:Q1TOuXDsa40WrY05cx+6fcdrAYR2s=
+C:Q1/ow6PgMyDxmEDqdBX0XeZtPQ6YQ=
 P:cifs-utils
-V:7.1-r0
+V:7.1-r1
 A:aarch64
-S:42589
+S:42736
 I:271056
 T:CIFS filesystem user-space tools
 U:https://wiki.samba.org/index.php/LinuxCIFS_utils
 L:GPL-3.0-or-later
 o:cifs-utils
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1728659750
-c:1ef255f555b84f65eff1af8cd42f04602dfd78f4
+t:1792396126
+c:8f01bd5af18e4f66b7df105bdd7cab10de2ee1fa
 D:so:libc.musl-aarch64.so.1 so:libcap-ng.so.0 so:libgssapi_krb5.so.2 so:libkeyutils.so.1 so:libkrb5.so.3 so:libtalloc.so.2 so:libwbclient.so.0
-p:cmd:cifs.idmap=7.1-r0 cmd:cifs.upcall=7.1-r0 cmd:mount.cifs=7.1-r0 cmd:mount.smb3=7.1-r0
+p:cmd:cifs.idmap=7.1-r1 cmd:cifs.upcall=7.1-r1 cmd:mount.cifs=7.1-r1 cmd:mount.smb3=7.1-r1
 
-C:Q1ZERgOpjQBRtNEwaPVljuIAc9hKk=
+C:Q15btXHCRPho8DM/su0jzkP4OzPpY=
 P:cifs-utils-dev
-V:7.1-r0
+V:7.1-r1
 A:aarch64
-S:3608
+S:3613
 I:6146
 T:CIFS filesystem user-space tools (development files)
 U:https://wiki.samba.org/index.php/LinuxCIFS_utils
 L:GPL-3.0-or-later
 o:cifs-utils
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1728659750
-c:1ef255f555b84f65eff1af8cd42f04602dfd78f4
+t:1792396126
+c:8f01bd5af18e4f66b7df105bdd7cab10de2ee1fa
 
-C:Q1fvc/PufDR6hsG8DmQkeeJTE8K0g=
+C:Q1YbbdOi5qXa1kJIMzpcrT+TyEk14=
 P:cifs-utils-doc
-V:7.1-r0
+V:7.1-r1
 A:aarch64
-S:30193
+S:30200
 I:27579
 T:CIFS filesystem user-space tools (documentation)
 U:https://wiki.samba.org/index.php/LinuxCIFS_utils
 L:GPL-3.0-or-later
 o:cifs-utils
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1728659750
-c:1ef255f555b84f65eff1af8cd42f04602dfd78f4
-i:docs cifs-utils=7.1-r0
+t:1792396126
+c:8f01bd5af18e4f66b7df105bdd7cab10de2ee1fa
+i:docs cifs-utils=7.1-r1
 
 C:Q1XnyKB6eDTbZXa5Ladv4PLE6IM+c=
 P:cjson
@@ -11110,111 +11110,111 @@ t:1777442636
 c:c425d7517f8e84260165c28d69f0e93b1cfbf589
 i:openrc cups=2.4.18-r0
 
-C:Q1ka2cZ+J1jtbPrv8VG8Dfk5VN8k4=
+C:Q1HaEGVMoBLI84ZuytHMTezFWAZuU=
 P:curl
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:165197
+S:165202
 I:274878
 T:URL retrival utility and library
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
-D:libcurl=8.14.1-r2 so:libc.musl-aarch64.so.1 so:libcurl.so.4 so:libz.so.1
-p:wcurl=8.14.1-r2 cmd:curl=8.14.1-r2 cmd:wcurl=8.14.1-r2
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
+D:libcurl=8.14.1-r3 so:libc.musl-aarch64.so.1 so:libcurl.so.4 so:libz.so.1
+p:wcurl=8.14.1-r3 cmd:curl=8.14.1-r3 cmd:wcurl=8.14.1-r3
 
-C:Q1mdOtjs9FTNSbzVJzuQWL24Eq7Ew=
+C:Q1h+kB5S8egxSlRQtB+HsJekzLdTY=
 P:curl-dbg
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:1980253
-I:4259784
+S:1982752
+I:4263624
 T:URL retrival utility and library (debug symbols)
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
 D:ca-certificates-bundle
 
-C:Q1qSxFsZxK0XvhN7ZbvKsFkMYV/Wo=
+C:Q16QMZhNdSd2SCj5am5+jpghhuCYg=
 P:curl-dev
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:62338
+S:62352
 I:265869
 T:URL retrival utility and library (development files)
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
-D:brotli-dev c-ares-dev libidn2-dev libpsl-dev nghttp2-dev openssl-dev>3 zlib-dev zstd-dev libcurl=8.14.1-r2 pc:libbrotlicommon pc:libbrotlidec pc:libcares pc:libidn2 pc:libnghttp2 pc:libpsl pc:libzstd pc:openssl pc:zlib pkgconfig
-p:pc:libcurl=8.14.1 cmd:curl-config=8.14.1-r2
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
+D:brotli-dev c-ares-dev libidn2-dev libpsl-dev nghttp2-dev openssl-dev>3 zlib-dev zstd-dev libcurl=8.14.1-r3 pc:libbrotlicommon pc:libbrotlidec pc:libcares pc:libidn2 pc:libnghttp2 pc:libpsl pc:libzstd pc:openssl pc:zlib pkgconfig
+p:pc:libcurl=8.14.1 cmd:curl-config=8.14.1-r3
 
-C:Q1ohb6PUA0qjDUENHWFPQuBPF1n00=
+C:Q1M9v3FqnlnR+8hECfKWVQx2RyQ5I=
 P:curl-doc
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:727110
-I:682491
+S:727244
+I:682716
 T:URL retrival utility and library (documentation)
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
-i:docs curl=8.14.1-r2
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
+i:docs curl=8.14.1-r3
 
-C:Q1Xl8q3rXyKcTXOJZ3gcmu0YWvUwA=
+C:Q1JNQ2mA+a/67pDlu3ylR85TfBXlc=
 P:curl-fish-completion
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:7174
+S:7178
 I:28075
 T:Fish completions for curl
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
-i:curl=8.14.1-r2 fish
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
+i:curl=8.14.1-r3 fish
 
-C:Q19oekW60kD0i/6W5OiMGm1qwtSqc=
+C:Q1hJLCrEKMu1ZpRZvX1QlKDP14W9w=
 P:curl-static
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:3662174
-I:11151202
+S:3662932
+I:11160952
 T:URL retrival utility and library (static library)
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
 
-C:Q1QJSSJfTEoaDNUpPhJLL7DQB3Oi8=
+C:Q1Cof//EQ7XIbmmQFd9JZFOnG/f8g=
 P:curl-zsh-completion
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:7422
+S:7424
 I:16308
 T:Zsh completions for curl
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
-i:curl=8.14.1-r2 zsh
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
+i:curl=8.14.1-r3 zsh
 
 C:Q1n3EumdIfpM46bIpEHkMZ4rJ3uCU=
 P:cutter
@@ -15029,66 +15029,66 @@ m:Laurent Bercot <ska-devel@skarnet.org>
 t:1728551983
 c:3cbf1cf6a95750becc4ff503a3732ab484915191
 
-C:Q1yYVmNNh4M3XGSW8HIEGTv7mfIYk=
+C:Q1B+dtwNW/NrkEsqFACz/TE+N+Lc4=
 P:expat
-V:2.8.4-r0
+V:2.9.0-r0
 A:aarch64
-S:13390
+S:13490
 I:67320
 T:XML Parser library written in C
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1788211582
-c:d46a3884017c3c180ea5fa36585135b4da608fcb
+t:1792235435
+c:1b945828c222e1a3ccfbdcad36184bbe3aa34848
 D:so:libc.musl-aarch64.so.1 so:libexpat.so.1
-p:cmd:xmlwf=2.8.4-r0
+p:cmd:xmlwf=2.9.0-r0
 
-C:Q1WKbFqXYc6P7JFMHfWwCLER+MZZU=
+C:Q1dVBdP5NRD1ksvbIQ+0KpPhxqZ24=
 P:expat-dev
-V:2.8.4-r0
+V:2.9.0-r0
 A:aarch64
-S:21527
-I:67330
+S:22067
+I:70334
 T:XML Parser library written in C (development files)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1788211582
-c:d46a3884017c3c180ea5fa36585135b4da608fcb
-D:expat=2.8.4-r0 libexpat=2.8.4-r0 pkgconfig
-p:pc:expat=2.8.4
+t:1792235435
+c:1b945828c222e1a3ccfbdcad36184bbe3aa34848
+D:expat=2.9.0-r0 libexpat=2.9.0-r0 pkgconfig
+p:pc:expat=2.9.0
 
-C:Q1Ot0ENlr6UiR7Q9K4wyDgyffz1g4=
+C:Q1N0ZzNS2LvJ8FoIWn9CDZ901oQdw=
 P:expat-doc
-V:2.8.4-r0
+V:2.9.0-r0
 A:aarch64
-S:41101
-I:116758
+S:42462
+I:124883
 T:XML Parser library written in C (documentation)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1788211582
-c:d46a3884017c3c180ea5fa36585135b4da608fcb
-i:docs expat=2.8.4-r0
+t:1792235435
+c:1b945828c222e1a3ccfbdcad36184bbe3aa34848
+i:docs expat=2.9.0-r0
 
-C:Q1Rww8UTCmevau9dzkoSjth50cM0Q=
+C:Q1igjshJUTA4+PMEAIIBkliVsn0EI=
 P:expat-static
-V:2.8.4-r0
+V:2.9.0-r0
 A:aarch64
-S:72960
-I:212096
+S:74338
+I:216780
 T:XML Parser library written in C (static library)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1788211582
-c:d46a3884017c3c180ea5fa36585135b4da608fcb
+t:1792235435
+c:1b945828c222e1a3ccfbdcad36184bbe3aa34848
 
 C:Q12vLATFzCDfC0ujzSihY6SgVvda8=
 P:expect
@@ -21801,51 +21801,51 @@ t:1788121044
 c:bbf676b4e14ca8d8cb5614d16b2f7302d0016732
 i:docs gzip=1.13-r1
 
-C:Q1Aan3Wlq3u0feSzWCNHPK0C8yJNM=
+C:Q1bjdkt/wDMLBmfkuXKIg6ijNk7oU=
 P:haproxy
-V:3.0.29-r0
+V:3.0.30-r0
 A:aarch64
-S:1666711
-I:3880486
+S:1671425
+I:3946022
 T:A TCP/HTTP reverse proxy for high availability environments
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1790667396
-c:58646b3be63f16e1ac0dd164e9512a76f91f6d43
+t:1791997988
+c:0d2f7b44e232ab7c4b417575dd3810c23927ffdb
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
-p:cmd:haproxy=3.0.29-r0
+p:cmd:haproxy=3.0.30-r0
 
-C:Q1woEDH78CuNTtBOB3j53OWg4Kmkw=
+C:Q1nC6foPJ48S9B9AsDJ//9XbAVsdI=
 P:haproxy-doc
-V:3.0.29-r0
+V:3.0.30-r0
 A:aarch64
-S:557184
-I:2069308
+S:557647
+I:2070520
 T:A TCP/HTTP reverse proxy for high availability environments (documentation)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1790667396
-c:58646b3be63f16e1ac0dd164e9512a76f91f6d43
-i:docs haproxy=3.0.29-r0
+t:1791997988
+c:0d2f7b44e232ab7c4b417575dd3810c23927ffdb
+i:docs haproxy=3.0.30-r0
 
-C:Q1SqoM3Uo9ltFIomrVAQCX1PCji6Q=
+C:Q1Z3WxjI/dFFmgEDDKb6V6ZTQEixQ=
 P:haproxy-openrc
-V:3.0.29-r0
+V:3.0.30-r0
 A:aarch64
-S:2149
+S:2153
 I:1192
 T:A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1790667396
-c:58646b3be63f16e1ac0dd164e9512a76f91f6d43
-i:openrc haproxy=3.0.29-r0
+t:1791997988
+c:0d2f7b44e232ab7c4b417575dd3810c23927ffdb
+i:openrc haproxy=3.0.30-r0
 
 C:Q1P844QOa+wIGjau7cdRzj2OgF150=
 P:harfbuzz
@@ -27466,82 +27466,82 @@ c:862ada8e1b3c733c3556a418cb90058170845f25
 D:libapparmor=3.1.7-r4 pkgconfig
 p:pc:libapparmor=3.1.7
 
-C:Q1J8MwZiA5JkGcKfWrcfXqtNL0zp0=
+C:Q1GQiYCzktWwyVT5VSA3plUG5CXWw=
 P:libarchive
-V:3.8.3-r0
+V:3.8.10-r0
 A:aarch64
-S:323931
-I:722864
+S:329721
+I:722912
 T:library that can create and read several streaming archive formats
 U:https://libarchive.org/
 L:BSD-2-Clause AND BSD-3-Clause AND Public-Domain
 o:libarchive
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1763456498
-c:1ace668154e093d8671f7b5922b51a6fb3feb26d
+t:1792320430
+c:8ce1ef3f99ed64dcf466e3526954346becb28635
 D:so:libacl.so.1 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:liblz4.so.1 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
-p:so:libarchive.so.13=13.8.3
+p:so:libarchive.so.13=13.8.10
 
-C:Q1xk/ZlDSuyQ61GQpZquVjPyRoWk8=
+C:Q1PVjbSLlSqR/skKsJOeFvxvrsqfA=
 P:libarchive-dev
-V:3.8.3-r0
+V:3.8.10-r0
 A:aarch64
-S:24214
-I:91907
+S:24242
+I:92011
 T:library that can create and read several streaming archive formats (development files)
 U:https://libarchive.org/
 L:BSD-2-Clause AND BSD-3-Clause AND Public-Domain
 o:libarchive
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1763456498
-c:1ace668154e093d8671f7b5922b51a6fb3feb26d
-D:libarchive=3.8.3-r0 pc:libcrypto pkgconfig
-p:pc:libarchive=3.8.3
+t:1792320430
+c:8ce1ef3f99ed64dcf466e3526954346becb28635
+D:libarchive=3.8.10-r0 pc:libcrypto pkgconfig
+p:pc:libarchive=3.8.10
 
-C:Q18wk+BDRpJKlO3ujfwwZVIWqMhBQ=
+C:Q1zZyFjTcoyMmOsoNnT+WjEIYEX5Y=
 P:libarchive-doc
-V:3.8.3-r0
+V:3.8.10-r0
 A:aarch64
-S:139585
-I:133590
+S:140807
+I:134755
 T:library that can create and read several streaming archive formats (documentation)
 U:https://libarchive.org/
 L:BSD-2-Clause AND BSD-3-Clause AND Public-Domain
 o:libarchive
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1763456498
-c:1ace668154e093d8671f7b5922b51a6fb3feb26d
-i:docs libarchive=3.8.3-r0
+t:1792320430
+c:8ce1ef3f99ed64dcf466e3526954346becb28635
+i:docs libarchive=3.8.10-r0
 
-C:Q15hnn0yjVqVziI670XXfdaaSJS6I=
+C:Q1/4szKFG5YoY0OqMwlbiFXAkbLUY=
 P:libarchive-static
-V:3.8.3-r0
+V:3.8.10-r0
 A:aarch64
-S:4887282
-I:6755398
+S:4969287
+I:6866420
 T:library that can create and read several streaming archive formats (static library)
 U:https://libarchive.org/
 L:BSD-2-Clause AND BSD-3-Clause AND Public-Domain
 o:libarchive
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1763456498
-c:1ace668154e093d8671f7b5922b51a6fb3feb26d
+t:1792320430
+c:8ce1ef3f99ed64dcf466e3526954346becb28635
 
-C:Q1OMyRIamklI9XsxSryVxzKAS/b48=
+C:Q1j+B7lXnzCM/1kj5FZpaaVArTfS4=
 P:libarchive-tools
-V:3.8.3-r0
+V:3.8.10-r0
 A:aarch64
-S:678092
-I:1449776
+S:693578
+I:1449872
 T:libarchive tools bsdtar and bsdcpio
 U:https://libarchive.org/
 L:BSD-2-Clause AND BSD-3-Clause AND Public-Domain
 o:libarchive
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1763456498
-c:1ace668154e093d8671f7b5922b51a6fb3feb26d
+t:1792320430
+c:8ce1ef3f99ed64dcf466e3526954346becb28635
 D:so:libacl.so.1 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:liblz4.so.1 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
-p:cmd:bsdcat=3.8.3-r0 cmd:bsdcpio=3.8.3-r0 cmd:bsdtar=3.8.3-r0 cmd:bsdunzip=3.8.3-r0
+p:cmd:bsdcat=3.8.10-r0 cmd:bsdcpio=3.8.10-r0 cmd:bsdtar=3.8.10-r0 cmd:bsdunzip=3.8.10-r0
 
 C:Q1nYisnwSDt66BQEYOIy2YDGJTsAI=
 P:libart-lgpl
@@ -28418,19 +28418,19 @@ k:100
 D:so:libc.musl-aarch64.so.1
 p:so:libcrypto.so.3=3
 
-C:Q1AnWBprPkGjxF5gQQ6ruz4P+C/Zw=
+C:Q1BvVwX4/mxJyHB3jOxIwQjykBsfE=
 P:libcurl
-V:8.14.1-r2
+V:8.14.1-r3
 A:aarch64
-S:329571
+S:329940
 I:726307
 T:The multiprotocol file transfer library
 U:https://curl.se/
 L:curl
 o:curl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1759423548
-c:2c79595339118c69c0809dbff53ad71c90beba48
+t:1792325530
+c:4277a10b6f212864a4c88d3cae7192383f9badcb
 D:ca-certificates-bundle so:libbrotlidec.so.1 so:libc.musl-aarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libidn2.so.0 so:libnghttp2.so.14 so:libpsl.so.5 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
 p:so:libcurl.so.4=4.8.0
 
@@ -29065,21 +29065,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1782941655
 c:3b77c5d07fa02a524a16b63c4215150eb6163546
 
-C:Q1zCqALrHfHxhc8pXiRg6anqVfZOA=
+C:Q1RVKO31XtIJ4Mkp3/fSYcPQ+8hAs=
 P:libexpat
-V:2.8.4-r0
+V:2.9.0-r0
 A:aarch64
-S:60922
+S:62088
 I:198392
 T:XML Parser library written in C (libraries)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1788211582
-c:d46a3884017c3c180ea5fa36585135b4da608fcb
+t:1792235435
+c:1b945828c222e1a3ccfbdcad36184bbe3aa34848
 D:so:libc.musl-aarch64.so.1
-p:so:libexpat.so.1=1.12.4
+p:so:libexpat.so.1=1.13.0
 
 C:Q14DWdD0fJON6Ao4Y39/RBQwwyOL0=
 P:libfastjson
@@ -31729,35 +31729,35 @@ c:21d29cabd99e7ff6534d2e99601cbd77abf30f8a
 D:so:libc.musl-aarch64.so.1
 p:so:libpcre16.so.0=0.2.13
 
-C:Q1rq3D08/ASN/Jh1+OA8Ze9Dv8eNk=
+C:Q1zu89cQE/ghbH523gR6bX/DX+Ums=
 P:libpcre2-16
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:248617
+S:247808
 I:591624
 T:PCRE2 with 16 bit character support
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
 D:so:libc.musl-aarch64.so.1
 p:so:libpcre2-16.so.0=0.12.0
 
-C:Q10iqvB+XMEp/xrUxE4Z0fSZ6DmL8=
+C:Q1lJApYSu/JCm5RxRpt684CUAGKpk=
 P:libpcre2-32
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:230329
+S:230385
 I:591624
 T:PCRE2 with 32 bit character support
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
 D:so:libc.musl-aarch64.so.1
 p:so:libpcre2-32.so.0=0.12.0
 
@@ -32861,55 +32861,55 @@ c:09d5292db4dfc1b6e8cae820844a2646f089af0b
 D:libsrtp=2.6.0-r0 pkgconfig
 p:pc:libsrtp2=2.6.0
 
-C:Q10w5WSw9cc/QV/aEgd6053s6T6D0=
+C:Q1jafPZOv0C+ITRWi8V0eq+SGp5AQ=
 P:libssh2
-V:1.11.1-r2
+V:1.11.1-r3
 A:aarch64
-S:113550
+S:113677
 I:264624
 T:library for accessing ssh1/ssh2 protocol servers
 U:https://libssh2.org/
 L:BSD-3-Clause
 o:libssh2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782223989
-c:7c97208e0a8bc9063633d6c2734016dfed18c5a0
+t:1792568642
+c:06c296e3baa7a96f343f596cbe8e44eb2f067216
 D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libz.so.1
 p:so:libssh2.so.1=1.0.1
 
-C:Q1DQabFJ92LFvLmNabmc5dLWY5Ync=
+C:Q1wLO7Lyf9FoU5CBCwkhu2osTWYTM=
 P:libssh2-dbg
-V:1.11.1-r2
+V:1.11.1-r3
 A:aarch64
-S:355785
-I:847768
+S:356148
+I:848264
 T:library for accessing ssh1/ssh2 protocol servers (debug symbols)
 U:https://libssh2.org/
 L:BSD-3-Clause
 o:libssh2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782223989
-c:7c97208e0a8bc9063633d6c2734016dfed18c5a0
+t:1792568642
+c:06c296e3baa7a96f343f596cbe8e44eb2f067216
 
-C:Q12k7cqxwA0IXQMPCUuqiejEV6lgg=
+C:Q1nryjIhDktUQJtZ82UiogWOlM664=
 P:libssh2-dev
-V:1.11.1-r2
+V:1.11.1-r3
 A:aarch64
-S:19704
+S:19710
 I:83594
 T:library for accessing ssh1/ssh2 protocol servers (development files)
 U:https://libssh2.org/
 L:BSD-3-Clause
 o:libssh2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782223989
-c:7c97208e0a8bc9063633d6c2734016dfed18c5a0
-D:libssh2=1.11.1-r2 pc:libcrypto pc:zlib pkgconfig
+t:1792568642
+c:06c296e3baa7a96f343f596cbe8e44eb2f067216
+D:libssh2=1.11.1-r3 pc:libcrypto pc:zlib pkgconfig
 p:pc:libssh2=1.11.1
 
-C:Q1xuwBEpx7ZoSZd9hJi/OYhyK8JYQ=
+C:Q1BHfSD23XAco2pTntX9JvWmzf6qY=
 P:libssh2-doc
-V:1.11.1-r2
+V:1.11.1-r3
 A:aarch64
 S:126736
 I:110974
@@ -32918,23 +32918,23 @@ U:https://libssh2.org/
 L:BSD-3-Clause
 o:libssh2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782223989
-c:7c97208e0a8bc9063633d6c2734016dfed18c5a0
-i:docs libssh2=1.11.1-r2
+t:1792568642
+c:06c296e3baa7a96f343f596cbe8e44eb2f067216
+i:docs libssh2=1.11.1-r3
 
-C:Q1hmThcoejZXKR/h06LumL1FgkBHA=
+C:Q1dTSa1rpZF22rKIXmg/Z/oMMs5NM=
 P:libssh2-static
-V:1.11.1-r2
+V:1.11.1-r3
 A:aarch64
-S:684832
-I:2173470
+S:685229
+I:2174662
 T:library for accessing ssh1/ssh2 protocol servers (static library)
 U:https://libssh2.org/
 L:BSD-3-Clause
 o:libssh2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782223989
-c:7c97208e0a8bc9063633d6c2734016dfed18c5a0
+t:1792568642
+c:06c296e3baa7a96f343f596cbe8e44eb2f067216
 
 C:Q1cnsAQA4u+PQM6P2BmC8dKV8lPtc=
 P:libssl3
@@ -37461,50 +37461,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1728932951
 c:ff05649790da27954fc672698b30aa984b772c01
 
-C:Q10U6sp1Smo1/xNOWtiQL6FvihgrM=
+C:Q1xbN1CiCx0WVRLxuHQSIi1zFtMwM=
 P:linux-lts
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:104868406
-I:149294169
+S:105466464
+I:149901405
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791195990
-c:62d50affefb6f5aa5a810f573855b767a0a07486
+t:1792585143
+c:9e6466179030bcd67cb79cca4ddf7b7831d240e5
 D:initramfs-generator linux-firmware-any
 
-C:Q1i7fEfzloPIAKD6iKOs356xiHBj4=
+C:Q1qY6tEeKbfP8ueWpwl4DGl7XPcE8=
 P:linux-lts-dev
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:18795204
-I:72585337
+S:18802105
+I:72617583
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791195990
-c:62d50affefb6f5aa5a810f573855b767a0a07486
+t:1792585143
+c:9e6466179030bcd67cb79cca4ddf7b7831d240e5
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1xEndMAnIOE77fXhkqc63upy+TlI=
+C:Q16d7dPXsmChPWZKXBSMoDyjKTUfc=
 P:linux-lts-doc
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:13578285
-I:49519838
+S:13580429
+I:49526583
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791195990
-c:62d50affefb6f5aa5a810f573855b767a0a07486
-i:docs linux-lts=6.12.112-r0
+t:1792585143
+c:9e6466179030bcd67cb79cca4ddf7b7831d240e5
+i:docs linux-lts=6.12.114-r0
 
 C:Q1hIEUwPlUUChLgAWXt36BNZBiuDs=
 P:linux-pam
@@ -37599,34 +37599,34 @@ c:b0f91ee332ff0bc6107e630085fd15070e0d7995
 D:perl gmp-dev elfutils-dev bash mpc1-dev mpfr-dev so:libc.musl-aarch64.so.1
 p:linux-rpi4-dev=6.12.13-r0
 
-C:Q1MgL3K1fcFqqec87ZqtiIo58EWlM=
+C:Q1UFwGO9dHyuWDDd6VxeHDfulQkRs=
 P:linux-virt
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:36408461
-I:57847781
+S:36453373
+I:57893679
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791195990
-c:62d50affefb6f5aa5a810f573855b767a0a07486
+t:1792585143
+c:9e6466179030bcd67cb79cca4ddf7b7831d240e5
 D:initramfs-generator
 
-C:Q1ZeaIO6zVPQnaWcgR7fi2aUHOHxE=
+C:Q1ISjrkfyw/vIb9EhGwaFvG3NXzf8=
 P:linux-virt-dev
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:18462988
-I:71354526
+S:18472068
+I:71386504
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791195990
-c:62d50affefb6f5aa5a810f573855b767a0a07486
+t:1792585143
+c:9e6466179030bcd67cb79cca4ddf7b7831d240e5
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1DDe5yXKvQ+HX83r72vuyTodY7kE=
@@ -45562,99 +45562,99 @@ k:100
 D:so:libc.musl-aarch64.so.1
 p:cmd:soelim=1.14.6-r13
 
-C:Q1kuWGygXPkVyccq0jmEN2LYp2Kaw=
+C:Q1ivqUuQXKeUMp80Puz5j8ZPIi48k=
 P:mariadb
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:50965970
-I:178821029
+S:70560547
+I:235571994
 T:A fast SQL database server
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb-common /bin/sh so:libaio.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:liblzma.so.5 so:libncursesw.so.6 so:libpam.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:cmd:aria_chk=11.4.12-r0 cmd:aria_dump_log=11.4.12-r0 cmd:aria_ftdump=11.4.12-r0 cmd:aria_pack=11.4.12-r0 cmd:aria_read_log=11.4.12-r0 cmd:aria_s3_copy=11.4.12-r0 cmd:innochecksum=11.4.12-r0 cmd:mariadb-binlog=11.4.12-r0 cmd:mariadb-conv=11.4.12-r0 cmd:mariadb-embedded=11.4.12-r0 cmd:mariadb-install-db=11.4.12-r0 cmd:mariadb-ldb=11.4.12-r0 cmd:mariadb-plugin=11.4.12-r0 cmd:mariadb-slap=11.4.12-r0 cmd:mariadb-tzinfo-to-sql=11.4.12-r0 cmd:mariadbd-safe=11.4.12-r0 cmd:mariadbd=11.4.12-r0 cmd:msql2mysql=11.4.12-r0 cmd:my_print_defaults=11.4.12-r0 cmd:myisamchk=11.4.12-r0 cmd:myisamlog=11.4.12-r0 cmd:myisampack=11.4.12-r0 cmd:myrocks_hotbackup=11.4.12-r0 cmd:mysql_embedded=11.4.12-r0 cmd:mysql_install_db=11.4.12-r0 cmd:mysql_ldb=11.4.12-r0 cmd:mysql_plugin=11.4.12-r0 cmd:mysql_tzinfo_to_sql=11.4.12-r0 cmd:mysqlbinlog=11.4.12-r0 cmd:mysqld=11.4.12-r0 cmd:mysqld_safe=11.4.12-r0 cmd:mysqlslap=11.4.12-r0 cmd:replace=11.4.12-r0 cmd:resolve_stack_dump=11.4.12-r0 cmd:resolveip=11.4.12-r0 cmd:sst_dump=11.4.12-r0 cmd:test-connect-t=11.4.12-r0 cmd:wsrep_sst_backup=11.4.12-r0 cmd:wsrep_sst_mariabackup=11.4.12-r0 cmd:wsrep_sst_mysqldump=11.4.12-r0 cmd:wsrep_sst_rsync=11.4.12-r0 cmd:wsrep_sst_rsync_wan=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb-common /bin/sh so:libaio.so.1 so:libatomic.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:liblzma.so.5 so:libncursesw.so.6 so:libpam.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+p:cmd:aria_chk=11.4.13-r0 cmd:aria_dump_log=11.4.13-r0 cmd:aria_ftdump=11.4.13-r0 cmd:aria_pack=11.4.13-r0 cmd:aria_read_log=11.4.13-r0 cmd:aria_s3_copy=11.4.13-r0 cmd:innochecksum=11.4.13-r0 cmd:mariadb-binlog=11.4.13-r0 cmd:mariadb-conv=11.4.13-r0 cmd:mariadb-embedded=11.4.13-r0 cmd:mariadb-install-db=11.4.13-r0 cmd:mariadb-ldb=11.4.13-r0 cmd:mariadb-plugin=11.4.13-r0 cmd:mariadb-slap=11.4.13-r0 cmd:mariadb-tzinfo-to-sql=11.4.13-r0 cmd:mariadbd-safe=11.4.13-r0 cmd:mariadbd=11.4.13-r0 cmd:msql2mysql=11.4.13-r0 cmd:my_print_defaults=11.4.13-r0 cmd:myisamchk=11.4.13-r0 cmd:myisamlog=11.4.13-r0 cmd:myisampack=11.4.13-r0 cmd:myrocks_hotbackup=11.4.13-r0 cmd:mysql_embedded=11.4.13-r0 cmd:mysql_install_db=11.4.13-r0 cmd:mysql_ldb=11.4.13-r0 cmd:mysql_plugin=11.4.13-r0 cmd:mysql_tzinfo_to_sql=11.4.13-r0 cmd:mysqlbinlog=11.4.13-r0 cmd:mysqld=11.4.13-r0 cmd:mysqld_safe=11.4.13-r0 cmd:mysqlslap=11.4.13-r0 cmd:replace=11.4.13-r0 cmd:resolve_stack_dump=11.4.13-r0 cmd:resolveip=11.4.13-r0 cmd:sst_dump=11.4.13-r0 cmd:test-connect-t=11.4.13-r0 cmd:wsrep_sst_backup=11.4.13-r0 cmd:wsrep_sst_mariabackup=11.4.13-r0 cmd:wsrep_sst_mysqldump=11.4.13-r0 cmd:wsrep_sst_rsync=11.4.13-r0 cmd:wsrep_sst_rsync_wan=11.4.13-r0
 
-C:Q1N4SaDbB9tTC+7T3cuPDuMLk2vfs=
+C:Q10wSEOmD3Pw8ynd8cjho9hjiKpxI=
 P:mariadb-backup
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:8882720
-I:26580304
+S:8904675
+I:26650632
 T:The mariabackup tool for physical online backups
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb-common so:libaio.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
-p:cmd:mariabackup=11.4.12-r0 cmd:mariadb-backup=11.4.12-r0 cmd:mbstream=11.4.12-r0
+p:cmd:mariabackup=11.4.13-r0 cmd:mariadb-backup=11.4.13-r0 cmd:mbstream=11.4.13-r0
 
-C:Q1VtW4Ltx7+BOHnOMIwS6Y21WiENU=
+C:Q1S71pfAIRxDnxgRFj/6MXo7iTP+Y=
 P:mariadb-bench
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:485267
+S:485258
 I:2700620
 T:MariaDB benchmark scripts and data
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb-common
 
-C:Q1LMpYcPoDTg6qYACbkF5qjC8Uz5k=
+C:Q1BeJow9Wa7Nd8ye3CEwcnxNsN3As=
 P:mariadb-client
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:8507746
-I:38511342
+S:8526190
+I:38512166
 T:Client for the MariaDB database
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb-common=11.4.12-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
-p:cmd:mariadb-admin=11.4.12-r0 cmd:mariadb-check=11.4.12-r0 cmd:mariadb-dump=11.4.12-r0 cmd:mariadb-import=11.4.12-r0 cmd:mariadb-secure-installation=11.4.12-r0 cmd:mariadb-show=11.4.12-r0 cmd:mariadb-waitpid=11.4.12-r0 cmd:mariadb=11.4.12-r0 cmd:myisam_ftdump=11.4.12-r0 cmd:mysql=11.4.12-r0 cmd:mysql_secure_installation=11.4.12-r0 cmd:mysql_waitpid=11.4.12-r0 cmd:mysqladmin=11.4.12-r0 cmd:mysqlcheck=11.4.12-r0 cmd:mysqldump=11.4.12-r0 cmd:mysqlimport=11.4.12-r0 cmd:mysqlshow=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb-common=11.4.13-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+p:cmd:mariadb-admin=11.4.13-r0 cmd:mariadb-check=11.4.13-r0 cmd:mariadb-dump=11.4.13-r0 cmd:mariadb-import=11.4.13-r0 cmd:mariadb-secure-installation=11.4.13-r0 cmd:mariadb-show=11.4.13-r0 cmd:mariadb-waitpid=11.4.13-r0 cmd:mariadb=11.4.13-r0 cmd:myisam_ftdump=11.4.13-r0 cmd:mysql=11.4.13-r0 cmd:mysql_secure_installation=11.4.13-r0 cmd:mysql_waitpid=11.4.13-r0 cmd:mysqladmin=11.4.13-r0 cmd:mysqlcheck=11.4.13-r0 cmd:mysqldump=11.4.13-r0 cmd:mysqlimport=11.4.13-r0 cmd:mysqlshow=11.4.13-r0
 
-C:Q1+wY405bScP1CpoAOMH6YWgSy0Q8=
+C:Q1S0sJsXbZZ5y14CoYy+PdWfzl3pM=
 P:mariadb-client-perl
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:32440
+S:32441
 I:125273
 T:Client for the MariaDB database (perl tools)
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb-client=11.4.12-r0 perl
-p:cmd:mariadb-access=11.4.12-r0 cmd:mariadb-dumpslow=11.4.12-r0 cmd:mariadb-find-rows=11.4.12-r0 cmd:mariadb-fix-extensions=11.4.12-r0 cmd:mysql_find_rows=11.4.12-r0 cmd:mysql_fix_extensions=11.4.12-r0 cmd:mysqlaccess=11.4.12-r0 cmd:mysqldumpslow=11.4.12-r0
-i:mariadb-client=11.4.12-r0 perl
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb-client=11.4.13-r0 perl
+p:cmd:mariadb-access=11.4.13-r0 cmd:mariadb-dumpslow=11.4.13-r0 cmd:mariadb-find-rows=11.4.13-r0 cmd:mariadb-fix-extensions=11.4.13-r0 cmd:mysql_find_rows=11.4.13-r0 cmd:mysql_fix_extensions=11.4.13-r0 cmd:mysqlaccess=11.4.13-r0 cmd:mysqldumpslow=11.4.13-r0
+i:mariadb-client=11.4.13-r0 perl
 
-C:Q1Y9WZ6oadTInIcY4xLXn7EoJwQgg=
+C:Q1GJAnpE3Kn/dxPnBHYfmhnEwq+WY=
 P:mariadb-common
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:631711
+S:631705
 I:2101761
 T:MariaDB common files for both server and client
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:/bin/sh
 
 C:Q1yxjjBHeRjQ37YE/C3zllppM7ZfE=
@@ -45689,159 +45689,159 @@ c:886315af032a374694e9081678139ba069a89436
 D:openssl-dev>3 zlib-dev mariadb-connector-c=3.3.10-r0 pkgconfig so:libc.musl-aarch64.so.1
 p:pc:libmariadb=3.3.10 cmd:mariadb_config=3.3.10-r0 cmd:mysql_config=3.3.10-r0
 
-C:Q1GyrFGY1Lck4jiJI28omjRKI9Fzs=
+C:Q1d1xOoZKYYiJTBLgAIU0uG1rgZR0=
 P:mariadb-dev
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:1494773
-I:6425093
+S:1498168
+I:6437786
 T:A fast SQL database server (development files)
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:fmt-dev mariadb-connector-c-dev openssl-dev zlib-dev mariadb-embedded=11.4.12-r0 pkgconfig
-p:mysql-dev=11.4.12-r0 pc:mariadb=11.4.12 cmd:mariadb-config=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:fmt-dev mariadb-connector-c-dev openssl-dev zlib-dev mariadb-embedded=11.4.13-r0 pkgconfig
+p:mysql-dev=11.4.13-r0 pc:mariadb=11.4.13 cmd:mariadb-config=11.4.13-r0
 
-C:Q1+0MYRAYhSHiWSDTQqK6LajKFHok=
+C:Q1Q1iyS+ecQ+NWzcUG2dpWzct+AFc=
 P:mariadb-doc
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:315876
-I:383416
+S:315925
+I:383784
 T:A fast SQL database server (documentation)
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-i:docs mariadb=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+i:docs mariadb=11.4.13-r0
 
-C:Q1KzESPV0tCF/6t8m3Dc/SZZSV19s=
+C:Q14uKvrWOUEufkpAJ8oMvglfWktio=
 P:mariadb-embedded
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:6894487
-I:21434976
+S:6901770
+I:21435072
 T:MariaDB as an embeddable library
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb-common=11.4.12-r0 so:libaio.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb-common=11.4.13-r0 so:libaio.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
 p:so:libmariadbd.so.19=19
 
-C:Q1hPN2dgTW3Fq+HMRwZFAr92HLtHQ=
+C:Q1amn65wjja9yoVCRw1I7rxrY3BHs=
 P:mariadb-embedded-dev
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:1516
+S:1513
 I:1
 T:MariaDB as an embeddable library - development files
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb-common mariadb-embedded=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb-common mariadb-embedded=11.4.13-r0
 
-C:Q1leIPV+Ld8Oa2VDp9mS5a1UUB4ms=
+C:Q1+dspbHhLxLTjH/YUTTKpCQZ6VTM=
 P:mariadb-mytop
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:22832
+S:22836
 I:73761
 T:Command line tool used for monitoring MariaDB performance
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:perl perl-dbd-mysql perl-dbi perl-getopt-long perl-socket perl-term-readkey
-p:cmd:mytop=11.4.12-r0
+p:cmd:mytop=11.4.13-r0
 
-C:Q1DGCi9VEd9IBGI6V/9tPULdEu4nc=
+C:Q1LqRSl0+PnPAjS9j83zoZQhtbs7s=
 P:mariadb-openrc
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:1960
+S:1954
 I:755
 T:A fast SQL database server (OpenRC init scripts)
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-i:openrc mariadb=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+i:openrc mariadb=11.4.13-r0
 
-C:Q1tAhlkDqGTaz2F69ICOE7X7b8p84=
+C:Q14e++wTgFCa7ChD5GnAHY5QYVqU0=
 P:mariadb-plugin-rocksdb
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:3015310
+S:3015320
 I:7689016
 T:MariaDB plugin for RocksDB (MyRocks)
 U:https://mariadb.com/kb/en/library/myrocks/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:mariadb=11.4.12-r0 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:mariadb=11.4.13-r0 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 
-C:Q1DyrZ2btzAPST18TC219j4OEVvHA=
+C:Q1sQaEpJpCV8IJIaj1Uit8gQ2W5Uo=
 P:mariadb-server-utils
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:2964159
-I:14264724
+S:2969270
+I:14265081
 T:Non-essential server utilities for MariaDB/MySQL applications
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
-D:perl mariadb-common=11.4.12-r0 so:libc.musl-aarch64.so.1
-p:cmd:mariadb-convert-table-format=11.4.12-r0 cmd:mariadb-hotcopy=11.4.12-r0 cmd:mariadb-setpermission=11.4.12-r0 cmd:mariadb-upgrade=11.4.12-r0 cmd:mariadbd-multi=11.4.12-r0 cmd:mariadbd-safe-helper=11.4.12-r0 cmd:mysql_convert_table_format=11.4.12-r0 cmd:mysql_setpermission=11.4.12-r0 cmd:mysql_upgrade=11.4.12-r0 cmd:mysqld_multi=11.4.12-r0 cmd:mysqld_safe_helper=11.4.12-r0 cmd:mysqlhotcopy=11.4.12-r0 cmd:perror=11.4.12-r0
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
+D:perl mariadb-common=11.4.13-r0 so:libc.musl-aarch64.so.1
+p:cmd:mariadb-convert-table-format=11.4.13-r0 cmd:mariadb-hotcopy=11.4.13-r0 cmd:mariadb-setpermission=11.4.13-r0 cmd:mariadb-upgrade=11.4.13-r0 cmd:mariadbd-multi=11.4.13-r0 cmd:mariadbd-safe-helper=11.4.13-r0 cmd:mysql_convert_table_format=11.4.13-r0 cmd:mysql_setpermission=11.4.13-r0 cmd:mysql_upgrade=11.4.13-r0 cmd:mysqld_multi=11.4.13-r0 cmd:mysqld_safe_helper=11.4.13-r0 cmd:mysqlhotcopy=11.4.13-r0 cmd:perror=11.4.13-r0
 
-C:Q1o7NnN0rLekZRo3PTlDx40EB3LtY=
+C:Q1uMLieckJbZ17tYdkQpuiQKsz6Jo=
 P:mariadb-static
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:174534847
-I:648640284
+S:174908344
+I:649870708
 T:A fast SQL database server (static library)
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 
-C:Q1qjAmHENr9O/67NFvoMe/Rxta31c=
+C:Q11DSWlevWVKbjWCXN5lLiSZ5QcsE=
 P:mariadb-test
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:42537134
-I:267766027
+S:42804637
+I:269347376
 T:The test suite distributed with MariaDB
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb-common so:libaio.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libpcre2-posix.so.3 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
-p:cmd:mariadb-client-test-embedded=11.4.12-r0 cmd:mariadb-client-test=11.4.12-r0 cmd:mariadb-test-embedded=11.4.12-r0 cmd:mariadb-test=11.4.12-r0 cmd:my_safe_process=11.4.12-r0 cmd:mysql_client_test=11.4.12-r0 cmd:mysql_client_test_embedded=11.4.12-r0 cmd:mysqltest=11.4.12-r0 cmd:mysqltest_embedded=11.4.12-r0
+p:cmd:mariadb-client-test-embedded=11.4.13-r0 cmd:mariadb-client-test=11.4.13-r0 cmd:mariadb-test-embedded=11.4.13-r0 cmd:mariadb-test=11.4.13-r0 cmd:my_safe_process=11.4.13-r0 cmd:mysql_client_test=11.4.13-r0 cmd:mysql_client_test_embedded=11.4.13-r0 cmd:mysqltest=11.4.13-r0 cmd:mysqltest_embedded=11.4.13-r0
 
 C:Q1hfUOJYmjwC8bwHwA2KMZzu6CKhc=
 P:mawk
@@ -47852,50 +47852,50 @@ t:1729067202
 c:3dbef2d251d4f3d1f5e61504570cbda69adf65a9
 i:openrc multipath-tools=0.10.0-r1
 
-C:Q1VGBj6ffzFAQCf6cdcQm8gh+VWxI=
+C:Q1rW2lozTukZcf2LJny7+XIiu9rtM=
 P:musl
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:417982
+S:418096
 I:723480
 T:the musl c library (libc) implementation
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775835421
-c:21cafa1183cf7501d3f1744994d221c038436e45
+t:1792598571
+c:5245849e14d213abe18d589b4b80d65793327940
 p:so:libc.musl-aarch64.so.1=1
 
-C:Q1WPR6MxcCnUyazat4W0CNC+vqCg0=
+C:Q1rVEhMUVnKtpICqskh9m5N6JbrP0=
 P:musl-dbg
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:1032080
-I:3043280
+S:1032807
+I:3044640
 T:the musl c library (libc) implementation (debug symbols)
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775835421
-c:21cafa1183cf7501d3f1744994d221c038436e45
+t:1792598571
+c:5245849e14d213abe18d589b4b80d65793327940
 
-C:Q1zDRm9Q/0UgD8Of7JPHHs6irBY44=
+C:Q1ltgT6fOgf60eZQMhN4BmwhUY/bk=
 P:musl-dev
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:2556596
-I:11698833
+S:2557228
+I:11701777
 T:the musl c library (libc) implementation (development files)
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775835421
-c:21cafa1183cf7501d3f1744994d221c038436e45
-D:musl=1.2.5-r11
-p:libc-dev=1.2.5-r11
+t:1792598571
+c:5245849e14d213abe18d589b4b80d65793327940
+D:musl=1.2.5-r12
+p:libc-dev=1.2.5-r12
 
 C:Q1ep9Ulm2Y1ZaMLaOnsuZXL+MOm6w=
 P:musl-fts
@@ -47942,9 +47942,9 @@ o:musl-legacy-error
 t:1690621208
 c:9e88698cc296a8492a8f70938c58f5755f39609d
 
-C:Q19BKYiUdrA3udCuZ9UYdSJrCNYno=
+C:Q18aZvdknzBRSKfLlec6AUD/oNVEA=
 P:musl-libintl
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
 S:1748
 I:881
@@ -47953,8 +47953,8 @@ U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775835421
-c:21cafa1183cf7501d3f1744994d221c038436e45
+t:1792598571
+c:5245849e14d213abe18d589b4b80d65793327940
 
 C:Q1rWI+IQJ/BLg8q9GG4WBZktbdNSo=
 P:musl-locales
@@ -48080,55 +48080,55 @@ c:c9ccd9cb45c7c3cbeac15b2022206741010dcabe
 D:musl-obstack=1.2.3-r2 pkgconfig
 p:pc:musl-obstack=1.2
 
-C:Q1gnfzHeUsMrCfAqW28LsSXd2ICYY=
+C:Q1KJ+ez5JBY71lei7F1K86lzAkdjQ=
 P:musl-utils
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:39144
+S:39153
 I:256550
 T:the musl c library (libc) implementation
 U:https://musl.libc.org/
 L:MIT AND BSD-2-Clause AND GPL-2.0-or-later
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775835421
-c:21cafa1183cf7501d3f1744994d221c038436e45
+t:1792598571
+c:5245849e14d213abe18d589b4b80d65793327940
 D:scanelf so:libc.musl-aarch64.so.1
-p:libc-utils=1.2.5-r11 cmd:getconf=1.2.5-r11 cmd:getent=1.2.5-r11 cmd:iconv=1.2.5-r11 cmd:ldconfig=1.2.5-r11 cmd:ldd=1.2.5-r11
+p:libc-utils=1.2.5-r12 cmd:getconf=1.2.5-r12 cmd:getent=1.2.5-r12 cmd:iconv=1.2.5-r12 cmd:ldconfig=1.2.5-r12 cmd:ldd=1.2.5-r12
 
-C:Q1CHOyPS2uB836pelKg4cbYT39KCE=
+C:Q1d0ktjjcizjP+ikP738Q1R/Pdwo0=
 P:mysql
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:1207
+S:1208
 I:0
 T:Dummy package for mysql migration
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb
 
-C:Q1Jk47xdpeCCgiHsPa22D07vKpTtE=
+C:Q1L1ubwOnRqKsceGEFOGpmSS9PI30=
 P:mysql-bench
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
-S:1217
+S:1215
 I:0
 T:Dummy package for mysql-bench migration
 U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb-client
 
-C:Q1vgL1TfI/C4wuvDR/d9k3ifakgj0=
+C:Q1teeoHrvmCrlJadWfXO9N1gshZCI=
 P:mysql-client
-V:11.4.12-r0
+V:11.4.13-r0
 A:aarch64
 S:1214
 I:0
@@ -48137,8 +48137,8 @@ U:https://www.mariadb.org/
 L:GPL-2.0-or-later
 o:mariadb
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780055958
-c:eaefcd7ab8da59a93523f8e58a8f2f5329674473
+t:1792461288
+c:8b837e1410ef9ea7e09110f662f70500b614362b
 D:mariadb-client
 
 C:Q1TBXr4HLYrqzWohUftZA9KBjU31g=
@@ -54664,68 +54664,68 @@ c:21d29cabd99e7ff6534d2e99601cbd77abf30f8a
 D:so:libc.musl-aarch64.so.1 so:libpcre.so.1 so:libpcre16.so.0 so:libpcre32.so.0 so:libpcreposix.so.0
 p:cmd:pcregrep=8.45-r3 cmd:pcretest=8.45-r3
 
-C:Q1mLIpytNrP4qulnyGMiXyNhMQoH4=
+C:Q1g0/iSZrEDXsM31PwoftjTKwEYcg=
 P:pcre2
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:270791
+S:270859
 I:724480
 T:Perl-compatible regular expression library
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
 D:so:libc.musl-aarch64.so.1
 p:so:libpcre2-8.so.0=0.12.0 so:libpcre2-posix.so.3=3.0.5
 
-C:Q1fbCwjWXfw9i9WQuHyt8yJWFcXp4=
+C:Q1j9LDBFi1ony6pjjdbhG55bRXa28=
 P:pcre2-dev
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:825774
-I:2188376
+S:825128
+I:2186694
 T:Perl-compatible regular expression library (development files)
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
-D:libedit-dev zlib-dev libpcre2-16=10.43-r0 libpcre2-32=10.43-r0 pcre2=10.43-r0 pkgconfig
-p:pc:libpcre2-16=10.43 pc:libpcre2-32=10.43 pc:libpcre2-8=10.43 pc:libpcre2-posix=10.43 cmd:pcre2-config=10.43-r0
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
+D:libedit-dev zlib-dev libpcre2-16=10.43-r1 libpcre2-32=10.43-r1 pcre2=10.43-r1 pkgconfig
+p:pc:libpcre2-16=10.43 pc:libpcre2-32=10.43 pc:libpcre2-8=10.43 pc:libpcre2-posix=10.43 cmd:pcre2-config=10.43-r1
 
-C:Q1RMKnXcqbkMJmL5ka2LE2SCGWBxQ=
+C:Q1y3nmPtzRyCR5G8pUWYujMqlA2YQ=
 P:pcre2-doc
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:852032
+S:852006
 I:2231369
 T:Perl-compatible regular expression library (documentation)
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
-i:docs pcre2=10.43-r0
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
+i:docs pcre2=10.43-r1
 
-C:Q1Rz5StUrzdDztltv7nrXCf1mB/4Q=
+C:Q1d6d9QJBxsSTmAWCUAnlpDXc00EU=
 P:pcre2-tools
-V:10.43-r0
+V:10.43-r1
 A:aarch64
-S:100408
+S:100480
 I:271752
 T:Auxiliary utilities for PCRE2
 U:https://pcre.org/
 L:BSD-3-Clause
 o:pcre2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1715637586
-c:0826e91f0c743946bdc6ffa51fe90479bf4a83da
+t:1792489184
+c:3a2a5cd9b424eaa37ead2635042d4608413bb4a0
 D:so:libc.musl-aarch64.so.1 so:libedit.so.0 so:libpcre2-16.so.0 so:libpcre2-32.so.0 so:libpcre2-8.so.0 so:libpcre2-posix.so.3 so:libz.so.1
-p:cmd:pcre2grep=10.43-r0 cmd:pcre2test=10.43-r0
+p:cmd:pcre2grep=10.43-r1 cmd:pcre2test=10.43-r1
 
 C:Q1hdUb5bjKOXRkwGGM/hDogzz6hcI=
 P:pcsc-lite
@@ -61059,24 +61059,24 @@ t:1688403118
 c:4ece6fc07c96d6859dde2ecc31b323fb3b355638
 i:docs perl-moo=2.005005-r1
 
-C:Q1pDyKF0Ih4WTHhgm8zK+mwC6MYfI=
+C:Q1K0LZM0e0sIHEi+Ei6OgAgx1LiCw=
 P:perl-mozilla-ca
-V:20240924-r0
+V:20261020-r0
 A:aarch64
-S:135967
-I:236321
+S:110653
+I:189468
 T:Mozilla's CA cert bundle in PEM format
 U:https://metacpan.org/release/Mozilla-CA/
 L:MPL-2.0
 o:perl-mozilla-ca
 m:Sheila Aman <sheila@vulpine.house>
-t:1727186703
-c:df7348a0b44af6ec917fbabc70e098122b361f8d
+t:1792561196
+c:fe534fb90135ebe056737ccc9dc234b6d0fcfcab
 D:perl
 
-C:Q1NtPgYlpbmj7SOp7eLiduZ6UZvwg=
+C:Q1lr38KBC0NtiliuY3cIWqgI1F310=
 P:perl-mozilla-ca-doc
-V:20240924-r0
+V:20261020-r0
 A:aarch64
 S:3150
 I:1458
@@ -61085,9 +61085,9 @@ U:https://metacpan.org/release/Mozilla-CA/
 L:MPL-2.0
 o:perl-mozilla-ca
 m:Sheila Aman <sheila@vulpine.house>
-t:1727186703
-c:df7348a0b44af6ec917fbabc70e098122b361f8d
-i:docs perl-mozilla-ca=20240924-r0
+t:1792561196
+c:fe534fb90135ebe056737ccc9dc234b6d0fcfcab
+i:docs perl-mozilla-ca=20261020-r0
 
 C:Q1vqGy3F4mQMxOyhj/H/Hb9EsYUyE=
 P:perl-mro-compat
@@ -67797,36 +67797,36 @@ t:1728302760
 c:f496b4fa1d45af70d0a58b7954f5aae694bd8a6a
 D:botan3-libs=3.5.0-r0 python3~3.12
 
-C:Q1w/NpE2/R/nUcysk5U6CitnJs2do=
+C:Q1Ub1lmEdzlcVm3AAVHDrLIEj9E20=
 P:py3-brotli
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:410493
+S:410644
 I:860544
 T:Generic lossless compressor (python bindings)
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
 D:python3~3.12 so:libc.musl-aarch64.so.1
 
-C:Q1F17uTBTq1Mut6V3lzNHDJQaVxPA=
+C:Q1kDmwSLEVQNWwmg9v51DQ4WQsNPY=
 P:py3-brotli-pyc
-V:1.1.0-r2
+V:1.1.1-r0
 A:aarch64
-S:2660
+S:2666
 I:1895
 T:Precompiled Python bytecode for py3-brotli
 U:https://github.com/google/brotli
 L:MIT
 o:brotli
 m:prspkt <prspkt@protonmail.com>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1792636474
+c:2e2e1c66200dbbb50a717171d1df57829ff4c264
 D:python3~3.12
-i:py3-brotli=1.1.0-r2 pyc
+i:py3-brotli=1.1.1-r0 pyc
 
 C:Q16aKh7KCBvjD87R6JsoyR4eBVHWw=
 P:py3-btrfs-progs
@@ -84206,173 +84206,173 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:libxcb-dev util-macros pkgconfig xcb-util=0.4.1-r3
 p:pc:xcb-atom=0.4.1 pc:xcb-aux=0.4.1 pc:xcb-event=0.4.1 pc:xcb-util=0.4.1
 
-C:Q11sFQcuNVDqmtn+PUJDv9uFecpNI=
+C:Q1WNztaicgZU5XgqQcxih+/cW743c=
 P:xen
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1359776
+S:1359775
 I:5907036
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 D:bash iproute2 logrotate python3~3.12 so:libc.musl-aarch64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libglib-2.0.so.0 so:libncursesw.so.6 so:libxencall.so.1 so:libxenctrl.so.4.19 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxenfsimage.so.4.19 so:libxengnttab.so.1 so:libxenguest.so.4.19 so:libxenhypfs.so.1 so:libxenlight.so.4.19 so:libxenstat.so.4.19 so:libxenstore.so.4 so:libxentoollog.so.1 so:libxenvchan.so.4.19 so:libxlutil.so.4.19 so:libyajl.so.2
-p:cmd:flask-get-bool=4.19.6-r1 cmd:flask-getenforce=4.19.6-r1 cmd:flask-label-pci=4.19.6-r1 cmd:flask-loadpolicy=4.19.6-r1 cmd:flask-set-bool=4.19.6-r1 cmd:flask-setenforce=4.19.6-r1 cmd:vchan-socket-proxy=4.19.6-r1 cmd:xen-access=4.19.6-r1 cmd:xen-diag=4.19.6-r1 cmd:xen-livepatch=4.19.6-r1 cmd:xenalyze=4.19.6-r1 cmd:xenbaked=4.19.6-r1 cmd:xenconsoled=4.19.6-r1 cmd:xencov=4.19.6-r1 cmd:xencov_split=4.19.6-r1 cmd:xenhypfs=4.19.6-r1 cmd:xenlockprof=4.19.6-r1 cmd:xenmon=4.19.6-r1 cmd:xenperf=4.19.6-r1 cmd:xenpm=4.19.6-r1 cmd:xenpmd=4.19.6-r1 cmd:xenstore-chmod=4.19.6-r1 cmd:xenstore-control=4.19.6-r1 cmd:xenstore-exists=4.19.6-r1 cmd:xenstore-list=4.19.6-r1 cmd:xenstore-ls=4.19.6-r1 cmd:xenstore-read=4.19.6-r1 cmd:xenstore-rm=4.19.6-r1 cmd:xenstore-watch=4.19.6-r1 cmd:xenstore-write=4.19.6-r1 cmd:xenstore=4.19.6-r1 cmd:xenstored=4.19.6-r1 cmd:xentop=4.19.6-r1 cmd:xentrace=4.19.6-r1 cmd:xentrace_setmask=4.19.6-r1 cmd:xentrace_setsize=4.19.6-r1 cmd:xenwatchdogd=4.19.6-r1 cmd:xl=4.19.6-r1 py3.12:grub=4.19.6-r1 py3.12:xen=4.19.6-r1
+p:cmd:flask-get-bool=4.19.6-r2 cmd:flask-getenforce=4.19.6-r2 cmd:flask-label-pci=4.19.6-r2 cmd:flask-loadpolicy=4.19.6-r2 cmd:flask-set-bool=4.19.6-r2 cmd:flask-setenforce=4.19.6-r2 cmd:vchan-socket-proxy=4.19.6-r2 cmd:xen-access=4.19.6-r2 cmd:xen-diag=4.19.6-r2 cmd:xen-livepatch=4.19.6-r2 cmd:xenalyze=4.19.6-r2 cmd:xenbaked=4.19.6-r2 cmd:xenconsoled=4.19.6-r2 cmd:xencov=4.19.6-r2 cmd:xencov_split=4.19.6-r2 cmd:xenhypfs=4.19.6-r2 cmd:xenlockprof=4.19.6-r2 cmd:xenmon=4.19.6-r2 cmd:xenperf=4.19.6-r2 cmd:xenpm=4.19.6-r2 cmd:xenpmd=4.19.6-r2 cmd:xenstore-chmod=4.19.6-r2 cmd:xenstore-control=4.19.6-r2 cmd:xenstore-exists=4.19.6-r2 cmd:xenstore-list=4.19.6-r2 cmd:xenstore-ls=4.19.6-r2 cmd:xenstore-read=4.19.6-r2 cmd:xenstore-rm=4.19.6-r2 cmd:xenstore-watch=4.19.6-r2 cmd:xenstore-write=4.19.6-r2 cmd:xenstore=4.19.6-r2 cmd:xenstored=4.19.6-r2 cmd:xentop=4.19.6-r2 cmd:xentrace=4.19.6-r2 cmd:xentrace_setmask=4.19.6-r2 cmd:xentrace_setsize=4.19.6-r2 cmd:xenwatchdogd=4.19.6-r2 cmd:xl=4.19.6-r2 py3.12:grub=4.19.6-r2 py3.12:xen=4.19.6-r2
 
-C:Q1uMFOMGPUAkp8FCZIZ7OXx3YBvDw=
+C:Q1f7oWqe22qRiRQGqBouz6N7FYWaU=
 P:xen-bash-completion
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1831
+S:1829
 I:393
 T:Bash completions for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
-i:xen=4.19.6-r1 bash-completion
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
+i:xen=4.19.6-r2 bash-completion
 
-C:Q1VQSYEmtSL1722uvTFgwSjmV0a8Y=
+C:Q1J4Vr1xpVtUKap2CHZI4zy/W2cTE=
 P:xen-bridge
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1517
+S:1516
 I:63
 T:Bridge interface for XEN with dhcp
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 D:dnsmasq
 
-C:Q1/d4riYf83cBfg5PXKueh7B9mNeE=
+C:Q1q1jjGdgXVaZgMXJqdOxpWKpRr0g=
 P:xen-bridge-openrc
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1732
+S:1738
 I:231
 T:Bridge interface for XEN with dhcp (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
-i:openrc xen-bridge=4.19.6-r1
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
+i:openrc xen-bridge=4.19.6-r2
 
-C:Q1G6MqlGfFXclboKds1h1VkMkLUIk=
+C:Q1RSxP2jxHGqSfbhd3lNajhEmHv14=
 P:xen-dev
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1128871
+S:1128866
 I:4308464
 T:Xen hypervisor (development files)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
-D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.19.6-r1
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
+D:argp-standalone attr-dev bison curl-dev dev86 e2fsprogs-dev flex gnutls-dev libaio-dev libcap-ng-dev libnl3-dev linux-headers lzo-dev ncurses-dev openssl-dev>3 pciutils-dev perl perl-dev py3-setuptools python3-dev spice-dev texinfo util-linux-dev xz-dev yajl-dev zlib-dev zstd-dev pkgconfig xen-libs=4.19.6-r2
 p:pc:xencall=1.3 pc:xencontrol=4.19.0 pc:xendevicemodel=1.4 pc:xenevtchn=1.2 pc:xenforeignmemory=1.4 pc:xengnttab=1.2 pc:xenguest=4.19.0 pc:xenhypfs=1.0 pc:xenlight=4.19.0 pc:xenstat=4.19.0 pc:xenstore=4.0 pc:xentoolcore=1.0 pc:xentoollog=1.0 pc:xenvchan=4.19.0 pc:xlutil=4.19.0
 
-C:Q1uDelKjHOlpno8tA510Dho1EekiA=
+C:Q1XCJjvxE18y8stt0t+uUephH7oL8=
 P:xen-doc
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:983510
-I:3941855
+S:983444
+I:3941891
 T:Xen hypervisor (documentation)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
-i:docs xen=4.19.6-r1
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
+i:docs xen=4.19.6-r2
 
-C:Q1noX4DEGfvE4CyMkSDRv/3ACNiaQ=
+C:Q1ku6rmnB1hYXrlD4OqEpxn42NjK0=
 P:xen-hypervisor
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:741989
+S:741982
 I:1968947
 T:Xen hypervisor
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 
-C:Q1CUrhQI3TQK3xHjiHUANdGTxwQHs=
+C:Q1mjRG2ZfebmF6GJo1pHLR6IWy+88=
 P:xen-libs
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:618131
+S:618110
 I:2542464
 T:Libraries for Xen tools
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 D:so:libc.musl-aarch64.so.1 so:libext2fs.so.2 so:libfdt.so.1 so:libnl-3.so.200 so:libnl-route-3.so.200 so:libuuid.so.1 so:libyajl.so.2 so:libz.so.1
 p:so:libxencall.so.1=1.3 so:libxenctrl.so.4.19=4.19.0 so:libxendevicemodel.so.1=1.4 so:libxenevtchn.so.1=1.2 so:libxenforeignmemory.so.1=1.4 so:libxenfsimage.so.4.19=4.19.0 so:libxengnttab.so.1=1.2 so:libxenguest.so.4.19=4.19.0 so:libxenhypfs.so.1=1.0 so:libxenlight.so.4.19=4.19.0 so:libxenstat.so.4.19=4.19.0 so:libxenstore.so.4=4.0 so:libxentoolcore.so.1=1.0 so:libxentoollog.so.1=1.0 so:libxenvchan.so.4.19=4.19.0 so:libxlutil.so.4.19=4.19.0
 
-C:Q10FSeGoElmdiFUbJsYGg8Bv/3lWY=
+C:Q1RCHD6uCPL9wbm/fQQDGaw2bZAuE=
 P:xen-pyc
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:29636
+S:29634
 I:73326
 T:Precompiled Python bytecode for xen
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 D:bash iproute2 logrotate python3~3.12
-i:xen=4.19.6-r1 pyc
+i:xen=4.19.6-r2 pyc
 
-C:Q1CRAdGo7Fi9PCfDhq7CZrZtTs/7c=
+C:Q1t2HhmUSwy6VuXpl9liw/to7gb+U=
 P:xen-qemu
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:23357631
+S:23357673
 I:258121160
 T:QEMU for XEN
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
 D:bash iproute2 logrotate so:libaio.so.1 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libfdt.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libjpeg.so.8 so:liblzo2.so.2 so:libncursesw.so.6 so:libpixman-1.so.0 so:libsasl2.so.3 so:libspice-server.so.1 so:libxenctrl.so.4.19 so:libxendevicemodel.so.1 so:libxenevtchn.so.1 so:libxenforeignmemory.so.1 so:libxengnttab.so.1 so:libxenstore.so.4 so:libxentoolcore.so.1 so:libz.so.1 so:libzstd.so.1
 
-C:Q1n+jGXT3bWg+EEiY7D/y6WvbdxQQ=
+C:Q1J2dKa7yQ9QgowmFQ7GG/zu3Ng+g=
 P:xen-qemu-openrc
-V:4.19.6-r1
+V:4.19.6-r2
 A:aarch64
-S:1985
+S:1988
 I:759
 T:QEMU for XEN (OpenRC init scripts)
 U:https://www.xenproject.org/
 L:GPL-2.0-only
 o:xen
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1790293551
-c:85da8b59a460d451ad3e25c5d8636c637713599c
-i:openrc xen-qemu=4.19.6-r1
+t:1791924535
+c:6d21d30d1d26b6a6437386df284cf63f37913d1b
+i:openrc xen-qemu=4.19.6-r2
 
 C:Q14LDlQQMgcpF8Jt6MwHZuQsvq4Xk=
 P:xfsprogs
@@ -84903,21 +84903,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1dSL7aEUiaROGT6Or6dVdHhJjiqQ=
+C:Q1XJqW9bQoW0xXxMNS18EWmDV1YeU=
 P:xtables-addons-lts
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:4617155
-I:4653591
+S:4622368
+I:4659124
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791196067
-c:34ef0c5d05e89878717c63b60409d113b943b572
-D:linux-lts=6.12.112-r0
-i:linux-lts=6.12.112-r0 xtables-addons
+t:1792585159
+c:1f47ca9cdecd7aeadf2878265dc571c1bdbae00f
+D:linux-lts=6.12.114-r0
+i:linux-lts=6.12.114-r0 xtables-addons
 
 C:Q1vkfF3uMaub613FTNVsoDRwr4K18=
 P:xtables-addons-rpi
@@ -85431,37 +85431,37 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:so:libblkid.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1uXuqe4+LEel1CmYPlpFTgfFxlCo=
+C:Q1SKbKaKlh4xHNrdPGDPG1mDLa8wg=
 P:zfs-lts
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:29061780
-I:29379720
+S:29065569
+I:29385268
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791196204
-c:8be44d382a4e9451109c43c1ec9f5d9285029106
-D:linux-lts=6.12.112-r0
-p:spl-vanilla=6.12.112-r0
-i:zfs linux-lts=6.12.112-r0
+t:1792585297
+c:f520cd9a9e862dd420385df4554c6aa5a3c15568
+D:linux-lts=6.12.114-r0
+p:spl-vanilla=6.12.114-r0
+i:zfs linux-lts=6.12.114-r0
 
-C:Q1932fWsS7cSBTTjuiZx/Jsnnz5hU=
+C:Q1Pq/n6Mk8Do+6o2kKLZVOwI9YxNE=
 P:zfs-lts-dev
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:488024
+S:487997
 I:3226071
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791196204
-c:8be44d382a4e9451109c43c1ec9f5d9285029106
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.112-r0
+t:1792585297
+c:f520cd9a9e862dd420385df4554c6aa5a3c15568
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.114-r0
 
 C:Q1P5MNmh8v3ZtxzEPAEfeam6CLFUs=
 P:zfs-openrc
@@ -85555,21 +85555,21 @@ c:665e866a6e9f603bef368f822c3a9a78fd807a3d
 D:python3
 p:cmd:arc_summary=2.2.11-r0 cmd:arcstat=2.2.11-r0 cmd:dbufstat=2.2.11-r0 cmd:zilstat=2.2.11-r0
 
-C:Q13/dCIhrwnQKaeclNb8AlESlpsns=
+C:Q1A2meqfUxouv8SlTbVpj3rMz8kxc=
 P:zfs-virt
-V:6.12.112-r0
+V:6.12.114-r0
 A:aarch64
-S:28396955
-I:28705546
+S:28401271
+I:28709929
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1791196204
-c:8be44d382a4e9451109c43c1ec9f5d9285029106
-D:linux-virt=6.12.112-r0
-i:zfs linux-virt=6.12.112-r0
+t:1792585297
+c:f520cd9a9e862dd420385df4554c6aa5a3c15568
+D:linux-virt=6.12.114-r0
+i:zfs linux-virt=6.12.114-r0
 
 C:Q1nXsvgm7HS6Q5j7+t+WKmlNMN6Lo=
 P:zfs-zsh-completion
