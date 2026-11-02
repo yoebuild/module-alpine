@@ -87890,37 +87890,37 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-x86_64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1IXX00f9P8HaiQkix6vSVsLLiTGk=
+C:Q1D4wJ3ZBAAn/qVUFCEa9El44dKiQ=
 P:jool-modules-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:8100395
-I:8191035
+S:8108085
+I:8198355
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792585321
-c:a3dbe6db542138186ff8e56973a1ae5b2369ab65
-D:linux-lts=6.12.114-r0
-i:linux-lts=6.12.114-r0 jool-tools
+t:1793545692
+c:8365c3f0d05d30c5053dbac9b54bf82cfccf0b23
+D:linux-lts=6.12.115-r0
+i:linux-lts=6.12.115-r0 jool-tools
 
-C:Q1GoVw4ls9C13Nl0BEaNk/rE7MBsw=
+C:Q1Vku1tkzD3nWU8HX46z3FBc9Oo4Q=
 P:jool-modules-virt
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:7934055
-I:8022262
+S:7941870
+I:8029617
 T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792585321
-c:a3dbe6db542138186ff8e56973a1ae5b2369ab65
-D:linux-virt=6.12.114-r0
-i:linux-virt=6.12.114-r0 jool-tools
+t:1793545692
+c:8365c3f0d05d30c5053dbac9b54bf82cfccf0b23
+D:linux-virt=6.12.115-r0
+i:linux-virt=6.12.115-r0 jool-tools
 
 C:Q1D9iheVhrgx/1jgNYE6ufHkAZHiM=
 P:jool-tools
@@ -245935,61 +245935,61 @@ c:10f3a9dca425271c75c58adb2223d232e10151fb
 D:pkgconfig pystring=1.1.4-r0
 p:pc:pystring=1.1.4
 
-C:Q1UXQVkMLfvuIXuhFuCICcKyIqfGQ=
+C:Q1PEYcXO4cg8grjkadg+S5/nLIJ1k=
 P:python3-idle
-V:3.12.15-r0
+V:3.12.16-r0
 A:x86_64
-S:1166395
+S:1166428
 I:4033189
 T:IDE for Python3 using Tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
-D:python3-tkinter=3.12.15-r0 python3 python3-tests
-p:cmd:idle3.12=3.12.15-r0
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
+D:python3-tkinter=3.12.16-r0 python3 python3-tests
+p:cmd:idle3.12=3.12.16-r0
 
-C:Q19BHu16g335TwGtMUjAzcEK5uGYY=
+C:Q1xech2I6vLJAKBC5EZ/AMTpZ7Vb8=
 P:python3-tkinter
-V:3.12.15-r0
+V:3.12.16-r0
 A:x86_64
-S:110206
+S:110191
 I:429672
 T:A graphical user interface for the Python programming language
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
 D:so:libc.musl-x86_64.so.1 so:libtcl8.6.so so:libtk8.6.so
 
-C:Q122IP8FOWIpax5Q6AFmOhhtHE7Ps=
+C:Q1NNGFGiAgQ0No5o5q3/ckhIWIZpk=
 P:python3-tkinter-pyc
-V:3.12.15-r0
+V:3.12.16-r0
 A:x86_64
-S:408933
+S:408917
 I:1416850
 T:Precompiled Python bytecode for python3-tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
-i:python3-tkinter=3.12.15-r0 pyc
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
+i:python3-tkinter=3.12.16-r0 pyc
 
-C:Q1q2Y+oOjulUyqjkeCLuP4ZC7F0Rc=
+C:Q1gZu5JILc8sB0vzftJodB4UpQVV4=
 P:python3-tkinter-tests
-V:3.12.15-r0
+V:3.12.16-r0
 A:x86_64
-S:973075
+S:973081
 I:4838180
 T:The test modules from the main python package for tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
 
 C:Q1z+kXlRQ4Ab0bl9qlbes1xv5hxxI=
 P:pythran
@@ -258476,20 +258476,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1fz3EMbVyhPFFbHNws5S20Ls4g/M=
+C:Q1HIy0r4lpAe2JpFR+CiNGSV7Om24=
 P:rtpengine-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:456786
-I:1632960
+S:456631
+I:1632408
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1792585332
-c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
-i:rtpengine linux-lts=6.12.114-r0
+t:1793545692
+c:430cff351bad34a0b094f42b18031b5b2a8bc241
+i:rtpengine linux-lts=6.12.115-r0
 
 C:Q1l0hr36sWQV9n0L89fqTnOKlRc54=
 P:rtpengine-openrc
@@ -258522,21 +258522,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1OOLDWsx2cZmsCw+x1SHZOwlBZ8o=
+C:Q1DW2eVaqodjR51WBY2RSn9z67Z1w=
 P:rtpengine-virt
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:401086
-I:1398656
+S:400994
+I:1398128
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1792585332
-c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
-D:linux-virt=6.12.114-r0
-i:rtpengine linux-virt=6.12.114-r0
+t:1793545692
+c:430cff351bad34a0b094f42b18031b5b2a8bc241
+D:linux-virt=6.12.115-r0
+i:rtpengine linux-virt=6.12.115-r0
 
 C:Q1M0SQoXdzWMuB1//XcASW0x1eWTg=
 P:rtrlib
@@ -283430,51 +283430,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1C42UedQyK0CKJLFFtKJIRVBg5M0=
+C:Q11SSSKz1p9v43IX2SPpta1xUK2fI=
 P:tor
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:x86_64
-S:6524162
-I:30662979
+S:6500380
+I:30221740
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.14-r0 cmd:tor-print-ed-signing-cert=0.4.9.14-r0 cmd:tor-resolve=0.4.9.14-r0 cmd:tor=0.4.9.14-r0 cmd:torify=0.4.9.14-r0
+p:cmd:tor-gencert=0.4.9.15-r0 cmd:tor-print-ed-signing-cert=0.4.9.15-r0 cmd:tor-resolve=0.4.9.15-r0 cmd:tor=0.4.9.15-r0 cmd:torify=0.4.9.15-r0
 
-C:Q1LlFHFQjG7xVd3OjGFwILuBEeLxU=
+C:Q1rOJtUasm1gCTbG/mD0JOkpUzmTI=
 P:tor-doc
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:x86_64
-S:64992
-I:62704
+S:65184
+I:62903
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
-i:docs tor=0.4.9.14-r0
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
+i:docs tor=0.4.9.15-r0
 
-C:Q10QAsbGx/QUX0Hb9mXpGgJqiyvig=
+C:Q1fv3NXXTiOu0EnBzE9j044mXTHIg=
 P:tor-openrc
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:x86_64
-S:2924
+S:2927
 I:2742
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
-i:openrc tor=0.4.9.14-r0
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
+i:openrc tor=0.4.9.15-r0
 
 C:Q1jvIQSrWTqVSZ2hWoJQQzCMBjqmE=
 P:torsocks
@@ -291630,35 +291630,35 @@ t:1725370171
 c:b2448f1d5cd12e05ea3d0c66dcb0dfb55771fe9b
 i:docs virt-what=1.27-r0
 
-C:Q1+zt0Tq7A9YL1I0U4lOmE07D9IvQ=
+C:Q1WjTPdZZk1vw4d7Vn+8hfKnFEVLQ=
 P:virtio_vmmci-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:322176
-I:1011469
+S:322132
+I:1010725
 T:VirtIO driver for OpenBSD VMM Control Interface
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1792585345
-c:4e5e35cb839cdcb2e6f5940978933dba841cb9f7
-D:linux-lts=6.12.114-r0
+t:1793545692
+c:89c8f66e8905cd80135662e2c2270ca8aae2a91e
+D:linux-lts=6.12.115-r0
 
-C:Q1sp6/u8KEA7Qv9OBuUPsdgXuA9nI=
+C:Q1Dz7AaoupwOwX+ZEPJIdd/j7mipM=
 P:virtio_vmmci-virt
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:316018
-I:989581
+S:315845
+I:988853
 T:VirtIO driver for OpenBSD VMM Control Interface for virt kernel
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1792585345
-c:4e5e35cb839cdcb2e6f5940978933dba841cb9f7
-D:linux-virt=6.12.114-r0
+t:1793545692
+c:89c8f66e8905cd80135662e2c2270ca8aae2a91e
+D:linux-virt=6.12.115-r0
 
 C:Q1yrF2hdoYDkm5U1DssDewarIDD+A=
 P:virtiofsd
@@ -291941,35 +291941,35 @@ c:c3a8f25ff5d09f9d07818098edebfcd4e8be2d12
 D:vlc=3.0.21-r3 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvlccore.so.9
 p:cmd:qvlc=3.0.21-r3
 
-C:Q1ig6wGf0f+CraWCIFFxxaRYA2/Bk=
+C:Q1yxABauc/M7U27EuMVHqfgsun6wk=
 P:vmm_clock-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:120699
-I:374586
+S:120382
+I:374034
 T:clocksource under OpenBSD VMM
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1792585359
-c:576dc2152beeed0709f9a886c844191df780660c
-D:linux-lts=6.12.114-r0
+t:1793545692
+c:f9435b6a7f25a43921f398cf73162f3e3076c56c
+D:linux-lts=6.12.115-r0
 
-C:Q1Ci7Bs9rpbk+RfphFy6YjXvgXDoc=
+C:Q1PDhIl/Wm2SoETfvO/Sm+r8/xlC8=
 P:vmm_clock-virt
-V:6.12.114-r0
+V:6.12.115-r0
 A:x86_64
-S:117984
-I:370074
+S:117794
+I:369514
 T:clocksource under OpenBSD VMM for virt kernel
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1792585359
-c:576dc2152beeed0709f9a886c844191df780660c
-D:linux-virt=6.12.114-r0
+t:1793545692
+c:f9435b6a7f25a43921f398cf73162f3e3076c56c
+D:linux-virt=6.12.115-r0
 
 C:Q1/8quxpTP0z7yz1KxRjWuRpf3rSI=
 P:vnstat

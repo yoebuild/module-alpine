@@ -87034,21 +87034,21 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-aarch64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1ZPqOFED7rmUfT2ITL05mkAyxP2w=
+C:Q1l5mM1FH4IJEukK4cNdOYA+Q3dtg=
 P:jool-modules-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:aarch64
-S:8079990
-I:8165391
+S:8085194
+I:8170819
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792585321
-c:a3dbe6db542138186ff8e56973a1ae5b2369ab65
-D:linux-lts=6.12.114-r0
-i:linux-lts=6.12.114-r0 jool-tools
+t:1793545692
+c:8365c3f0d05d30c5053dbac9b54bf82cfccf0b23
+D:linux-lts=6.12.115-r0
+i:linux-lts=6.12.115-r0 jool-tools
 
 C:Q1r7ZHN+/5oIk2qxPyRun9E/nyabk=
 P:jool-modules-rpi
@@ -244169,61 +244169,61 @@ c:10f3a9dca425271c75c58adb2223d232e10151fb
 D:pkgconfig pystring=1.1.4-r0
 p:pc:pystring=1.1.4
 
-C:Q1SU/Bpt5wLcaTXWAbr7AhlM+Wmro=
+C:Q1X12lssHR8yuIA7nETm143Cpj/L0=
 P:python3-idle
-V:3.12.15-r0
+V:3.12.16-r0
 A:aarch64
-S:1166373
+S:1166399
 I:4033189
 T:IDE for Python3 using Tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
-D:python3-tkinter=3.12.15-r0 python3 python3-tests
-p:cmd:idle3.12=3.12.15-r0
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
+D:python3-tkinter=3.12.16-r0 python3 python3-tests
+p:cmd:idle3.12=3.12.16-r0
 
-C:Q1Q4MmCDH5AMYbLqt57V1YH/oH9Tg=
+C:Q1qMa4hQYhe59wPajQBPTA2Pj8j/0=
 P:python3-tkinter
-V:3.12.15-r0
+V:3.12.16-r0
 A:aarch64
-S:111531
+S:111525
 I:433760
 T:A graphical user interface for the Python programming language
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
 D:so:libc.musl-aarch64.so.1 so:libtcl8.6.so so:libtk8.6.so
 
-C:Q1B9bhKkRaiSSC/jUugvbeB6gxb8s=
+C:Q18QwLK/BBQjobfdo4zhr6XgQetA0=
 P:python3-tkinter-pyc
-V:3.12.15-r0
+V:3.12.16-r0
 A:aarch64
-S:408906
+S:408892
 I:1416850
 T:Precompiled Python bytecode for python3-tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
-i:python3-tkinter=3.12.15-r0 pyc
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
+i:python3-tkinter=3.12.16-r0 pyc
 
-C:Q1b1M1ApuvKMHkKgcjLLHD8GyasKI=
+C:Q1zaIkdqYIwllwxTRBcJutcme5iuU=
 P:python3-tkinter-tests
-V:3.12.15-r0
+V:3.12.16-r0
 A:aarch64
-S:973049
+S:973054
 I:4838180
 T:The test modules from the main python package for tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1790849227
-c:1cb09c174368a390477131189b787c8fa32c0141
+t:1793105051
+c:8cba6412ff603a65b555a05dff15b3486e37e562
 
 C:Q1v8NkRjYN8r1o6KZtF28OYX5PbUo=
 P:pythran
@@ -256874,20 +256874,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1q1gbZsb0sPmp6ZWnAbMSnIYyn/Q=
+C:Q1A1lwmO+l5ZUkSrTVDmPbytlHLR0=
 P:rtpengine-lts
-V:6.12.114-r0
+V:6.12.115-r0
 A:aarch64
-S:460612
-I:1674688
+S:460624
+I:1674096
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1792585332
-c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
-i:rtpengine linux-lts=6.12.114-r0
+t:1793545692
+c:430cff351bad34a0b094f42b18031b5b2a8bc241
+i:rtpengine linux-lts=6.12.115-r0
 
 C:Q1h+TMWZcxH+AhtzxWWbV4LWR1vi4=
 P:rtpengine-openrc
@@ -256920,21 +256920,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1TehIobJAs0cx++vvQbHocvEuaFk=
+C:Q1FPYLdZXvWE8x2g5449h9n6FfLiI=
 P:rtpengine-virt
-V:6.12.114-r0
+V:6.12.115-r0
 A:aarch64
-S:388920
-I:1361688
+S:388923
+I:1361136
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1792585332
-c:dd96a87dc7f2e3e1e41d7147989aab0532c2d55b
-D:linux-virt=6.12.114-r0
-i:rtpengine linux-virt=6.12.114-r0
+t:1793545692
+c:430cff351bad34a0b094f42b18031b5b2a8bc241
+D:linux-virt=6.12.115-r0
+i:rtpengine linux-virt=6.12.115-r0
 
 C:Q1qdQZ3LXAqrhEPNlx5bZwyUUmUE0=
 P:rtrlib
@@ -281595,51 +281595,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1x0TB8n+jz8E0nZsw/Pdpde2SfFg=
+C:Q18TLPgAu1StexXFMqbEIS9OyWyBA=
 P:tor
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:aarch64
-S:6592309
-I:30964491
+S:6567971
+I:30519164
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.14-r0 cmd:tor-print-ed-signing-cert=0.4.9.14-r0 cmd:tor-resolve=0.4.9.14-r0 cmd:tor=0.4.9.14-r0 cmd:torify=0.4.9.14-r0
+p:cmd:tor-gencert=0.4.9.15-r0 cmd:tor-print-ed-signing-cert=0.4.9.15-r0 cmd:tor-resolve=0.4.9.15-r0 cmd:tor=0.4.9.15-r0 cmd:torify=0.4.9.15-r0
 
-C:Q1v4ZR7Jpiaqr3YiijyacBOGTo+NM=
+C:Q1FLYezZJYv6gjIJPRdh4SE3MAEtQ=
 P:tor-doc
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:aarch64
-S:64968
-I:62704
+S:65163
+I:62903
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
-i:docs tor=0.4.9.14-r0
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
+i:docs tor=0.4.9.15-r0
 
-C:Q1zHnC+9fFge2QAplHUxGpLFRihSw=
+C:Q10/1FbqMeEBbGBsMLF4GzKYgafeg=
 P:tor-openrc
-V:0.4.9.14-r0
+V:0.4.9.15-r0
 A:aarch64
-S:2900
+S:2903
 I:2742
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1791408699
-c:6a6ddb6cf5e4609386ffb2b07809bc7d7b542447
-i:openrc tor=0.4.9.14-r0
+t:1793286527
+c:83671ba2a06f97d433262c676df145d98984eac7
+i:openrc tor=0.4.9.15-r0
 
 C:Q1VjM5IvmIUECQ0I9Mf+7hzYW13T0=
 P:torsocks
