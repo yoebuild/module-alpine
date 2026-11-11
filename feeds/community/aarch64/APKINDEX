@@ -87034,21 +87034,21 @@ c:154ef628b64267a3a64c748f0026c15b45ab56c4
 D:so:libc.musl-aarch64.so.1
 p:cmd:joker=1.4.0-r5
 
-C:Q1l5mM1FH4IJEukK4cNdOYA+Q3dtg=
+C:Q10rmbEBQmCeg7fIBN6iRbUCeATQg=
 P:jool-modules-lts
-V:6.12.115-r0
+V:6.12.117-r0
 A:aarch64
-S:8085194
-I:8170819
+S:8085778
+I:8170728
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1793545692
-c:8365c3f0d05d30c5053dbac9b54bf82cfccf0b23
-D:linux-lts=6.12.115-r0
-i:linux-lts=6.12.115-r0 jool-tools
+t:1794366815
+c:3ed61de2a58ba7b705c9b4268c706989a5780428
+D:linux-lts=6.12.117-r0
+i:linux-lts=6.12.117-r0 jool-tools
 
 C:Q1r7ZHN+/5oIk2qxPyRun9E/nyabk=
 P:jool-modules-rpi
@@ -256874,20 +256874,20 @@ t:1726270425
 c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1A1lwmO+l5ZUkSrTVDmPbytlHLR0=
+C:Q1Fi20D4iq6tBqbWswpxwdYKm++0s=
 P:rtpengine-lts
-V:6.12.115-r0
+V:6.12.117-r0
 A:aarch64
-S:460624
-I:1674096
+S:460595
+I:1674120
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1793545692
-c:430cff351bad34a0b094f42b18031b5b2a8bc241
-i:rtpengine linux-lts=6.12.115-r0
+t:1794366815
+c:f7ed6765933059bb007c1ac8b3d74c9443d9b2f0
+i:rtpengine linux-lts=6.12.117-r0
 
 C:Q1h+TMWZcxH+AhtzxWWbV4LWR1vi4=
 P:rtpengine-openrc
@@ -256920,21 +256920,21 @@ c:a0917a02212a5a8b8d361fa8c24fe491c9f08aa7
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1FPYLdZXvWE8x2g5449h9n6FfLiI=
+C:Q1xE6z8hm2Zf0BoeKhMZOf3Foq6jU=
 P:rtpengine-virt
-V:6.12.115-r0
+V:6.12.117-r0
 A:aarch64
-S:388923
-I:1361136
+S:388968
+I:1361160
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1793545692
-c:430cff351bad34a0b094f42b18031b5b2a8bc241
-D:linux-virt=6.12.115-r0
-i:rtpengine linux-virt=6.12.115-r0
+t:1794366815
+c:f7ed6765933059bb007c1ac8b3d74c9443d9b2f0
+D:linux-virt=6.12.117-r0
+i:rtpengine linux-virt=6.12.117-r0
 
 C:Q1qdQZ3LXAqrhEPNlx5bZwyUUmUE0=
 P:rtrlib
