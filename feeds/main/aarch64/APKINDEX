@@ -3630,155 +3630,155 @@ t:1726089785
 c:a46c4c311972c661eed2231de8dd00fdbe171307
 i:docs apache-mod-fcgid=2.3.9-r6
 
-C:Q1RCHibHgXGANqFbmT5FFSdHYwx/I=
+C:Q1ehARvCGrp/H1zSK25MAbwtWxP8E=
 P:apache2
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:908083
+S:908738
 I:6732734
 T:A high performance Unix-based HTTP server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:/bin/sh so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libpcre2-8.so.0 so:libz.so.1
-p:cmd:fcgistarter=2.4.69-r0 cmd:httpd=2.4.69-r0 cmd:suexec=2.4.69-r0
+p:cmd:fcgistarter=2.4.71-r0 cmd:httpd=2.4.71-r0 cmd:suexec=2.4.71-r0
 
-C:Q1KsUqyBdBofhR2LjOxX6gg7vdA0I=
+C:Q1GrGGIUnUSlvde7+9/KIl07zLkio=
 P:apache2-brotli
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:7331
+S:7321
 I:67479
 T:Brotli content compression for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1
 
-C:Q11vSJTNb7wQJVwj3V/x6lCWSyTwU=
+C:Q1gnRf5Cxq4pTH/L7Huq9NVVWI304=
 P:apache2-ctl
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:3036
+S:3028
 I:3398
 T:Apache control script
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:lynx
-p:cmd:apachectl=2.4.69-r0
+p:cmd:apachectl=2.4.71-r0
 
-C:Q1nEF75kdWOuyc5IRnzTS3Li0vGDI=
+C:Q1SozYk5JOtFydHpu2WecFNIQV6vk=
 P:apache2-dev
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:221623
-I:917493
+S:221600
+I:917506
 T:A high performance Unix-based HTTP server (development files)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:perl apr-util-dev
-p:cmd:apxs=2.4.69-r0
+p:cmd:apxs=2.4.71-r0
 
-C:Q1JbZy0Tg6/5+jXiNTpZjIwKMMYKw=
+C:Q1mBS2Y6xH2zHwevDtHWSY4tpygsk=
 P:apache2-doc
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:6215379
-I:24331449
+S:6191201
+I:24291455
 T:A high performance Unix-based HTTP server (documentation)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
-i:docs apache2=2.4.69-r0
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
+i:docs apache2=2.4.71-r0
 
-C:Q1lfSn8Fcg9VwxYAlA7BTFQhN/ky4=
+C:Q1AbTlqfCxoh2oVLkMoLgRVgDPW1g=
 P:apache2-error
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:42859
+S:42850
 I:197515
 T:Apache Multi Language Custom Error Documents
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 
-C:Q19fDX7VYkRfByo/ZZnckWODcvCas=
+C:Q1K8FeFKWe1d7CWk6Ltww5Swx1iek=
 P:apache2-http2
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:93347
-I:265821
+S:92285
+I:265781
 T:HTTP/2 transport layer for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libnghttp2.so.14
 
-C:Q1ACnei40rRKN+A63kFzLQHOB5zSg=
+C:Q1WzVj9EtpJnXG+BGOqguTI/TlzVg=
 P:apache2-icons
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:153482
+S:153472
 I:437452
 T:Apache Public Domain Icons
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 
-C:Q1xTIsdYXame17M9EWvfQ10ILi5NE=
+C:Q1We/n2JdQKcIa3/RvK/GRyEK4b1Y=
 P:apache2-ldap
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:44318
+S:44340
 I:200828
 T:LDAP authentication/authorization module for the Apache HTTP Server
 U:https://httpd.apache.org/docs/2.4/mod/mod_authnz_ldap.html
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 apr-util-ldap so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 
-C:Q1xhH2RQVU48u6sRtczdgXMqAa04w=
+C:Q1CfT7b7tXwfMfyefVpjjD1uMgpR8=
 P:apache2-lua
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:45137
+S:45127
 I:133009
 T:Lua support for the Apache HTTP server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libc.musl-aarch64.so.1 so:liblua.so.5
 
 C:Q1svnrb84KxSuiF2AkstzViMaeOlk=
@@ -3811,95 +3811,95 @@ t:1727810909
 c:806040beab6435948b59912e31369f18b55dc751
 i:docs apache2-mod-wsgi=5.0.1-r0
 
-C:Q1/xRW4oApGxCtlsmjl7YRMausnoM=
+C:Q1g8SArRuHUJbYfmKlhi/cLIymOaQ=
 P:apache2-openrc
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:3591
+S:3587
 I:5095
 T:A high performance Unix-based HTTP server (OpenRC init scripts)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
-i:openrc apache2=2.4.69-r0
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
+i:openrc apache2=2.4.71-r0
 
-C:Q1YM8mAH0cBQdZpQbvMC6diPCj+jk=
+C:Q12Od79FMuEAJ6W5lI2PC7IN7xB5s=
 P:apache2-proxy
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:197173
+S:197161
 I:1279223
 T:Proxy modules for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libc.musl-aarch64.so.1
 
-C:Q1GQ/3U00S872KDh0+Gf+xKDn70d0=
+C:Q1tQ7T7/88q5R005mdGDKWbKjHYsM=
 P:apache2-proxy-html
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:23595
+S:23582
 I:138325
 T:HTML and XML content filters for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q1mR1KjcotP8aT23thngT+9f3hfUE=
+C:Q1ldQn6DbbcJaKJ4nNO/dWqF+IRPA=
 P:apache2-ssl
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:91645
+S:91641
 I:277529
 T:SSL/TLS module for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 openssl>3 /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 
-C:Q1MaS/YUD8/wjBd9JU/LJTcNtfRuE=
+C:Q1XsZ8YxPGPzp2pKULsYiouQMMQZY=
 P:apache2-utils
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:73940
+S:73934
 I:617156
 T:Apache utility programs for webservers
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:ab=2.4.69-r0 cmd:checkgid=2.4.69-r0 cmd:dbmmanage=2.4.69-r0 cmd:htcacheclean=2.4.69-r0 cmd:htdbm=2.4.69-r0 cmd:htdigest=2.4.69-r0 cmd:htpasswd=2.4.69-r0 cmd:httxt2dbm=2.4.69-r0 cmd:logresolve=2.4.69-r0 cmd:rotatelogs=2.4.69-r0
+p:cmd:ab=2.4.71-r0 cmd:checkgid=2.4.71-r0 cmd:dbmmanage=2.4.71-r0 cmd:htcacheclean=2.4.71-r0 cmd:htdbm=2.4.71-r0 cmd:htdigest=2.4.71-r0 cmd:htpasswd=2.4.71-r0 cmd:httxt2dbm=2.4.71-r0 cmd:logresolve=2.4.71-r0 cmd:rotatelogs=2.4.71-r0
 
-C:Q1LMnpcUe4Q/v5/PYlYJ1b/NE8xeM=
+C:Q1PfXm+V6/L6QEmS2hsxzElr2k2Z8=
 P:apache2-webdav
-V:2.4.69-r0
+V:2.4.71-r0
 A:aarch64
-S:72906
+S:73036
 I:269858
 T:WebDAV support for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1790981543
-c:dec0a71a2b3ae83c9163d6816f6a558ac6d948ed
+t:1794446230
+c:293ca462ab46319d8a24650ff90a90d50179a9dc
 D:apache2 so:libc.musl-aarch64.so.1
 
 C:Q1Cpv/xI0/2wePKlUsfWBviSn6s40=
@@ -28797,39 +28797,39 @@ t:1715080109
 c:1e0aa723fba50417893fe5f6cf72f76d044b8192
 i:docs libeconf=0.6.3-r0
 
-C:Q1ywfYdEj3d0gRbQyroKWB1TY0inQ=
+C:Q10AQ7oLKGtaTMxsDUX0asusJRFdk=
 P:libecpg
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:84786
+S:84812
 I:266240
 T:ECPG - Embedded SQL in C
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:postgresql-libs so:libecpg.so.6=6.17 so:libpgtypes.so.3=3.17
 
-C:Q1avLzPTs8Iy5CLeuywkF3P2kVOpM=
+C:Q1pwylrzlALqCBwTNjF76gKO/Izec=
 P:libecpg-dev
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:299747
+S:299769
 I:1316787
 T:ECPG - Embedded SQL in C (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:libpq-dev=17.11-r0 libecpg=17.11-r0 pc:libpq pkgconfig so:libc.musl-aarch64.so.1
-p:pc:libecpg=17.11 pc:libpgtypes=17.11 cmd:ecpg=17.11-r0
+D:libpq-dev=17.12-r0 libecpg=17.12-r0 pc:libpq pkgconfig so:libc.musl-aarch64.so.1
+p:pc:libecpg=17.12 pc:libpgtypes=17.12 cmd:ecpg=17.12-r0
 
 C:Q15CsO/9QDqyrElua/PlWDVzkIUG4=
 P:libedit
@@ -31886,39 +31886,39 @@ c:33283848034c9885d984c8e8697c645c57324938
 D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libportaudio.so.2 so:libstdc++.so.6
 p:so:libportaudiocpp.so.0=0.0.12
 
-C:Q1fVVxdmX5Ce2neUB8ZHK4mDRCOfg=
+C:Q1fqlTjL6PqspSuZZoMQLAA4GslGg=
 P:libpq
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:144118
+S:144132
 I:330024
 T:PostgreSQL client library
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:so:libpq.so.5=5.17
 
-C:Q1o/qCEy7hwLBtT7JyPIw6xvYrHHo=
+C:Q1ZQlAiB7OtRdf/f70inwfHnGrQQM=
 P:libpq-dev
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:618441
-I:1863267
+S:618515
+I:1863324
 T:PostgreSQL client library (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:libpq=17.11-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-aarch64.so.1
-p:pc:libpq=17.11 cmd:pg_config=17.11-r0
+D:libpq=17.12-r0 pc:libcrypto pc:libssl pkgconfig so:libc.musl-aarch64.so.1
+p:pc:libpq=17.12 cmd:pg_config=17.12-r0
 
 C:Q1WmZ4gIer/CyBZj0i3kH2gtZUiTg=
 P:libproc2
@@ -51191,69 +51191,69 @@ t:1724296850
 c:da73517e75a98895436dff9f940e7d22732e17fd
 D:nmap-nselibs
 
-C:Q1V3wPqAK4AyaIWA/a4S46cPe2zLw=
+C:Q1W339G7efe1bKunKMl/1++jgjJW0=
 P:nodejs
-V:22.23.4-r0
+V:22.23.5-r0
 A:aarch64
-S:17427775
+S:17429348
 I:48276512
 T:JavaScript runtime built on V8 engine - LTS version
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792758151
-c:5278de29c5452cb89a14171e693d4aefadcf56c0
+t:1794419729
+c:ebf0d5231d2d4c893b5f3b7710a0ce3bfe7ef509
 k:100
 D:ca-certificates /bin/sh so:libada.so.2 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.74 so:libicuuc.so.74 so:libnghttp2.so.14 so:libsimdjson.so.23 so:libsimdutf.so.11 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:nodejs-lts=22.23.4-r0 cmd:node=22.23.4-r0
+p:nodejs-lts=22.23.5-r0 cmd:node=22.23.5-r0
 
-C:Q1FZb/e8LOef/cq4rH1Zye0NcGG2s=
+C:Q1AasTArDLXKknDanqJjrZulxswQo=
 P:nodejs-dev
-V:22.23.4-r0
+V:22.23.5-r0
 A:aarch64
-S:292147
+S:292153
 I:1309507
 T:JavaScript runtime built on V8 engine - LTS version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792758151
-c:5278de29c5452cb89a14171e693d4aefadcf56c0
+t:1794419729
+c:ebf0d5231d2d4c893b5f3b7710a0ce3bfe7ef509
 k:100
-D:nodejs-libs=22.23.4-r0 pkgconfig
-p:nodejs-lts-dev=22.23.4 pc:nodejs=22.23.4
+D:nodejs-libs=22.23.5-r0 pkgconfig
+p:nodejs-lts-dev=22.23.5 pc:nodejs=22.23.5
 
-C:Q1cW50ONMBdQ9GxZ9jcMEQ5LYJDg0=
+C:Q1yu50wHQuzNoccEUQY1QHMWSqK9o=
 P:nodejs-doc
-V:22.23.4-r0
+V:22.23.5-r0
 A:aarch64
-S:18208
+S:18215
 I:29253
 T:JavaScript runtime built on V8 engine - LTS version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792758151
-c:5278de29c5452cb89a14171e693d4aefadcf56c0
+t:1794419729
+c:ebf0d5231d2d4c893b5f3b7710a0ce3bfe7ef509
 k:100
-i:docs nodejs=22.23.4-r0
+i:docs nodejs=22.23.5-r0
 
-C:Q1tEzYPUxum/2tdA1CFmn6vvaFLO4=
+C:Q1+agYWF1smQnoGtKDRaMjT7yK21E=
 P:nodejs-libs
-V:22.23.4-r0
+V:22.23.5-r0
 A:aarch64
-S:18933032
+S:18933219
 I:57254864
 T:JavaScript runtime built on V8 engine - LTS version (libraries)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1792758151
-c:5278de29c5452cb89a14171e693d4aefadcf56c0
+t:1794419729
+c:ebf0d5231d2d4c893b5f3b7710a0ce3bfe7ef509
 k:100
 D:so:libada.so.2 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.74 so:libicuuc.so.74 so:libnghttp2.so.14 so:libsimdjson.so.23 so:libsimdutf.so.11 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:libnode.so.127=127
@@ -66479,452 +66479,452 @@ c:99484da32e0260b8010b042ac8a83bacfb54d26c
 D:zsh
 i:zsh=5.9-r4 postgresql-client
 
-C:Q1Q5XnTLD2MmJ5GvVRXEtYt9arSKI=
+C:Q1n++PaJln5O68soKtSk3Ndw3xJrY=
 P:postgresql16
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:5744945
-I:16136774
+S:5766516
+I:16137364
 T:A sophisticated object-relational DBMS, version 16
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
 D:postgresql16-client postgresql-common tzdata /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:postgres cmd:pg_controldata cmd:pg_waldump cmd:pg_checksums cmd:pg_archivecleanup cmd:pg_test_fsync cmd:pg_rewind cmd:pg_test_timing cmd:pg_upgrade cmd:pg_resetwal cmd:pg_ctl cmd:initdb cmd:postgres16=16.15-r0
+p:postgresql cmd:pg_controldata cmd:pg_upgrade cmd:pg_waldump cmd:pg_archivecleanup cmd:pg_test_timing cmd:pg_resetwal cmd:pg_test_fsync cmd:pg_ctl cmd:initdb cmd:postgres cmd:pg_rewind cmd:pg_checksums cmd:postgres16=16.16-r0
 
-C:Q1G8vErGrm8bcaKiOA8FCTCdNUr4c=
+C:Q1oze2ciRl+/SWM9Le9Wqj5eRY6pY=
 P:postgresql16-client
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:1297381
+S:1299238
 I:3720915
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
 D:postgresql-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1ohAtsiSMB8ALfBjmq91MvhGobKE=
+C:Q1973XRz91hvFMp2bJI648tbpOOhM=
 P:postgresql16-contrib
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:700082
+S:701075
 I:4265307
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16=16.15-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql16=16.16-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1i8tClWQJX0JuolDVOjeW6YYC8A4=
+C:Q1nvJl6GqG0UWRrab6CYVeeS3UVQo=
 P:postgresql16-contrib-jit
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:1678058
-I:2965204
+S:1679857
+I:2969200
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16-contrib=16.15-r0
+D:postgresql16-contrib=16.16-r0
 p:postgresql-contrib-jit
-i:postgresql16-jit postgresql16-contrib=16.15-r0
+i:postgresql16-jit postgresql16-contrib=16.16-r0
 
-C:Q1Z4cNURtVouEJRq/Jk4Eh9fUkbyo=
+C:Q1z7lhFydKDzY3HrguweLKiXJuu1w=
 P:postgresql16-dev
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:1922578
-I:7228509
+S:1931947
+I:7258050
 T:A sophisticated object-relational DBMS, version 16 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
 D:libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1VQ66l8Z2Xt56g2LsNeO7QweukFo=
+C:Q1E5pOc+D3i/N20lnIZzN9aCcDEUI=
 P:postgresql16-doc
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:508644
-I:2152626
+S:508791
+I:2153238
 T:A sophisticated object-relational DBMS, version 16 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
 p:postgresql-doc
-i:docs postgresql16=16.15-r0
+i:docs postgresql16=16.16-r0
 
-C:Q1BQFE+FZzUg5Evl/W+p9OtK8HLHQ=
+C:Q1g77g97gYMfCcmruaBngaTqw4L1k=
 P:postgresql16-jit
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:12963144
-I:22036852
+S:13033409
+I:22144664
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16=16.15-r0 so:libLLVM-16.so so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql16=16.16-r0 so:libLLVM-16.so so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1+Tr8rLeH6G9DF3i7y4f19qbIBkE=
+C:Q1VYItwBIzJ8gria5Us14M+vxLfuk=
 P:postgresql16-openrc
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:1281
+S:1284
 I:0
 T:A sophisticated object-relational DBMS, version 16 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
 D:postgresql-common-openrc
-i:openrc postgresql16=16.15-r0
+i:openrc postgresql16=16.16-r0
 
-C:Q1ipWJESlS5fc6zepZ6eJgB+g+3b0=
+C:Q1f2E7/kK52BeZmO13hW8YVtL4fAI=
 P:postgresql16-plperl
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:37667
+S:43795
 I:134373
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16=16.15-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql16=16.16-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1XGL/5apQ3wwLTVbstGf/OFUVcDs=
+C:Q1/sonVRYaHJ67RrOjWqzDXF8JFUw=
 P:postgresql16-plperl-contrib
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:6791
+S:7140
 I:68822
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16-plperl=16.15-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql16-plperl=16.16-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql16-plperl=16.15-r0 postgresql16-contrib=16.15-r0
+i:postgresql16-plperl=16.16-r0 postgresql16-contrib=16.16-r0
 
-C:Q1m4zNmf01pHTP0nzzPeHzKStFnc8=
+C:Q1iHz4k3ILDDGnx8pTEBATfKwkuw0=
 P:postgresql16-plpython3
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:44795
+S:44918
 I:136880
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16=16.15-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql16=16.16-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1kFFl/wwotl6R3GekUl5Xg3RkHfY=
+C:Q1I4Q/N+dljmBpdR1KTAzBVBKG9HA=
 P:postgresql16-plpython3-contrib
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:8805
+S:8817
 I:136077
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16-plpython3=16.15-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql16-plpython3=16.16-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql16-plpython3=16.15-r0 postgresql16-contrib=16.15-r0
+i:postgresql16-plpython3=16.16-r0 postgresql16-contrib=16.16-r0
 
-C:Q1s5b+Z5naE46N6o70A336da27QIA=
+C:Q1/PmsdnoBUELVxNuDWPVSYL19n9U=
 P:postgresql16-pltcl
-V:16.15-r0
+V:16.16-r0
 A:aarch64
-S:24812
+S:24984
 I:68982
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:937759ee13787592407125fbb4f89394ae41a2d1
+t:1794524629
+c:f7d59bec369adb71ef60f3563e7428879b1e9d01
 k:16
-D:postgresql16=16.15-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
+D:postgresql16=16.16-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
-C:Q1HXqh3kZbV6bQgMQwvvTCUwWvLBk=
+C:Q1XsRcQVlcFmRlU/Aq32VOOS+TkN0=
 P:postgresql17
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:6122436
-I:17205831
+S:6142749
+I:17206421
 T:A sophisticated object-relational DBMS, version 17
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:postgresql17-client postgresql-common tzdata /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:pg_createsubscriber cmd:pg_checksums cmd:pg_test_fsync cmd:pg_resetwal cmd:pg_walsummary cmd:pg_test_timing cmd:pg_archivecleanup cmd:pg_upgrade cmd:pg_rewind cmd:pg_controldata cmd:pg_ctl cmd:postgres cmd:initdb cmd:pg_combinebackup cmd:pg_waldump cmd:postgres17=17.11-r0
+p:postgresql cmd:pg_ctl cmd:pg_test_fsync cmd:pg_upgrade cmd:pg_combinebackup cmd:pg_archivecleanup cmd:pg_checksums cmd:pg_controldata cmd:pg_test_timing cmd:pg_waldump cmd:postgres cmd:pg_walsummary cmd:pg_resetwal cmd:pg_rewind cmd:pg_createsubscriber cmd:initdb cmd:postgres17=17.12-r0
 
-C:Q1hpA/JhkLwprdhn9+ZB/YeqI+/D4=
+C:Q140lcctTg3qnGz09ilC/oF0+QLQc=
 P:postgresql17-client
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:1315982
-I:3786955
+S:1317738
+I:3721419
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:postgresql-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1YQ5Ta2RNBJ3T/kC4dzpLRZWysZ8=
+C:Q1VTqW7ePJ0ZIPdjgq6gNM6/AJCfQ=
 P:postgresql17-contrib
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:695155
+S:696185
 I:4130520
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17=17.11-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql17=17.12-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q1mVECvE7uS+twOMarJhvUsYrLz4Y=
+C:Q1++UQaV/u08WFWC18guRNty1amYg=
 P:postgresql17-contrib-jit
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:1426201
-I:2621536
+S:1428465
+I:2625396
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17-contrib=17.11-r0
+D:postgresql17-contrib=17.12-r0
 p:postgresql-contrib-jit
-i:postgresql17-jit postgresql17-contrib=17.11-r0
+i:postgresql17-jit postgresql17-contrib=17.12-r0
 
-C:Q11ZpbKqnWwrGksFohxuGFzDjLgbo=
+C:Q1iwDgUr+iTLDEA4iN0IX+7sJGbtU=
 P:postgresql17-dev
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:2169177
-I:8306259
+S:2177392
+I:8336035
 T:A sophisticated object-relational DBMS, version 17 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:libpq-dev libecpg-dev clang18 icu-dev llvm18 lz4-dev openssl-dev zstd-dev so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1u4KGMrz5YiQdR3jUQ8nJr7MgNJU=
+C:Q1SQfIKNp19EYpmiOXo2sML4AFG34=
 P:postgresql17-doc
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:526084
-I:2222906
+S:526200
+I:2223515
 T:A sophisticated object-relational DBMS, version 17 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 p:postgresql-doc
-i:docs postgresql17=17.11-r0
+i:docs postgresql17=17.12-r0
 
-C:Q1iO5ZohYSJmkPqc8I+aAqe0zpCgA=
+C:Q1ufddc0DgXz46j6Nh2xrzJuoWVCs=
 P:postgresql17-jit
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:11756391
-I:20828968
+S:11825698
+I:20932668
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17=17.11-r0 so:libLLVM.so.18.1 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql17=17.12-r0 so:libLLVM.so.18.1 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1+m7mLSRQWV7aeKbFTrJBHuatbJo=
+C:Q1TDvC7jXkdp5Y+q5YUHAboTyoNz0=
 P:postgresql17-openrc
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:1280
+S:1281
 I:0
 T:A sophisticated object-relational DBMS, version 17 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
 D:postgresql-common-openrc
-i:openrc postgresql17=17.11-r0
+i:openrc postgresql17=17.12-r0
 
-C:Q1LlTasuMWkrciqf7QTMN5zYjt0Ls=
+C:Q1v6aSGAfhE6PVPIUt017W7I6cYuA=
 P:postgresql17-plperl
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:37691
+S:43811
 I:134373
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17=17.11-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql17=17.12-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1b+IUe4fWp3UxigbAljiiztn3ry0=
+C:Q1L2vinSi+e46DLuIxz7PAXD35lUg=
 P:postgresql17-plperl-contrib
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:6790
+S:7133
 I:68822
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17-plperl=17.11-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql17-plperl=17.12-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql17-plperl=17.11-r0 postgresql17-contrib=17.11-r0
+i:postgresql17-plperl=17.12-r0 postgresql17-contrib=17.12-r0
 
-C:Q1Sbn6yAFdeVx9G/3IcHBwd3aIqXk=
+C:Q1bE56GU1WVsb1OSSp7sy/R1MJTv8=
 P:postgresql17-plpython3
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:44803
+S:44949
 I:136880
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17=17.11-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql17=17.12-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1HhFrpfgFWLsxyF1Bre7+3JYKp7w=
+C:Q1ew9PADeK1UPNwQBG5/JVnBT94Cw=
 P:postgresql17-plpython3-contrib
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:8807
+S:8821
 I:136077
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17-plpython3=17.11-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql17-plpython3=17.12-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql17-plpython3=17.11-r0 postgresql17-contrib=17.11-r0
+i:postgresql17-plpython3=17.12-r0 postgresql17-contrib=17.12-r0
 
-C:Q16jz7399ltSKIEA0sNx8CcNmjvmw=
+C:Q16bHypR5f7194oQH7o+qwMiTfMUM=
 P:postgresql17-pltcl
-V:17.11-r0
+V:17.12-r0
 A:aarch64
-S:24794
+S:24978
 I:68982
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql17
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1786798466
-c:5b72494a552cfab85f9f3eaedf3ffc896d866fcc
+t:1794524629
+c:5ad2ab1dc466dff28ecb4b862149b6234f0b2d1f
 k:17
-D:postgresql17=17.11-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
+D:postgresql17=17.12-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q17xUkNGm/oTqPFr4PbZCsV8Bj9mw=
